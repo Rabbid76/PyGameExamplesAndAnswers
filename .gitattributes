@@ -1,0 +1,2 @@
+*.py linguist-language=Python
+*.md linguist-vendored=false
