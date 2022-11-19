@@ -11,7 +11,7 @@ Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
 
 Related Stack Overflow questions:
 
-- **[How do I chain the movement of a snake's body?](https://stackoverflow.com/questions/62010434/how-do-i-chain-the-movement-of-a-snakes-body/62010435#62010435)**  
+- **[How do I get the snake to grow and chain the movement of the snake's body?](https://stackoverflow.com/questions/62010434/how-do-i-get-the-snake-to-grow-and-chain-the-movement-of-the-snakes-body)**  
   ![1](https://i.stack.imgur.com/z9D7B.png)![2](https://i.stack.imgur.com/ZpKnj.gif)  
   ![3](https://i.stack.imgur.com/o1sqa.png)![4](https://i.stack.imgur.com/Q6zUm.gif)
 

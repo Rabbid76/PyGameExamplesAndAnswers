@@ -1,4 +1,4 @@
-# How do I chain the movement of a snake's body?
+# How do I get the snake to grow and chain the movement of the snake's body?
 
 I want to implement a snake game. The snake meanders through the playground. Every time when the snake _eats_ some food, then length of the snake increase by 1.
 The elements of the snakes body of the snake follow its head like a chain.

@@ -1,5 +1,5 @@
-# How do I chain the movement of a snake's body?
-# https://stackoverflow.com/questions/62010434/how-do-i-chain-the-movement-of-a-snakes-body/62010435#62010435
+# How do I get the snake to grow and chain the movement of the snake's body?
+# https://stackoverflow.com/questions/62010434/how-do-i-get-the-snake-to-grow-and-chain-the-movement-of-the-snakes-body
 # 
 # GitHub - PyGameExamplesAndAnswers - Snake
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_snake.md
