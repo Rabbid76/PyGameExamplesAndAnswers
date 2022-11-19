@@ -9,6 +9,8 @@
 #
 # GitHub - Sprite, Group and Sprite mask - Sprite mask
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_sprite_and_sprite_mask.md
+#
+# https://replit.com/@Rabbid76/PyGame-SurfaceLineMaskIntersect-1
 
 import os
 import math
@@ -54,3 +56,6 @@ while run:
     window.blit(moving_object, moving_object_rect)
     window.blit(obstacle, obstacle_rect)
     pygame.display.flip()
+
+pygame.quit()
+exit()

@@ -1,21 +1,37 @@
 [![StackOverflow](https://stackexchange.com/users/flair/7322082.png)](https://stackoverflow.com/users/5577765/rabbid76?tab=profile) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![reply.it](../../resource/logo/Repl_it_logo_80.png) reply.it](https://repl.it/repls/folder/PyGame%20Examples)
 
+"The first principle is that you must not fool yourself and you are the easiest person to fool."  
+Richard P. Feynman
+
 ---
 
 # Surface and image
+
+Related Stack Overflow questions:
+
+- [How to draw images and sprites in pygame?](https://stackoverflow.com/questions/8873219/how-to-draw-images-and-sprites-in-pygame/64630591#64630591)  
+- **[Replace a rectangle with an Image in Pygame](https://stackoverflow.com/questions/69634473/replace-a-rectangle-with-an-image-in-pygame/69634652#69634652)**  
+  ![Replace a rectangle with an Image in Pygame](https://i.stack.imgur.com/dWhMB.gif)
+- [What is the difference between pygame.draw.rect and screen_surface.blit()?](https://stackoverflow.com/questions/65964467/what-is-the-difference-between-pygame-draw-rect-and-screen-surface-blit/65965806#65965806)  
+- [What is the difference between pygame sprite and surface?](https://stackoverflow.com/questions/66665946/what-is-the-difference-between-pygame-sprite-and-surface/66667420#66667420)  
 
 ## Surface rectangle
 
 Related Stack Overflow questions:
 
-- [Why is my collision test always returning 'true' and why is the position of the rectangle of the image always wrong (0, 0)?](https://stackoverflow.com/questions/57730329/pygame-collide-rect-function-always-returning-true/57730378#57730378)
-- [Is there a way to place number on the center of the screen in pygame?](https://stackoverflow.com/questions/62728473/is-there-a-way-to-place-number-on-the-center-of-the-screen-in-pygame/62728692#62728692)#
-- [python library pygame: centering text](https://stackoverflow.com/questions/23982907/python-library-pygame-centering-text)  
+- **[Why is my collision test always returning 'true' and why is the position of the rectangle of the image always wrong (0, 0)?](https://stackoverflow.com/questions/57730329/pygame-collide-rect-function-always-returning-true/57730378#57730378)**
+  
+- [Pygame Surface Positioning](https://stackoverflow.com/questions/61155292/pygame-surface-positioning/61155335#61155335)
 
-[`pygame.Surface.get_rect.get_rect()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.get_rect) returns a rectangle with the size of the _Surface_ object, that always starts at (0, 0) since a _Surface_ object has no position. The position of the rectangle can be specified by a keyword argument. For example, the center of the rectangle can be specified with the keyword argument `center`. These keyword argument are applied to the attributes of the [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) before it is returned (see [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) for a full list of the keyword arguments).
+- **[How to center an image in the middle of the window in pygame?](https://stackoverflow.com/questions/70530062/how-to-center-an-image-in-the-middle-of-the-window-in-pygame/70530198#70530198)**
+
+- [Is there a way to place number on the center of the screen in pygame?](https://stackoverflow.com/questions/62728473/is-there-a-way-to-place-number-on-the-center-of-the-screen-in-pygame/62728692#62728692)
+- [How to Center Text in Pygame](https://stackoverflow.com/questions/23982907/pygame-how-to-center-text/64660744#64660744)
+
+[`pygame.Surface.get_rect()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.get_rect) returns a rectangle with the size of the _Surface_ object, that always starts at (0, 0) since a _Surface_ object has no position. A _Surface_ is `blit` at a position on the screen. The position of the rectangle can be specified by a keyword argument. For example, the center of the rectangle can be specified with the keyword argument `center`. These keyword argument are applied to the attributes of the [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) before it is returned (see [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) for a full list of the keyword arguments).
 
 [`pygame.Surface.get_rect.get_rect()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.get_rect) returns a rectangle with the size of the _Surface_ object, but it returns a rectangle that always starts at (0, 0) since a _Surface_ object has no position.  
-The Surface is placed at a position when it is `blit` to the display.  
+The _Surface_ is placed at a position on the display with the `blit` function.  
 
 You've to set the location of the rectangle, either by a keyword argument, e.g:
 
@@ -30,14 +46,25 @@ self.rect = self.image.get_rect()
 self.rect.topleft = (self.x, self.y)
 ```
 
+## Surface relativity
+
+Related Stack Overflow questions:
+
+- [texts are not shown on pygame screen](https://stackoverflow.com/questions/68734429/texts-are-not-shown-on-pygame-screen/68736231#68736231)  
+  [texts are not shown on pygame screen](https://i.stack.imgur.com/Cn2YY.png)
+
 ## Surface format and performance
 
 Related Stack Overflow questions:
 
+- [Any way to speed up Python and Pygame?](https://stackoverflow.com/questions/6395923/any-way-to-speed-up-python-and-pygame/73992545#73992545)  
+- [Runtime question - loading and bliting images](https://stackoverflow.com/questions/70530804/runtime-question-loading-and-bliting-images/70530926#70530926)  
 - [Lag when win.blit() background pygame](https://stackoverflow.com/questions/59312019/lag-when-win-blit-background-pygame/59318946#59318946)
 - [Why does my game made with Pygame suddenly lag for a few seconds?](https://stackoverflow.com/questions/60222282/why-does-my-game-made-with-pygame-suddenly-lag-for-a-few-seconds/60222744#60222744)
+- [How Can I Improve My Terrain Generator Performance I Get 40 FPS](https://stackoverflow.com/questions/66509002/how-can-i-improve-my-terrain-generator-performance-i-get-40-fps/66510253#66510253)
+- [What is the pygame window class?](https://stackoverflow.com/questions/66877518/what-is-the-pygame-window-class/66877658#66877658)
 
-Call [`convert()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.convert) on the background image. That ensures that the image has the same pixel format as the display Surface and will help [`blit`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.blit) to operate with optimal performance:
+Ensure that the image _Surface_ has the same format as the display _Surface_. Use [`convert()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.convert) (or [`convert_alpha()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.convert_alpha)) to create a _Surface_ that has the same pixel format. This improves performance when the image is `blit` on  the display, because the formats are compatible and `blit` does not need to perform an implicit transformation.
 
 ```py
 screen = pygame.display.set_mode((800, 600))
@@ -45,6 +72,61 @@ background = pygame.image.load('background.png').convert()
 ```
 
 Note, if the surface has a different format than the display, then `blit` has to convert the format on the fly in every frame.
+
+## Draw an image
+
+Related Stack Overflow questions:
+
+- [How to Display Sprites in Pygame?](https://stackoverflow.com/questions/59348409/how-to-display-sprites-in-pygame/65368394#65368394)
+- [A Python Programming Road Block Type Error: 'pygame.Surface' object is not callable How to Fix](https://stackoverflow.com/questions/50630244/a-python-programming-road-block-type-error-pygame-surface-object-is-not-calla/65493234#65493234)  
+- [pygame : Trying to use the “area” tag in Surface.blit()](https://stackoverflow.com/questions/66641379/pygame-trying-to-use-the-area-tag-in-surface-blit/66641661#66641661)
+
+## Subsurface and pixel array
+
+### Subsurface
+
+Related Stack Overflow questions:
+
+- [ How to blit from the x and y coordinates of an image in Pygame?](https://stackoverflow.com/questions/65828379/how-to-blit-from-the-x-and-y-coordinates-of-an-image-in-pygame/65828456#65828456)  
+- [How can I crop an image with Pygame?](https://stackoverflow.com/questions/6239769/how-can-i-crop-an-image-with-pygame/65627793#65627793)  
+- [How to save all pixels that were in the place of a rect in pygame?](https://stackoverflow.com/questions/65858276/how-to-save-all-pixels-that-were-in-the-place-of-a-rect-in-pygame/65858324#65858324)  
+- [How do I draw part of the sprite image using pygame spritegroups?](https://stackoverflow.com/questions/67454504/how-do-i-draw-part-of-the-sprite-image-using-pygame-spritegroups/67454693#67454693)  
+
+There are 2 possibilities.
+
+The [`blit`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.blit) method allows to specify a rectangular sub-area of the source _Surface:
+
+> [...] An optional area rectangle can be passed as well. This represents a smaller portion of the source Surface to draw. [...]
+
+In this way you can `blit` an area of the source surface directly onto a target:
+
+```py
+cropped_region = (x, y, width, height)
+traget.blit(source_surf, (posx, posy), cropped_region)
+```
+
+Alternatively, you can define a subsurface that is directly linked to the source surface with the [`subsurface`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.subsurface) method: 
+
+> Returns a new Surface that shares its pixels with its new parent. The new Surface is considered a child of the original. Modifications to either Surface pixels will effect each other.
+
+As soon as a subsurface has been created, it can be used as a normal surface at any time:
+
+```py
+cropped_region = (x, y, width, height)
+cropped_subsurf = source_surf.subsurface(cropped_region)
+``` 
+
+```py
+traget.blit(cropped_subsurf, (posx, posy))
+```
+
+### Pixel array
+
+Related Stack Overflow questions:
+
+- [Speed up double for loop PyGame draw](https://stackoverflow.com/questions/61856330/speed-up-double-for-loop-pygame-draw/61856399#61856399)  
+- [pixel image to tile map](https://stackoverflow.com/questions/29133065/pixel-image-to-tile-map/65966555#65966555)  
+- [Get RGB pixel data of a section of a screen as an array in pygame](https://stackoverflow.com/questions/68414745/get-rgb-pixel-data-of-a-section-of-a-screen-as-an-array-in-pygame/68414812#68414812)  
 
 ## Transparent surface and color key
 
@@ -55,7 +137,11 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Load transparent image](../../examples/minimal_examples/pygame_minimal_surface_load_2.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LoadTransparentImage](https://repl.it/@Rabbid76/PyGame-LoadTransparentImage#main.py)</kbd>
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LoadTransparentImage](https://replit.com/@Rabbid76/PyGame-LoadTransparentImage#main.py)**
+
+- [How do you blit/draw a sprite in Pygame with lower opacity?](https://stackoverflow.com/questions/65259552/how-do-you-blit-draw-a-sprite-in-pygame-with-lower-opacity)
+
+- [Pygame Surface.set_at is setting alpha to 255?](https://stackoverflow.com/questions/65906914/pygame-surface-set-at-is-setting-alpha-to-255/65906942#65906942)
 
 ### Make a uniform colored background transparent
 
@@ -64,18 +150,18 @@ Related Stack Overflow questions:
 - [How can I make an Image with a transparent Backround in Pygame?](https://stackoverflow.com/questions/62623341/how-can-i-make-an-image-with-a-transparent-backround-in-pygame/62623422#62623422)
 - [How to convert the background color of image to match the color of Pygame window?](https://stackoverflow.com/questions/63976450/how-to-convert-the-background-color-of-image-to-match-the-color-of-pygame-window/63976738#63976738)  
   ![How to convert the background color of image to match the color of Pygame window?](https://i.stack.imgur.com/56y1w.png)
-- [pygame image background does not match main background](https://stackoverflow.com/questions/62689244/pygame-image-background-does-not-match-main-background/62689442#62689442)
 - [How do I make the screen ignore the background color of some image?](https://stackoverflow.com/questions/55648488/how-do-i-make-the-screen-ignore-the-background-color-of-some-image/55654549#55654549)
+- [pygame image background does not match main background](https://stackoverflow.com/questions/62689244/pygame-image-background-does-not-match-main-background/62689442#62689442)
 - [Pygame image transparency confusion](https://stackoverflow.com/questions/64704789/pygame-image-transparency-confusion/64704923#64704923)
 
-Most likely, your image is not transparent at all. The transparency is stored in the alpha value. Compared to JPG and BMP, the PNG and GIF formats offer an alpha value per pixel. Converting an image to PNG or GIF format does not make an image transparent. You need to paint or download a transparent image. 
+Most likely, your image is not transparent at all. The transparency is stored in the alpha value. Compared to JPG and BMP, the PNG and GIF formats offer an alpha value per pixel. Converting an image to PNG or GIF format does not make an image transparent. You need to paint or download a transparent image.
 
 The pygame documentation notes that:
 
 > The returned Surface will contain the same color format, colorkey and alpha transparency as the file it came from. You will often want to call [`convert()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.convert) with no arguments, to create a copy that will draw more quickly on the screen.  
 > For alpha transparency, like in .png images, use the [`convert_alpha()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.convert_alpha) method after loading so that the image has per pixel transparency.
 
-Hence if your image provides per pixel alpha,  it is recommended that you call `convert_alpha()`, but this is not required.
+Hence if your image provides per pixel alpha, it is recommended that you call `convert_alpha()`, but this is not required.
 
 If your image has not transparent pixel, but a uniform colored background, set a transparent color key with [`set_colorkey()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.set_colorkey)
 
@@ -204,22 +290,63 @@ window_surface.blit(image_surface,
 
 :scroll: **[Minimal example - Load transparent image](../../examples/minimal_examples/pygame_minimal_surface_load_2.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LoadTransparentImage](https://repl.it/@Rabbid76/PyGame-LoadTransparentImage#main.py)</kbd>
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LoadTransparentImage](https://replit.com/@Rabbid76/PyGame-LoadTransparentImage#main.py)**
 
 ![How do I blit a PNG with some transparency onto a surface in Pygame?](https://i.stack.imgur.com/a62px.png)
+
+### Load multiple images
+
+Related Stack Overflow questions:
+
+- [How do you load all images at a time in pygame?](https://stackoverflow.com/questions/67141356/how-do-you-load-all-images-at-a-time-in-pygame/67141422#67141422)
+
+  :scroll: **[Minimal example - Load all images from directory](../../examples/minimal_examples/pygame_minimal_surface_load_all_From_directory.py)**
+
+Get a list of all the files in the directory (see [os](https://docs.python.org/3/library/os.html)) and create a dictionary with the loaded files:
+
+```py
+path = 'Desktop/Files/Dungeon Minigame/'
+filenames = [f for f in os.listdir(path) if f.endswith('.png')]
+images = {}
+for name in filenames:
+    imagename = os.path.splitext(name)[0] 
+    images[imagename] = pygame.image.load(os.path.join(path, name)).convert_alpha()
+```
+
+You can access the images in the dictionary by its name:
+
+```py
+screen.blit(images['background'], (0, 0))
+```
+
+Alternatively you can add variables to global namespace, using `globals()`:
+
+```py
+path = 'Desktop/Files/Dungeon Minigame/'
+filenames = [f for f in os.listdir(path) if f.endswith('.png')]
+for name in filenames:
+    imagename = os.path.splitext(name)[0] 
+    globals()[imagename] =  pygame.image.load(os.path.join(path, name)).convert_alpha()
+```
+
+```py
+screen.blit(background, (0, 0))
+```
 
 ### Image load performance (lagging)
 
 Related Stack Overflow questions:
 
 - [Pygame is running slow](https://stackoverflow.com/questions/61134825/pygame-is-running-slow/61134941#61134941)
-- [Why my pygame game with a tiled map is lagging?](https://stackoverflow.com/questions/62136440/why-my-pygame-game-with-a-tiled-map-is-lagging/62137296#62137296)
+- [Why my pygame game with a tiled map is lagging?](https://stackoverflow.com/questions/62136440/why-my-pygame-game-with-a-tiled-map-is-lagging/62137296#62137296)  
+- [How could I optimise this simple python pygame code](https://stackoverflow.com/questions/65384623/how-could-i-optimise-this-simple-python-pygame-code/65384691#65384691)  
+- [Image position not updating / updates slower while moving mouse](https://stackoverflow.com/questions/57846536/image-position-not-updating-updates-slower-while-moving-mouse/65626207#65626207)  
 
 ### Load Pillow image
 
 Related Stack Overflow questions:
 
-- [PIL and pygame.image](https://stackoverflow.com/questions/25202092/pil-and-pygame-image)
+- [PIL and pygame.image](https://stackoverflow.com/questions/25202092/pil-and-pygame-image/64182629#64182629)
 
 ```py
 def pilImageToSurface(pilImage):
@@ -229,110 +356,49 @@ def pilImageToSurface(pilImage):
 
 :scroll: **[Minimal example - Load PIL image to PyGame _Surface_](../../examples/minimal_examples/pygame_minimal_surface_load_from_pil.py)**
 
-### Load OpenCV (cv2) image
-
-Related Stack Overflow questions:
-
-- [How do I convert an OpenCV (cv2) image (BGR and BGRA) to a pygame.Surface object](https://stackoverflow.com/questions/64183409/how-do-i-convert-an-opencv-cv2-image-bgr-and-bgra-to-a-pygame-surface-object/64183410#64183410)  
-  ![How do I convert an OpenCV (cv2) image (BGR and BGRA) to a pygame.Surface object](https://i.stack.imgur.com/J5itT.png)
-- [Temporary save Image in pygame](https://stackoverflow.com/questions/64410240/temporary-save-image-in-pygame/64410622#64410622)
-- [Pygame, create grayscale from 2d numpy array](https://stackoverflow.com/questions/40755989/pygame-create-grayscale-from-2d-numpy-array)
-
-#### How do I convert an OpenCV (cv2) image (BGR and BGRA) to a pygame.Surface object
-
-The `shape` attribute of a [`numpy.array`](https://numpy.org/doc/stable/reference/generated/numpy.array.html) is the number of elements in each dimension. The first element is the height, the second the width and the third the number of channels.  
-A [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) can be generated by [`pygame.image.frombuffer`](https://www.pygame.org/docs/ref/image.html#pygame.image.frombuffer). The 1st argument can be a `numpy.array` and the 2nd argument is the format (`RGB` or `RGBA`).
-
-Get the size (_widht_, _height_) for the `pygame.Surface` object by slicing:
-
-```py
-size = cv2Image.shape[1::-1]
-```
-
-Determine the target format for the `pygame.Surface` object, depending on the third channel:
-
-```py
-format = 'RGBA' if cv2Image.shape[2] == 4 else 'RGB'
-```
-
-Since the source format is _BGR_ or _BGRA_, but the target format is _RGB_ or _RGBA_, the red and blue channels have to be swapped:
-
-```py
-cv2Image[:, :, [0, 2]] = cv2Image[:, :, [2, 0]]
-```
-
-In the case of a grayscale image, the shape of the array must be changed using [`numpy.reshape`](https://numpy.org/doc/stable/reference/generated/numpy.reshape.html) and the gray channel must be expanded to a red-green and blue color channel using [`numpy.repeat`](https://numpy.org/doc/stable/reference/generated/numpy.repeat.html):
-
-```py
-cv2Image = np.repeat(cv2Image.reshape(size[1], size[0], 1), 3, axis = 2)
-```
-
-With his data the `pygame.Surface` object can be generated by `pygame.image.frombuffer`:
-
-```py
-surface = pygame.image.frombuffer(cv2Image.flatten(), size, format)
-```
-
-To ensure that the image has the same pixel format as the display _Surface_ and for optimal performance, the _Surface_ should be converted with either [`convert`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.convert) or [`convert_alpha`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.convert_alpha):
-
-```py
-surface = surface.convert_alpha() if format == 'RGBA' else surface.convert()
-```
-
-Complete function `cv2ImageToSurface`:
-
-```py
-def cv2ImageToSurface(cv2Image):
-    if cv2Image.dtype.name == 'uint16':
-        cv2Image = (cv2Image / 256).astype('uint8')
-    size = cv2Image.shape[1::-1]
-    if len(cv2Image.shape) == 2:
-        cv2Image = np.repeat(cv2Image.reshape(size[1], size[0], 1), 3, axis = 2)
-        format = 'RGB'
-    else:
-        format = 'RGBA' if cv2Image.shape[2] == 4 else 'RGB'
-        cv2Image[:, :, [0, 2]] = cv2Image[:, :, [2, 0]]
-    surface = pygame.image.frombuffer(cv2Image.flatten(), size, format)
-    return surface.convert_alpha() if format == 'RGBA' else surface.convert()
-```
-
-:scroll: **[Minimal example - Load cv2 image to PyGame _Surface_](../../examples/minimal_examples/pygame_minimal_surface_load_from_cv2.py)**
-
-![Load cv2 image to PyGame _Surface_](https://i.stack.imgur.com/uJ19U.png)
-
 ### Load SVG
 
 [Scalable  Vector Graphics (SVG)](https://de.wikipedia.org/wiki/Scalable_Vector_Graphics)
 
-Related Stack Overflow questions:
-
-- [SVG rendering in a PyGame application](https://stackoverflow.com/questions/120584/svg-rendering-in-a-pygame-application)
-
-[pynanosvg](https://github.com/ethanhs/pynanosvg) can be used to load and rasterize [Vector Graphics (SVG)](https://de.wikipedia.org/wiki/Scalable_Vector_Graphics) files. Install [_Cython_](v) and _pynanosvg_:
-
-```lang-none
-pip install Cython
-pip install pynanosvg
-```
-
-The SVG file can be read, rasterized and loaded into a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object with the following function:
+**Since 2.0.2, SDL Image supports SVG ([Scalable Vector Graphics](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)) files (see [SDL_image 2.0](https://www.libsdl.org/projects/SDL_image)). Therefore, with pygame version 2.0.1, SVG files can be loaded into a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object with  [`pygame.image.load()`](http://www.pygame.org/docs/ref/image.html)**:
 
 ```py
-def load_svg(filename, scale=None, size=None, clip_from=None, fit_to=None, foramt='RGBA'):
-    svg = Parser.parse_file(filename)
-    scale = min((fit_to[0] / svg.width, fit_to[1] / svg.height) if fit_to else ([scale if scale else 1] * 2))
-    width, height = size if size else (svg.width, svg.height)
-    surf_size = round(width * scale), round(height * scale)
-    buffer = Rasterizer().rasterize(svg, *surf_size, scale, *(clip_from if clip_from else 0, 0))
-    return  pygame.image.frombuffer(buffer, surf_size, foramt)
+surface = pygame.image.load('my.svg')
 ```
 
-:scroll: **[Minimal example - Load Scalable Vector Graphics (SVG) to PyGame _Surface_](../../examples/minimal_examples/pygame_minimal_surface_load_svg_1.py)**
+Before Pygame 2, you had to implement [Scalable Vector Graphics](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) loading with other libraries. Below are some ideas on how to do this.
+
+See [Surface and image, load SVG](pygame_surface_and_image_svg.md)
+
+### Animate Sprite
+
+Related Stack Overflow questions:
+
+- [how to create an illusion of animations in pygame](https://stackoverflow.com/questions/71229981/how-to-create-an-illusion-of-animations-in-pygame/71232110#71232110)
+
+### Load Sprite Sheet
+
+[Spritesheet](https://www.pygame.org/wiki/Spritesheet).
+
+Related Stack Overflow questions:
+
+- **[How do I create animated sprites using Sprite Sheets in Pygame?](https://stackoverflow.com/questions/55200501/how-do-i-create-animated-sprites-using-sprite-sheets-in-pygame/55200625#55200625)**  
+  ![How do I create animated sprites using Sprite Sheets in Pygame?](https://i.stack.imgur.com/Ekuju.gif)
+
+:scroll: **[Minimal example - Load Sprite Sheet](../../examples/minimal_examples/pygame_minimal_surface_load_sprite_sheet.py)**
+
+- [Invalid destination position for blit error, not seeing how](https://stackoverflow.com/questions/55199591/invalid-destination-position-for-blit-error-not-seeing-how/55199736#55199736)
 
 ### Load animated GIF
 
+- [Animated sprite from few images](https://stackoverflow.com/questions/14044147/animated-sprite-from-few-images/64668964#64668964)  
+  ![Animated sprite from few images](https://i.stack.imgur.com/SzKwL.gif)
+
 - [How can I load an animated GIF and get all of the individual frames in PyGame?](https://stackoverflow.com/questions/29571399/how-can-i-load-an-animated-gif-and-get-all-of-the-individual-frames-in-pygame)
 - [How do I make a sprite as a gif in pygame?](https://stackoverflow.com/questions/64179680/how-do-i-make-a-sprite-as-a-gif-in-pygame/64182074#64182074)
+
+- [PyGame OR Moviepy - Show a video with transparency](https://stackoverflow.com/questions/66829740/pygame-or-moviepy-show-a-video-with-transparency?noredirect=1#comment118133434_66829740)  
+  ![PyGame OR Moviepy - Show a video with transparency](https://i.stack.imgur.com/yUxaz.gif)
 
 [PyGame](https://www.pygame.org/news) respectively the [`pygame.image`](https://www.pygame.org/docs/ref/image.html) module can only handle non-animated [GIFs](https://en.wikipedia.org/wiki/GIF).  
 But on the PyGame homepage is introduced the [GIFImage](https://www.pygame.org/project-GIFImage-1039-.html) library:
@@ -402,86 +468,73 @@ def loadGIF(filename):
 
 ![How can I load an animated GIF and get all of the individual frames in PyGame?](https://i.stack.imgur.com/geYjP.gif)
 
-Use the list of `pygame.Surface` objects to generate a [Spritesheet](https://www.pygame.org/wiki/Spritesheet).
-
-### Load frames from NumPy array
+## Store Image (Save image)
 
 Related Stack Overflow questions:
 
-- [Pygame and Numpy Animations](https://stackoverflow.com/questions/54415196/pygame-and-numpy-animations)
+- [Save created image to file system python and pygame](https://stackoverflow.com/questions/68804453/save-created-image-to-file-system-python-and-pygame/68805404#68805404)  
+- [How to output pygame.image.save to a variable instead of a file?](https://stackoverflow.com/questions/65405520/how-to-output-pygame-image-save-to-a-variable-instead-of-a-file/65405567#65405567)  
+- [Is there any way to convert the screen of a pygame gui into an image somehow?](https://stackoverflow.com/questions/60880169/is-there-any-way-to-convert-the-screen-of-a-pygame-gui-into-an-image-somehow/65543336#65543336)  
 
-Load multiple frames (`data`) of 8-bit BGRA images of shape _(y, x, 4, k)_ to a list of [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) objects:
+- [pygame, saving a image with low opacity](https://stackoverflow.com/questions/73802557/pygame-saving-a-image-with-low-opacity/73802685#73802685)  
 
-```py
-surf_list = [pygame.image.frombuffer(d[:,:,[2, 1, 0, 3]].flatten(), (data.shape[1::-1]), 'RGBA') for d in data.transpose(3, 0, 1, 2)]
-```
-
-respectively
+The image format must be one that supports an alpha channel (e.g. PNG):
 
 ```py
-surf_list = []
-for d in data.transpose(3, 0, 1, 2):
-    bytes = d[:,:,[2, 1, 0, 3]].flatten()
-    size = data.shape[1::-1]
-    format = 'RGBA'
-    surface = pygame.image.frombuffer(bytes, size, format)
-    surf_list.append(surface)
+pygame.image.save(the_img, "my_image.png")
 ```
 
-Explanation:
-
-Use [`numpy.traspose`](https://numpy.org/doc/stable/reference/generated/numpy.transpose.html) to bring the 3rd (frame) axis moving axis 2 to the front (see [Iterating over arbitrary dimension of numpy.array](https://stackoverflow.com/questions/1589706/iterating-over-arbitrary-dimension-of-numpy-array)) and iterate through the frames:
+If you have a Surface with a color key ([`set_colorkey`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.set_colorkey)), you have to change the pixel format of the image including per pixel alphas with [`pygame.Surface.convert_alpha`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.convert_alpha):
 
 ```py
-for d in data.transpose(3, 0, 1, 2):
+pygame.image.save(the_img.convert_alpha(), the_name)
 ```
 
-Create a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) from each frame by [`pygame.image.frombuffer()`](https://www.pygame.org/docs/ref/image.html#pygame.image.frombuffer):
+If you have a surface with a global alpha value ([`set_alpha`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.set_alpha)), you need to `blit` the Surface on a transparent Surface (`pygame.SRCALPHA`) of the same size and store that transparent Surface (this also works for a Surface with a color key):
 
 ```py
-surface = pygame.image.frombuffer(bytes, size, format)
+the_img.set_colorkey((0, 0, 0))
+the_img_alpha = pygame.Surface(the_img.get_size(), pygame.SRCALPHA)
+the_img_alpha.blit(the_img, (0, 0))
+
+pygame.image.save(the_img_alpha, the_name)
 ```
 
-[`pygame.image.frombuffer()`](https://www.pygame.org/docs/ref/image.html#pygame.image.frombuffer) has 3 arguments, _bytes_, _size_, _format_. _bytes_ is the 1 dimensional byte array of pixel data. [`numpy.ndarray.flatten`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.flatten.html) return a copy of the array collapsed into one dimension. Most likely the order of the color channels is _BGRA_ rather than _RGBA_. Hence you have to swap the red and blue color channel (`d[:,:,[2, 1, 0, 3]]`). You can skip this if the order of the color channels is _RGBA_:
-
-```py
-bytes = d[:,:,[2, 1, 0, 3]].flatten() # for BGRA
-```
-
-```py
-bytes = d.flatten() # for RGBA
-```
-
-_size_ is a tuple with 2 elements (_x_, _y_) and specifies the size of the image. The size can be get form [`numpy.ndarray.shape`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.shape.html):
-
-```py
-size = data.shape[1::-1]
-```
-
-or
-
-```py
-size = (data.shape[1], data.shape[0])
-```
-
-_format_ specifies the image format and has to be `'RGBA'` (`'BGRA'` doesn't exist):
-
-```py
-format = 'RGBA'
-```
-
-:scroll: **[Minimal example - Load frames from NumPy array](../../examples/minimal_examples/pygame_minimal_surface_load_frames_numpy.py)**
-
-![Pygame and Numpy Animations](../../screenshot/pygame_minimal_surface_load_frames_numpy.gif)
-
-## Pixel array
-
-Related Stack Overflow questions:
-
-- [Speed up double for loop PyGame draw](https://stackoverflow.com/questions/61856330/speed-up-double-for-loop-pygame-draw/61856399#61856399)
+:scroll: **[Minimal example - Scroll](../../examples/minimal_examples/pygame_minimal_save_transparent_surface.py)**
 
 ## Surface lock
 
 Related Stack Overflow questions:
 
 - [How do I save a section of a pygame screen and blit it to another location?](https://stackoverflow.com/questions/56420746/how-do-i-save-a-section-of-a-pygame-screen-and-blit-it-to-another-location/56421239#56421239)
+
+## Transformation
+
+Related Stack Overflow questions:
+
+- [Pygame rotozoom rescaling the image out of bounds](https://stackoverflow.com/questions/65899193/pygame-rotozoom-rescaling-the-image-out-of-bounds/65899347#65899347)
+
+### Flip
+
+Related Stack Overflow questions:
+
+- [How to Flip Image After Hitting Wall - Pygame](https://stackoverflow.com/questions/65834797/how-to-flip-image-after-hitting-wall-pygame/65834912#65834912)  
+
+### Scale
+
+See [Scale and zoom](pygame_surface_scale_and_zoom.md)
+
+### Rotate
+
+See [Rotate surface](pygame_surface_rotate.md)
+
+### Scroll
+
+Related Stack Overflow questions:
+
+- [Adjust image of rect](https://stackoverflow.com/questions/66443304/adjust-image-of-rect/66443370#66443370)  
+  ![Adjust image of rect](https://i.stack.imgur.com/r0wY5.gif)
+
+  :scroll: **[Minimal example - Scroll](../../examples/minimal_examples/pygame_minimal_surface_scroll_1.py)**
+
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SCroll](https://replit.com/@Rabbid76/PyGame-Scroll#main.py)**

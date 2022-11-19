@@ -2,10 +2,12 @@
 # https://www.pygame.org/docs/ref/math.html
 #
 # Pygame how to let balls collide
-# https://stackoverflow.com/questions/63145493/pygame-how-to-let-balls-collide
+# https://stackoverflow.com/questions/63145493/pygame-how-to-let-balls-collide/63187016#63187016
 #
 # GitHub - PyGameExamplesAndAnswers - Collision and Intersection - Circle and circle
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_collision_and_intesection.md
+#
+# https://replit.com/@Rabbid76/PyGame-CirclesBounceOff
 
 import pygame
 

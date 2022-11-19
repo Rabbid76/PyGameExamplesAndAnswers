@@ -7,7 +7,7 @@
 # GitHub - PyGameExamplesAndAnswers - Blending and transparency - Intersection area
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_blending_and_transaprency.md
 #
-# https://repl.it/@Rabbid76/PyGame-CircleIntersection
+# https://replit.com/@Rabbid76/PyGame-CircleIntersection
 
 import pygame
 

@@ -36,18 +36,18 @@ while not done:
         elif event.type == pygame.KEYDOWN or event.type == pygame.MOUSEBUTTONDOWN:
             start = True
 
-    pos = (screen.get_width()//2, screen.get_height()//2)
-    w, h = image.get_size()
-    box        = [pygame.math.Vector2(p) for p in [(0, 0), (w, 0), (w, -h), (0, -h)]]
-    box_rotate = [p.rotate(angle) for p in box]
-    min_box    = (min(box_rotate, key=lambda p: p[0])[0], min(box_rotate, key=lambda p: p[1])[1])
-    max_box    = (max(box_rotate, key=lambda p: p[0])[0], max(box_rotate, key=lambda p: p[1])[1])
+    pos = (screen.get_width()//2, screen.get_height()//2) 
+    originPos = image.get_rect().center
+    
+    image_rect = image.get_rect(topleft = (pos[0] - originPos[0], pos[1]-originPos[1]))
+    offset_center_to_pivot = pygame.math.Vector2(pos) - image_rect.center
+    rotated_offset = offset_center_to_pivot.rotate(-angle)
+    rotated_image_center = (pos[0] - rotated_offset.x, pos[1] - rotated_offset.y)
 
-    pivot        = pygame.math.Vector2(w/2, -h/2)
-    pivot_rotate = pivot.rotate(angle)
-    pivot_move   = pivot_rotate - pivot
-
-    origin = (pos[0] - pivot[0] + min_box[0] - pivot_move[0], pos[1] + pivot[1] - max_box[1] + pivot_move[1])
+    # get a rotated image
+    rotated_image = pygame.transform.rotate(image, angle)
+    rotated_image_rect = rotated_image.get_rect(center = rotated_image_center)
+    origin = rotated_image_rect.topleft
 
     screen.fill(0)
     rotated_image = pygame.transform.rotate(image, angle)
@@ -55,7 +55,7 @@ while not done:
         angle += 1
 
     screen.blit(rotated_image, origin)
-    pygame.draw.rect (screen,(255, 0, 0), (*origin, *rotated_image.get_size()),2)
+    pygame.draw.rect(screen,(255, 0, 0), (*origin, *rotated_image.get_size()),2)
     
     pygame.draw.line(screen, (0, 255, 0), (pos[0]-20, pos[1]), (pos[0]+20, pos[1]), 3)
     pygame.draw.line(screen, (0, 255, 0), (pos[0], pos[1]-20), (pos[0], pos[1]+20), 3)

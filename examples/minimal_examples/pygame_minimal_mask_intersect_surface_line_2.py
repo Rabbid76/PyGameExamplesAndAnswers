@@ -2,10 +2,12 @@
 # https://www.pygame.org/docs/ref/mask.html
 #
 # Overlap between mask and fired beams in Pygame [AI car model vision]
-# https://stackoverflow.com/questions/62008457/overlap-between-mask-and-fired-beams-in-pygame-ai-car-model-vision
+# https://stackoverflow.com/questions/62008457/overlap-between-mask-and-fired-beams-in-pygame-ai-car-model-vision/62082726#62082726
 #
 # GitHub - PyGameExamplesAndAnswers - Mask
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_mask.md
+#
+# https://replit.com/@Rabbid76/PyGame-SurfaceLineMaskIntersect-2
 
 import math
 import pygame

@@ -1,11 +1,16 @@
 # pygame.math module, pygame.math.Vector2 object
 # https://www.pygame.org/docs/ref/math.html
 #
+# How to make the ball rotate in pygame, python?
+# https://stackoverflow.com/questions/74214342/how-to-make-the-ball-rotate-in-pygame-python/74218983#74218983
+#
 # Pygame: Image chasing the mouse cursor from certain length
 # https://stackoverflow.com/questions/55168892/pygame-image-chasing-the-mouse-cursor-from-certain-length
 #
 # GitHub - Move towards target - Follow target or mouse
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_move_towards_target.md
+#
+# https://replit.com/@Rabbid76/PyGame-FollowInGrid
 
 import pygame
 

@@ -2,10 +2,12 @@
 # https://www.pygame.org/docs/ref/math.html
 #
 # pygame Get the balls to bounce off each other
-# https://stackoverflow.com/questions/63586822/pygame-get-the-balls-to-bounce-off-each-other?noredirect=1
+# https://stackoverflow.com/questions/63586822/pygame-get-the-balls-to-bounce-off-each-other/63587147#63587147
 #
 # GitHub - PyGameExamplesAndAnswers - Collision and Intersection - Circle and circle
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_collision_and_intesection.md
+#
+# https://replit.com/@Rabbid76/PyGame-BallsBounceOff
 
 import os
 import random

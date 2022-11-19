@@ -4,8 +4,8 @@
 # How can I show explosion image when collision happens?
 # https://stackoverflow.com/questions/64305426/how-can-i-show-explosion-image-when-collision-happens/64305746#64305746
 #
-# GitHub - PyGameExamplesAndAnswers - Collision and Intersection - For a period of time
-# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_rectangle.md
+# GitHub - PyGameExamplesAndAnswers - Time, timer event and clock - For a period of time
+# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_time_and_timer_event.md
 
 import pygame
 pygame.init()

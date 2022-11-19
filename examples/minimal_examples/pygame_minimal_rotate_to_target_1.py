@@ -7,7 +7,7 @@
 # GitHub - PyGameExamplesAndAnswers - Rotate towards target or mouse
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_rotate_towards_target.md
 #
-# https://repl.it/@Rabbid76/PyGame-RotateWithMouse#main.py
+# https://replit.com/@Rabbid76/PyGame-RotateWithMouse
 
 import os
 import math

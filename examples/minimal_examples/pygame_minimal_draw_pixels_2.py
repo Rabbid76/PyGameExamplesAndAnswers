@@ -2,13 +2,15 @@
 # https://www.pygame.org/docs/ref/draw.html
 #  
 # Pygame: Draw single pixel
-# https://stackoverflow.com/questions/10354638/pygame-draw-single-pixel  
+# https://stackoverflow.com/questions/10354638/pygame-draw-single-pixel/64571453#64571453
 # 
 # GitHub - PyGameExamplesAndAnswers - Shape and contour - Draw rectangle
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_draw_shape_and_contour.md
 #
 # GitHub - PyGameExamplesAndAnswers - Surface array, pixel array, buffer proxy - Pixel array
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_surfacearray_pixelarray_and_bufferproxy.md
+#
+# https://replit.com/@Rabbid76/PyGame-DrawPixel-2
 
 import pygame
 

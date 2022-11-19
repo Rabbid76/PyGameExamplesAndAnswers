@@ -14,7 +14,19 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [How do I draw a line without updating the whole screen in pygame?](https://stackoverflow.com/questions/64620388/how-do-i-draw-a-line-without-updating-the-whole-screen-in-pygame/64620675?noredirect=1#comment114264702_64620675)
+- [Why is nothing drawn in PyGame at all?](https://stackoverflow.com/questions/65113967/why-is-nothing-drawn-in-pygame-at-all/65114059#65114059)  
+- [Why is screen not background surface does not blit onto screen?](https://stackoverflow.com/questions/64566867/why-is-screen-not-background-surface-does-not-blit-onto-screen/65508952#65508952)  
+- [Why does my Pygame window flicker when animating objects?](https://stackoverflow.com/questions/74496592/why-does-my-pygame-window-flicker-when-animating-objects)  
+- [Why is the PyGame animation is flickering](https://stackoverflow.com/questions/62120723/why-is-the-pygame-animation-is-flickering/62120776#62120776)  
+- [How do I draw a line without updating the whole screen in pygame?](https://stackoverflow.com/questions/64620388/how-do-i-draw-a-line-without-updating-the-whole-screen-in-pygame/64620675?noredirect=1#comment114264702_64620675)  
+- [How can I move the ball instead of leaving a trail all over the screen in pygame?](https://stackoverflow.com/questions/65494890/how-can-i-move-the-ball-instead-of-leaving-a-trail-all-over-the-screen-in-pygame/65494925#65494925)  
+- [pygame - surface from part of another surface](https://stackoverflow.com/questions/71538869/pygame-surface-from-part-of-another-surface/71538929#71538929)  
+
+Each object in the scene is drawn to the `pygame.Surface` object associated with the display. To create animated objects, the entire scene must be redrawn in each frame. Therefore, the display must be cleared at the beginning of each frame in the application loop. If you draw on the _Surface_ associated to the PyGame display, this is not immediately visible in the display. The changes become visible, when the display is updated with either [`pygame.display.update()`](https://www.pygame.org/docs/ref/display.html#pygame.display.update) or [`pygame.display.flip()`](https://www.pygame.org/docs/ref/display.html#pygame.display.flip).
+
+See [`pygame.display.flip()`](https://www.pygame.org/docs/ref/display.html#pygame.display.flip):
+
+> This will update the contents of the entire display.
 
 ## Size
 
@@ -75,6 +87,7 @@ Related Stack Overflow questions:
 - [How do I make my pygame window minimze and maximize?](https://stackoverflow.com/questions/61867449/how-do-i-make-my-pygame-window-minimze-and-maximize/61867690#61867690)
 - [How to make my pygame game window resizeable?](https://stackoverflow.com/questions/62899967/how-to-make-my-pygame-game-window-resizeable/62900107#62900107)
 - [Get screen orientation with Python](https://stackoverflow.com/questions/64272110/get-screen-orientation-with-python/64273980#64273980)
+- [Update during resize in Pygame](https://stackoverflow.com/questions/64543449/update-during-resize-in-pygame)
 
 When the display option `RESIZABLE` (see [`pygame.display.set_mode()`](https://www.pygame.org/docs/ref/display.html#pygame.display.set_mode)) is set, then the `VIDEORESIZE` event (see [`pygame.event`](https://www.pygame.org/docs/ref/event.html)) occurs when the window is resized. The new size of the window can be get form the even attributes:
 
@@ -112,6 +125,7 @@ Related Stack Overflow questions:
 
 - [The fullscreen mode in pygame is entirely black](https://stackoverflow.com/questions/59127002/the-fullscreen-mode-in-pygame-is-entirely-black/59127089#59127089)
 - [Switching to Pygame Fullscreen Mode working only one time](https://stackoverflow.com/questions/62412357/switching-to-pygame-fullscreen-mode-working-only-one-time/62413119#62413119)
+- [Pygame switching from fullscreen to normal does not work](https://stackoverflow.com/questions/66387983/pygame-switching-from-fullscreen-to-normal-does-not-work/66388005#66388005)  
 
 [`pygame.display.set_mode`](https://www.pygame.org/docs/ref/display.html#pygame.display.set_mode) creates a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object, which is associated to the window. When `pygame.display.set_mode()` is called a again, then the object which was associated to the surface before gets invalide.
 
@@ -127,10 +141,11 @@ display_surf = pygame.display.set_mode(size, setmode)
 display_surf.blit(old_surface, (0,0))
 ```
 
-### Toggle fullscreen
+### Toggle fullscreen and maximize window
 
 - [pygame.display.toggle_fulscreen() not working](https://stackoverflow.com/questions/64495710/pygame-display-toggle-fulscreen-not-working/64495762#64495762)
 - [pygame fullscreen on second monitor](https://stackoverflow.com/questions/64495381/pygame-fullscreen-on-second-monitor)
+- [How to make a pygame window fullscreen without hiding the taskbar](https://stackoverflow.com/questions/68831902/how-to-make-a-pygame-window-fullscreen-without-hiding-the-taskbar)  
 
 See the documentation of [`pygame.display.toggle_fullscreen()`](https://www.pygame.org/docs/ref/display.html#pygame.display.toggle_fullscreen):
 
@@ -142,9 +157,13 @@ A workaround is presented on the Pygame Wiki [`toggle_fullscreen`](https://www.p
 
 Related Stack Overflow questions:
 
-- [Pygame Display Position](https://stackoverflow.com/questions/4135928/pygame-display-position)  
 - [How to move a no frame pygame windows when user click on it?](https://stackoverflow.com/questions/57674156/how-to-move-a-no-frame-pygame-windows-when-user-click-on-it/57681853#57681853)
+
+  :scroll: **[Minimal example - Display zoom](../../examples/minimal_examples/pygame_minimal_display_move_no_frame_window_1.py)**
+
+- [Pygame Display Position](https://stackoverflow.com/questions/4135928/pygame-display-position)  
 - [Make a pygame resizable window that can be snapped to the screen](https://stackoverflow.com/questions/62034222/make-a-pygame-resizable-window-that-can-be-snapped-to-the-screen/62035592#62035592)
+- [PyGame os.environ SDL_VIDEO_WINDOW_POS does not work](https://stackoverflow.com/questions/68324163/pygame-os-environ-sdl-video-window-pos-does-not-work/68325597#68325597)  
 
 [PyGame](https://www.pygame.org/news) is based on [Simple DirectMedia Layer (SDL)](https://www.libsdl.org/download-2.0.php). Hence you can set SDL environment variables.
 
@@ -163,14 +182,20 @@ See [pygame wiki - `SettingWindowPosition`](https://www.pygame.org/wiki/SettingW
 >screen = pygame.display.set_mode((100,100))
 >```
 
-## Scale window
+## Scale and zoom window
 
 Related Stack Overflow questions:
 
 - [Scale Everything On Pygame Display Surface](https://stackoverflow.com/questions/64341589/scale-everything-on-pygame-display-surface/64341784#64341784)
 - [How do I make my screen zoom in and out in pygame?](https://stackoverflow.com/questions/64079174/how-do-i-make-my-screen-zoom-in-and-out-in-pygame/64079239#64079239)
+- [Zooming in and out of a PyGame window with all objects still in place](https://stackoverflow.com/questions/64936805/zooming-in-and-out-of-a-pygame-window-with-all-objects-still-in-place/64937795#64937795)  
+  ![Zooming in and out of a PyGame window with all objects still in place](https://i.stack.imgur.com/qYHGr.gif)
 
-> I'm wondering if there's a way I can globally scale everything up in my game without either having to scale each sprite up individually [...]" 
+  :scroll: **[Minimal example - Display zoom](../../examples/minimal_examples/pygame_minimal_display_zoom.py)**
+
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-colliderect](https://replit.com/@Rabbid76/PyGame-colliderect#main.py)**
+
+> I'm wondering if there's a way I can globally scale everything up in my game without either having to scale each sprite up individually [...]"
 
 No there is no way. You have to scale each coordinate, each size and each surface individually. PyGame is made for images (Surfaces) and shapes in pixel units. Anyway up scaling an image will result in either a fuzzy, blurred or jagged (Minecraft) appearance.
 
@@ -199,12 +224,22 @@ while running:
 
 :scroll: [Minimal example - Scale up display window](../../examples/minimal_examples/pygame_minimal_dispaly_up_scale.py)
 
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ZoomInAndOut](https://replit.com/@Rabbid76/PyGame-ZoomInAndOut#main.py)**
+
 ## Coordinate system and transformations
 
 Related Stack Overflow questions:
 
+- [Rotate pygame screen](https://stackoverflow.com/questions/69394255/rotate-pygame-screen/69394709#69394709)  
+  ![Rotate pygame screen](https://i.stack.imgur.com/d4WcW.png)
+
+:scroll: **[Minimal example - Rotate screen](../../examples/minimal_examples/pygame_minimal_display_rotate_screen.py)**
+
+- [Assosiate rects to specific window in pygame](https://stackoverflow.com/questions/70447129/assosiate-rects-to-specific-window-in-pygame/70448761#70448761)  
 - [How do I change the Pygame coordinate system so that the center of the window is (0,0)?](https://stackoverflow.com/questions/61514113/how-do-i-change-the-pygame-coordinate-system-so-that-the-center-of-the-window-is/61516769#61516769)
-- [pushMatrix, popMatrix, translate, and rotate in pygame?](https://stackoverflow.com/questions/63078272/pushmatrix-popmatrix-translate-and-rotate-in-pygame/63078556#63078556)
+- [pushMatrix, popMatrix, translate, and rotate in pygame?](https://stackoverflow.com/questions/63078272/pushmatrix-popmatrix-translate-and-rotate-in-pygame/63078556#63078556)  
+- [Polygons on created surfaces](https://stackoverflow.com/questions/56639370/polygons-on-created-surfaces/65456150#65456150)  
+- [pygame define different position order make the different result](https://stackoverflow.com/questions/59810922/pygame-define-different-position-order-make-the-different-result/59810986#59810986)
 
 :scroll: **[Minimal example - Center the origin of the coordinate system](../../examples/minimal_examples/pygame_minimal_display_center_origin.py)**
 
@@ -214,55 +249,29 @@ Be aware that the y-axis needs to be reversed (`-y` respectively `y1-y2`) becaus
 
 Related Stack Overflow questions:
 
-- [pygame collision detection causes my computer to hang](https://stackoverflow.com/questions/60323509/pygame-collision-detection-causes-my-computer-to-hang/60327662#60327662)
+- [How to Change the Name of a Pygame window?](https://stackoverflow.com/questions/40566585/how-to-change-the-name-of-a-pygame-window/65641908#65641908)  
+- [Icons are not displayed, displayed only after closing for half a second](https://stackoverflow.com/questions/65079658/icons-are-not-displayed-displayed-only-after-closing-for-half-a-second/65079700#65079700)  
+- [Why can't I change the python window icon?](https://stackoverflow.com/questions/65809541/why-cant-i-change-the-python-window-icon)  
+- [pygame.display.set_icon(pygame.image obj) doesn't work in python 3.9.1](https://stackoverflow.com/questions/65454856/pygame-display-set-iconpygame-image-obj-doesnt-work-in-python-3-9-1/65454866#65454866)
 - [how to set a picture as an app icon in pygame in ubuntu](https://stackoverflow.com/questions/63717695/how-to-set-a-picture-as-an-app-icon-in-pygame-in-ubuntu/63717754#63717754)
+- [pygame collision detection causes my computer to hang](https://stackoverflow.com/questions/60323509/pygame-collision-detection-causes-my-computer-to-hang/60327662#60327662)
+
+## Scale background
+
+See [Scale background](pygame_surface_scale_and_zoom.md)
 
 ## Scroll background
 
-Related Stack Overflow questions:
-
-- [Making the background move sideways in pygame](https://stackoverflow.com/questions/55050166/making-the-background-move-sideways-in-pygame/55068602#55068602)
-- [How to scroll the background surface in PyGame?](https://stackoverflow.com/questions/55319181/how-to-scroll-the-background-surface-in-pygame/55321731#55321731)  
-  ![How to scroll the background surface in PyGame?](https://i.stack.imgur.com/QosjL.gif)
-- [How to move the background image with keys in pygame?](https://stackoverflow.com/questions/61039508/how-to-move-the-background-image-with-keys-in-pygame)
-- [Pygame : Two layered scrolling background, can you help me?](https://stackoverflow.com/questions/55454487/pygame-two-layered-scrolling-background-can-you-help-me/55460386#55460386)
-
-If you want to have a continuously repeating background, then you've to draw the background twice:
-
-```lang.none
-        +==================+
-   +----||---------+------||------+
-   |    ||         |      ||      |
-   |    ||    1    |   2  ||      |
-   |    ||         |      ||      |
-   +----||---------+------||------+
-        +==================+
-```
-
-You've to know the size of the screen. The size of the height background image should match the height of the screen. The width of the background can be different, but should be at least the with of the window (else the background has to be drawn more than 2 times).
-
-```py
-bg_w, gb_h = size
-bg =  pygame.transform.smoothscale(pygame.image.load('background.image'), (bg_w, bg_h))
-```
-
-The background can be imagined as a endless row of tiles.
-If you want to draw the background at an certain position `pos_x`, then you have to calculate the position of the tile relative to the screen by the modulo (`%`) operator. The position of the 2nd tile is shifted by the width of the background (`bg_w`):
-
-```py
-x_rel = pos_x % bg_w
-x_part2 = x_rel - bg_w if x_rel > 0 else x_rel + bg_w
-```
-
-Finally the background has to be _blit_ twice, to fill the entire screen:
-
-```py
-screen.blit(bg, (x_rel, 0))
-screen.blit(bg, (x_part2, 0))
-```
+See [Scroll background](pygame_background.md)
 
 ## Message box
 
 Related Stack Overflow questions:
 
 - [Is there a way to make the message box show up in front of a PyGame Window?](https://stackoverflow.com/questions/60990283/is-there-a-way-to-make-the-message-box-show-up-in-front-of-a-pygame-window/60993478#60993478)
+
+## Multiple Windows
+
+Related Stack Overflow questions:
+
+- [Pygame with Multiple Windows](https://stackoverflow.com/questions/29811814/pygame-with-multiple-windowsv)

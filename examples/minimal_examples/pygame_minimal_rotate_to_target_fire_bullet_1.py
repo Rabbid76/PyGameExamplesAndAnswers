@@ -2,7 +2,7 @@
 # https://www.pygame.org/docs/ref/transform.html
 #
 # Why aren't any bullets appearing on screen? - pygame
-# https://stackoverflow.com/questions/59126785/why-arent-any-bullets-appearing-on-screen-pygame  
+# https://stackoverflow.com/questions/59126785/why-arent-any-bullets-appearing-on-screen-pygame/59126918#59126918 
 #
 # GitHub - PyGameExamplesAndAnswers - Move towards target - Move towards target Shoot a bullet in a certain direction - Rotate player and shoot bullet towards faced direction
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_move_towards_target.md

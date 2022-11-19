@@ -13,7 +13,7 @@
 # GitHub - Sprite, Group and Sprite mask - Click Sprite
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_sprite_and_sprite_mask.md
 #
-# https://repl.it/@Rabbid76/PyGame-MouseClick#main.py
+# https://replit.com/@Rabbid76/PyGame-MouseClick
 
 import pygame
 
@@ -41,7 +41,6 @@ pygame.init()
 window = pygame.display.set_mode((300, 300))
 clock = pygame.time.Clock()
 
-sprite_object = SpriteObject(*window.get_rect().center, (128, 128, 0))
 group = pygame.sprite.Group([
     SpriteObject(window.get_width() // 3, window.get_height() // 3, (128, 0, 0)),
     SpriteObject(window.get_width() * 2 // 3, window.get_height() // 3, (0, 128, 0)),

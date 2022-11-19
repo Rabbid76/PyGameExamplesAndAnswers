@@ -12,16 +12,23 @@
 #
 # GitHub - PyGameExamplesAndAnswers - Text and font - Text
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_text_and_font.md
+#
+# https://replit.com/@Rabbid76/PyGame-Text
 
 import pygame
-import pygame.font
 
 pygame.init()
-font = pygame.font.SysFont(None, 50)
+window = pygame.display.set_mode((500, 150))
+clock = pygame.time.Clock()
+
+font = pygame.font.SysFont(None, 100)
 text = font.render('Hello World', True, (255, 0, 0))
 
-window = pygame.display.set_mode((300, 100))
-clock = pygame.time.Clock()
+background = pygame.Surface(window.get_size())
+ts, w, h, c1, c2 = 50, *window.get_size(), (128, 128, 128), (64, 64, 64)
+tiles = [((x*ts, y*ts, ts, ts), c1 if (x+y) % 2 == 0 else c2) for x in range((w+ts-1)//ts) for y in range((h+ts-1)//ts)]
+for rect, color in tiles:
+    pygame.draw.rect(background, color, rect)
 
 run = True
 while run:
@@ -30,7 +37,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-    window.fill(0)
+    window.blit(background, (0, 0))
     window.blit(text, text.get_rect(center = window.get_rect().center))
     pygame.display.flip()
 

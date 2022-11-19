@@ -2,13 +2,15 @@
 # https://www.pygame.org/docs/ref/font.html
 #
 # How to create a text input box with pygame?
-# https://stackoverflow.com/questions/46390231/how-to-create-a-text-input-box-with-pygame
+# https://stackoverflow.com/questions/46390231/how-to-create-a-text-input-box-with-pygame/64613666#64613666
 #
 # How to make a string's content appears on screen as we type on keyboard?
 # https://stackoverflow.com/questions/60455692/how-to-make-a-strings-content-appears-on-screen-as-we-type-on-keyboard/60456556#60456556
 #
 # GitHub - PyGameExamplesAndAnswers - Text and font
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_text_and_font.md
+#
+# https://replit.com/@Rabbid76/PyGame-TextInput#main.py
 
 import pygame
 pygame.init()

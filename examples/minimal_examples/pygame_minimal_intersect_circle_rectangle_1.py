@@ -2,7 +2,7 @@
 # https://www.pygame.org/docs/ref/math.html
 #
 # How do I avoid an glitchy collision between circle and rectangle in PyGame?
-# https://stackoverflow.com/questions/58139771/pygame-pong-collision-glithcy
+# https://stackoverflow.com/questions/58139771/how-do-i-avoid-an-glitchy-collision-between-circle-and-rectangle-in-pygame/58145450#58145450
 #
 # GitHub - PyGameExamplesAndAnswers - Collision and Intersection - Rectangle and circle
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_collision_and_intesection.md

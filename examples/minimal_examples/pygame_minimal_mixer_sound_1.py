@@ -8,7 +8,7 @@
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_music_and_sound.md
 
 import os
-import pygame
+import pygame.mixer
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../resource'))
 
 pygame.mixer.init()
@@ -17,5 +17,5 @@ my_sound = pygame.mixer.Sound('music/Alarm09.wav')
 my_sound.play(0)
 pygame.time.wait(int(my_sound.get_length() * 1000))
 
-pygame.quit()
+pygame.mixer.quit()
 exit()

@@ -19,4 +19,3 @@ Related Stack Overflow questions:
 ## PyGame menu
 
 [PyGame menu](https://www.pygame.org/project/3165)
-

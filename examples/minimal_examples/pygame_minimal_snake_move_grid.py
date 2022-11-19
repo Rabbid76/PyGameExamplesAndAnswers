@@ -4,7 +4,7 @@
 # GitHub - PyGameExamplesAndAnswers - Snake
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_snake.md
 #
-# https://repl.it/@Rabbid76/PyGame-SnakeMoveInGrid#main.py
+# https://replit.com/@Rabbid76/PyGame-SnakeMoveInGrid
 
 import pygame
 import random

@@ -2,10 +2,12 @@
 # https://www.pygame.org/docs/ref/draw.html
 #
 # Collision detection between an ellipse and a circle
-# https://stackoverflow.com/questions/64107897/collision-detection-between-an-ellipse-and-a-circle
+# https://stackoverflow.com/questions/64107897/collision-detection-between-an-ellipse-and-a-circle/64108816#64108816
 #
 # GitHub - PyGameExamplesAndAnswers - Collision and Intersection - Circle and circle
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_collision_and_intesection.md
+#
+# https://replit.com/@Rabbid76/PyGame-IntersectCircleEllipse
 
 import math
 import pygame

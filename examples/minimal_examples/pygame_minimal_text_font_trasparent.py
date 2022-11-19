@@ -2,12 +2,12 @@
 # https://www.pygame.org/docs/ref/font.html
 #
 # Python - Pygame - rendering translucent text
-# https://stackoverflow.com/questions/20620109/how-to-render-transparent-text-with-alpha-channel-in-pygame/20622680#20622680
+# https://stackoverflow.com/questions/20620109/how-to-render-transparent-text-with-alpha-channel-in-pygame/64552616#64552616
 #
 # GitHub - PyGameExamplesAndAnswers - Text and font - Transparent text
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_text_and_font.md
 #
-# https://repl.it/@Rabbid76/PyGame-TransparentText#main.py
+# https://replit.com/@Rabbid76/PyGame-TransparentText#main.py
 
 
 import pygame

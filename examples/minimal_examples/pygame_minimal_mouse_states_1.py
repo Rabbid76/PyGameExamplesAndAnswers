@@ -4,11 +4,13 @@
 # Pygame mouse clicking detection
 # https://stackoverflow.com/questions/10990137/pygame-mouse-clicking-detection/64533684#64533684
 #
-# How to distinguish left click , right click mouse clicks in pygame?
-# https://stackoverflow.com/questions/34287938/how-to-distinguish-left-click-right-click-mouse-clicks-in-pygame
+# How to distinguish left click, right click mouse clicks in pygame?
+# https://stackoverflow.com/questions/34287938/how-to-distinguish-left-click-right-click-mouse-clicks-in-pygame/64625285#64625285
 #
 # GitHub - Mouse - Mouse and mouse event
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_mouse_and_mosuse_events.md
+#
+# https://replit.com/@Rabbid76/PyGame-MouseStates
 
 import pygame
 

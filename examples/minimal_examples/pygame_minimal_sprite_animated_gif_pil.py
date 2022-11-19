@@ -26,7 +26,7 @@
 # GitHub - Sprite, Group and Sprite mask - Animation, timing and Sprite sheet
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_sprite_and_sprite_mask.md
 #
-# https://repl.it/@Rabbid76/PyGame-SpriteAnimation#main.py
+# https://replit.com/@Rabbid76/PyGame-SpriteAnimation
 
 import os
 import pygame

@@ -2,13 +2,15 @@
 # https://www.pygame.org/docs/ref/font.html
 #
 # Python/Pygame make text in Pygame wrap when in leaves the window
-# https://stackoverflow.com/questions/64273966/python-pygame-make-text-in-pygame-wrap-when-in-leaves-the-window
+# https://stackoverflow.com/questions/64273966/python-pygame-make-text-in-pygame-wrap-when-in-leaves-the-window/64274045#64274045
 #
 # Rendering text with multiple lines in pygame
 # https://stackoverflow.com/questions/42014195/rendering-text-with-multiple-lines-in-pygame/64598520#64598520 
 #
 # GitHub - PyGameExamplesAndAnswers - Text and font - Text
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_text_and_font.md
+#
+# https://replit.com/@Rabbid76/PyGame-TextWrap
 
 import pygame
 

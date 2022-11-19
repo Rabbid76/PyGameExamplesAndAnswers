@@ -6,19 +6,22 @@
 #
 # GitHub - PyGameExamplesAndAnswers - Text and font
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_text_and_font.md
+# 
+# Unicodeblock Smileys:                https://de.wikipedia.org/wiki/Unicodeblock_Smileys
+# Emoticons (Unicode block):           https://en.wikipedia.org/wiki/Emoticons_(Unicode_block)
+# Copy and Paste Emoji:                https://getemoji.com/
+# Full Emoji List, v14.0:              https://unicode.org/emoji/charts/full-emoji-list.html
+# Chess symbols in Unicode:            https://en.wikipedia.org/wiki/Chess_symbols_in_Unicode
+# Chess Symbols to copy and paste:     https://qwerty.dev/chess-symbols-to-copy-and-paste/
 
 import pygame
-
-WHITE = (255, 255, 255)
-BLACK = (0, 0, 0)
 
 pygame.init()
 window = pygame.display.set_mode((500, 500))
 
 seguisy80 = pygame.font.SysFont("segoeuisymbol", 80)
-queenblack = "♔"
-queenblack = '\u2654'
-queenblacktext = seguisy80.render(queenblack, True, BLACK)
+unicode_text = "♔ \u265C 😀 \U0001F603"
+text_surface = seguisy80.render(unicode_text, True, "black")
 
 run = True
 while run:  
@@ -26,8 +29,8 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-    window.fill(WHITE)
-    window.blit(queenblacktext, (100, 100))
+    window.fill("lightgray")
+    window.blit(text_surface, text_surface.get_rect(center = window.get_rect().center))
     pygame.display.flip()
 
 pygame.quit()

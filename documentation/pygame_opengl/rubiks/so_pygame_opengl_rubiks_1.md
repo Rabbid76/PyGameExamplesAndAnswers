@@ -1,4 +1,4 @@
-[![StackOverflow](https://stackexchange.com/users/flair/7322082.png)](https://stackoverflow.com/users/5577765/rabbid76?tab=profile) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![reply.it](../../resource/logo/Repl_it_logo_80.png) reply.it](https://repl.it/repls/folder/PyGame%20Examples)
+[![StackOverflow](https://stackexchange.com/users/flair/7322082.png)](https://stackoverflow.com/users/5577765/rabbid76?tab=profile) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![reply.it](../../../resource/logo/Repl_it_logo_80.png) reply.it](https://repl.it/repls/folder/PyGame%20Examples)
 
 ---
 
@@ -114,7 +114,7 @@ To draw the cubes, it is sufficient to call the method `draw` in a loop:
 
 The implementation of the class `Cube` works for any *NxNxN* Rubik's cube. 
 
-See the example program for a *3x3x3* cube. The slices of the cube are rotated to the right by the keys <kbd>1</kbd> to <kbd>9</kbd> and to the left by the keys <kbd>F1</kbd> to <kbd>F9</kbd>:
+See the example program for a *3x3x3* cube. The slices of the cube are rotated to the right by the keys **1** to **9** and to the left by the keys **F1** to **F9**:
 
 [![][1]][1]
 

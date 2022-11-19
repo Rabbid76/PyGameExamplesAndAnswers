@@ -5,7 +5,7 @@
 # https://stackoverflow.com/questions/56624147/gl-lines-not-showing-up-on-top-of-cube/56624975#56624975
 #
 # GitHub - PyGameExamplesAndAnswers - PyGame and OpenGL immediate mode (Legacy OpenGL) - Primitive and Mesh 
-# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame_opengl/moderngl_library/pygame_opengl_immediate_mode.md
+# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame_opengl/immediate_mode/pygame_opengl_immediate_mode.md
 
 import pygame
 from OpenGL.GL import *
@@ -30,7 +30,7 @@ class Cube:
             glVertex3fv(self.v[e[1]])
         glEnd()
 
-        glEnable( GL_POLYGON_OFFSET_FILL )
+        glEnable(GL_POLYGON_OFFSET_FILL)
         glPolygonOffset( 1.0, 1.0 )
 
         glBegin(GL_QUADS)
@@ -40,13 +40,19 @@ class Cube:
                 glVertex3fv(self.v[iv])
         glEnd()
 
-        glDisable( GL_POLYGON_OFFSET_FILL )
+        glDisable(GL_POLYGON_OFFSET_FILL)
 
 def set_projection(w, h):
     glMatrixMode(GL_PROJECTION)
     glLoadIdentity()
     gluPerspective(45, w / h, 0.1, 50.0)
     glMatrixMode(GL_MODELVIEW)
+
+def screenshot(display_surface, filename):
+    size = display_surface.get_size()
+    buffer = glReadPixels(0, 0, *size, GL_RGBA, GL_UNSIGNED_BYTE)
+    screen_surf = pygame.image.fromstring(buffer, size, "RGBA")
+    pygame.image.save(screen_surf, filename)
 
 pygame.init()
 window = pygame.display.set_mode((400, 300), pygame.DOUBLEBUF | pygame.OPENGL | pygame.RESIZABLE)
@@ -59,12 +65,15 @@ angle_x, angle_y = 0, 0
 run = True
 while run:
     clock.tick(60)
+    take_screenshot = False
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
         elif event.type == pygame.VIDEORESIZE:
             glViewport(0, 0, event.w, event.h)
             set_projection(event.w, event.h)
+        elif event.type == pygame.KEYDOWN:
+            take_screenshot = True
 
     glLoadIdentity()
     glTranslatef(0, 0, -5)
@@ -75,8 +84,10 @@ while run:
 
     glClearColor(0.5, 0.5, 0.5, 1)
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
-    cube.draw()    
+    cube.draw()   
+    if take_screenshot: 
+        screenshot(window, "cube.png")
     pygame.display.flip()
-
+    
 pygame.quit()
 exit()

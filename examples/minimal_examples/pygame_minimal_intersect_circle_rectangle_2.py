@@ -2,10 +2,12 @@
 # https://www.pygame.org/docs/ref/math.html
 #
 # Issue finding side of collision for Circle-Rectangle collision
-# https://stackoverflow.com/questions/61718259/issue-finding-side-of-collision-for-circle-rectangle-collision
+# https://stackoverflow.com/questions/61718259/issue-finding-side-of-collision-for-circle-rectangle-collision/61719115#61719115
 #
 # GitHub - PyGameExamplesAndAnswers - Collision and Intersection - Rectangle and circle
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_collision_and_intesection.md
+#
+# https://replit.com/@Rabbid76/PyGame-NearestPointOnRectangle
 
 import pygame
 import math

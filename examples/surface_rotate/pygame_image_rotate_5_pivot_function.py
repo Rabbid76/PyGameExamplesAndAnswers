@@ -10,7 +10,7 @@
 # GitHub - PyGameExamplesAndAnswers - Collision and Intersection - Circle and circle
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_surface_rotate.md
 #
-# https://repl.it/@Rabbid76/PyGame-RotateAroundPivot
+# https://replit.com/@Rabbid76/PyGame-RotateAroundPivot
 
 import pygame
 import os
@@ -22,29 +22,25 @@ clock = pygame.time.Clock()
 
 def blitRotate(surf, image, pos, originPos, angle):
 
-    # calcaulate the axis aligned bounding box of the rotated image
-    w, h       = image.get_size()
-    box        = [pygame.math.Vector2(p) for p in [(0, 0), (w, 0), (w, -h), (0, -h)]]
-    box_rotate = [p.rotate(angle) for p in box]
-    min_box    = (min(box_rotate, key=lambda p: p[0])[0], min(box_rotate, key=lambda p: p[1])[1])
-    max_box    = (max(box_rotate, key=lambda p: p[0])[0], max(box_rotate, key=lambda p: p[1])[1])
+    # offset from pivot to center
+    image_rect = image.get_rect(topleft = (pos[0] - originPos[0], pos[1]-originPos[1]))
+    offset_center_to_pivot = pygame.math.Vector2(pos) - image_rect.center
+    
+    # roatated offset from pivot to center
+    rotated_offset = offset_center_to_pivot.rotate(-angle)
 
-    # calculate the translation of the pivot 
-    pivot        = pygame.math.Vector2(originPos[0], -originPos[1])
-    pivot_rotate = pivot.rotate(angle)
-    pivot_move   = pivot_rotate - pivot
-
-    # calculate the upper left origin of the rotated image
-    origin = (pos[0] - originPos[0] + min_box[0] - pivot_move[0], pos[1] - originPos[1] - max_box[1] + pivot_move[1])
+    # roatetd image center
+    rotated_image_center = (pos[0] - rotated_offset.x, pos[1] - rotated_offset.y)
 
     # get a rotated image
     rotated_image = pygame.transform.rotate(image, angle)
+    rotated_image_rect = rotated_image.get_rect(center = rotated_image_center)
 
     # rotate and blit the image
-    surf.blit(rotated_image, origin)
+    surf.blit(rotated_image, rotated_image_rect)
   
     # draw rectangle around the image
-    pygame.draw.rect(surf, (255, 0, 0), (*origin, *rotated_image.get_size()),2)
+    pygame.draw.rect(surf, (255, 0, 0), (*rotated_image_rect.topleft, *rotated_image.get_size()),2)
 
 def blitRotate2(surf, image, topleft, angle):
 

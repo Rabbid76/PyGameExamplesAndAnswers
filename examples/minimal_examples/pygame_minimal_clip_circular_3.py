@@ -1,13 +1,13 @@
 # pygame.Surface object
 # https://www.pygame.org/docs/ref/surface.html
 #
-# How to fill only certain parts of the window in pygame?
-# https://stackoverflow.com/questions/61657481/how-to-fill-only-certain-circular-parts-of-the-window-in-pygame/61658124#61658124
+# How do I focus light or how do I only draw certain circular parts of the window in pygame?
+# https://stackoverflow.com/questions/61657481/how-do-i-focus-light-or-how-do-i-only-draw-certain-circular-parts-of-the-window/61658124#61658124
 #
 # GitHub - PyGameExamplesAndAnswers - Clipping - Circular clipping region
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_clipping.md
 #
-# https://repl.it/@Rabbid76/PyGame-ClipCircularRegion-3#main.py
+# https://replit.com/@Rabbid76/PyGame-ClipCircularRegion-3
 
 import pygame
 pygame.init()

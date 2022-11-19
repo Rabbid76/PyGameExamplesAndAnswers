@@ -1,44 +1,56 @@
 # pygame.Surface object
 # https://www.pygame.org/docs/ref/surface.html
 #
-# Why is alpha blending not working properly?
-# https://stackoverflow.com/questions/54342525/why-is-alpha-blending-not-working-properly-pygame/54348618#54348618
+# Pygame: Frame ghosting?
+# https://stackoverflow.com/questions/20862695/pygame-frame-ghosting/73964785#73964785 
 #
 # GitHub - PyGameExamplesAndAnswers - Blending and transparency - Transparency
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_blending_and_transaprency.md
 
-import pygame
-import pygame.font
+import pygame, math
+
 pygame.init()
-
-screen = pygame.display.set_mode((640, 400))
-
-def BlendSurface(image, pos, alpha):
-    #blendImage = image.convert_alpha()
-    #blendImage.fill((255,255,255, min(1.0,alpha)*255), None, pygame.BLEND_RGBA_MULT)
-    #screen.blit(blendImage, pos)
-    alphaVal = int(max(0, min(254, alpha*254)))
-    image.set_alpha(alphaVal)
-    screen.blit(image, pos)
-
+window = pygame.display.set_mode((400, 400))
 clock = pygame.time.Clock()
 
-font = pygame.font.SysFont('Times New Roman', 100)
-text = font.render('blend text', False, (255, 255, 0))
+image1 = pygame.Surface((400, 400))
+image1.fill("white")
+pygame.draw.circle(image1, "black", (200, 100), 50, 5)
+image2 = pygame.Surface((400, 400))
+image2.fill("white")
+pygame.draw.line(image2, "black", (200, 150), (200, 230), 5)
+pygame.draw.line(image2, "black", (200, 180), (120, 140), 5)
+pygame.draw.line(image2, "black", (200, 180), (280, 140), 5)
+pygame.draw.line(image2, "black", (200, 230), (170, 300), 5)
+pygame.draw.line(image2, "black", (200, 230), (230, 300), 5)
+image3 = pygame.Surface((400, 400))
+image3.fill("white")
+pygame.draw.circle(image3, "black", (180, 85), 10, 5)
+pygame.draw.circle(image3, "black", (220, 85), 10, 5)
+pygame.draw.line(image3, "black", (200, 95), (200, 115), 5)
+pygame.draw.arc(image3, "black", (180, 100, 40, 30), math.pi, 0, 5)
 
-i = 0
-run = False
-while not run:
-    clock.tick(60)
+images = [image1, image2, image3]
+for image in images:
+    image.set_colorkey("white")
+    image.set_alpha(10)
+
+window.fill("white")
+count = 0
+run = True
+while run:
+    clock.tick(20)
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            run = True
+            run = False 
 
-    i = i + 1 if i <= 200 else 0
-
-    screen.fill((0, 0, 255))
-    BlendSurface(text, (100, 100), i/200) 
+    index = count // 26
+    count += 1
+    if index < len(images):
+        if count % 26 == 25:
+            images[index].set_alpha(255)
+        window.blit(images[index], (0, 0))
     pygame.display.flip()
-    
+
 pygame.quit()
 exit()

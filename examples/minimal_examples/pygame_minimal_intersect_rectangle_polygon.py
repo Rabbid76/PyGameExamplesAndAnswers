@@ -2,10 +2,12 @@
 # https://www.pygame.org/docs/ref/math.html
 #
 # Detecting collisions between polygons and rectangles in Pygame
-# https://stackoverflow.com/questions/64095396/detecting-collisions-between-polygons-and-rectangles-in-pygame
+# https://stackoverflow.com/questions/64095396/detecting-collisions-between-polygons-and-rectangles-in-pygame/64106246#64106246
 #
 # GitHub - PyGameExamplesAndAnswers - Collision and Intersection - Rectangle and polygon
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_collision_and_intesection.md
+#
+# https://replit.com/@Rabbid76/PyGame-CollisionPolygonRectangle
 
 import pygame
 

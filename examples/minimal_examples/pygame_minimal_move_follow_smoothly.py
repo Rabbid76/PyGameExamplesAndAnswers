@@ -1,17 +1,20 @@
 # pygame.math module, pygame.math.Vector2 object
 # https://www.pygame.org/docs/ref/math.html
 #
-# Sprite follow another flexible way within certain distance limits
-# https://stackoverflow.com/questions/60064644/sprite-follow-another-flexible-way-within-certain-distance-limits
-
 # How to make smooth movement in pygame
-# https://stackoverflow.com/questions/64087982/how-to-make-smooth-movement-in-pygame/64088747?noredirect=1 
+# https://stackoverflow.com/questions/64087982/how-to-make-smooth-movement-in-pygame/64088747#64088747
+#
+# Sprite follow another flexible way within certain distance limits
+# https://stackoverflow.com/questions/60064644/sprite-follow-another-flexible-way-within-certain-distance-limits/60082313#60082313
 #
 # GitHub - Move towards target - Follow target or mouse
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_move_towards_target.md
+#
+# https://replit.com/@Rabbid76/PyGame-FollowMouseSmoothly
 
 import pygame
 
+VELOCITY         = 5
 LERP_FACTOR      = 0.05
 minimum_distance = 25
 maximum_distance = 100
@@ -26,6 +29,7 @@ def FollowMe(pops, fpos):
         direction_vector    = (target_vector - follower_vector) / distance
         min_step            = max(0, distance - maximum_distance)
         max_step            = distance - minimum_distance
+        #step_distance       = min(max_step, max(min_step, VELOCITY))
         step_distance       = min_step + (max_step - min_step) * LERP_FACTOR
         new_follower_vector = follower_vector + direction_vector * step_distance
 

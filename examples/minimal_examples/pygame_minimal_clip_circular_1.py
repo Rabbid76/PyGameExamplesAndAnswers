@@ -7,7 +7,7 @@
 # GitHub - PyGameExamplesAndAnswers - Clipping - Circular clipping region
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_clipping.md
 #
-# https://repl.it/@Rabbid76/PyGame-ClipCircularRegion-1#main.py
+# https://replit.com/@Rabbid76/PyGame-ClipCircularRegion-1
 
 import pygame
 pygame.init()

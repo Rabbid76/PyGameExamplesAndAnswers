@@ -2,22 +2,23 @@
 # https://www.pygame.org/docs/ref/key.html
 #
 # How to get keyboard input in pygame?
-# https://stackoverflow.com/questions/16044229/how-to-get-keyboard-input-in-pygame
+# https://stackoverflow.com/questions/16044229/how-to-get-keyboard-input-in-pygame/64494842#64494842
 #
 # How can I make a sprite move when key is held down
-# https://stackoverflow.com/questions/9961563/how-can-i-make-a-sprite-move-when-key-is-held-down
+# https://stackoverflow.com/questions/9961563/how-can-i-make-a-sprite-move-when-key-is-held-down/64611463#64611463
 #
 # How to get if a key is pressed pygame
 # https://stackoverflow.com/questions/59830738/how-to-get-if-a-key-is-pressed-pygame/59831073#59831073
-
+#
 # GitHub - PyGameExamplesAndAnswers - Keys and keyboard events - Keys
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_keys_and_keyboard_event.md 
+#
+# https://replit.com/@Rabbid76/PyGame-ContinuousMovement
 
 import pygame
 
 pygame.init()
-
-window = pygame.display.set_mode((500, 500))
+window = pygame.display.set_mode((300, 300))
 clock = pygame.time.Clock()
 
 rect = pygame.Rect(0, 0, 20, 20)

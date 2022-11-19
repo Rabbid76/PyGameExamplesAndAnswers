@@ -6,6 +6,8 @@
 #
 # GitHub - PyGameExamplesAndAnswers - Move towards target - Shoot bullets towards target or mouse
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_move_towards_target.md
+#
+# https://replit.com/@Rabbid76/PyGame-FireBulletInDirectionOfMouse
 
 import math
 import pygame

@@ -5,18 +5,18 @@
 # https://www.pygame.org/docs/ref/sprite.html
 #
 # Pygame mask collision
-# https://stackoverflow.com/questions/60077813/pygame-mask-collision
+# https://stackoverflow.com/questions/60077813/pygame-mask-collision/60078039#60078039
 #
 # GitHub - Sprite, Group and Sprite mask - Sprite mask
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_sprite_and_sprite_mask.md
 #
-# https://repl.it/@Rabbid76/PyGame-SpriteMask#main.py
+# https://replit.com/@Rabbid76/PyGame-SpriteMask
 
 import pygame
 
 class SpriteObject(pygame.sprite.Sprite):
     def __init__(self, x, y, w, h, color):
-        pygame.sprite.Sprite.__init__(self)
+        super().__init__()
         self.angle = 0
         self.original_image = pygame.Surface([w, h], pygame.SRCALPHA)
         self.original_image.fill(color)

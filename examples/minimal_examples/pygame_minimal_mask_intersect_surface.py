@@ -4,17 +4,18 @@
 # pygame.Surface object
 # https://www.pygame.org/docs/ref/surface.html
 #
-# PyGame collision with masks is not working
-# https://stackoverflow.com/questions/57455811/pygame-collision-with-masks-is-not-working/57499484#57499484
+# PyGame collision with masks
+# https://stackoverflow.com/questions/57455811/pygame-collision-with-masks/57499484#57499484
 #
 # Collision between masks in PyGame
 # https://stackoverflow.com/questions/55817422/collision-between-masks-in-pygame/55818093#55818093
 #
 # GitHub - Sprite, Group and Sprite mask - Sprite mask
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_sprite_and_sprite_mask.md
+#
+# https://replit.com/@Rabbid76/PyGame-SurfaceMaskIntersect
 
 import os
-import math
 import pygame
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../resource'))
 

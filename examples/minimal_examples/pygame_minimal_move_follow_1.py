@@ -2,10 +2,12 @@
 # https://www.pygame.org/docs/ref/math.html
 #
 # Pygame: Image chasing the mouse cursor from certain length
-# https://stackoverflow.com/questions/55168892/pygame-image-chasing-the-mouse-cursor-from-certain-length
+# https://stackoverflow.com/questions/55168892/pygame-image-chasing-the-mouse-cursor-from-certain-length/55169273#55169273
 #
 # GitHub - Move towards target - Follow target or mouse
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_move_towards_target.md
+#
+# https://replit.com/@Rabbid76/PyGame-FollowMouse
 
 import pygame
 

@@ -1,13 +1,13 @@
 # pygame.draw module
 # https://www.pygame.org/docs/ref/draw.html
 #  
-# Pygame Drawing a Rectangle
-# https://stackoverflow.com/questions/6339057/draw-a-transparent-rectangle-in-pygame/64630102#64630102
+# Draw a transparent rectangles and polygons in pygame
+# https://stackoverflow.com/questions/6339057/draw-a-transparent-rectangles-and-polygons-in-pygame/64630102#64630102
 # 
 # GitHub - PyGameExamplesAndAnswers - Shape and contour
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_draw_shape_and_contour.md
 #
-# https://repl.it/@Rabbid76/PyGame-TransparentShapes#main.py
+# https://replit.com/@Rabbid76/PyGame-TransparentShapes
 
 import pygame
 

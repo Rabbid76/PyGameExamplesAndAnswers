@@ -4,28 +4,14 @@
 # Changing ememy's color to show that it is aking damage?
 # https://stackoverflow.com/questions/63734429/changing-ememys-color-to-show-that-it-is-aking-damage/63745242#63745242
 #
-# GitHub - PyGameExamplesAndAnswers - Blending and transparency - Change color of an image
+# GitHub - PyGameExamplesAndAnswers - Blending and transparency - Change color of an image - Change the color of a surface area (mask)
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_blending_and_transaprency.md
+#
+# https://replit.com/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-3
 
 import pygame
-import random
-#import os
-#os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'c:/temp'))
-
-pygame.init()
-window = pygame.display.set_mode((200, 200))
-
-image = pygame.Surface((128, 128), pygame.SRCALPHA)
-image.fill((0, 0, 0, 0))
-pygame.draw.rect(image, (255, 128, 64), (8, 8, 112, 112))
-for cpt in [(64, 64), (32, 32), (96, 32), (32, 96), (96, 96)]:
-    pygame.draw.circle(image, (0, 0, 0), cpt, 8)
-#pygame.image.save(image, 'TestImage1.jpg')
-
-maskImage = pygame.Surface((128, 128))
-for cpt in [(64, 64), (32, 32), (96, 32), (32, 96), (96, 96)]:
-    pygame.draw.circle(maskImage, (255, 255, 255), cpt, 8)
-#pygame.image.save(maskImage, 'TestImageMask1.bmp')
+import os
+os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../resource'))
 
 def changColor(image, maskImage, newColor):
     colouredImage = pygame.Surface(image.get_size())
@@ -40,6 +26,19 @@ def changColor(image, maskImage, newColor):
 
     return finalImage
 
+pygame.init()
+window = pygame.display.set_mode((404, 84))
+
+image = pygame.image.load('icon/avatar64.png').convert_alpha()
+maskImage = pygame.image.load('icon/avatar64mask.png').convert_alpha()
+
+colors = []
+for hue in range (0, 360, 60):
+    colors.append(pygame.Color(0))
+    colors[-1].hsla = (hue, 100, 50, 100)
+
+images = [changColor(image, maskImage, c) for c in colors]
+
 clock = pygame.time.Clock()
 nextColorTime = 0
 run = True
@@ -49,14 +48,9 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-    currentTime = pygame.time.get_ticks()
-    if nextColorTime <= currentTime:
-        nextColorTime = currentTime + 1000
-        newColor = [random.randrange(255) for _ in range(3)]
-        coloredImage = changColor(image, maskImage, newColor)
-
     window.fill((255, 255, 255))
-    window.blit(coloredImage, (36, 36))
+    for i, image in enumerate(images):
+        window.blit(image, (10 + i * 64, 10))
     pygame.display.flip()
 
 pygame.quit()

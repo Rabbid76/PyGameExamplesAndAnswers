@@ -9,6 +9,8 @@
 #
 # GitHub - Mouse - Mouse and mouse event
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_mouse_and_mosuse_events.md
+#
+# https://replit.com/@Rabbid76/PyGame-MouseEvents
 
 import pygame
 
@@ -30,6 +32,8 @@ while run:
             run = False
         
         elif event.type == pygame.MOUSEBUTTONDOWN:
+            if event.button == pygame.BUTTON_MIDDLE:
+                print('xx')
             text = '{} MOUSEBUTTONDOWN at ({}, {})'.format(button_name(event.button), *event.pos)
 
         elif event.type == pygame.MOUSEBUTTONDOWN:

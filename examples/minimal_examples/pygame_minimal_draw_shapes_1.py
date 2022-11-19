@@ -2,10 +2,12 @@
 # https://www.pygame.org/docs/ref/draw.html
 #  
 # Pygame Drawing a Rectangle
-# https://stackoverflow.com/questions/19780411/pygame-drawing-a-rectangle
+# https://stackoverflow.com/questions/19780411/pygame-drawing-a-rectangle/64629716#64629716
 # 
 # GitHub - PyGameExamplesAndAnswers - Shape and contour
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_draw_shape_and_contour.md
+#
+# https://replit.com/@Rabbid76/PyGame-Shapes
 
 import pygame
 

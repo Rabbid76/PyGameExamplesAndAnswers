@@ -7,7 +7,7 @@
 # GitHub - PyGameExamplesAndAnswers - Draw 3D
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_3D.md
 #
-# https://repl.it/@Rabbid76/PyGame-3D#main.py
+# https://replit.com/@Rabbid76/PyGame-3D
 
 import math
 import pygame

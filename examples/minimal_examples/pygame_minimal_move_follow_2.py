@@ -3,6 +3,8 @@
 #
 # GitHub - Move towards target - Follow target or mouse
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_move_towards_target.md
+#
+# https://replit.com/@Rabbid76/PyGame-FollowBall
 
 import os
 import math

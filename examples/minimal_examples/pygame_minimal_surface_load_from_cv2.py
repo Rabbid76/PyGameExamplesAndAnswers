@@ -23,7 +23,7 @@ def cv2ImageToSurface(cv2Image):
         format = 'RGB'
     else:
         format = 'RGBA' if cv2Image.shape[2] == 4 else 'RGB'
-        cv2Image[:, :, [0, 2]] = cv2Image[:, :, [2, 0]]
+        cv2Image[:, :, [0, 2]] = cv2Image[:, :, [2, 0]]    
     surface = pygame.image.frombuffer(cv2Image.flatten(), size, format)
     return surface.convert_alpha() if format == 'RGBA' else surface.convert()
 
@@ -32,7 +32,7 @@ window = pygame.display.set_mode((400, 400))
 clock = pygame.time.Clock()
 
 cv2Image1 = cv2.imread('texture/woodtiles.jpg', cv2.IMREAD_GRAYSCALE)
-cv2Image2 = cv2.imread('texture/woodtiles.jpg', cv2.IMREAD_UNCHANGED)
+cv2Image2 = cv2.imread('image/parrot1.png', cv2.IMREAD_UNCHANGED)
 cv2Image3 = cv2.imread('icon/Apple1-256.png', cv2.IMREAD_UNCHANGED)
 pygameSurface1 = cv2ImageToSurface(cv2Image1)
 pygameSurface2 = cv2ImageToSurface(cv2Image2)

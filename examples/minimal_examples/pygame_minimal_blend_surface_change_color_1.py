@@ -1,70 +1,80 @@
 # pygame.Surface object
 # https://www.pygame.org/docs/ref/surface.html
 #
-# Changing colour of a surface without overwriting transparency
-# https://stackoverflow.com/questions/64190277/changing-colour-of-a-surface-without-overwriting-transparency
+# Trying to make sections of sprite change colour, but whole sprite changes instead
+# https://stackoverflow.com/questions/58385570/trying-to-make-sections-of-sprite-change-colour-but-whole-sprite-changes-instea/58402923#58402923
 #
-# GitHub - PyGameExamplesAndAnswers - Blending and transparency - Change color of an image
+# GitHub - PyGameExamplesAndAnswers - Blending and transparency - Change color of an image - Change the color of a surface area (mask)
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_blending_and_transaprency.md
+#
+# https://replit.com/@Rabbid76/PyGame-ChangeColorOfSurfaceArea
+
 
 import pygame
 
-class Rectangle(pygame.sprite.Sprite):
-    def __init__(self):
-        pygame.sprite.Sprite.__init__(self)
-        self.original_image = pygame.Surface((150, 150))
-        self.image = self.original_image
-        self.rect = self.image.get_rect(center = (150, 150))
-
-    def set_colour(self, colour_value):
-        self.colour = colour_value
-        self.original_image.fill(self.colour)
-
-        whiteTransparent = pygame.Surface(self.image.get_size(), pygame.SRCALPHA)
-        whiteTransparent.fill((255, 255, 255, 0))
-        self.image.blit(whiteTransparent, (0, 0), special_flags = pygame.BLEND_MAX)
-
-        self.image.blit(self.original_image, (0, 0), special_flags = pygame.BLEND_MULT)
-
-    def set_outline(self, thickness):
-        self.thickness = thickness
-        size = self.image.get_size()
-
-        calc = thickness/100
-        p_width, p_height = size[0], size[1]
-        width, height = size[0]*calc, size[1]*calc
-
-        self.image = self.image.convert_alpha()
-
-        center_x, center_y = (p_width//2)-(width//2), (p_height//2)-(height//2)
-        pygame.draw.rect(self.image, (0, 0, 0, 0), (center_x, center_y, width, height))
+colour = (0, 0, 255, 0)
 
 pygame.init()
-window = pygame.display.set_mode((300, 300))
-clock = pygame.time.Clock()
+window = pygame.display.set_mode((500, 500))
 
-sprite = Rectangle()
-sprite.set_colour((255, 0, 0, 255))
-sprite.set_outline(50)
+font = pygame.font.SysFont('Times New Roman', 20)
 
-group = pygame.sprite.Group(sprite)
+image = pygame.Surface((64, 64), pygame.SRCALPHA)
+image.fill((0, 0, 0, 0))
+pygame.draw.circle(image, (255, 255, 255, 255), (32, 32), 32)
+pygame.draw.rect(image, (255, 0, 0, 255), (16, 16, 32, 32))
 
-colorVal = 0
-colorAdd = 5
+mask = pygame.Surface((64, 64), pygame.SRCALPHA)
+mask.fill((0, 0, 0, 0))
+pygame.draw.rect(mask, (255, 255, 255, 255), (16, 16, 32, 32))
+
+
+# Create coloured image the size of the entire sprite
+coloured_image = pygame.Surface(image.get_size())
+coloured_image.fill(colour)
+
+# create mask area
+masked = mask.copy()
+masked.blit(coloured_image, (0, 0), None, pygame.BLEND_RGBA_MULT)
+
+
+# create the final image
+final_image = image.copy()
+final_image.blit(masked, (0, 0), None)
+
+#final_image =  mask.copy()
+#final_image.blit(coloured_image, (0, 0), None, pygame.BLEND_RGBA_MULT)
+
+#masked = final_image.copy()
+
+# put the source image on top of the colored aread
+#final_image.blit(image, (0, 0), None)
+
+
+# main application loop
 run = True
 while run:
-    clock.tick(60)
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
 
-    sprite.set_colour((min(colorVal, 255), max(0, min(511-colorVal, 255)), 0, 255))
-    colorVal += colorAdd
-    if colorVal <= 0 or colorVal >= 511:
-        colorAdd *= -1
-
     window.fill(0)
-    group.draw(window)
+
+    window.blit(image, (20, 20))
+    window.blit(font.render("image", True, (255, 255, 255)), (100, 35))
+
+    window.blit(mask, (20, 90))
+    window.blit(font.render("mask", True, (255, 255, 255)), (100, 105))
+
+    window.blit(coloured_image, (20, 160))
+    window.blit(font.render("coloured_image", True, (255, 255, 255)), (100, 175))
+
+    window.blit(masked, (20, 230))
+    window.blit(font.render("masked", True, (255, 255, 255)), (100, 245))
+
+    window.blit(final_image, (20, 310))
+    window.blit(font.render("final image", True, (255, 255, 255)), (100, 325))
+
     pygame.display.flip()
 
 pygame.quit()

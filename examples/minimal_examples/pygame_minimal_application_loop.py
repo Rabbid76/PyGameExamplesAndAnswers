@@ -10,7 +10,7 @@
 # GitHub - PyGameExamplesAndAnswers - Event and application loop
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_event_and_application_loop.md
 #
-# https://repl.it/@Rabbid76/PyGame-MinimalApplicationLoop
+# https://replit.com/@Rabbid76/PyGame-MinimalApplicationLoop
 
 import pygame
 
@@ -22,6 +22,8 @@ clock = pygame.time.Clock()
 # main application loop
 run = True
 while run:
+
+    # limit frames per second
     clock.tick(60)
 
     # event loop

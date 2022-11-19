@@ -4,12 +4,6 @@
 # GitHub - PyGameExamplesAndAnswers - Keys and keyboard events - Keys
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_keys_and_keyboard_event.md 
 
-# GitHub - PyGameExamplesAndAnswers - Rectangle - Use a rectangle as a frame and limit the object to a rectangular area
-# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_rectangle.md 
-
-# GitHub - PyGameExamplesAndAnswers - Display, display position, resize, coordinate system and scroll - Size
-# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_display_resize_and_scroll.md 
-
 import pygame
 
 pygame.init()

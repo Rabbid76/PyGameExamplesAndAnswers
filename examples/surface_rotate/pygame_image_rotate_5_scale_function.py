@@ -7,7 +7,7 @@
 # GitHub - PyGameExamplesAndAnswers - Collision and Intersection - Circle and circle
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_surface_rotate.md
 #
-# https://repl.it/@Rabbid76/PyGame-RotateAroundPivotAndZoom#main.py
+# https://replit.com/@Rabbid76/PyGame-RotateAroundPivotAndZoom#main.py
 
 import pygame
 import os

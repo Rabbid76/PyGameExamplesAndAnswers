@@ -1,8 +1,6 @@
-[![StackOverflow](https://stackexchange.com/users/flair/7322082.png)](https://stackoverflow.com/users/5577765/rabbid76?tab=profile) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![reply.it](../../resource/logo/Repl_it_logo_80.png) reply.it](https://repl.it/repls/folder/PyGame%20Examples)
+[![StackOverflow](https://stackexchange.com/users/flair/7322082.png)](https://stackoverflow.com/users/5577765/rabbid76?tab=profile) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![reply.it](../../../resource/logo/Repl_it_logo_80.png) reply.it](https://repl.it/repls/folder/PyGame%20Examples)
 
 ---
-
-:construction: **under construction**
 
 # PyGame and ModernGL library
 
@@ -18,4 +16,9 @@ Related Stack Overflow questions:
 
 ## ModernGL and PyGame Sprite
 
-:scroll: **[Minimal example - PyGame Sprite](../../../examples/pygame_opengl/moderngl_library/moderngl_minimal_pygame_sprite.py)**
+Related Stack Overflow questions:
+
+- [Render pygame sprites with pyopengl](https://stackoverflow.com/questions/54543587/render-pygame-sprites-with-pyopengl/65653236#65653236)  
+  ![Render pygame sprites with pyopengl](https://i.stack.imgur.com/VEkp8.png)
+
+  :scroll: **[Minimal example - PyGame Sprite](../../../examples/pygame_opengl/moderngl_library/moderngl_minimal_pygame_sprite.py)**

@@ -1,21 +1,26 @@
 [![StackOverflow](https://stackexchange.com/users/flair/7322082.png)](https://stackoverflow.com/users/5577765/rabbid76?tab=profile) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![reply.it](../../resource/logo/Repl_it_logo_80.png) reply.it](https://repl.it/repls/folder/PyGame%20Examples)
 
+"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
+Martin Fowler (1999)
+
 ---
 
 # Rotate towards target or mouse
 
 Related Stack Overflow questions:
 
-- [How to rotate an image(player) to the mouse direction?](https://stackoverflow.com/questions/58603835/how-to-rotate-an-imageplayer-to-the-mouse-direction/58604116#58604116)  
+- **[How to rotate an image(player) to the mouse direction?](https://stackoverflow.com/questions/58603835/how-to-rotate-an-imageplayer-to-the-mouse-direction/58604116#58604116)**  
   [How do I make my player rotate towards mouse position?](https://stackoverflow.com/questions/56627414/how-do-i-make-my-player-rotate-towards-mouse-position/56627834#56627834)  
   [Still Having Problems With Rotating Cannon's Properly Towards The Player PyGame](https://stackoverflow.com/questions/62520375/still-having-problems-with-rotating-cannons-properly-towards-the-player-pygame)  
+  [How do I make image rotate with mouse python](https://stackoverflow.com/questions/65573379/how-do-i-make-image-rotate-with-mouse-python/65575874#65575874)  
   ![How to rotate an image(player) to the mouse direction?](https://i.stack.imgur.com/0E6u6.gif)
   ![How do I make my player rotate towards mouse position?](https://i.stack.imgur.com/eOdjl.gif)
   ![Still Having Problems With Rotating Cannon's Properly Towards The Player PyGame](https://i.stack.imgur.com/PGm4q.gif)
+  ![How do I make image rotate with mouse python](https://i.stack.imgur.com/B1CrI.gif)
 
   :scroll: **[Minimal example - Rotate surface towards mouse](../../examples/minimal_examples/pygame_minimal_rotate_to_target_1.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateWithMouse](https://repl.it/@Rabbid76/PyGame-RotateWithMouse#main.py)</kbd>
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateWithMouse](https://replit.com/@Rabbid76/PyGame-RotateWithMouse#main.py)**
   
   - [PyGame move drawn rect(not image) in the same way as the player, including rotation](https://stackoverflow.com/questions/59549149/pygame-move-drawn-rectnot-image-in-the-same-way-as-the-player-including-rotat/59552025#59552025)  
   ![PyGame move drawn rect(not image) in the same way as the player, including rotation](https://i.stack.imgur.com/ItYvA.gif)

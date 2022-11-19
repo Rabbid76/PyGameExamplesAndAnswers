@@ -15,26 +15,24 @@ import math
 import pygame
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../resource'))
 
-def blitRotate(surf, image, pos, originPos, angle):
+def blitRotate(surf, image, origin, pivot, angle):
 
-    # calcaulate the axis aligned bounding box of the rotated image
-    w, h         = image.get_size()
-    sin_a, cos_a = math.sin(math.radians(angle)), math.cos(math.radians(angle)) 
-    min_x, min_y = min([0, sin_a*h, cos_a*w, sin_a*h + cos_a*w]), max([0, sin_a*w, -cos_a*h, sin_a*w - cos_a*h])
+    # offset from pivot to center
+    image_rect = image.get_rect(topleft = (origin[0] - pivot[0], origin[1]-pivot[1]))
+    offset_center_to_pivot = pygame.math.Vector2(origin) - image_rect.center
+    
+    # roatated offset from pivot to center
+    rotated_offset = offset_center_to_pivot.rotate(-angle)
 
-    # calculate the translation of the pivot 
-    pivot        = pygame.math.Vector2(originPos[0], -originPos[1])
-    pivot_rotate = pivot.rotate(angle)
-    pivot_move   = pivot_rotate - pivot
-
-    # calculate the upper left origin of the rotated image
-    origin = (pos[0] - originPos[0] + min_x - pivot_move[0], pos[1] - originPos[1] - min_y + pivot_move[1])
+    # roatetd image center
+    rotated_image_center = (origin[0] - rotated_offset.x, origin[1] - rotated_offset.y)
 
     # get a rotated image
     rotated_image = pygame.transform.rotate(image, angle)
+    rotated_image_rect = rotated_image.get_rect(center = rotated_image_center)
 
     # rotate and blit the image
-    surf.blit(rotated_image, origin)
+    surf.blit(rotated_image, rotated_image_rect)
   
 pygame.init()
 size = (400,400)
