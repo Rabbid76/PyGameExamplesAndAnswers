@@ -653,6 +653,15 @@ def intersect_line_line(P0, P1, Q0, Q1):
     return None
 ```
 
+## Line and Circle
+
+Related Stack Overflow questions:
+
+- [line collision detector with circles](https://stackoverflow.com/questions/74592905/line-collision-detector-with-circles/74593239#74593239)  
+  ![line collision detector with circles](https://i.stack.imgur.com/0GnYq.gif)
+
+  :scroll: **[Minimal example - Find the intersection of a line and a circle](../../examples/minimal_examples/pygame_minimal_intersect_circle_line.py)**
+
 ## Rectangle and polygon
 
 Related Stack Overflow questions:
