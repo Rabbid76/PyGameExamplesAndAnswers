@@ -660,7 +660,9 @@ Related Stack Overflow questions:
 - [line collision detector with circles](https://stackoverflow.com/questions/74592905/line-collision-detector-with-circles/74593239#74593239)  
   ![line collision detector with circles](https://i.stack.imgur.com/0GnYq.gif)
 
-  :scroll: **[Minimal example - Find the intersection of a line and a circle](../../examples/minimal_examples/pygame_minimal_intersect_circle_line.py)**
+  :scroll: **[Minimal example - Find the intersection of an endless line and a circle](../../examples/minimal_examples/pygame_minimal_intersect_circle_line.py)**
+
+  :scroll: **[Minimal example - Find the intersection of a line segment and a circle](../../examples/minimal_examples/pygame_minimal_intersect_circle_linesegment.py)**
 
 ## Rectangle and polygon
 
