@@ -103,7 +103,7 @@ while not done:
 Now the image seems to arbitrary change its position, because the size of the image changes by the rotation and origin is always the top left of the bounding rectangle of the image.
 
 This can be compensated by comparing the [axis aligned bounding box](https://en.wikipedia.org/wiki/Minimum_bounding_box) of the image before the rotation and after the rotation.  
-For the following math [`pygame.math.Vector2`](https://www.pygame.org/docs/ref/math.html) is used. Note in screen coordinates the y points down the screen, but the mathematical y axis points form the bottom to the top. This causes that the y axis has to be "flipped" during calculations  
+For the following math [`pygame.math.Vector2`](https://www.pygame.org/docs/ref/math.html) is used. Note in screen coordinates the y-axis points down the screen, but the mathematical y axis points form the bottom to the top. This causes that the y axis has to be "flipped" during calculations  
 
 Set up a list with the 4 corner points of the bounding box:
 
