@@ -17,7 +17,7 @@ Related Stack Overflow questions:
 - [Overlap between mask and fired beams in Pygame [AI car model vision]](https://stackoverflow.com/questions/62008457/overlap-between-mask-and-fired-beams-in-pygame-ai-car-model-vision/62082726#62082726)  
   ![Overlap between mask and fired beams in Pygame [AI car model vision]](https://i.stack.imgur.com/YyFbN.gif)
 
-- [Problem with calculating line intersections](ow.com/questions/56312503/problem-with-calculating-line-intersections/56312654#56312654)  
+- [Problem with calculating line intersections](https://stackoverflow.com/questions/56312503/problem-with-calculating-line-intersections/56312654#56312654)  
   ![Problem with calculating line intersections](https://i.stack.imgur.com/l2NS9.png)
 
 - [cant get raycast to work from angles 90 to 270 pygame](https://stackoverflow.com/questions/73514673/cant-get-raycast-to-work-from-angles-90-to-270-pygame/73516630#73516630)  
