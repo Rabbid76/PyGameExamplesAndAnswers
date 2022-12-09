@@ -463,7 +463,7 @@ Note, a collision of a `Sprite` object and a [`Group`](https://www.pygame.org/do
 
 Related Stack Overflow questions:
 
-- [How can i collide with a 45 degree slope?](https://stackoverflow.com/questions/66153261/how-can-i-collide-with-a-45-degree-slope/66158012#66158012)
+- [How can i collide with a 45 degree slope?](https://stackoverflow.com/questions/66153261/how-can-i-collide-with-a-45-degree-slope/66158012#66158012)  
   ![How can i collide with a 45 degree slope?](https://i.stack.imgur.com/gfPYW.gifv)
 - [when the rectangle descends the ramp, the rectangle shakes](https://stackoverflow.com/questions/70521047/when-the-rectangle-descends-the-ramp-the-rectangle-shakes/70521216#70521216)  
   ![when the rectangle descends the ramp, the rectangle shakes](https://i.stack.imgur.com/B5znW.gif)
@@ -474,8 +474,8 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [Line is detected as diagonal of rectangle while using collidepoint function in pygame](https://stackoverflow.com/questions/56100547/how-do-i-check-collision-between-a-line-and-a-rect-in-pygame/74117346#74117346)  
-  ![Line is detected as diagonal of rectangle while using collidepoint function in pygame](https://i.stack.imgur.com/YrZKU.gif)
+- [How do I check collision between a line and a rect in pygame?](https://stackoverflow.com/questions/56100547/how-do-i-check-collision-between-a-line-and-a-rect-in-pygame/74117346#74117346)  
+  ![How do I check collision between a line and a rect in pygame?](https://i.stack.imgur.com/YrZKU.gif)
 
   :scroll: **[Minimal example - Intersect rectangle and line](../../examples/minimal_examples/pygame_minimal_intersect_rectnagle_line.py)**
 

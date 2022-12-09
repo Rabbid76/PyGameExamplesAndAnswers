@@ -1,4 +1,4 @@
-# Line is detected as diagonal of rectangle while using collidepoint function in pygame
+# How do I check collision between a line and a rect in pygame?
 # https://stackoverflow.com/questions/56100547/how-do-i-check-collision-between-a-line-and-a-rect-in-pygame/74117346#74117346
 #
 # GitHub - PyGameExamplesAndAnswers - Collision and Intersection - Rectangle and line
