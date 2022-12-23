@@ -234,7 +234,7 @@ import copy
 ```
 
 ```py
-self.board = copy.deepcopy(s.start_position)`
+self.board = copy.deepcopy(s.start_position)
 ```
 
 Note, not all object can be _deep_ copied. For instance a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) cannot be _deep_ copied. 
