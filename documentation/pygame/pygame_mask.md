@@ -79,6 +79,11 @@ Related Stack Overflow questions:
 
   scroll: **[Minimal example - Keepn in mask with overlapping area](../../examples/minimal_examples/pygame_minimal_collide_in_mask_1.py)**
 
+- [How to know if two ellipses are colliding](https://stackoverflow.com/questions/65323156/how-to-know-if-two-ellipses-are-colliding/74922965#74922965)  
+  ![How to know if two ellipses are colliding](https://i.stack.imgur.com/9VWYL.gif)
+
+  :scroll: **[Minimal example - Ellipse mask overlap](../../examples/minimal_examples/pygame_minimal_mask_intersect_ellipses.py)**
+
 ## Mask count pixel
 
 Related Stack Overflow questions:

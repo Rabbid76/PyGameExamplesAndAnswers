@@ -194,3 +194,5 @@ Related Stack Overflow questions:
 - [How to use Pygame touch events in a mobile game?](https://stackoverflow.com/questions/69593109/how-to-use-pygame-touch-events-in-a-mobile-game/69593913#69593913)
 
 :scroll: **[Minimal example - Touch event](../../examples/minimal_examples/pygame_minimal_touch_event_1.py)**
+
+- [Is it possible to drag two sprites independently using FINGERDOWN in pygame on mobile?](https://stackoverflow.com/questions/74891922/is-it-possible-to-drag-two-sprites-independently-using-fingerdown-in-pygame-on-m/74919117#74919117)

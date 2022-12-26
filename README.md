@@ -111,6 +111,7 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/73716557/why-am-i-not-getting-appropriate-values-for-the-outline-i-am-creating-mask-wit/74172766#74172766"><img src="https://i.stack.imgur.com/TsGJb.png" height="100" title="Sprite outline"></a><!--
 --><a href="https://stackoverflow.com/questions/74163435/how-to-animate-the-position-of-an-object-or-sprite-in-pygame-and-move-it-towards/74163522#74163522"><img src="https://i.stack.imgur.com/LGU5o.gif" height="100" title="Move along path"></a><!--
 ---><a href="https://stackoverflow.com/questions/74592905/line-collision-detector-with-circles/74593239#74593239"><img src="https://i.stack.imgur.com/0GnYq.gif" height="100" title="Intersect line and circle"></a><!--
+---><a href="https://stackoverflow.com/questions/65323156/how-to-know-if-two-ellipses-are-colliding/74922965#74922965"><img src="https://i.stack.imgur.com/9VWYL.gif" height="100" title="Ellipse mask overlap"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  
