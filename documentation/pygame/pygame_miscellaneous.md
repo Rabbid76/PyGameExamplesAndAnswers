@@ -421,7 +421,3 @@ Related Stack Overflow questions:
 
 :scroll: **[Minimal example - parabola](../../examples/minimal_examples/pygame_minimal_parabola.py)**
 
-[How to correctly update the grid in falling sand simulation?](https://stackoverflow.com/questions/71257560/how-to-correctly-update-the-grid-in-falling-sand-simulation/71257698#71257698)  
-![How to correctly update the grid in falling sand simulation?](https://i.stack.imgur.com/b3GRi.gif)  
-
-:scroll: **[Minimal example - parabola](../../examples/minimal_examples/pygame_minimal_falling_sand.py)**

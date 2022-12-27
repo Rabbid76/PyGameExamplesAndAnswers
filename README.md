@@ -112,6 +112,8 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/74163435/how-to-animate-the-position-of-an-object-or-sprite-in-pygame-and-move-it-towards/74163522#74163522"><img src="https://i.stack.imgur.com/LGU5o.gif" height="100" title="Move along path"></a><!--
 ---><a href="https://stackoverflow.com/questions/74592905/line-collision-detector-with-circles/74593239#74593239"><img src="https://i.stack.imgur.com/0GnYq.gif" height="100" title="Intersect line and circle"></a><!--
 ---><a href="https://stackoverflow.com/questions/65323156/how-to-know-if-two-ellipses-are-colliding/74922965#74922965"><img src="https://i.stack.imgur.com/9VWYL.gif" height="100" title="Ellipse mask overlap"></a><!--
+---><a href="https://stackoverflow.com/questions/74925508/making-falling-objects-in-pygame/74926867#74926867"><img src="https://i.stack.imgur.com/Yhc61.gif" height="100" title="Falling fireballs"></a><!--
+---><a href="https://stackoverflow.com/questions/71257560/how-to-correctly-update-the-grid-in-falling-sand-simulation/71257698#71257698"><img src="https://i.stack.imgur.com/b3GRi.gif" height="100" title="Sand"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  

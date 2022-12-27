@@ -1,8 +1,8 @@
 # How to correctly update the grid in falling sand simulation?
 # https://stackoverflow.com/questions/71257560/how-to-correctly-update-the-grid-in-falling-sand-simulation/71257698#71257698
 #
-# GitHub - PyGameExamplesAndAnswers - Miscellaneous - Collection
-# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_miscellaneous.md
+# GitHub - PyGameExamplesAndAnswers - Motion and movement - Gravity
+# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_movement_and_motion.md
 
 import pygame
 import random

@@ -161,6 +161,16 @@ See [Jump](pygame_jump.md)
 
 Related Stack Overflow questions:
 
+- [Making falling objects in pygame](https://stackoverflow.com/questions/74925508/making-falling-objects-in-pygame/74926867#74926867)  
+  ![Making falling objects in pygame](https://i.stack.imgur.com/Yhc61.gif)
+
+  :scroll: **[Minimal example - falling objects](../../examples/minimal_examples/pygame_minimal_falling_objects_1.py)**
+
+- [How to correctly update the grid in falling sand simulation?](https://stackoverflow.com/questions/71257560/how-to-correctly-update-the-grid-in-falling-sand-simulation/71257698#71257698)  
+  ![How to correctly update the grid in falling sand simulation?](https://i.stack.imgur.com/b3GRi.gif)  
+
+  :scroll: **[Minimal example - falling sand](../../examples/minimal_examples/pygame_minimal_falling_sand.py)**
+
 - [How do you properly implement gravity to a free floating space object and some sort of friction when thrusting in opposite direction](https://stackoverflow.com/questions/65546677/how-do-you-properly-implement-gravity-to-a-free-floating-space-object-and-some-s/65548182#65548182)
 
 - [Pygame Bouncy Ball Sinks Through Floor](https://stackoverflow.com/questions/64864966/pygame-bouncy-ball-sinks-through-floor/64865054#64865054)  
