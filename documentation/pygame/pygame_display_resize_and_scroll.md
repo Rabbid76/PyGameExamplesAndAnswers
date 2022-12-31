@@ -188,8 +188,8 @@ Related Stack Overflow questions:
 
 - [Scale Everything On Pygame Display Surface](https://stackoverflow.com/questions/64341589/scale-everything-on-pygame-display-surface/64341784#64341784)
 - [How do I make my screen zoom in and out in pygame?](https://stackoverflow.com/questions/64079174/how-do-i-make-my-screen-zoom-in-and-out-in-pygame/64079239#64079239)
-- [Zooming in and out of a PyGame window with all objects still in place](https://stackoverflow.com/questions/64936805/zooming-in-and-out-of-a-pygame-window-with-all-objects-still-in-place/64937795#64937795)  
-  ![Zooming in and out of a PyGame window with all objects still in place](https://i.stack.imgur.com/qYHGr.gif)
+- [How to zoom in and out of an image pygame and using the mousposition as the center of the zoom](https://stackoverflow.com/questions/64936805/how-to-zoom-in-and-out-of-an-image-pygame-and-using-the-mousposition-as-the-cent)  
+  ![How to zoom in and out of an image pygame and using the mousposition as the center of the zoom](https://i.stack.imgur.com/qYHGr.gif)
 
   :scroll: **[Minimal example - Display zoom](../../examples/minimal_examples/pygame_minimal_display_zoom.py)**
 

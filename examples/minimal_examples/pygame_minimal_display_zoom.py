@@ -1,8 +1,8 @@
 # pygame.display module
 # https://www.pygame.org/docs/ref/display.html
-
-# Zooming in and out of a PyGame window with all objects still in place
-# https://stackoverflow.com/questions/64936805/zooming-in-and-out-of-a-pygame-window-with-all-objects-still-in-place/64937795#64937795
+#
+# How to zoom in and out of an image pygame and using the mousposition as the center of the zoom
+# https://stackoverflow.com/questions/64936805/how-to-zoom-in-and-out-of-an-image-pygame-and-using-the-mousposition-as-the-cent
 #
 # GitHub - PyGameExamplesAndAnswers - Display, display position and Resize - Scale and zoom window
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_display_resize_and_scroll.md

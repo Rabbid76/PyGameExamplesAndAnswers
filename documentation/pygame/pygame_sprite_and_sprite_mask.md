@@ -16,7 +16,7 @@ Related Stack Overflow questions:
 - [Created multiple instances of the same image using a loop, can I move each instance of the image independently?](https://stackoverflow.com/questions/56415073/created-multiple-instances-of-the-same-image-using-a-loop-can-i-move-each-insta/56415305#56415305)
 - [How can I deepcopy a pygame sprite group?](https://stackoverflow.com/questions/57500397/how-can-i-deepcopy-a-pygame-sprite-group)
 
-- **[How can I add objects to a "pygame.sprite.Group()"?**](https://stackoverflow.com/questions/73924256/how-can-i-add-objects-to-a-pygame-sprite-group/73924281#73924281)  
+- **[How can I add objects to a "pygame.sprite.Group()"?](https://stackoverflow.com/questions/73924256/how-can-i-add-objects-to-a-pygame-sprite-group/73924281#73924281)**  
 - [Making and using pygame sprites for donkey kong style game](https://stackoverflow.com/questions/68566126/making-and-using-pygame-sprites-for-donkey-kong-style-game/68600795#68600795)**
 
   :scroll: **[Minimal example - Minimal sprite image](../../examples/minimal_examples/pygame_minimal_sprite_image.py)**
@@ -131,7 +131,7 @@ enemy = min([e for e in chased.sprites()], key=lambda e: pow(e.x-entity.x, 2) + 
 
 Related Stack Overflow questions:
 
-- [**How do you program collision in classes?**](https://stackoverflow.com/questions/69331228/how-do-you-program-collision-in-classes/69332148#69332148)
+- **[How do you program collision in classes?](https://stackoverflow.com/questions/69331228/how-do-you-program-collision-in-classes/69332148#69332148)**
   ![How do you program collision in classes?](https://i.stack.imgur.com/7eoyB.gif)
 - [Collisions still aren't getting detected in pygame](https://stackoverflow.com/questions/63465025/collisions-still-arent-getting-detected-in-pygame/63465289#63465289)
 - [How do you assign a “rect” attribute to a pygame.sprite.rect rectangle in Pygame?](https://stackoverflow.com/questions/61370439/how-do-you-assign-a-rect-attribute-to-a-pygame-sprite-rect-rectangle-in-pygame/61371148#61371148)
