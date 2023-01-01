@@ -185,6 +185,15 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [How to make my sprite bounce off the boundaries in pygame](https://stackoverflow.com/questions/64839823/how-to-make-my-sprite-bounce-off-the-boundaries-in-pygame/64842460?noredirect=1)
+
+
+## Bounding rectangle
+
+Related Stack Overflow questions:
+
+- [How to pin an image in the center of sprite rect](https://stackoverflow.com/questions/74973872/how-to-pin-an-image-in-the-center-of-sprite-rect/74973887#74973887)  
+  ![How to pin an image in the center of sprite rect](https://i.stack.imgur.com/ac49b.png)  
+
 ## Sprite mask
 
 Related Stack Overflow questions:

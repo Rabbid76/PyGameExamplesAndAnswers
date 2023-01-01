@@ -49,6 +49,8 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Clip circular 5](../../examples/minimal_examples/pygame_minimal_clip_circular_5.py)**
 
+- [How do you clip a circle (or any non-Rect) from an image in pygame?](https://stackoverflow.com/questions/74970507/how-do-you-clip-a-circle-or-any-non-rect-from-an-image-in-pygame/74970625#74970625)  
+
 ## Polygon clipping
 
 :scroll: **[Minimal example - Clip polygon](../../examples/minimal_examples/pygame_minimal_clip_polygon_1.py)**

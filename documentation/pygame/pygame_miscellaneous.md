@@ -227,7 +227,8 @@ surface = pygame.image.load(filePath)
 
 Related Stack Overflow questions:
 
-- [is it possible to run pygame or pyglet in a browser?](https://stackoverflow.com/questions/8452927/is-it-possible-to-run-pygame-or-pyglet-in-a-browser)
+- [is it possible to run pygame or pyglet in a browser?](https://stackoverflow.com/questions/8452927/is-it-possible-to-run-pygame-or-pyglet-in-a-browser)  
+- [How do I fix pygame.error: video system not initialized in replit](https://stackoverflow.com/questions/74971120/how-do-i-fix-pygame-error-video-system-not-initialized-in-replit/74971134#74971134)  
 
 ## Debug
 
