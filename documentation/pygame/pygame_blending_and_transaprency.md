@@ -78,6 +78,15 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Blend frames](../../examples/minimal_examples/pygame_minimal_blend_text.py)**
 
+### Fade in and out
+
+Related Stack Overflow questions:
+
+- [Im trying to make a fade in and out](https://stackoverflow.com/questions/75001219/im-trying-to-make-a-fade-in-and-out/75003503#75003503)  
+  ![Im trying to make a fade in and out](https://i.stack.imgur.com/GHwXk.gif)
+
+  :scroll: **[Minimal example - Fade in and out image](../../examples/minimal_examples/pygame_minimal_surface_fade_1.py)**
+
 ### Change color of an image
 
 #### Change the color of the full image area
