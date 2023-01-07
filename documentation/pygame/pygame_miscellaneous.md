@@ -242,6 +242,12 @@ Related Stack Overflow questions:
 
 - [Issue with multi keys being pressed at once for two player game](https://stackoverflow.com/questions/59914409/issue-with-multi-keys-being-pressed-at-once-for-two-player-game)
 
+## Lag
+
+Related Stack Overflow questions:
+
+- [Why is this simple pygame program lagging?](https://stackoverflow.com/questions/66375253/why-is-this-simple-pygame-program-lagging)
+
 ## Errors
 
 ### Attribute error `_init_`

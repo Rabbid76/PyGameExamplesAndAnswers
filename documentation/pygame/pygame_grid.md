@@ -36,7 +36,7 @@ Related Stack Overflow quest
   ![scene](https://i.stack.imgur.com/sqIcy.gif)
   ![scene](https://i.stack.imgur.com/KMpLP.gif)
 
-- [How can i draw rectangles in multiple rows and columns in pygame?](https://stackoverflow.com/questions/66506971/how-can-i-draw-rectangles-in-multiple-rows-and-columns-in-pygame/66506991#66506991)
+- [How can i draw rectangles in multiple rows and columns in pygame?](https://stackoverflow.com/questions/66506971/how-can-i-draw-rectangles-in-multiple-rows-and-columns-in-pygame/66506991#66506991)  
   ![How can i draw rectangles in multiple rows and columns in pygame?](https://i.stack.imgur.com/z6N55.png)
 
 - [how do I cover a window with scalable rects in pygame](https://stackoverflow.com/questions/71009583/how-do-i-cover-a-window-with-scalable-rects-in-pygame)  

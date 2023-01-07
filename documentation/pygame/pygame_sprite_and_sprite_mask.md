@@ -63,7 +63,7 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [**What does pygame.sprite.Group() do**](https://stackoverflow.com/questions/68765971/what-does-pygame-sprite-group-do/68767767#68767767)  
+- **[What does pygame.sprite.Group() do](https://stackoverflow.com/questions/68765971/what-does-pygame-sprite-group-do/68767767#68767767)**  
 
   :scroll: **[Minimal example - Minimal sprite group](../../examples/minimal_examples/pygame_minimal_sprite_group.py)**
 

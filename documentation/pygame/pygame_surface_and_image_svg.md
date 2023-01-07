@@ -17,6 +17,7 @@ Related Stack Overflow questions:
 - [How can you draw more detailed/smoother images in pygame?](https://stackoverflow.com/questions/65492782/how-can-you-draw-more-detailed-smoother-images-in-pygame/65492828#65492828)  
 - [Upscale an SVG image in python without losing its quality](https://stackoverflow.com/questions/69508937/upscale-an-svg-image-in-python-without-losing-its-quality/69509545#69509545)  
   ![Upscale an SVG image in python without losing its quality](https://i.stack.imgur.com/2VxvP.png)
+- [python-chess not showing pieces on board](https://stackoverflow.com/questions/75000032/python-chess-not-showing-pieces-on-board)  
 
 **Since 2.0.2, SDL Image supports SVG ([Scalable Vector Graphics](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)) files (see [SDL_image 2.0](https://www.libsdl.org/projects/SDL_image)). Therefore, with pygame version 2.0.1, SVG files can be loaded into a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object with  [`pygame.image.load()`](http://www.pygame.org/docs/ref/image.html)**:
 
