@@ -115,9 +115,9 @@ while run:
             run = False
 
         if event.type == pygame.MOUSEBUTTONDOWN:
-            print("You are clicking", event.button)
+            print("clicked", event.button)
         if event.type == pygame.MOUSEBUTTONUP:
-            print("You released", event.button)
+            print("released", event.button)
 
     pygame.display.update()
 ```
