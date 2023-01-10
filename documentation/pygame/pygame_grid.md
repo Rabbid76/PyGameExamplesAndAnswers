@@ -103,8 +103,8 @@ Related Stack Overflow quest
 
 - [Nested for loop chess board coloring not working Python](https://stackoverflow.com/questions/66082526/nested-for-loop-chess-board-coloring-not-working-python/66082545#66082545)
 
-- [How to use a dictionary of images with sprite?](https://stackoverflow.com/questions/66467383/how-to-use-a-dictionary-of-images-with-sprite/66514748#66514748)  
-  ![How to use a dictionary of images with sprite?](https://i.stack.imgur.com/i0a0N.gif)
+- [How to draw a chessboard with Pygame and move the pieces on the board??](https://stackoverflow.com/questions/66467383/how-to-draw-a-chessboard-with-pygame-and-move-the-pieces-on-the-board/66514748#66514748)  
+  ![How to draw a chessboard with Pygame and move the pieces on the board??](https://i.stack.imgur.com/i0a0N.gif)
 
   :scroll: **[Minimal example - Drag chess pieces](../../examples/minimal_examples/pygame_minimal_mouse_drag_chess.py)**
 

@@ -436,8 +436,8 @@ Related Stack Overflow questions:
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseDrag](https://replit.com/@Rabbid76/PyGame-MouseDrag#main.py)**
 
-- [How to use a dictionary of images with sprite?](https://stackoverflow.com/questions/66467383/how-to-use-a-dictionary-of-images-with-sprite/66514748#66514748)  
-  ![How to use a dictionary of images with sprite?](https://i.stack.imgur.com/i0a0N.gif)
+- [How to draw a chessboard with Pygame and move the pieces on the board??](https://stackoverflow.com/questions/66467383/how-to-draw-a-chessboard-with-pygame-and-move-the-pieces-on-the-board/66514748#66514748)  
+  ![How to draw a chessboard with Pygame and move the pieces on the board??](https://i.stack.imgur.com/i0a0N.gif)
 
   :scroll: **[Minimal example - Drag chess pieces](../../examples/minimal_examples/pygame_minimal_mouse_drag_chess.py)**
 

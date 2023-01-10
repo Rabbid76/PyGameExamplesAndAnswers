@@ -4,8 +4,8 @@
 # pygame.sprite module
 # https://www.pygame.org/docs/ref/sprite.html
 #
-# How to use a dictionary of images with sprite?
-# https://stackoverflow.com/questions/66467383/how-to-use-a-dictionary-of-images-with-sprite/66514748#66514748
+# How to draw a chessboard with Pygame and move the pieces on the board??
+# https://stackoverflow.com/questions/66467383/how-to-draw-a-chessboard-with-pygame-and-move-the-pieces-on-the-board/66514748#66514748
 #
 # GitHub - Grid - Chess board, checker texture
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_grid.md
