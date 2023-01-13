@@ -343,6 +343,9 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
+- [How do you create a polygon that fills the area between 2 circles?](https://stackoverflow.com/questions/75105181/how-do-you-create-a-polygon-that-fills-the-area-between-2-circles/75109072#75109072)  
+  ![How do you create a polygon that fills the area between 2 circles?](https://i.stack.imgur.com/Sk4uj.png)
+
 - [How to slowly draw a line in Python](https://stackoverflow.com/questions/57618029/how-to-slowly-draw-a-line-in-python/57621742#57621742)  
   ![How to slowly draw a line in Python](https://i.stack.imgur.com/Uhn7W.gif)
 
