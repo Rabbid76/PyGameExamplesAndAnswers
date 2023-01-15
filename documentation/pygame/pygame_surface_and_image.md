@@ -376,7 +376,9 @@ See [Surface and image, load SVG](pygame_surface_and_image_svg.md)
 
 Related Stack Overflow questions:
 
-- [how to create an illusion of animations in pygame](https://stackoverflow.com/questions/71229981/how-to-create-an-illusion-of-animations-in-pygame/71232110#71232110)
+- [how to create an illusion of animations in pygame](https://stackoverflow.com/questions/71229981/how-to-create-an-illusion-of-animations-in-pygame/71232110#71232110)  
+- [Playing multiple animations at the same time in pygame](https://stackoverflow.com/questions/74744198/playing-multiple-animations-at-the-same-time-in-pygame/74744315#74744315)  
+  ![Playing multiple animations at the same time in pygame](https://i.stack.imgur.com/MVOaZ.gif)
 
 ### Load Sprite Sheet
 
