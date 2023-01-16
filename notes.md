@@ -21,7 +21,6 @@
         - [Not answered questions](#not-answered-questions)
         - [Text](#text-1)
         - [UI](#ui)
-        - [Glow, bloom, neon](#glow-bloom-neon)
         - [3D](#3d)
         - [PyOpenGL](#pyopengl)
         - [Threading](#threading)
