@@ -18,6 +18,9 @@
 - [How I make my python code delete the pills from my pac man game?](https://stackoverflow.com/questions/65201227/how-i-make-my-python-code-delete-the-pills-from-my-pac-man-game/65204858#65204858)  
   ![How I make my python code delete the pills from my pac man game?](https://i.stack.imgur.com/aO99q.gif)
 
+[How do I make my monster move randomly in my game](https://stackoverflow.com/questions/59327552/how-do-i-make-my-monster-move-randomly-in-my-game/59329312#59329312)  
+![scene](https://i.stack.imgur.com/J7bIM.gif)
+
 ## Maze collision detection
 
 Related Stack Overflow questions:

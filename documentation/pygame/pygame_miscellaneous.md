@@ -382,9 +382,6 @@ Related Stack Overflow questions:
 [How to code a rectangles that start from right in circular motion in pygame](https://stackoverflow.com/questions/59180556/how-to-code-a-rectangles-that-start-from-right-in-circular-motion-in-pygame/59217711#59217711)  
 ![scene](https://i.stack.imgur.com/Jskrw.png)
 
-[How do I make my monster move randomly in my game](https://stackoverflow.com/questions/59327552/how-do-i-make-my-monster-move-randomly-in-my-game/59329312#59329312)  
-![scene](https://i.stack.imgur.com/J7bIM.gif)
-
 [Pygame problem: how to execute conditional on collision?](https://stackoverflow.com/questions/59522285/pygame-problem-how-to-execute-conditional-on-collision/59522405#59522405)  
 ![scene](https://i.stack.imgur.com/iTIE0.gif)
 
