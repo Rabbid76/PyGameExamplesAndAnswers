@@ -170,11 +170,13 @@ Some examples:
   sprite1 = pygame.sprite.Sprite()
   sprite1.image = pygame.Surface((80, 80), pygame.SRCALPHA)
   pygame.draw.circle(sprite1.image, (255, 0, 0), (40, 40), 40)
-  sprite1.rect = pygame.Rect(*window.get_rect().center, 0, 0).inflate(40, 40)
+  sprite1.rect = pygame.Rect(*window.get_rect().center, 0, 0).inflate(80, 80)
+  sprite1.radius = 40
   sprite2 = pygame.sprite.Sprite()
   sprite2.image = pygame.Surface((80, 89), pygame.SRCALPHA)
   pygame.draw.circle(sprite2.image, (0, 255, 0), (40, 40), 40)
   sprite2.rect = pygame.Rect(*window.get_rect().center, 0, 0).inflate(80, 80)
+  sprite2.radius = 40
 
   all_group = pygame.sprite.Group([sprite2, sprite1])
   test_group = pygame.sprite.Group(sprite2)
