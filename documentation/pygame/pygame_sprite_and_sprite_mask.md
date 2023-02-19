@@ -93,6 +93,17 @@ sprite_list = sprite_group.sprites()
 sprite_1 = sprite_list[0]
 ```
 
+### Extend `pygame.sprite.Group.draw` with `special_flags`
+
+```py
+class MyGroup(pygame.sprite.Group):
+    def __init__(self, *args):
+        super().__init__(*args) 
+    def draw(self, surface, special_flags=0):
+        for sprite in self:
+            surface.blit(sprite.image, sprite.rect, special_flags = special_flags)
+```
+
 ### Layers and layered Group
 
 Related Stack Overflow questions:
