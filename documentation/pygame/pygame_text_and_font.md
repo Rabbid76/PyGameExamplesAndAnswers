@@ -568,3 +568,6 @@ Related Stack Overflow questions:
 
 - [Make a rect object scrollable](https://stackoverflow.com/questions/67288788/make-a-rect-object-scrollable/67289087?noredirect=1)  
   ![Make a rect object scrollable](https://i.stack.imgur.com/Dezqy.png)
+
+- [Displaying text onto pygame window from file using readline()](https://stackoverflow.com/questions/74671176/displaying-text-onto-pygame-window-from-file-using-readline)  
+  ![Displaying text onto pygame window from file using readline()](https://i.stack.imgur.com/k2m8S.gif)
