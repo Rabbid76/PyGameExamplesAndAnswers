@@ -522,7 +522,7 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [How to Flip Image After Hitting Wall - Pygame](https://stackoverflow.com/questions/65834797/how-to-flip-image-after-hitting-wall-pygame/65834912#65834912)  
+- [How to Flip Image in Pygame](https://stackoverflow.com/questions/65834797/how-to-flip-image-in-pygame)  
 
 ### Scale
 
