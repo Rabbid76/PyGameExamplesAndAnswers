@@ -243,7 +243,8 @@ Note, not all object can be _deep_ copied. For instance a [`pygame.Surface`](htt
 
 Related Stack Overflow questions:
 
-- [Why is the PyGame animation is flickering](https://stackoverflow.com/questions/62120723/why-is-the-pygame-animation-is-flickering/62120776#62120776)
+- [Why is the PyGame animation is flickering](https://stackoverflow.com/questions/62120723/why-is-the-pygame-animation-is-flickering/62120776#62120776)  
+- [How to stop sprites from "blinking" when drawn all at once](https://stackoverflow.com/questions/75638011/how-to-stop-sprites-from-blinking-when-drawn-all-at-once/75638087#75638087)  
 
 One update of the display at the end of the application loop is sufficient. Multiple calls to `pygame.display.update()` or `pygame.display.flip()` cause flickering.
 
