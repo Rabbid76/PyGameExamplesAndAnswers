@@ -80,6 +80,9 @@ Related Stack Overflow questions:
 - [Pygame cannot make image bigger over time](https://stackoverflow.com/questions/68395844/pygame-cannot-make-image-bigger-over-time/68395966#68395966)  
   ![Pygame cannot make image bigger over time](https://i.stack.imgur.com/BhC52.gif)  
 
+- [How do I create an extendable bar sprite in PyGame?](https://stackoverflow.com/questions/75561432/how-do-i-create-an-extendable-bar-sprite-in-pygame/75561623#75561623)  
+  ![How do I create an extendable bar sprite in PyGame?](https://i.stack.imgur.com/FYNjO.png)
+
 Define a zoom factor and calculate the size of the of the zoom area. e.g. If the zoom factor is 2, the area that needs to be zoomed on the window is half the width and height of the window:
 
 ```py

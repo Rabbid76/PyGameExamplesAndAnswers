@@ -219,6 +219,7 @@ Related Stack Overflow questions:
 - [How do you get pygame to give warning when player touches side of screen?](https://stackoverflow.com/questions/65279570/how-do-you-get-pygame-to-give-warning-when-player-touches-side-of-screen/65279636#65279636)  
 - [Colour Changing Bouncing Ball](https://stackoverflow.com/questions/60312365/colour-changing-bouncing-ball/60315375#60315375)  
   ![Colour Changing Bouncing Ball](https://i.stack.imgur.com/Bz0cu.gif)  
+- [how to keep polygon in screen in pygame?](https://stackoverflow.com/questions/75092185/how-to-keep-polygon-in-screen-in-pygame/75092354#75092354)  
 
 :scroll: **[Minimal example - Restrict circle to frame](../../examples/minimal_examples/pygame_minimal_intersect_frame_clamp_2.py)**
 
@@ -661,6 +662,9 @@ Related Stack Overflow questions:
 
 - [line collision detector with circles](https://stackoverflow.com/questions/74592905/line-collision-detector-with-circles/74593239#74593239)  
   ![line collision detector with circles](https://i.stack.imgur.com/0GnYq.gif)
+
+- [Trajectory plalnification](https://stackoverflow.com/questions/74595968/trajectory-plalnification/74604014#74604014)  
+  ![Trajectory plalnification](https://i.stack.imgur.com/QDsWl.gif)  
 
   :scroll: **[Minimal example - Find the intersection of an endless line and a circle](../../examples/minimal_examples/pygame_minimal_intersect_circle_line.py)**
 

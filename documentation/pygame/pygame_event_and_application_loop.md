@@ -237,16 +237,7 @@ import copy
 self.board = copy.deepcopy(s.start_position)
 ```
 
-Note, not all object can be _deep_ copied. For instance a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) cannot be _deep_ copied. 
-
-## Flickering
-
-Related Stack Overflow questions:
-
-- [Why is the PyGame animation is flickering](https://stackoverflow.com/questions/62120723/why-is-the-pygame-animation-is-flickering/62120776#62120776)  
-- [How to stop sprites from "blinking" when drawn all at once](https://stackoverflow.com/questions/75638011/how-to-stop-sprites-from-blinking-when-drawn-all-at-once/75638087#75638087)  
-
-One update of the display at the end of the application loop is sufficient. Multiple calls to `pygame.display.update()` or `pygame.display.flip()` cause flickering.
+Note, not all object can be _deep_ copied. For instance a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) cannot be _deep_ copied.
 
 ## Frames per second (Clock)
 

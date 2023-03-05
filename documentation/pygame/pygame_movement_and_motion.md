@@ -87,6 +87,23 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Spin in a circle 2](../../examples/minimal_examples/pygame_minimal_move_spin_in_circle_2.py)**
 
+- [how to make rotate polygon on key in pygame?](https://stackoverflow.com/questions/75116101/how-to-make-rotate-polygon-on-key-in-pygame/75116556#75116556)  
+  ![how to make rotate polygon on key in pygame?](https://i.stack.imgur.com/b1wXp.gif)  
+
+- [Bullet movement not working as expected when player sprite is moving](https://stackoverflow.com/questions/75149306/bullet-movement-not-working-as-expected-when-player-sprite-is-moving/75149510#75149510)  
+  ![Bullet movement not working as expected when player sprite is moving](https://i.stack.imgur.com/GuTUX.gif)
+
+- [pygame maintain a points position around a rotated image](https://stackoverflow.com/questions/75268174/pygame-maintain-a-points-position-around-a-rotated-image/75268205#75268205)  
+  ![pygame maintain a points position around a rotated image](https://i.stack.imgur.com/qGdiL.gif)
+
+- [How do I make a sprite rotate around another moving sprite?](https://stackoverflow.com/questions/75498320/how-do-i-make-a-sprite-rotate-around-another-moving-sprite/75498844#75498844)  
+  ![How do I make a sprite rotate around another moving sprite?](https://i.stack.imgur.com/3HtzF.gif)
+
+### Rotate and collide
+
+- [rotating player around center works but collisions with walls don't anymore](https://stackoverflow.com/questions/75051311/rotating-player-around-center-works-but-collisions-with-walls-dont-anymore/75060384#75060384)  
+  ![rotating player around center works but collisions with walls don't anymore](https://i.stack.imgur.com/rQnIg.gif)
+
 ## Move along path
 
 Related Stack Overflow questions:

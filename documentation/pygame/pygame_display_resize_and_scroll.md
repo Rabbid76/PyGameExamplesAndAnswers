@@ -17,7 +17,6 @@ Related Stack Overflow questions:
 - [Why is nothing drawn in PyGame at all?](https://stackoverflow.com/questions/65113967/why-is-nothing-drawn-in-pygame-at-all/65114059#65114059)  
 - [Why is screen not background surface does not blit onto screen?](https://stackoverflow.com/questions/64566867/why-is-screen-not-background-surface-does-not-blit-onto-screen/65508952#65508952)  
 - [Why does my Pygame window flicker when animating objects?](https://stackoverflow.com/questions/74496592/why-does-my-pygame-window-flicker-when-animating-objects)  
-- [Why is the PyGame animation is flickering](https://stackoverflow.com/questions/62120723/why-is-the-pygame-animation-is-flickering/62120776#62120776)  
 - [How do I draw a line without updating the whole screen in pygame?](https://stackoverflow.com/questions/64620388/how-do-i-draw-a-line-without-updating-the-whole-screen-in-pygame/64620675?noredirect=1#comment114264702_64620675)  
 - [How can I move the ball instead of leaving a trail all over the screen in pygame?](https://stackoverflow.com/questions/65494890/how-can-i-move-the-ball-instead-of-leaving-a-trail-all-over-the-screen-in-pygame/65494925#65494925)  
 - [pygame - surface from part of another surface](https://stackoverflow.com/questions/71538869/pygame-surface-from-part-of-another-surface/71538929#71538929)  
@@ -27,6 +26,19 @@ Each object in the scene is drawn to the `pygame.Surface` object associated with
 See [`pygame.display.flip()`](https://www.pygame.org/docs/ref/display.html#pygame.display.flip):
 
 > This will update the contents of the entire display.
+
+### Flickering
+
+Related Stack Overflow questions:
+
+- [Why is the PyGame animation is flickering](https://stackoverflow.com/questions/62120723/why-is-the-pygame-animation-is-flickering/62120776#62120776)  
+- [How to stop sprites from "blinking" when drawn all at once](https://stackoverflow.com/questions/75638011/how-to-stop-sprites-from-blinking-when-drawn-all-at-once/75638087#75638087)  
+
+One update of the display at the end of the application loop is sufficient. Multiple calls to `pygame.display.update()` or `pygame.display.flip()` cause flickering.
+
+### Updating areas
+
+- [Pygame display.update() refreshes the whole width of window instead of requested Rect only](https://stackoverflow.com/questions/75548639/pygame-display-update-refreshes-the-whole-width-of-window-instead-of-requested/75548838#75548838)  
 
 ## Size
 

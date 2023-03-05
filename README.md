@@ -115,6 +115,9 @@ Lloyd Alexander, The Book of Three
 ---><a href="https://stackoverflow.com/questions/74925508/making-falling-objects-in-pygame/74926867#74926867"><img src="https://i.stack.imgur.com/Yhc61.gif" height="100" title="Falling fireballs"></a><!--
 ---><a href="https://stackoverflow.com/questions/71257560/how-to-correctly-update-the-grid-in-falling-sand-simulation/71257698#71257698"><img src="https://i.stack.imgur.com/b3GRi.gif" height="100" title="Sand"></a><!--
 ---><a href="https://stackoverflow.com/questions/75001219/im-trying-to-make-a-fade-in-and-out/75003503#75003503"><img src="https://i.stack.imgur.com/GHwXk.gif" height="100" title="Fade image"></a><!--
+---><a href=https://stackoverflow.com/questions/75105181/how-do-you-create-a-polygon-that-fills-the-area-between-2-circles/75109072#75109072><img src="https://i.stack.imgur.com/Sk4uj.png" height="100" title="Shape with circles"></a><!--
+---><a href=https://stackoverflow.com/questions/75268174/pygame-maintain-a-points-position-around-a-rotated-image/75268205#75268205><img src="https://i.stack.imgur.com/qGdiL.gif" height="100" title="rotate around pivot"></a><!--
+---><a href=https://stackoverflow.com/questions/75268726/how-to-subtract-geometry-in-pygame/75268850#75268850><img src="https://i.stack.imgur.com/djCx2.png" height="100" title="subtract geometry"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  

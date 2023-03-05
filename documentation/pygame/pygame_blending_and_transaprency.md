@@ -189,6 +189,9 @@ def changColor(image, maskImage, newColor):
 
 ## Intersection area
 
+- [How to subtract geometry in pygame?](https://stackoverflow.com/questions/75268726/how-to-subtract-geometry-in-pygame/75268850#75268850)  
+  ![How to subtract geometry in pygame?](https://i.stack.imgur.com/djCx2.png)
+
 - [Fill the area of intersection of two Circles in PyGame](https://stackoverflow.com/questions/63058731/fill-the-area-of-intersection-of-two-circles-in-pygame/63060020#63060020)  
   ![Fill the area of intersection of two Circles in PyGame](https://i.stack.imgur.com/2ef0w.png)
   ![Fill the area of intersection of two Circles in PyGame](https://i.stack.imgur.com/zzHTY.png)
