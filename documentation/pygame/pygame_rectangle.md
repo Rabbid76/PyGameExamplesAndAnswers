@@ -62,6 +62,9 @@ Related Stack Overflow questions:
 - [Ship moves up and left faster than down and right when rotating in pygame](https://stackoverflow.com/questions/62411259/ship-moves-up-and-left-faster-than-down-and-right-when-rotating-in-pygame/65347117#65347117)  
   ![Ship moves up and left faster than down and right when rotating in pygame](https://i.stack.imgur.com/6IPS1.gif)
 
+- [moving diagonally makes player go faster](https://stackoverflow.com/questions/69246646/moving-diagonally-makes-player-go-faster/69246836#69246836)  
+  ![moving diagonally makes player go faster](https://i.stack.imgur.com/V1aYe.gif)  
+
 Since [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) is supposed to represent an area on the screen, a `pygame.Rect` object can only store integral data.  
 
 > The coordinates for Rect objects are all integers. [...]
