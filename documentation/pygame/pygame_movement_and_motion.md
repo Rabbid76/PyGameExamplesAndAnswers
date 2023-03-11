@@ -90,6 +90,8 @@ Related Stack Overflow questions:
 - [how to make rotate polygon on key in pygame?](https://stackoverflow.com/questions/75116101/how-to-make-rotate-polygon-on-key-in-pygame/75116556#75116556)  
   ![how to make rotate polygon on key in pygame?](https://i.stack.imgur.com/b1wXp.gif)  
 
+  :scroll: **[Minimal example - Rotated polygon](../../examples/minimal_examples/pygame_minimal_draw_rotated_polygon_1.py)**
+
 - [Bullet movement not working as expected when player sprite is moving](https://stackoverflow.com/questions/75149306/bullet-movement-not-working-as-expected-when-player-sprite-is-moving/75149510#75149510)  
   ![Bullet movement not working as expected when player sprite is moving](https://i.stack.imgur.com/GuTUX.gif)
 
