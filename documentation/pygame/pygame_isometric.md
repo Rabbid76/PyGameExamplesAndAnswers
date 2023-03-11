@@ -69,7 +69,7 @@ m_col, m_row = int(m_grid_pos[0]), int(m_grid_pos[1])
 
 Related Stack Overflow quest
 
-- [How to create a rhomboid in pygame](https://stackoverflow.com/questions/73651474/how-to-create-a-rhomboid-in-pygame/73652102#73652102)
+- [How to create a rhomboid in pygame](https://stackoverflow.com/questions/73651474/how-to-create-a-rhomboid-in-pygame/73652102#73652102)  
   ![How to create a rhomboid in pygame](https://i.stack.imgur.com/TRKlB.gif)  
 
   :scroll: **[Minimal example - isometric cube](../../examples/minimal_examples/pygame_minimal_isometric_cube.py)**
