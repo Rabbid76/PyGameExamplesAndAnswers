@@ -32,7 +32,7 @@ def drawArcCv2(surf, color, center, radius, width, end_angle):
     circle_image = cv2.ellipse(circle_image, (radius+2, radius+2),
         (radius-width//2, radius-width//2), 0, 0, end_angle, (*color, 255), width, lineType=cv2.LINE_AA) 
     circle_surface = pygame.image.frombuffer(circle_image.flatten(), (radius*2+4, radius*2+4), 'RGBA')
-    surf.blit(circle_surface, circle_surface.get_rect(center = center))
+    surf.blit(circle_surface, circle_surface.get_rect(center = center), special_flags=pygame.BLEND_PREMULTIPLIED)
 
 run = True
 while run:
