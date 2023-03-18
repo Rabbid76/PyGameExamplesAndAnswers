@@ -4,6 +4,55 @@
 
 # PyGame in combination with other libraries
 
+## Tkinter
+
+Related Stack Overflow questions:
+
+- [Embedding a Pygame window into a Tkinter or WxPython frame](https://stackoverflow.com/questions/23319059/embedding-a-pygame-window-into-a-tkinter-or-wxpython-frame)
+- [I'm embedding a pygame window into Tkinter, how do I manipulate the pygame window?](https://stackoverflow.com/questions/55755305/im-embedding-a-pygame-window-into-tkinter-how-do-i-manipulate-the-pygame-windo)  
+- [Draw a circle in Pygame using Tkinter](https://stackoverflow.com/questions/13545911/draw-a-circle-in-pygame-using-tkinter)
+- [Tkinter understanding mainloop](https://stackoverflow.com/questions/29158220/tkinter-understanding-mainloop)
+
+The following examples show how to embed a Pygame window in a Tkinter frame. On Windows, this example works only with [Pygame 2.2.0](https://github.com/pygame/pygame/releases) or later:
+
+:scroll: **[Minimal example - tkinter](../../examples/pygame_pysimplegui/pygame_minimla_tkinter_1.py)**
+
+```py
+import tkinter as tk
+import pygame
+import os, random
+
+root = tk.Tk()
+button_win = tk.Frame(root, width = 500, height = 25)
+button_win.pack(side = tk.TOP)
+embed_pygame = tk.Frame(root, width = 500, height = 500)
+embed_pygame.pack(side = tk.TOP)
+
+os.environ['SDL_WINDOWID'] = str(embed_pygame.winfo_id())
+os.environ['SDL_VIDEODRIVER'] = 'windib'
+pygame.display.init()
+screen = pygame.display.set_mode()
+
+def random_color():
+    global circle_color
+    circle_color = pygame.Color(0)
+    circle_color.hsla = (random.randrange(360), 100, 50, 100)
+
+random_color() 
+color_button = tk.Button(button_win, text = 'random color',  command = random_color)
+color_button.pack(side=tk.LEFT)
+
+def pygame_loop():
+    screen.fill((255, 255, 255))
+    pygame.draw.circle(screen, circle_color, (250, 250), 125)
+    pygame.display.flip()
+    root.update()  
+    root.after(100, pygame_loop)
+
+pygame_loop()
+tk.mainloop()
+```
+
 ## PySimpleGUI
 
 [PySimpleGUI](https://pysimplegui.readthedocs.io/en/latest/)
