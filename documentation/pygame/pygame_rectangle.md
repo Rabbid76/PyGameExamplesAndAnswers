@@ -165,7 +165,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [rotating a rectangle in pygame](https://stackoverflow.com/questions/68927683/rotating-a-rectangle-in-pygame/68927744#68927744)  
-  ![rotating a rectangle in pygame](https://i.stack.imgur.com/Vxo3P.gif)  
+  ![rotating a rectangle in pygame](https://i.stack.imgur.com/2NNT6.gif)  
 
   :scroll: **[Minimal example - rotate rectangle](../../examples/minimal_examples/pygame_minimal_draw_rectangle_rotated_2.py)**
 

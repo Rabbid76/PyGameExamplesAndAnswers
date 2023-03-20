@@ -3,6 +3,9 @@
 #  
 # Getting rotated rect of rotated image in Pygame
 # https://stackoverflow.com/questions/66984521/getting-rotated-rect-of-rotated-image-in-pygame/66984713#66984713
+#
+# rotating a rectangle in pygame
+# https://stackoverflow.com/questions/68927683/rotating-a-rectangle-in-pygame/68927744#68927744
 # 
 # GitHub - PyGameExamplesAndAnswers - Shape and contour - Draw rectangle
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_draw_shape_and_contour.md

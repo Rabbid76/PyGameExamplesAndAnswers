@@ -270,7 +270,7 @@ def draw_rect_angle(surf, rect, pivot, angle, width=0):
 
 :scroll: **[Minimal example - rotate rectangle](../../examples/minimal_examples/pygame_minimal_draw_rectangle_rotated_2.py)**
 
-![rotating a rectangle in pygame](https://i.stack.imgur.com/Vxo3P.gif)
+![rotating a rectangle in pygame](https://i.stack.imgur.com/2NNT6.gif)
 
 ## Draw circle
 
