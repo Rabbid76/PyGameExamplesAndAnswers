@@ -9,7 +9,7 @@ Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
 
 Related Stack Overflow questions:
 
-- [Is there a way to have different tick rates for differents parts of my code in pygame?]()  
+- [Is there a way to have different tick rates for differents parts of my code in pygame?](https://stackoverflow.com/questions/71088920/is-there-a-way-to-have-different-tick-rates-for-differents-parts-of-my-code-in-p/71089817#71089817)  
 - [I define a movement method for a character, but I don't know how to itmake it pause for a moment between each move](https://stackoverflow.com/questions/71546585/i-define-a-movement-method-for-a-character-but-i-dont-know-how-to-itmake-it-pa/71546649#71546649)
 
 If you want to control something over time in Pygame you have two options:
