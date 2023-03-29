@@ -41,8 +41,8 @@ Related Stack Overflow questions:
 - [How to improve my simulation of 3d space in pygame?](https://stackoverflow.com/questions/58674461/how-to-improve-my-simulation-of-3d-space-in-pygame/58675007#58675007)  
   ![How to improve my simulation of 3d space in pygame?](https://i.stack.imgur.com/Nwntm.gif)
 
-- [How do I hide the faces of the cube that aren't facing forwards when I rotate the cube?](https://stackoverflow.com/questions/67127291/how-do-i-hide-the-faces-of-the-cube-that-arent-facing-forwards-when-i-rotate-th/67127462#67127462)  
-  ![How do I hide the faces of the cube that aren't facing forwards when I rotate the cube?](https://i.stack.imgur.com/69sAB.gif)
+- [Using vector cross product to hide 3D faces](https://stackoverflow.com/questions/67127291/using-vector-cross-product-to-hide-3d-faces/67127462#67127462)  
+  ![Using vector cross product to hide 3D faces](https://i.stack.imgur.com/69sAB.gif)
 
 - [Pygame won't draw quads in the right order](https://stackoverflow.com/questions/67143657/pygame-wont-draw-quads-in-the-right-order/67146073#67146073)  
   ![Pygame won't draw quads in the right order](https://i.stack.imgur.com/pKxTT.gif)

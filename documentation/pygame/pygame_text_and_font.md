@@ -13,6 +13,12 @@ Related Stack Overflow questions:
 
 - [Blitting text with pygame2.1 not working correctly](https://stackoverflow.com/questions/70445036/blitting-text-with-pygame2-1-not-working-correctly/70447991#70447991)  
 
+
+## Update text
+
+- [How to update text in PyGame?](https://stackoverflow.com/questions/75846260/how-to-update-text-in-pygame/75846301#75846301)  
+- [Creating a self-updating score](https://stackoverflow.com/questions/65829981/creating-a-self-updating-score/65830377#65830377)
+
 ## Font
 
 Related Stack Overflow questions:

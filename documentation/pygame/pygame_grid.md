@@ -69,8 +69,8 @@ Related Stack Overflow quest
 - [How do you detect a click in a cell of a grid and change its color?](https://stackoverflow.com/questions/63538350/how-do-you-detect-a-click-in-a-cell-of-a-grid-and-change-its-color/63538548#63538548)  
   ![How do you detect a click in a cell of a grid and change its color?](https://i.stack.imgur.com/81Tvv.gif)
 
-- [Is it possible to update a pygame drawing attribute when a event occurs?](https://stackoverflow.com/questions/61551790/is-it-possible-to-update-a-pygame-drawing-attribute-when-a-event-occurs/61555479#61555479)  
-  ![Is it possible to update a pygame drawing attribute when a event occurs?](https://i.stack.imgur.com/rchSC.gif)
+- [Is it possible to update a pygame drawing attribute when clicking in a cell of a grid?](https://stackoverflow.com/questions/61551790/is-it-possible-to-update-a-pygame-drawing-attribute-when-clicking-in-a-cell-of-a/61555479#61555479)  
+  ![Is it possible to update a pygame drawing attribute when clicking in a cell of a grid?](https://i.stack.imgur.com/rchSC.gif)
 
 ## Diagonal
 
