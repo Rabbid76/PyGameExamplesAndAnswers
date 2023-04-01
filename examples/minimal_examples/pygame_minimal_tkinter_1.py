@@ -18,6 +18,8 @@ os.environ['SDL_WINDOWID'] = str(embed_pygame.winfo_id())
 print(os.name)
 if os.name == 'nt':
     os.environ['SDL_VIDEODRIVER'] = 'windib'
+if os.name == 'posix':
+    os.environ['SDL_VIDEODRIVER'] = 'x11'
 pygame.display.init()
 screen = pygame.display.set_mode()
 
