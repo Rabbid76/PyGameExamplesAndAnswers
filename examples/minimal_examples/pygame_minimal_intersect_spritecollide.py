@@ -44,6 +44,10 @@ while run:
             # [...]
             print(tile.rect, enemy.rect)
     
+    #c = [(t, e) for t, el in enemytilecollision.items() for e in el]
+    #for t, e in c:
+    #    print(t.rect, e.rect)
+    
     window.fill(0)
     all_group.draw(window)
     for s in collide:

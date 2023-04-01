@@ -15,7 +15,7 @@ Related Stack Overflow questions:
 
 The following examples show how to embed a Pygame window in a Tkinter frame. On Windows, this example works only with [Pygame 2.2.0](https://github.com/pygame/pygame/releases) or later:
 
-:scroll: **[Minimal example - tkinter](../../examples/pygame_pysimplegui/pygame_minimla_tkinter_1.py)**
+:scroll: **[Minimal example - tkinter](../../examples/minimal_examples/pygame_minimal_tkinter_1.py)**
 
 ```py
 import tkinter as tk

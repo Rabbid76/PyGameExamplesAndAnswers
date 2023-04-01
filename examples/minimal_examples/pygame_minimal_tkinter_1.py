@@ -15,7 +15,9 @@ embed_pygame = tk.Frame(root, width = 500, height = 500)
 embed_pygame.pack(side = tk.TOP)
 
 os.environ['SDL_WINDOWID'] = str(embed_pygame.winfo_id())
-os.environ['SDL_VIDEODRIVER'] = 'windib'
+print(os.name)
+if os.name == 'nt':
+    os.environ['SDL_VIDEODRIVER'] = 'windib'
 pygame.display.init()
 screen = pygame.display.set_mode()
 
