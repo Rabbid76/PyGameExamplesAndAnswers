@@ -3,6 +3,8 @@
 #
 # Embedding a Pygame window into a Tkinter or WxPython frame
 # https://stackoverflow.com/questions/23319059/embedding-a-pygame-window-into-a-tkinter-or-wxpython-frame
+#
+# https://www.libsdl.org/release/SDL-1.2.15/docs/html/sdlenvvars.html
 
 import tkinter as tk
 import pygame
@@ -18,6 +20,8 @@ os.environ['SDL_WINDOWID'] = str(embed_pygame.winfo_id())
 print(os.name)
 if os.name == 'nt':
     os.environ['SDL_VIDEODRIVER'] = 'windib'
+if os.name == 'posix':
+    os.environ['SDL_VIDEODRIVER'] = 'x11'
 pygame.display.init()
 screen = pygame.display.set_mode()
 
