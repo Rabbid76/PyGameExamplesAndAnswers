@@ -26,6 +26,7 @@
 Related Stack Overflow questions:
 
 - [Collision for Pygame Game Map](https://stackoverflow.com/questions/65887274/collision-for-pygame-game-map/65888081#65888081)  
+  ![Collision for Pygame Game Map](https://i.stack.imgur.com/2KOIq.gif)
 
 - [Adding collision to maze walls](https://stackoverflow.com/questions/55833941/adding-collision-to-maze-walls/55837809#55837809)  
   ![Adding collision to maze walls](https://i.stack.imgur.com/EUDwK.gif)
