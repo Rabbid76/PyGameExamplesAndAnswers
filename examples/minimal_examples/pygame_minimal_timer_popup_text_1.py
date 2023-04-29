@@ -1,8 +1,8 @@
 # pygame.time module
 # https://www.pygame.org/docs/ref/time.html
 #
-# Pygame "pop up" text
-# https://stackoverflow.com/questions/70996802/pygame-pop-up-text/70996856#70996856
+# Pygame "pop up" text - How to show an image only for a period of time?
+# https://stackoverflow.com/questions/70996802/pygame-pop-up-text-how-to-show-an-image-only-for-a-period-of-time/70996856#70996856
 #
 # GitHub - PyGameExamplesAndAnswers - Time, timer event and clock - For a period of time
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_time_and_timer_event.md

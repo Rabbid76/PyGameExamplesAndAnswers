@@ -173,8 +173,8 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Spawn text on click](../../examples/minimal_examples/pygame_minimal_timer_for_a_period_of_time_random_text.py)**
 
-- [Pygame "pop up" text](https://stackoverflow.com/questions/70996802/pygame-pop-up-text/70996856#70996856)  
-  ![Pygame "pop up" text](https://i.stack.imgur.com/TIyPv.gif)  
+- [Pygame "pop up" text - How to show an image only for a period of time?](https://stackoverflow.com/questions/70996802/pygame-pop-up-text-how-to-show-an-image-only-for-a-period-of-time/70996856#70996856)  
+  ![Pygame "pop up" text - How to show an image only for a period of time?](https://i.stack.imgur.com/TIyPv.gif)  
 
   :scroll: **[Minimal example - pop up text](../../examples/minimal_examples/pygame_minimal_timer_popup_text_1.py)**
 
