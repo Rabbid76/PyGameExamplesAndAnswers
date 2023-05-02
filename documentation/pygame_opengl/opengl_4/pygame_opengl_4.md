@@ -4,6 +4,25 @@
 
 # PyGame and OpenGL 4
 
+## Context
+
+Related Stack Overflow questions:
+
+- [Creating a context utilizing ModernGL for pygame](https://stackoverflow.com/questions/76151435/creating-a-context-utilizing-moderngl-for-pygame/76157313#76157313)
+
+
+```py
+import pygame 
+
+pygame.init()
+
+pygame.display.gl_set_attribute(pygame.GL_CONTEXT_MAJOR_VERSION, 3)
+pygame.display.gl_set_attribute(pygame.GL_CONTEXT_MINOR_VERSION, 3)
+pygame.display.gl_set_attribute(pygame.GL_CONTEXT_PROFILE_MASK, pygame.GL_CONTEXT_PROFILE_CORE)
+pygame.display.gl_set_attribute(pygame.GL_CONTEXT_FORWARD_COMPATIBLE_FLAG, True)
+DISPLAYSURf = pygame.display.set_mode((500,475), pygame.OPENGL | pygame.DOUBLEBUF)
+```
+
 ## Vertex buffer and vertex attributes
 
 Related Stack Overflow questions:
