@@ -27,6 +27,9 @@ Related Stack Overflow questions:
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SurfaceMaskIntersect](https://replit.com/@Rabbid76/PyGame-SurfaceMaskIntersect#main.py)**
 
+- **[Can't figure out how to check mask collision between two sprites](https://stackoverflow.com/questions/71535185/cant-figure-out-how-to-check-mask-collision-between-two-sprites/71536155#71536155)**  
+  ![Can't figure out how to check mask collision between two sprites](https://i.stack.imgur.com/Z2vmv.gif)
+
 - [Pygame mask collision](https://stackoverflow.com/questions/60077813/pygame-mask-collision/60078039#60078039)  
   [![Pygame mask collision](https://i.stack.imgur.com/fiLMi.gif)](https://stackoverflow.com/questions/60077813/pygame-mask-collision/60078039#60078039)  
 
