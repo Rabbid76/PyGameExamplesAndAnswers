@@ -38,7 +38,8 @@ One update of the display at the end of the application loop is sufficient. Mult
 
 ### Updating areas
 
-- [Pygame display.update() refreshes the whole width of window instead of requested Rect only](https://stackoverflow.com/questions/75548639/pygame-display-update-refreshes-the-whole-width-of-window-instead-of-requested/75548838#75548838)  
+- [Pygame display.update() refreshes the whole width of window instead of requested Rect only](https://stackoverflow.com/questions/75548639/pygame-display-update-refreshes-the-whole-width-of-window-instead-of-requested/75548838#75548838)
+- [How to clean up sprites without covering other things?](https://stackoverflow.com/questions/73342080/how-to-clean-up-sprites-without-covering-other-things/73342167#73342167)  
 
 ## Size
 
