@@ -33,6 +33,8 @@ Related Stack Overflow questions:
 - [Pygame mask collision](https://stackoverflow.com/questions/60077813/pygame-mask-collision/60078039#60078039)  
   [![Pygame mask collision](https://i.stack.imgur.com/fiLMi.gif)](https://stackoverflow.com/questions/60077813/pygame-mask-collision/60078039#60078039)  
 
+- [why collide_mask is significantly slower than collide_rect in pygame?](https://stackoverflow.com/questions/76194506/why-collide-mask-is-significantly-slower-than-collide-rect-in-pygame/76194526#76194526)
+
 - [Make a line as a sprite with its own collision in Pygame](https://stackoverflow.com/questions/34456195/make-a-line-as-a-sprite-with-its-own-collision-in-pygame/65324946#65324946)  
 - [Check collision between a image and a line](https://stackoverflow.com/questions/58662215/check-collision-between-a-image-and-a-line-pygame/58662648#58662648)  
   ![Check collision between a image and a line](https://i.stack.imgur.com/tMq2i.gif)
