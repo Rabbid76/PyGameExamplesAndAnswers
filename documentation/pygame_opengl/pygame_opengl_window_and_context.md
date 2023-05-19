@@ -118,7 +118,37 @@ You can't do that directly.
 
 However you can draw on a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object with the [`pygame.draw`](https://www.pygame.org/docs/ref/draw.html) module or [`pygame.Surface.blit`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.blit). Use [`pygame.PixelArray`](https://www.pygame.org/docs/ref/pixelarray.html) to access the pixels on the surface directly. Use the pixels to generate an OpenGL [Texture](https://www.khronos.org/opengl/wiki/Texture) object. This texture can be used in OpenGL. 
 
-In the other direction you can render into a OpenGL [Renderbuffer](https://www.khronos.org/opengl/wiki/Renderbuffer_Object) or  [Texture](https://www.khronos.org/opengl/wiki/Texture) object (see [Framebuffers](https://learnopengl.com/Advanced-OpenGL/Framebuffers)). Load the texture onto the GPU with [`glReadPixels`](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glReadPixels.xhtml) or [`glGetTexImage`](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetTexImage.xhtml) and create a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) with [`pygame.image.frombuffer`](https://www.pygame.org/docs/ref/image.html#pygame.image.frombuffer).
+```py
+def surfaceToTexture(pygame_surface):
+    rgba_surface = pygame.image.tostring(pygame_surface, 'RGBA')
+    width, height = pygame_surface.get_size()
+    texture_obj = glGenTextures(1)
+    glBindTexture(GL_TEXTURE_2D, texture_obj)
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST)
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST)
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE)
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE)
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, rgba_surface)
+    glBindTexture(GL_TEXTURE_2D, 0)
+    return texture_obj
+
+image = pygame.image.load('my_image.png')
+texture = surfaceToTexture(image)
+```
+
+In the other direction you can render into a OpenGL [Renderbuffer](https://www.khronos.org/opengl/wiki/Renderbuffer_Object) or  [Texture](https://www.khronos.org/opengl/wiki/Texture) object (see [Framebuffers](https://learnopengl.com/Advanced-OpenGL/Framebuffers)). Load the texture from the GPU with [`glReadPixels`](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glReadPixels.xhtml) or [`glGetTexImage`](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetTexImage.xhtml) and create a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) with [`pygame.image.frombuffer`](https://www.pygame.org/docs/ref/image.html#pygame.image.frombuffer).
+
+```py
+size = screen.get_size()
+buffer = glReadPixels(0, 0, *size, GL_RGBA, GL_UNSIGNED_BYTE)
+pygame.display.flip()
+screen_surf = pygame.image.fromstring(buffer, size, "RGBA")
+```
+
+```py
+image_buffer = glGetTexImage(GL_TEXTURE_2D, 0, GL_RGBA, GL_UNSIGNED_BYTE)
+image_surf = pygame.image.fromstring(image_buffer, (width, height), "RGBA")
+```
 
 - [pygame + opengl = display text](https://stackoverflow.com/questions/67608968/pygame-opengl-display-text/67639147#67639147)  
-  ![pygame + opengl = display text](https://i.stack.imgur.com/fEc07.gif)  
+  ![pygame + opengl = display text](https://i.stack.imgur.com/fEc07.gif)
