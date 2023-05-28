@@ -32,6 +32,8 @@ Related Stack Overflow questions:
 - [How to create button with transparent background and shadow in pygame?](https://stackoverflow.com/questions/72352081/how-to-create-button-with-transparent-background-and-shadow-in-pygame/72352967#72352967)  
   ![How to create button with transparent background and shadow in pygame?](https://i.stack.imgur.com/iXTLQ.gif)  
 
+- [How to pass a parameter to a function from a button in Pygame?](https://stackoverflow.com/questions/75619069/how-to-pass-a-parameter-to-a-function-from-a-button-in-pygame/75619102#75619102)
+
   :scroll: **[Minimal example - TRansparent button with shadow](../../examples/minimal_examples/pygame_minimal_ui_button_transparent_shadow.py)**
 
 ## Radio button

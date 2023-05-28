@@ -327,6 +327,17 @@ def drawAACircle(surf, color, center, radius, width):
     surf.blit(circle_surface, circle_surface.get_rect(center = center))
 ```
 
+- [Remove border from opencv generated ellipse in pygame](https://stackoverflow.com/questions/75720083/remove-border-from-opencv-generated-ellipse-in-pygame/75724348#75724348)
+
+```py
+def drawAACircle(surf, color, center, radius, width, angle):
+    circle_image = np.zeros((radius*2, radius*2, 4), dtype = np.uint8)
+    circle_image = cv2.ellipse(circle_image, (radius, radius), (radius-width, radius-width), (angle*-.5)-90 , 0, angle, (*color, 255), width, lineType=cv2.LINE_AA)  
+    circle_surf = pygame.image.frombuffer(circle_image.tobytes(), circle_image.shape[1::-1], "RGBA")
+    pos = (center[0]-radius, center[1]-radius) 
+    surf.blit(circle_surf, pos, special_flags=pygame.BLEND_PREMULTIPLIED)
+```
+
 ## Draw ellipse
 
 Related Stack Overflow questions:

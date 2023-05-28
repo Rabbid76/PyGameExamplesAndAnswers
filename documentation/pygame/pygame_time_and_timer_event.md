@@ -24,6 +24,11 @@ If you want to control something over time in Pygame you have two options:
 
 :scroll: **[Minimal example - timer event](../../examples/minimal_examples/pygame_minimal_timer_event_1.py)**
 
+- [Rendering Images At a Different Framerate Than The Game Window](https://stackoverflow.com/questions/75712024/rendering-images-at-a-different-framerate-than-the-game-window/75712065#75712065)
+  ![Rendering Images At a Different Framerate Than The Game Window](https://i.stack.imgur.com/ZTPYx.gif)
+
+:scroll: **[Minimal example - different frame rates](../../examples/minimal_examples/pygame_minimal_timer_animation_2.py)**
+
 ## Wait for a period of time
 
 Related Stack Overflow questions:

@@ -73,15 +73,12 @@ Related Stack Overflow questions:
   [How to change an image size in Pygame?](https://stackoverflow.com/questions/43046376/how-to-change-an-image-size-in-pygame/66611330#66611330)  
   ![How do I scale a PyGame image (Surface) with respect to its center?](https://i.stack.imgur.com/soWSp.gif)
 
-  :scroll: **[Minimal example - Spin](../../examples/minimal_examples/pygame_minimal_scale_center.py)**
+  :scroll: **[Minimal example - Scale](../../examples/minimal_examples/pygame_minimal_scale_center.py)**
 
 - [pygame.transform.scale does not work on the “game” surface](https://stackoverflow.com/questions/56407891/pygame-transform-scale-does-not-work-on-the-game-surface/56408482#56408482)
 
 - [Pygame cannot make image bigger over time](https://stackoverflow.com/questions/68395844/pygame-cannot-make-image-bigger-over-time/68395966#68395966)  
   ![Pygame cannot make image bigger over time](https://i.stack.imgur.com/BhC52.gif)  
-
-- [How do I create an extendable bar sprite in PyGame?](https://stackoverflow.com/questions/75561432/how-do-i-create-an-extendable-bar-sprite-in-pygame/75561623#75561623)  
-  ![How do I create an extendable bar sprite in PyGame?](https://i.stack.imgur.com/FYNjO.png)
 
 Define a zoom factor and calculate the size of the of the zoom area. e.g. If the zoom factor is 2, the area that needs to be zoomed on the window is half the width and height of the window:
 
@@ -117,6 +114,13 @@ Now `zoom_surf` has the same size as the window. `.blit` the surface to the wind
 ```py
 window.blit(zoom_surf, (0, 0))
 ```
+
+### Scale inner surface (surface with outline)
+
+- [How do I create an extendable bar sprite in PyGame?](https://stackoverflow.com/questions/75561432/how-do-i-create-an-extendable-bar-sprite-in-pygame/75561623#75561623)  
+  ![How do I create an extendable bar sprite in PyGame?](https://i.stack.imgur.com/FYNjO.png)
+
+  :scroll: **[Minimal example - Scale inner](../../examples/minimal_examples/pygame_minimal_scale_inner.py)**
 
 ## Scale and zoom window
 

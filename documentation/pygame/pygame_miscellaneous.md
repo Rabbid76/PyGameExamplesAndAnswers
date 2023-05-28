@@ -368,9 +368,6 @@ Related Stack Overflow questions:
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-7SegementDisplay](https://replit.com/@Rabbid76/PyGame-7SegementDisplay#main.py)**
 
-[How to create a “Solid” block? pygame](https://stackoverflow.com/questions/66749450/how-to-create-a-solid-block-pygame/66750322#66750322)  
-![How to create a “Solid” block? pygame](https://i.stack.imgur.com/4FIIF.gif)
-
 [Colours not printing - connect 4](https://stackoverflow.com/questions/66942419/colours-not-printing-connect-4/66943467#66943467)  
 ![Colours not printing - connect 4](https://i.stack.imgur.com/A5uFF.gif)
 
