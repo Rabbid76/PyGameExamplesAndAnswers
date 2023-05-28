@@ -15,7 +15,7 @@ pygame.init()
 window = pygame.display.set_mode((200, 100))
 clock = pygame.time.Clock()
 
-bar = pygame.image.load('icon/ScrollBar.png').convert_alpha()c
+bar = pygame.image.load('icon/ScrollBar.png').convert_alpha()
 
 def scale_bar(image, width):
     size = image.get_size()
