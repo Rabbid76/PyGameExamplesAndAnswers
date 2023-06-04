@@ -101,6 +101,8 @@ Related Stack Overflow questions:
 - [How do I make a sprite rotate around another moving sprite?](https://stackoverflow.com/questions/75498320/how-do-i-make-a-sprite-rotate-around-another-moving-sprite/75498844#75498844)  
   ![How do I make a sprite rotate around another moving sprite?](https://i.stack.imgur.com/3HtzF.gif)
 
+  :scroll: **[Minimal example - Orbit around moving object](../../examples/minimal_examples/pygame_minimal_rotate_orbit_1.py)**
+
 ### Rotate and collide
 
 - [rotating player around center works but collisions with walls don't anymore](https://stackoverflow.com/questions/75051311/rotating-player-around-center-works-but-collisions-with-walls-dont-anymore/75060384#75060384)  
