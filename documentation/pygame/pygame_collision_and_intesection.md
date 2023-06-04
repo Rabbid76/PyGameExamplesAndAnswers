@@ -340,6 +340,15 @@ Related Stack Overflow questions:
 
 :scroll: **[Minimal example - Is point in triangle](../../examples/minimal_examples/pygame_minimal_intersect_point_triangle.py)**
 
+## Point and hexagon
+
+Related Stack Overflow questions:
+
+- [Maximising Collidable area for a hexagonal "Button" in pygame](https://stackoverflow.com/questions/76399452/maximising-collidable-area-for-a-hexagonal-button-in-pygame/76399557#76399557)  
+  [Maximising Collidable area for a hexagonal "Button" in pygame](https://i.stack.imgur.com/sMVvR.gif)
+
+:scroll: **[Minimal example - Is point in triangle](../../examples/minimal_examples/pygame_minimal_intersect_point_hexagon.py)**
+
 ## Point and Circle - Click in circle
 
 Related Stack Overflow questions:
