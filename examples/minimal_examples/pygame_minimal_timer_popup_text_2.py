@@ -1,7 +1,7 @@
 # pygame.time module
 # https://www.pygame.org/docs/ref/time.html
 #
-# break down a permanent collisions into individual events in pygame
+# How can i controll collision from sprites?
 # https://stackoverflow.com/questions/71184756/how-can-i-controll-collision-from-sprites/73938856#73938856
 #
 # GitHub - PyGameExamplesAndAnswers - Time, timer event and clock - For a period of time

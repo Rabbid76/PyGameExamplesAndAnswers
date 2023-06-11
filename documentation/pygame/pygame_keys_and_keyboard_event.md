@@ -41,7 +41,7 @@ Related Stack Overflow questions:
 
 When does it make sense to use keyboard events (`pygame.KEYDOWN`, `pygame.KEYUP` see [`pygame.event`](https://www.pygame.org/docs/ref/event.html)), and when is it better to get the state of the keys ([`pygame.key.get_pressed()`](https://www.pygame.org/docs/ref/key.html))?
 
-[`pygame.key.get_pressed()`](https://www.pygame.org/docs/ref/key.html#pygame.key.get_pressed) returns a sequence with the state of each key. If a key is held down, the state for the key is `1`, otherwise `0`. So you can calculate the resulting movement when 2 keys are pressed with `keys[pygame.K_d] - keys[pygame.K_a]` and `keys[pygame.K_s] - keys[pygame.K_w]`. Use [`pygame.key.get_pressed()`](https://www.pygame.org/docs/ref/key.html#pygame.key.get_pressed) to evaluate the current state of a button and get continuous movement.  
+[`pygame.key.get_pressed()`](https://www.pygame.org/docs/ref/key.html#pygame.key.get_pressed) returns a sequence with the state of each key. If a key is held down, the state for the key is `1`, otherwise `0`. It is a snapshot of the keys at that very moment The new state of the keys must be retrieved continuously in each frame. So you can calculate the resulting movement when 2 keys are pressed with `keys[pygame.K_d] - keys[pygame.K_a]` and `keys[pygame.K_s] - keys[pygame.K_w]`. Use [`pygame.key.get_pressed()`](https://www.pygame.org/docs/ref/key.html#pygame.key.get_pressed) to evaluate the current state of a button and get continuous movement.  
 
 ```py
 while True:

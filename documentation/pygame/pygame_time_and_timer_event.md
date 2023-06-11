@@ -183,8 +183,8 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - pop up text](../../examples/minimal_examples/pygame_minimal_timer_popup_text_1.py)**
 
-- [break down a permanent collisions into individual events in pygame](https://stackoverflow.com/questions/71184756/how-can-i-controll-collision-from-sprites/73938856#73938856)  
-  ![break down a permanent collisions into individual events in pygame](https://i.stack.imgur.com/eRmUW.gif)  
+- [How can i controll collision from sprites?](https://stackoverflow.com/questions/71184756/how-can-i-controll-collision-from-sprites/73938856#73938856)  
+  ![How can i controll collision from sprites?](https://i.stack.imgur.com/eRmUW.gif)  
 
   :scroll: **[Minimal example - random pop up text](../../examples/minimal_examples/pygame_minimal_timer_popup_text_2.py)**
 
