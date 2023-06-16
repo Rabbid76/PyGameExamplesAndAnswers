@@ -14,6 +14,9 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Move sprite](../../examples/minimal_examples/pygame_minimal_move_object_2.py)**
 
+- [how to teleport player to the other side of the screen when he touches the screen border?](https://stackoverflow.com/questions/74352270/how-to-teleport-player-to-the-other-side-of-the-screen-when-he-touches-the-scree/74352401#74352401)  
+  ![how to teleport player to the other side of the screen when he touches the screen border?](https://i.stack.imgur.com/XQ8ZZ.gif)
+
 - [make multiple objects automatically move for how many objects have been specified in pygame](https://stackoverflow.com/questions/55723064/make-multiple-objects-automatically-move-for-how-many-objects-have-been-specifie/55723441#55723441)  
   ![scene](https://i.stack.imgur.com/JxNz3.gif)
 

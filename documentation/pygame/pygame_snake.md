@@ -38,7 +38,9 @@ Related Stack Overflow questions:
 - [Snake bodies not appending to snake correctly](https://stackoverflow.com/questions/60925569/snake-bodies-not-appending-to-snake-correctly/60934394#60934394)  
   ![Snake bodies not appending to snake correctly](https://i.stack.imgur.com/vUDx7.gif)
 
-- [how to solve bug on snake wall teleportation](https://stackoverflow.com/questions/64624092/how-to-solve-bug-on-snake-wall-teleportation/64624385#64624385)
+- [how to solve bug on snake wall teleportation](https://stackoverflow.com/questions/64624092/how-to-solve-bug-on-snake-wall-teleportation/64624385#64624385)  
+  [How can I teleport my snake through the wall with Vector2 in python pygame](https://stackoverflow.com/questions/73708127/how-can-i-teleport-my-snake-through-the-wall-with-vector2-in-python-pygame/73708971#73708971)  
+  ![how to solve bug on snake wall teleportation](https://i.stack.imgur.com/XQ8ZZ.gif)
 
 - [Can anyone tell me how to increase the snake size in my code?](https://stackoverflow.com/questions/65465695/can-anyone-tell-me-how-to-increase-the-snake-size-in-my-code/65466064#65466064)  
   ![Can anyone tell me how to increase the snake size in my code?](https://i.stack.imgur.com/bSk2B.gif)
