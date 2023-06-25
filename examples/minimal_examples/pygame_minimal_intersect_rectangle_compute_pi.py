@@ -1,7 +1,7 @@
 # pygame.Rect object
 # https://www.pygame.org/docs/ref/rect.html
 #
-# Animation glitch in Pygame
+# Animation glitch when simulating the collision of two blocks for the calculation of PI
 # https://stackoverflow.com/questions/56912016/animation-glitch-in-pygame
 #
 # GitHub - PyGameExamplesAndAnswers - Collision and Intersection - Rectangle and rectangle

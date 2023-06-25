@@ -402,8 +402,8 @@ Related Stack Overflow questions:
 **[Why is my collision test always returning 'true' and why is the position of the rectangle of the image always wrong (0, 0)?](https://stackoverflow.com/questions/57730329/pygame-collide-rect-function-always-returning-true/57730378#57730378)**
 - [Pygame: colliding rectangles with other rectangles in the same list](https://stackoverflow.com/questions/54793858/pygame-colliding-rectangles-with-other-rectangles-in-the-same-list/54794440#54794440)
 - [Does pygame.colliderect() work the same way in both of these situations?](https://stackoverflow.com/questions/60936579/does-pygame-colliderect-work-the-same-way-in-both-of-these-situations/60936704#60936704)
-- [Animation glitch in Pygame](https://stackoverflow.com/questions/56912016/animation-glitch-in-pygame/56914481#56914481)  
-  ![Animation glitch in Pygame](https://i.stack.imgur.com/iTfNl.gif)
+- [Animation glitch when simulating the collision of two blocks for the calculation of PI](https://stackoverflow.com/questions/56912016/animation-glitch-when-simulating-the-collision-of-two-blocks-for-the-calculation/56914481#56914481)  
+  ![Animation glitch when simulating the collision of two blocks for the calculation of PI](https://i.stack.imgur.com/iTfNl.gif)
 
   :scroll: **[Minimal example - Compute PI by collision of rectangles](../../examples/minimal_examples/pygame_minimal_intersect_rectangle_compute_pi.py)**
 
