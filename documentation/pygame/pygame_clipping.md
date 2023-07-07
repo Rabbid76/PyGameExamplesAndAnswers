@@ -60,7 +60,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [How do I modify this code to add a striped pattern to the star?](https://stackoverflow.com/questions/76633186/how-do-i-modify-this-code-to-add-a-striped-pattern-to-the-star/76634395#76634395)  
-  ![How do I modify this code to add a striped pattern to the star?](https://i.stack.imgur.com/n7Ssb.png)  
+  ![How do I modify this code to add a striped pattern to the star?](https://i.stack.imgur.com/eWygj.png)  
 
 - [How to free transform image in pygame?](https://stackoverflow.com/questions/69271298/how-to-free-transform-image-in-pygame/69272398#69272398)
 
