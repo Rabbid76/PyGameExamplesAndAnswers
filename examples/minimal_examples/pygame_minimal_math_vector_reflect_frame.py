@@ -1,8 +1,8 @@
 # pygame.math module, pygame.math.Vector2 object
 # https://www.pygame.org/docs/ref/math.html
 #
-# Use vector2 in pygame. Collide with the window frame and restrict the ball to the rectangular area
-# https://stackoverflow.com/questions/60213103/use-vector2-in-pygame/60214064#60214064 
+# How to collide with the window frame, bounce the ball and restrict the ball to the rectangular area?
+# https://stackoverflow.com/questions/60213103/how-to-collide-with-the-window-frame-bounce-the-ball-and-restrict-the-ball-to-t/60214064#60214064 
 #
 # GitHub - PyGameExamplesAndAnswers - Vector - Reflection
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_math_vector_and_reflection.md

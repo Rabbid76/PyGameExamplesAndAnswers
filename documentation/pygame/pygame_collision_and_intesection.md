@@ -209,7 +209,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Restrict rectangle to frame](../../examples/minimal_examples/pygame_minimal_intersect_frame_clamp_1.py)**
 
-- [Use vector2 in pygame. Collide with the window frame and restrict the ball to the rectangular area](https://stackoverflow.com/questions/60213103/use-vector2-in-pygame/60214064#60214064)  
+- [How to collide with the window frame, bounce the ball and restrict the ball to the rectangular area?](https://stackoverflow.com/questions/60213103/how-to-collide-with-the-window-frame-bounce-the-ball-and-restrict-the-ball-to-t/60214064#60214064)  
   ![Use vector2 in pygame](https://i.stack.imgur.com/jbmJ1.gif)  
 - [How to make ball bounce off wall with Pygame?](https://stackoverflow.com/questions/59802794/how-to-make-ball-bounce-off-wall-with-pygame/59803018#59803018)  
   ![How to make ball bounce off wall with Pygame?](https://i.stack.imgur.com/DKzqg.gif)

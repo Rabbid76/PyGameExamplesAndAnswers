@@ -145,7 +145,7 @@ Related Stack Overflow questions:
 
 - [Angle Reflexion for bouncing ball in a circle](https://stackoverflow.com/questions/54543170/angle-reflexion-for-bouncing-ball-in-a-circle/54543878#54543878)
 - [How do I determine a direction vector for a point on a circle to be away from a circle?](https://stackoverflow.com/questions/57678408/how-do-i-determine-a-direction-vector-for-a-point-on-a-circle-to-be-away-from-a/57678750#57678750)
-- [Use vector2 in pygame. Collide with the window frame and restrict the ball to the rectangular area](https://stackoverflow.com/questions/60213103/use-vector2-in-pygame/60214064#60214064)  
+- [How to collide with the window frame, bounce the ball and restrict the ball to the rectangular area?](https://stackoverflow.com/questions/60213103/how-to-collide-with-the-window-frame-bounce-the-ball-and-restrict-the-ball-to-t/60214064#60214064)  
   ![Use vector2 in pygame](https://i.stack.imgur.com/jbmJ1.gif)
 
   :scroll: **[Minimal example - Bball bounce off the frame](../../examples/minimal_examples/pygame_minimal_math_vector_reflect_frame.py)**
