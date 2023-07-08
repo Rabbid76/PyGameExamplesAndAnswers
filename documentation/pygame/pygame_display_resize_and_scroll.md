@@ -41,6 +41,20 @@ One update of the display at the end of the application loop is sufficient. Mult
 - [Pygame display.update() refreshes the whole width of window instead of requested Rect only](https://stackoverflow.com/questions/75548639/pygame-display-update-refreshes-the-whole-width-of-window-instead-of-requested/75548838#75548838)  
 - [How to clean up sprites without covering other things?](https://stackoverflow.com/questions/73342080/how-to-clean-up-sprites-without-covering-other-things/73342167#73342167)
 
+## Delete, remove, replace Object
+
+Tag: delete object, remove object, erase object, delete image, remove image, erase image
+
+Related Stack Overflow questions:
+
+- [how to make image/images disappear in pygame?](https://stackoverflow.com/questions/61480115/how-to-make-image-images-disappear-in-pygame/61480380#61480380)
+- [How do I delete rect object from screen once player collides with it?](https://stackoverflow.com/questions/62957899/how-do-i-delete-rect-object-from-screen-once-player-collides-with-it/62958077#62958077)
+- [How to delete one object from a Surface instance (pygame)?](https://stackoverflow.com/questions/62859831/how-to-delete-one-object-from-a-surface-instance-pygame/62860003)
+- [How to clean up sprites without covering other things?](https://stackoverflow.com/questions/73342080/how-to-clean-up-sprites-without-covering-other-things/73342167#73342167)
+
+You cannot remove or delete an image or anything else drawn on the display or on any other [`Surface`](https://www.pygame.org/docs/ref/surface.html). The display is simply represented by a Surface object. A `Surface` contains no object and is simply a collection of pixels arranged in rows and columns. So you can't "delete" an object from a Surface, but you can simply paint the Surface with a different color. Therefore, the entire scene (including the background) must be redrawn in the application loop, and "delete" means to just not drawing it anymore.  
+[`fill`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.fill) or [`pygame.draw.rect`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect) just changes the color of all pixels in an area to a uniform color, including the background of the sprite or image.
+
 ## Size
 
 Related Stack Overflow questions:

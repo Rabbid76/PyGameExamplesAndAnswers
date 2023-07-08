@@ -290,17 +290,6 @@ Related Stack Overflow questions:
 - [I am wondering why it says the distance has to be less than 27? Why less than 27? Where is 27 coming from?](https://stackoverflow.com/questions/62523256/i-am-wondering-why-it-says-the-distance-has-to-be-less-than-27-why-less-than-27/62527566#62527566)  
 - [Why is the math of my stacking game not working?](https://stackoverflow.com/questions/64598428/why-is-the-math-of-my-stacking-game-not-working/64598693#64598693)  
 
-## Delete, remove, replace Object
-
-Tag: delete object, remove object, erase object, delete image, remove image, erase image
-
-Related Stack Overflow questions:
-
-- [how to make image/images disappear in pygame?](https://stackoverflow.com/questions/61480115/how-to-make-image-images-disappear-in-pygame/61480380#61480380)
-- [How do I delete rect object from screen once player collides with it?](https://stackoverflow.com/questions/62957899/how-do-i-delete-rect-object-from-screen-once-player-collides-with-it/62958077#62958077)
-- [How to delete one object from a Surface instance (pygame)?](https://stackoverflow.com/questions/62859831/how-to-delete-one-object-from-a-surface-instance-pygame/62860003)
-- [How to clean up sprites without covering other things?](https://stackoverflow.com/questions/73342080/how-to-clean-up-sprites-without-covering-other-things/73342167#73342167)
-
 ## State engine
 
 [Pygame how to handle states](https://stackoverflow.com/questions/64084406/pygame-how-to-handle-states/65389874#65389874)  
