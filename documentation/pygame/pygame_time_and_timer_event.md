@@ -10,7 +10,8 @@ Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
 Related Stack Overflow questions:
 
 - [Is there a way to have different tick rates for differents parts of my code in pygame?](https://stackoverflow.com/questions/71088920/is-there-a-way-to-have-different-tick-rates-for-differents-parts-of-my-code-in-p/71089817#71089817)  
-- [I define a movement method for a character, but I don't know how to itmake it pause for a moment between each move](https://stackoverflow.com/questions/71546585/i-define-a-movement-method-for-a-character-but-i-dont-know-how-to-itmake-it-pa/71546649#71546649)
+- [I define a movement method for a character, but I don't know how to itmake it pause for a moment between each move](https://stackoverflow.com/questions/71546585/i-define-a-movement-method-for-a-character-but-i-dont-know-how-to-itmake-it-pa/71546649#71546649)  
+- **[Do something every x (milli)seconds in pygame](https://stackoverflow.com/questions/18948981/do-something-every-x-milliseconds-in-pygame/76697145#76697145)**  
 
 If you want to control something over time in Pygame you have two options:
 
@@ -18,7 +19,7 @@ If you want to control something over time in Pygame you have two options:
 
 2. Use the timer event. Use [`pygame.time.set_timer()`](https://www.pygame.org/docs/ref/time.html#pygame.time.set_timer) to repeatedly create a [`USEREVENT`](https://www.pygame.org/docs/ref/event.html) in the event queue. Change object states when the event occurs.
 
-![time example](https://i.stack.imgur.com/Gy9E4.gif)
+![time example](https://i.stack.imgur.com/QTT2q.gif)
 
 :scroll: **[Minimal example - `get_ticks`](../../examples/minimal_examples/pygame_minimal_timer_get_ticks_1.py)**
 

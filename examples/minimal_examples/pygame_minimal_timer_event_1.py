@@ -12,7 +12,7 @@ import pygame
 pygame.init()
 window = pygame.display.set_mode((400, 200))
 clock = pygame.time.Clock()
-rect = pygame.Rect(0, 80, 40, 40)
+rect = pygame.Rect(0, 80, 20, 20)
 
 time_interval = 500 # 500 milliseconds == 0.1 seconds
 timer_event = pygame.USEREVENT+1
@@ -25,10 +25,7 @@ while run:
             run = False 
 
         if event.type == timer_event:
-
-            rect.x += 40
-            if rect.x >= 400:
-                rect.x = 0
+            rect.x = (rect.x + 20) % window.get_width()
 
     window.fill(0)
     pygame.draw.rect(window, (255, 0, 0), rect)

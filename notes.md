@@ -92,8 +92,7 @@ next:
 [Pygame water ripple effect](https://stackoverflow.com/questions/7648072/pygame-water-ripple-effect)  
 [Pygame water physics not working as intended](https://stackoverflow.com/questions/62499733/pygame-water-physics-not-working-as-intended)  
 
-[Pygame - Return collision location](https://stackoverflow.com/questions/64760792/pygame-return-collision-location)  
-[Do something every x (milli)seconds in pygame](https://stackoverflow.com/questions/18948981/do-something-every-x-milliseconds-in-pygame)  
+[Pygame - Return collision location](https://stackoverflow.com/questions/64760792/pygame-return-collision-location)   
 [How would I draw different images based on the number of adjacent tiles?](https://stackoverflow.com/questions/67338316/how-would-i-draw-different-images-based-on-the-number-of-adjacent-tiles)  
 [How to handle tile rotation in pytmx?](https://stackoverflow.com/questions/68938745/how-to-handle-tile-rotation-in-pytmx)  
 
