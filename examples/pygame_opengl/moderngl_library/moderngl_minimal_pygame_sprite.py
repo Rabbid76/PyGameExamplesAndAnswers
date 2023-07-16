@@ -1,6 +1,9 @@
 # pygame.sprite module
 # https://www.pygame.org/docs/ref/sprite.html
 #
+# GUI with Pygame and ModernGL
+# https://stackoverflow.com/questions/76697818/gui-with-pygame-and-moderngl/76698075#76698075
+#
 # Render pygame sprites with pyopengl
 # https://stackoverflow.com/questions/54543587/render-pygame-sprites-with-pyopengl/65653236#65653236
 #
