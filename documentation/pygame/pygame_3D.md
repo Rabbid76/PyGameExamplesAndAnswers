@@ -52,3 +52,10 @@ Related Stack Overflow questions:
 - [Why is there distortion when the cube is on the edge of the screen?](https://stackoverflow.com/questions/69731067/why-is-there-distortion-when-the-cube-is-on-the-edge-of-the-screen/70415341#70415341)  
   
   :scroll: **[Minimal example - 3D Cube, perspective](../../examples/minimal_examples/pygame_minimal_3D_perspective_1.py)**
+
+- [How do I fix wall warping in my raycaster?](https://stackoverflow.com/questions/74060836/how-do-i-fix-wall-warping-in-my-raycaster/74061346#74061346)  
+  ![How do I fix wall warping in my raycaster?](https://i.stack.imgur.com/XWWai.png)   
+  ![How do I fix wall warping in my raycaster?](https://i.stack.imgur.com/2DdYw.gif)
+
+- [Creating a 3d rendering in python with a camera. objects get progressively deformed toward the edge of the screen](https://stackoverflow.com/questions/74353418/creating-a-3d-rendering-in-python-with-a-camera-objects-get-progressively-defor)  
+  ![Creating a 3d rendering in python with a camera. objects get progressively deformed toward the edge of the screen](https://i.stack.imgur.com/BY8O9.gif)
