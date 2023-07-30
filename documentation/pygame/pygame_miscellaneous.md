@@ -68,6 +68,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [How can I convert pygame to exe?](https://stackoverflow.com/questions/54210392/how-can-i-convert-pygame-to-exe)
+- [Is there a way to turn a .exe into a .py if it was made in PyGame?](https://stackoverflow.com/questions/76750736/is-there-a-way-to-turn-a-exe-into-a-py-if-it-was-made-in-pygame)
 
 ### "cx_freeze"
 
