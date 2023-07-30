@@ -10,6 +10,9 @@ import pygame
 from OpenGL.GL import *
 from OpenGL.GLU import *
 
+pygame.init()
+pygame.display.gl_set_attribute(pygame.GL_MULTISAMPLEBUFFERS, True)
+pygame.display.gl_set_attribute(pygame.GL_MULTISAMPLESAMPLES, 8)
 window = pygame.display.set_mode((400, 300), pygame.DOUBLEBUF | pygame.OPENGL | pygame.RESIZABLE)
 clock = pygame.time.Clock()
 
@@ -39,6 +42,11 @@ while run:
     glEnd()
     
     pygame.display.flip()
+
+size = window.get_size()
+buffer = glReadPixels(0, 0, *size, GL_RGBA, GL_UNSIGNED_BYTE)
+screen_surf = pygame.image.fromstring(buffer, size, "RGBA")
+pygame.image.save(screen_surf, "d:/temp/screenshot.jpg")
 
 pygame.quit()
 exit()

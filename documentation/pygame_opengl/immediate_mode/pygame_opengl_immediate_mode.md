@@ -218,10 +218,13 @@ Compare [`glWindowPos`](https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/x
 - [PyOpenGL texture isn't displaying correctly](https://stackoverflow.com/questions/68468091/pyopengl-texture-isnt-displaying-correctly/68489022#68489022)  
 - [My pygame/pyopengl code seems to apply a texture to every surface](https://stackoverflow.com/questions/68902541/my-pygame-pyopengl-code-seems-to-apply-a-texture-to-every-surface/68902623#68902623)  
   ![texture](https://i.stack.imgur.com/Ev2Aj.png)
+- [Pygame + PyOpenGL Resolution Downscaling](https://stackoverflow.com/questions/76795854/pygame-pyopengl-resolution-downscaling/76796567#76796567)  
+  ![texture](https://i.stack.imgur.com/AGd5D.png)
 
   :scroll: **[Texture - glDrawPixels](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_glDrawPixels.py)**  
   :scroll: **[Texture - Surface to texture](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_surface_to_texture.py)**
   :scroll: **[OpenGL immediate mode - Draw a quad with texture](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_quad_texture.py)**
+  :scroll: **[Texture - Retro scale texture](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_surface_to_texture_scale.py)**
 
 ## Shader
 

@@ -133,6 +133,11 @@ See [Display, display position, resize, coordinate system and scroll - Scale and
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-colliderect](https://replit.com/@Rabbid76/PyGame-colliderect#main.py)**
 
+- [Pygame + PyOpenGL Resolution Downscaling](https://stackoverflow.com/questions/76795854/pygame-pyopengl-resolution-downscaling/76796567#76796567)  
+  ![Pygame + PyOpenGL Resolution Downscaling](https://i.stack.imgur.com/92IId.png)
+
+  :scroll: **[Minimal example - Display retro zoom](../../examples/minimal_examples/pygame_minimal_scale_retro.py)**
+
 ### Zoom collision and hitboxes
 
 - [Pygame sprite hitboxes don't follow as screen scrolls/zooms](https://stackoverflow.com/questions/74215365/pygame-sprite-hitboxes-dont-follow-as-screen-scrolls-zooms/74218352#74218352)  

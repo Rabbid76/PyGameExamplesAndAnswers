@@ -43,6 +43,8 @@ def set_projection(w, h):
     glMatrixMode(GL_MODELVIEW)
 
 pygame.init()
+pygame.display.gl_set_attribute(pygame.GL_MULTISAMPLEBUFFERS, True)
+pygame.display.gl_set_attribute(pygame.GL_MULTISAMPLESAMPLES, 8)
 window = pygame.display.set_mode((400, 300), pygame.DOUBLEBUF | pygame.OPENGL | pygame.RESIZABLE)
 clock = pygame.time.Clock()
 
