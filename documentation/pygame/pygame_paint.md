@@ -23,6 +23,9 @@ Related Stack Overflow questions:
 - [How can I make this demo drawing game update drawing the circles faster with Pygame?](https://stackoverflow.com/questions/60284620/how-can-i-make-this-demo-drawing-game-update-drawing-the-circles-faster-with-pyg/60285364#60285364)  
   ![How can I make this demo drawing game update drawing the circles faster with Pygame?](https://i.stack.imgur.com/mojlK.gif)
 
+- [Pygame draw.circle() function not working](https://stackoverflow.com/questions/76399215/pygame-draw-circle-function-not-working/76399238#76399238)  
+  ![Pygame draw.circle() function not working](https://i.stack.imgur.com/2Hy5n.gif)
+  
 - [Line drawing in pygame](https://stackoverflow.com/questions/66491982/line-drawing-in-pygame/66492121#66492121)  
   ![Line drawing in pygame](https://i.stack.imgur.com/1UvQk.png)
   ![Line drawing in pygame](https://i.stack.imgur.com/m5pRI.gif)
