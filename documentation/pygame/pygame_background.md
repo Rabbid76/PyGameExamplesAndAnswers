@@ -93,13 +93,14 @@ screen.blit(bg, (x_part2, 0))
 
 Related Stack Overflow questions:
 
+- [Issue while creating a parallax background in pygame](https://stackoverflow.com/questions/76931511/issue-while-creating-a-parallax-background-in-pygame/76931586#76931586)
+
 - [How to make parallax scrolling work properly with a camera that stops at edges pygame](https://stackoverflow.com/questions/63712333/how-to-make-parallax-scrolling-work-properly-with-a-camera-that-stops-at-edges-p/74002486#74002486)
+  ![How to make parallax scrolling work properly with a camera that stops at edges pygame](https://i.stack.imgur.com/9Ogyf.png)
 
   :scroll: **[Minimal example - Parallax background](../../examples/minimal_examples/pygame_minimal_parallax_background.py)**
 
 Background scrolling is achieved by moving the background image. The image is drawn into the window with an offset and must be drawn twice:
-
-![How to make parallax scrolling work properly with a camera that stops at edges pygame](https://i.stack.imgur.com/9Ogyf.png)
 
 ```py
 def draw_background(surf, bg_image, bg_x, bg_y):
