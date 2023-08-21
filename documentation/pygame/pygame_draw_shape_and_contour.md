@@ -299,7 +299,8 @@ pygame.draw.circle(self.image, color, self.rect.center, min(self.rect.center))
 Related Stack Overflow questions:
 
 - [How do you draw an antialiased circular line of a certain thickness? How to set width on pygame.gfx.aacircle()?](https://stackoverflow.com/questions/64816341/how-do-you-draw-an-antialiased-circular-line-of-a-certain-thickness-how-to-set/65353318#65353318)  
-  ![How do you draw an antialiased circular line of a certain thickness? How to set width on pygame.gfx.aacircle()?](https://i.stack.imgur.com/FBCXx.png)
+  ![How do you draw an antialiased circular line of a certain thickness? How to set width on pygame.gfx.aacircle()?](https://i.stack.imgur.com/FBCXx.png)  
+  ![How do you draw an antialiased circular line of a certain thickness? How to set width on pygame.gfx.aacircle()?](https://i.stack.imgur.com/NrksR.png)
 
 You can try to stitch the circle with a pygame.draw.circle() for the body and pygame.gfxdraw.circle() on the edges. However, the quality is low and can depend on the system:
 
@@ -324,6 +325,24 @@ def drawAACircle(surf, color, center, radius, width):
     circle_image = numpy.zeros((radius*2+4, radius*2+4, 4), dtype = numpy.uint8)
     circle_image = cv2.circle(circle_image, (radius+2, radius+2), radius-width//2, (*color, 255), width, lineType=cv2.LINE_AA)  
     circle_surface = pygame.image.frombuffer(circle_image.flatten(), (radius*2+4, radius*2+4), 'RGBA')
+    surf.blit(circle_surface, circle_surface.get_rect(center = center))
+```
+
+Another approach is to construct the circle with [`numpy.fromfunction`](https://numpy.org/doc/stable/reference/generated/numpy.fromfunction.html).
+
+:scroll: **[Minimal example - Antialiased circle with NumPy](../../examples/minimal_examples/pygame_minimal_draw_antialiased_circle_numpy.py)**  
+
+```py
+import pygame
+import numpy
+
+def drawAACircle(surf, color, center, radius):
+    f_circle = lambda i, j: numpy.clip(radius - numpy.hypot(i-radius-1, j-radius-1), 0, 1) * 255
+    shape = (radius*2+4, radius*2+4)
+    circle_rgb = numpy.full((*shape, len(color)), color, dtype = numpy.uint8)
+    circle_alpha = numpy.fromfunction(f_circle, shape).astype(numpy.uint8).reshape((*shape, 1))
+    circle_array = numpy.concatenate((circle_rgb, circle_alpha), 2)
+    circle_surface = pygame.image.frombuffer(circle_array.flatten(), shape, 'RGBA')
     surf.blit(circle_surface, circle_surface.get_rect(center = center))
 ```
 

@@ -8,12 +8,16 @@
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_draw_shape_and_contour.md
 
 import pygame
-import pygame.gfxdraw
+import numpy
 
-def drawAACircle(surf, color, center, radius, width):
-    pygame.gfxdraw.aacircle(surf, *center, 100, color)  
-    pygame.gfxdraw.aacircle(surf, *center, 100-width, color)  
-    pygame.draw.circle(surf, color, center, radius, width)   
+def drawAACircle(surf, color, center, radius):
+    f_circle = lambda i, j: numpy.clip(radius - numpy.hypot(i-radius-1, j-radius-1), 0, 1) * 255
+    shape = (radius*2+4, radius*2+4)
+    circle_rgb = numpy.full((*shape, len(color)), color, dtype = numpy.uint8)
+    circle_alpha = numpy.fromfunction(f_circle, shape).astype(numpy.uint8).reshape((*shape, 1))
+    circle_array = numpy.concatenate((circle_rgb, circle_alpha), 2)
+    circle_surface = pygame.image.frombuffer(circle_array.flatten(), shape, 'RGBA')
+    surf.blit(circle_surface, circle_surface.get_rect(center = center))
 
 pygame.init()
 window = pygame.display.set_mode((300, 300))
@@ -26,8 +30,8 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-    window.fill(0)
-    drawAACircle(window, (255, 0, 0), window.get_rect().center, 100, 20)
+    window.fill((32, 32, 32))
+    drawAACircle(window, (255, 0, 0), window.get_rect().center, 100)
     pygame.display.flip()
 
 pygame.quit()

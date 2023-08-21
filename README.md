@@ -121,6 +121,7 @@ Lloyd Alexander, The Book of Three
 ---><a href=https://stackoverflow.com/questions/68927683/rotating-a-rectangle-in-pygame/68927744#68927744><img src="https://i.stack.imgur.com/2NNT6.png" height="100" title="analog clock"></a><!--
 ---><a href=https://stackoverflow.com/questions/76399452/maximising-collidable-area-for-a-hexagonal-button-in-pygame/76399557#76399557><img src="https://i.stack.imgur.com/sMVvR.gif" height="100" title="intersect hexagon"></a><!--
 ---><a href=https://stackoverflow.com/questions/75498320/how-do-i-make-a-sprite-rotate-around-another-moving-sprite/75498844#75498844><img src="https://i.stack.imgur.com/3HtzF.gif" height="100" title="orbit"></a><!--
+---><a href=https://stackoverflow.com/questions/64816341/how-do-you-draw-an-antialiased-circular-line-of-a-certain-thickness-how-to-set/65353318#65353318><img src="https://i.stack.imgur.com/NrksR.png" height="100" title="filled anit-aliased circle"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  

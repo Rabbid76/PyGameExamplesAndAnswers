@@ -12,6 +12,23 @@ import os
 import pygame
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../resource/'))
 
+import re
+
+def get_trailing_number(s):
+    m = re.search(r'\d+$', s)
+    return int(m.group()) if m else None
+
+import random
+
+
+
+l = ['_0', '_1', '_2', '_3', '_4', '_5', '_6', '_7', '_8', '_9', '_10', '_12']
+random.shuffle(l)
+print(l)
+
+l.sort(key = lambda name: get_trailing_number(name))
+print(l)
+
 play_list = [f for f in os.listdir('ringtone') if f.endswith('.mp3')]
 print(play_list)
 current_list = []
