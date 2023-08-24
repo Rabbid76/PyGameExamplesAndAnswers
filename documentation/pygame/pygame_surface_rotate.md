@@ -11,6 +11,8 @@ Related Stack Overflow questions:
 
 - **[How do I rotate an image around its center using PyGame?](https://stackoverflow.com/questions/4183208/how-do-i-rotate-an-image-around-its-center-using-pygame/54714144#54714144)**  
   ![How do I rotate an image around its center using Pygame?](https://i.stack.imgur.com/qnDPP.gif)
+- [pygame doesn't rotate surface](https://stackoverflow.com/questions/76966463/pygame-doesnt-rotate-surface/76966484#76966484)  
+  ![pygame doesn't rotate surface](https://i.stack.imgur.com/m3qJd.png)
 - [How can you rotate an image around an off center pivot in PyGame](https://stackoverflow.com/questions/59909942/how-can-you-rotate-an-image-around-an-off-center-pivot-in-pygame/59909946#59909946/59909946#59909946)  
   ![How can you rotate an image around an off center pivot in PyGame](https://i.stack.imgur.com/BmG1u.gif)
 - [How to rotate an image around its center while its scale is getting larger(in Pygame)](https://stackoverflow.com/questions/54462645/how-to-rotate-an-image-around-its-center-while-its-scale-is-getting-largerin-py/54713639#54713639/54713639#54713639)  
