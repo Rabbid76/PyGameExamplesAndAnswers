@@ -85,6 +85,7 @@ See [`pygame.display.flip()`](https://www.pygame.org/docs/ref/display.html#pygam
   ![How to add a background and simple square as a character for a single screen platformer in pygame?](https://i.stack.imgur.com/lC8JO.gif)
 
 :scroll: **[Minimal example - Game loop and movement](../../examples/minimal_examples/pygame_minimal_application_loop_2.py)**
+
 ### Quit
 
 Related Stack Overflow questions:

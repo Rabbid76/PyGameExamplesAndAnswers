@@ -24,6 +24,8 @@ Related Stack Overflow questions:
   ![Rotating and scaling an image around a pivot, while scaling width and height separately in Pygame](https://i.stack.imgur.com/QcX0r.gif)  
 - [how to draw line in pygame from player](https://stackoverflow.com/questions/72590319/how-to-draw-line-in-pygame-from-player/72590489#72590489)  
   ![how to draw line in pygame from player](https://i.stack.imgur.com/93HeG.gif)  
+- [How to create sprites around a location?](https://stackoverflow.com/questions/65564426/how-to-create-sprites-around-a-location/65565203#65565203)  
+  ![How to create sprites around a location?](https://i.stack.imgur.com/4tcVH.gif)
 
 Short answer:
 
