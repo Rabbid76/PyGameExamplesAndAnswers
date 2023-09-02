@@ -12,6 +12,7 @@ Related Stack Overflow questions:
 - [Is there a way to have different tick rates for differents parts of my code in pygame?](https://stackoverflow.com/questions/71088920/is-there-a-way-to-have-different-tick-rates-for-differents-parts-of-my-code-in-p/71089817#71089817)  
 - [I define a movement method for a character, but I don't know how to itmake it pause for a moment between each move](https://stackoverflow.com/questions/71546585/i-define-a-movement-method-for-a-character-but-i-dont-know-how-to-itmake-it-pa/71546649#71546649)  
 - **[Do something every x (milli)seconds in pygame](https://stackoverflow.com/questions/18948981/do-something-every-x-milliseconds-in-pygame/76697145#76697145)**  
+- [Pygame- way to create more USEREVENT type events?](https://stackoverflow.com/questions/23571956/pygame-way-to-create-more-userevent-type-events/77005065#77005065)  
 
 If you want to control something over time in Pygame you have two options:
 
