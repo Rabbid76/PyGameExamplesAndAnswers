@@ -319,3 +319,13 @@ def blitRotateZoomXY(surf, original_image, origin, pivot, angle, scale_x, scale_
 
 :scroll: **[Minimal example - Rotate Sprite around pivot and zoom - cannon](../../examples/surface_rotate/pygame_image_rotate_6_scale_pivote_function_2.py)**  
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateZoomPivot-Example](https://replit.com/@Rabbid76/PyGame-RotateZoomPivot-Example#main.py)**
+
+Another important point when rotating an image is that the image must have an alpha channel. Many people use rectangular, uniformly filled surfaces to test their code, forgetting about the alpha channel. This results in what appears to be a randomly stretched rectangle. How to create a surface with an alpha channel is explained in the answer to the question: [pygame doesn't rotate surface](https://stackoverflow.com/questions/76966463/pygame-doesnt-rotate-surface/76966484#76966484). In the example I create the [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) with the `pygame.SRCALPHA` flag to get an image with an alpha channel:
+
+```py
+surface = pygame.Surface((100, 50), pygame.SRCAPLHA)
+```
+
+The second important thing is that you must never rotate a `pygame.Surface` object repeatedly, because this leads to an ever increasing `pygame.Surface` and distortions, but you must save the original surface and always create a rotated `pygame.Surface` from it. See the following example, where I use the [`pygame.sprite`](https://www.pygame.org/docs/ref/sprite.html) module
+
+:scroll: **[Minimal example - Rotate Sprite](../../examples/minimal_examples/pygame_minimal_sprite_rotate.py)**
