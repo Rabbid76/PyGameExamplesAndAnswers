@@ -542,3 +542,10 @@ Related Stack Overflow questions:
   :scroll: **[Minimal example - Scroll](../../examples/minimal_examples/pygame_minimal_surface_scroll_1.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SCroll](https://replit.com/@Rabbid76/PyGame-Scroll#main.py)**
+
+### Blur
+
+- [How to blur the edges of a surface in Pygame?](https://stackoverflow.com/questions/77117250/how-to-blur-the-edges-of-a-surface-in-pygame/77117325#77117325)  
+  ![How to blur the edges of a surface in Pygame?](https://i.stack.imgur.com/0COhi.png)
+
+  :scroll: **[Minimal example - BLur edge](../../examples/minimal_examples/pygame_minimal_blur_and_blit.py)**
