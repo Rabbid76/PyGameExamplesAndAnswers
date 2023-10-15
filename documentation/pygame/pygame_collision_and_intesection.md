@@ -707,8 +707,8 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [Pygame how to let balls collide](https://stackoverflow.com/questions/63145493/pygame-how-to-let-balls-collide/63187016#63187016)  
-  ![Pygame how to let balls collide](https://i.stack.imgur.com/pNzMb.gif)
+- [How to detect the collision of circles or balls in Pygame?](https://stackoverflow.com/questions/63145493/how-to-detect-the-collision-of-circles-or-balls-in-pygame)  
+  ![How to detect the collision of circles or balls in Pygame?](https://i.stack.imgur.com/pNzMb.gif)
 
   :scroll: **[Minimal example - Make circles bounce off each other](../../examples/minimal_examples/pygame_minimal_intersect_circle_circle_1.py)**
 

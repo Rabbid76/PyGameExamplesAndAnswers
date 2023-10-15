@@ -1,8 +1,8 @@
 # pygame.math module, pygame.math.Vector2 object
 # https://www.pygame.org/docs/ref/math.html
 #
-# Pygame how to let balls collide
-# https://stackoverflow.com/questions/63145493/pygame-how-to-let-balls-collide/63187016#63187016
+# How to detect the collision of circles or balls in Pygame?
+# https://stackoverflow.com/questions/63145493/how-to-detect-the-collision-of-circles-or-balls-in-pygame
 #
 # GitHub - PyGameExamplesAndAnswers - Collision and Intersection - Circle and circle
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_collision_and_intesection.md
