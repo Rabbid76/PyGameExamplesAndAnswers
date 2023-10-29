@@ -43,6 +43,9 @@ Related Stack Overflow questions:
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FireBulletInDirectionOfMouse](https://replit.com/@Rabbid76/PyGame-FireBulletInDirectionOfMouse#main.py)**
 
+- [How to shoot a projectile in the way the player is looking in a TDS](https://stackoverflow.com/questions/68970922/how-to-shoot-a-projectile-in-the-way-the-player-is-looking-in-a-tds/68971138#68971138)  
+  ![How to shoot a projectile in the way the player is looking in a TDS](https://i.stack.imgur.com/04Uou.gif)
+
 - [How Can I Make An Arrow Image Move Rotated Direction?](https://stackoverflow.com/questions/65589860/how-can-i-make-an-arrow-image-move-rotated-direction/65592518#65592518)
 
 - [How to make my rectangle rotate with a rotating sprite](https://stackoverflow.com/questions/65622705/how-to-make-my-rectangle-rotate-with-a-rotating-sprite/65640631#65640631)  
