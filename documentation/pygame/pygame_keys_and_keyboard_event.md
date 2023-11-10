@@ -28,6 +28,8 @@ Related Stack Overflow questions:
   :scroll: **[minimal example - Move object fast when key is hit twice](../../examples/minimal_examples/pygame_minimal_move_object_fast_on_key_twice.py)**  
   :scroll: **[minimal example - Move object fast when key is in opposite direction is hit](../../examples/minimal_examples/pygame_minimal_move_object_slow_on_opposite_key.py)**  
 
+- [How to check if keyboard button is getting spammed and add a cool down on before it can be pressed again](https://stackoverflow.com/questions/56615781/how-to-check-if-keyboard-button-is-getting-spammed-and-add-a-cool-down-on-before/56617202#56617202)
+
 - [I have a function that detects if i press a key in pygame, but it only detects one key?](https://stackoverflow.com/questions/73953058/i-have-a-function-that-detects-if-i-press-a-key-in-pygame-but-it-only-detects-o/73953116#73953116)
 
   :scroll: **[minimal example - Move object with keys continuous or step by step.py](../../examples/minimal_examples/pygame_minimal_move_object_continuous_or_step.py)**  
