@@ -29,6 +29,7 @@ Related Stack Overflow questions:
 
   :scroll: **[minimal example - Detect mouse touch](../../examples/minimal_examples/pygame_minimal_mouse_touch.py)**
 
+- [Detect Mouse Scroll](https://stackoverflow.com/questions/72858633/detect-mouse-scroll/72858761#72858761)  
 - [How to distinguish left click , right click mouse clicks in pygame?](https://stackoverflow.com/questions/34287938/how-to-distinguish-left-click-right-click-mouse-clicks-in-pygame)  
 - [Pygame - Mouse clicks not getting detected](https://stackoverflow.com/questions/64284668/python-w-pygame-mouse-detection-isnt-working)
 - [mouse.get_pressed() inconsistent/returning (0, 0, 0)](https://stackoverflow.com/questions/63970977/mouse-get-pressed-inconsistent-returning-0-0-0/63971125#63971125)  
