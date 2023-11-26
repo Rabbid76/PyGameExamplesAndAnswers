@@ -236,6 +236,11 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Freetype centered](../../examples/minimal_examples/pygame_minimal_text_freetype_centered.py)**
 
+- [pygame text gets out of the window if increases to much](https://stackoverflow.com/questions/77550093/pygame-text-gets-out-of-the-window-if-increases-to-much/77550769#77550769)  
+  ![pygame text gets out of the window if increases to much](https://i.stack.imgur.com/cVmDS.gif)
+
+  :scroll: **[Minimal example - Text align](../../examples/minimal_examples/pygame_minimal_text_align.py)**
+
 - [Python Pygame Font x coordinate](https://stackoverflow.com/questions/67514758/python-pygame-font-x-coordinate/67514998#67514998)  
   ![Python Pygame Font x coordinate](https://i.stack.imgur.com/1fbjS.gif)
 
