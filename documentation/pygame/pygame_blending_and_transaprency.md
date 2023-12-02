@@ -122,6 +122,11 @@ remove "duplicate"
 - [How to fill shape white](https://stackoverflow.com/questions/71276881/how-to-fill-shape-white/71276921#71276921)  
   ![How to fill shape white](https://i.stack.imgur.com/TWG3R.png)
 
+- [How do I palette swap sprites in pygame without the rectangle in the back](https://stackoverflow.com/questions/77590955/how-do-i-palette-swap-sprites-in-pygame-without-the-rectangle-in-the-back/77591351#77591351)  
+  ![How do I palette swap sprites in pygame without the rectangle in the back](https://i.stack.imgur.com/qqaH6.png)
+
+  :scroll: **[Minimal example - Swap color of image](../../examples/minimal_examples/pygame_minimal_blend_surface_swap_color_1.py)**
+
 #### Change the color of a surface area (mask)
 
 Related Stack Overflow questions:
