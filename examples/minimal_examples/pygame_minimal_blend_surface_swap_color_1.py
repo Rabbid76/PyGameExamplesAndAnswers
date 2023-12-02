@@ -37,8 +37,6 @@ while run:
         if event.type == pygame.QUIT:
             run = False 
     
-    window_center = window.get_rect().center
-
     window.fill("gray")
     window.blit(image, image.get_rect(center = (100, 100)))
     window.blit(new_iamge, new_iamge.get_rect(center = (250, 100)))
