@@ -20,11 +20,13 @@ def palette_swap(surf, old_c, new_c):
     img_copy.blit(color_change_surf, (0, 0))
     return img_copy
 
-image = pygame.Surface((100, 100))
-image.fill((0, 0, 0))
-image.set_colorkey((0, 0, 0))
-pygame.draw.circle(image, (0, 255, 0), (50, 50), 50)
+image = pygame.Surface((100, 100), pygame.SRCALPHA)
+#image.fill((0, 255, 0))
+#image.set_colorkey((0, 255, 0))
+pygame.draw.circle(image, "black", (50, 50), 50)
 pygame.draw.circle(image, (255, 148, 66), (50, 50), 40)
+pygame.draw.circle(image, "black", (30, 35), 10)
+pygame.draw.circle(image, "black", (70, 35), 10)
 
 new_iamge = palette_swap(image, (255, 148, 66), (249, 4, 99))
 
@@ -37,7 +39,7 @@ while run:
     
     window_center = window.get_rect().center
 
-    window.fill("darkgray")
+    window.fill("gray")
     window.blit(image, image.get_rect(center = (100, 100)))
     window.blit(new_iamge, new_iamge.get_rect(center = (250, 100)))
     pygame.display.flip()
