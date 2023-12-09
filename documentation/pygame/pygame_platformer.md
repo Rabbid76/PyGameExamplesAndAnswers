@@ -75,45 +75,48 @@ At the end a comment about dirty mechanisms and partial screen updates: As soon 
 
 Related Stack Overflow questions:
 
-- [Issue with Collision Detection in Pygame for simple 2D Platformer](https://stackoverflow.com/questions/66127646/issue-with-collision-detection-in-pygame-for-simple-2d-platformer/66127881#66127881)
+- [**How can I stop my player from glitching through my platform?**](https://stackoverflow.com/questions/67630796/how-can-i-stop-my-player-from-glitching-through-my-platform/67647476#67647476)  
+  ![How can I stop my player from glitching through my platform?](https://i.stack.imgur.com/NraKd.gif)
 
-- [pygame platformer collision causes weird spacing issue](https://stackoverflow.com/questions/68423726/pygame-platformer-collision-causes-weird-spacing-issue/68424155#68424155)  
+  :scroll: **[Minimal example - platform](../../examples/minimal_examples/pygame_minimal_platformer_1.py)**
+
+- [**How to make a collision system in pygame?**](https://stackoverflow.com/questions/74332401/how-to-make-a-collision-system-in-pygame/74333777#74333777)  
+  ![How to make a collision system in pygame?](https://i.stack.imgur.com/KqGU2.gif)
+
+- [**How to create a "Solid" block? pygame**](https://stackoverflow.com/questions/66749450/how-to-create-a-solid-block-pygame/66750322#66750322)  
+  ![How to create a "Solid" block? pygame](https://i.stack.imgur.com/4FIIF.gif)
+
+- [**pygame platformer collision causes weird spacing issue**](https://stackoverflow.com/questions/68423726/pygame-platformer-collision-causes-weird-spacing-issue/68424155#68424155)  
   ![pygame platformer collision causes weird spacing issue](https://i.stack.imgur.com/REXqX.gif)
 
-- [Is there a way to make sure a sprite collides with 2 sprites in a group?](https://stackoverflow.com/questions/73523330/is-there-a-way-to-make-sure-a-sprite-collides-with-2-sprites-in-a-group/73524288#73524288)  
+- [**how do I make my player collide with the bottom of my platform**](https://stackoverflow.com/questions/65119361/how-do-i-make-my-player-collide-with-the-bottom-of-my-platform/65170067#65170067)  
+  ![how do I make my player collide with the bottom of my platform](https://i.stack.imgur.com/YHicZ.gif)
+
+- [**How to make an rectangle stay on an moving line in python**](https://stackoverflow.com/questions/64913220/how-to-make-an-rectangle-stay-on-an-moving-line-in-python/64915462#64915462)  
+  ![How to make an rectangle stay on an moving line in python](https://i.stack.imgur.com/O3gzn.gif)
+
+- [**Issue with Collision Detection in Pygame for simple 2D Platformer**](https://stackoverflow.com/questions/66127646/issue-with-collision-detection-in-pygame-for-simple-2d-platformer/66127881#66127881)
+
+- [**Is there a way to make sure a sprite collides with 2 sprites in a group?**](https://stackoverflow.com/questions/73523330/is-there-a-way-to-make-sure-a-sprite-collides-with-2-sprites-in-a-group/73524288#73524288)
 
 - [How to handle vector based movement and x axis tile map collisions in pygame](https://stackoverflow.com/questions/73087643/how-to-handle-vector-based-movement-and-x-axis-tile-map-collisions-in-pygame/73088783#73088783)  
   ![How to handle vector based movement and x axis tile map collisions in pygame](https://i.stack.imgur.com/YWQJ3.gif)
 
-- [How can I stop my player from glitching through my platform?](https://stackoverflow.com/questions/67630796/how-can-i-stop-my-player-from-glitching-through-my-platform/67647476#67647476)  
+- [Collision in PyGame with sprite.spritecollide and collide_rect](https://stackoverflow.com/questions/70581025/collision-in-pygame-with-sprite-spritecollide-and-collide-rect/70581325#70581325)  
+  ![Collision in PyGame with sprite.spritecollide and collide_rect](https://i.stack.imgur.com/OolLG.gif)
 
 - [How to overcome the problem of sprite trespassing floor due to acceleration in Pygame?](https://stackoverflow.com/questions/67761738/how-to-overcome-the-problem-of-sprite-trespassing-floor-due-to-acceleration-in-p/67762020#67762020)  
 
 - [Why is mu square not stopping at the obstacle I created?](https://stackoverflow.com/questions/74505199/why-is-mu-square-not-stopping-at-the-obstacle-i-created/74506655#74506655)  
   ![Why is mu square not stopping at the obstacle I created?](https://i.stack.imgur.com/zfXw9.gif)
 
-- [How to make a collision system in pygame?](https://stackoverflow.com/questions/74332401/how-to-make-a-collision-system-in-pygame/74333777#74333777)  
-  ![How to make a collision system in pygame?](https://i.stack.imgur.com/KqGU2.gif)
-
 - [How do I make sprites in pygame not move through eachother?](https://stackoverflow.com/questions/74131714/how-do-i-make-sprites-in-pygame-not-move-through-eachother/74131813#74131813)  
   ![How do I make sprites in pygame not move through eachother?](https://i.stack.imgur.com/I5VBn.gif)
-
-- [how do I make my player collide with the bottom of my platform](https://stackoverflow.com/questions/65119361/how-do-i-make-my-player-collide-with-the-bottom-of-my-platform/65170067#65170067)  
-  ![how do I make my player collide with the bottom of my platform](https://i.stack.imgur.com/YHicZ.gif)^
-
-- [Collision in PyGame with sprite.spritecollide and collide_rect](https://stackoverflow.com/questions/70581025/collision-in-pygame-with-sprite-spritecollide-and-collide-rect/70581325#70581325)  
-  ![Collision in PyGame with sprite.spritecollide and collide_rect](https://i.stack.imgur.com/OolLG.gif)
 
 - [Falling left and right inconsistencies in pygame platformer](https://stackoverflow.com/questions/67419774/falling-left-and-right-inconsistencies-in-pygame-platformer/67437358#67437358)  
   ![Falling left and right inconsistencies in pygame platformer](https://i.stack.imgur.com/mIiqO.png)
   ![Falling left and right inconsistencies in pygame platformer](https://i.stack.imgur.com/SD0g7.png)
   ![Falling left and right inconsistencies in pygame platformer](https://i.stack.imgur.com/RX3uk.png)
-
-- [How to create a "Solid" block? pygame](https://stackoverflow.com/questions/66749450/how-to-create-a-solid-block-pygame/66750322#66750322)  
-  ![How to create a "Solid" block? pygame](https://i.stack.imgur.com/4FIIF.gif)
-
-- [How to make an rectangle stay on an moving line in python](https://stackoverflow.com/questions/64913220/how-to-make-an-rectangle-stay-on-an-moving-line-in-python/64915462#64915462)  
-  ![How to make an rectangle stay on an moving line in python](https://i.stack.imgur.com/O3gzn.gif)
 
 > *"I thought about testing if the player's y coordinate is lower that 0, and then teleporting him to y = 0, but that feels like a really non elegant solution"* 
 
