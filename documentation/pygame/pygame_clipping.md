@@ -62,9 +62,9 @@ Related Stack Overflow questions:
 - [How do I modify this code to add a striped pattern to the star?](https://stackoverflow.com/questions/76633186/how-do-i-modify-this-code-to-add-a-striped-pattern-to-the-star/76634395#76634395)  
   ![How do I modify this code to add a striped pattern to the star?](https://i.stack.imgur.com/eWygj.png)  
 
-- [How to free transform image in pygame?](https://stackoverflow.com/questions/69271298/how-to-free-transform-image-in-pygame/69272398#69272398)
+- [Trianglular picture in pygame](https://stackoverflow.com/questions/77714070/trianglular-picture-in-pygame/77714179#77714179)
 
-![Clipping with masks](https://i.stack.imgur.com/RYXm0.png)
+![Clipping with masks](https://i.stack.imgur.com/HkRcD.png)
 
 :scroll: **[Minimal example - Clipping with masks](../../examples/minimal_examples/pygame_minimal_clip_mask.py)**
 
