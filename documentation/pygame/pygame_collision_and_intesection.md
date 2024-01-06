@@ -213,6 +213,8 @@ Related Stack Overflow questions:
   ![Use vector2 in pygame](https://i.stack.imgur.com/jbmJ1.gif)  
 - [How to make ball bounce off wall with Pygame?](https://stackoverflow.com/questions/59802794/how-to-make-ball-bounce-off-wall-with-pygame/59803018#59803018)  
   ![How to make ball bounce off wall with Pygame?](https://i.stack.imgur.com/DKzqg.gif)
+- [I can't get the object to bounce off the walls normally due to its resizing in pygame](https://stackoverflow.com/questions/77770306/i-cant-get-the-object-to-bounce-off-the-walls-normally-due-to-its-resizing-in-p/77770428#77770428)  
+  ![I can't get the object to bounce off the walls normally due to its resizing in pygame](https://i.stack.imgur.com/1lEz8.gif)
 - [Create a border in PyGame](https://stackoverflow.com/questions/74195841/create-a-border-in-pygame/74195933#74195933)
 - [Window border in pygame](https://stackoverflow.com/questions/64205777/window-border-in-pygame/64206877#64206877)
 - [I made a border in this pong game, but the paddles can cross it. How do I stop that?](https://stackoverflow.com/questions/63607681/i-made-a-border-in-this-pong-game-but-the-paddles-can-cross-it-how-do-i-stop-t/63609229#63609229)  
@@ -224,6 +226,8 @@ Related Stack Overflow questions:
 :scroll: **[Minimal example - Restrict circle to frame](../../examples/minimal_examples/pygame_minimal_intersect_frame_clamp_2.py)**
 
 :scroll: **[Minimal example - Let a ball bounce off floor](../../examples/minimal_examples/pygame_minimal_intersect_circle_floor.py)**
+
+:scroll: **[Minimal example - ball bounce and change size](../../examples/minimal_examples/pygame_minimal_sprite_bounce_and_inflate.py)**
 
 PyGame has a feature that does exactly what you want it to do. Use [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) objects and [`pygame.Rect.clamp()`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.clamp) respectively [`pygame.Rect.clamp_ip()`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.clamp_ip):
 
