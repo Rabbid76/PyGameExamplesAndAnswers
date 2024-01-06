@@ -20,24 +20,25 @@ class Ball(pygame.sprite.Sprite):
         self.image = pygame.transform.scale(self.original_image, (self.radius * 2, self.radius * 2))
         self.rect = self.image.get_rect(center = (round(self.pos.x), round(self.pos.y)))
 
-    def reflect(self, NV):
+    def reflect(self, NV, border_rect):
         self.dir = self.dir.reflect(pygame.math.Vector2(NV))
         self.radius = min(50, self.radius + 1)
         self.image = pygame.transform.scale(self.original_image, (self.radius * 2, self.radius * 2))
-        self.pos += NV
         self.rect = self.image.get_rect(center = (round(self.pos.x), round(self.pos.y)))
+        self.rect.clamp_ip(border_rect)
+        self.pos = self.rect.center
 
-    def update(self, border):
+    def update(self, border_rect):
         self.pos += self.dir * self.velocity
         self.rect.center = round(self.pos.x), round(self.pos.y)
-        if self.rect.left <= border.left:
-            self.reflect((1, 0))
-        if self.rect.right >= border.right:
-            self.reflect((-1, 0))
-        if self.rect.top <= border.top:
-            self.reflect((0, 1))
-        if self.rect.bottom >= border.bottom:
-            self.reflect((0, -1))
+        if self.rect.left < border_rect.left:
+            self.reflect((1, 0), border_rect)
+        if self.rect.right > border_rect.right:
+            self.reflect((-1, 0), border_rect)
+        if self.rect.top < border_rect.top:
+            self.reflect((0, 1), border_rect)
+        if self.rect.bottom > border_rect.bottom:
+            self.reflect((0, -1), border_rect)
    
 pygame.init()
 window = pygame.display.set_mode((500, 500))

@@ -214,7 +214,7 @@ Related Stack Overflow questions:
 - [How to make ball bounce off wall with Pygame?](https://stackoverflow.com/questions/59802794/how-to-make-ball-bounce-off-wall-with-pygame/59803018#59803018)  
   ![How to make ball bounce off wall with Pygame?](https://i.stack.imgur.com/DKzqg.gif)
 - [I can't get the object to bounce off the walls normally due to its resizing in pygame](https://stackoverflow.com/questions/77770306/i-cant-get-the-object-to-bounce-off-the-walls-normally-due-to-its-resizing-in-p/77770428#77770428)  
-  ![I can't get the object to bounce off the walls normally due to its resizing in pygame](https://i.stack.imgur.com/1lEz8.gif)
+  ![I can't get the object to bounce off the walls normally due to its resizing in pygame](https://i.stack.imgur.com/BLpYD.gif)
 - [Create a border in PyGame](https://stackoverflow.com/questions/74195841/create-a-border-in-pygame/74195933#74195933)
 - [Window border in pygame](https://stackoverflow.com/questions/64205777/window-border-in-pygame/64206877#64206877)
 - [I made a border in this pong game, but the paddles can cross it. How do I stop that?](https://stackoverflow.com/questions/63607681/i-made-a-border-in-this-pong-game-but-the-paddles-can-cross-it-how-do-i-stop-t/63609229#63609229)  
