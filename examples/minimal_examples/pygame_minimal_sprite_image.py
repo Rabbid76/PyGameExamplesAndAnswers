@@ -1,8 +1,8 @@
 # pygame.sprite module
 # https://www.pygame.org/docs/ref/sprite.html
 #
-# How can I add objects to a "pygame.sprite.Group()"?
-# https://stackoverflow.com/questions/73924256/how-can-i-add-objects-to-a-pygame-sprite-group/73924281#73924281
+# How to use sprites in PyGame?
+# https://stackoverflow.com/questions/73924256/how-to-use-sprites-in-pygame/73924281#73924281
 #
 # Making and using pygame sprites for donkey kong style game
 # https://stackoverflow.com/questions/68566126/making-and-using-pygame-sprites-for-donkey-kong-style-game/68600795#68600795
