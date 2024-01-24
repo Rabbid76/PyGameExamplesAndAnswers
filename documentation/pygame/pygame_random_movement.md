@@ -12,7 +12,7 @@ Related Stack Overflow questions:
 - [How to plot circles every 20 pixels between two randomly generated points in Pygame?](https://stackoverflow.com/questions/56245338/how-to-plot-circles-every-20-pixels-between-two-randomly-generated-points-in-pyg/56245525#56245525)  
   ![How to plot circles every 20 pixels between two randomly generated points in Pygame?](https://i.stack.imgur.com/AWBu0.png)
 
-  :scroll: **[Minimal example - Random movement (reflect)](../../examples/minimal_examples/pygame_minimal_random_movement_points.py)**
+  📁 **[Minimal example - Random movement (reflect)](../../examples/minimal_examples/pygame_minimal_random_movement_points.py)**
 
 - [Pygame Pacman - Enemy Random Movement](https://stackoverflow.com/questions/65305293/pygame-pacman-enemy-random-movement)
 
@@ -22,4 +22,4 @@ Related Stack Overflow questions:
 - [Population Simulation in Python](https://stackoverflow.com/questions/75501098/population-simulation-in-python/75501705#75501705)  
   [Population Simulation in Python](https://i.stack.imgur.com/C0QtK.gif)
 
-  :scroll: **[Minimal example - Random movement](../../examples/minimal_examples/pygame_minimal_random_movement_object.py)**
+  📁 **[Minimal example - Random movement](../../examples/minimal_examples/pygame_minimal_random_movement_object.py)**

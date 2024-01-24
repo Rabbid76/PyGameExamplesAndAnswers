@@ -105,8 +105,8 @@ image_buffer = glGetTexImage(GL_TEXTURE_2D, 0, GL_RGBA, GL_UNSIGNED_BYTE)
 image_surf = pygame.image.fromstring(image_buffer, (width, height), "RGBA")
 ```
 
-:scroll: **[OpenGL immediate mode - screenshot, glReadPixels](../../examples/pygame_opengl/immediate_mode/pygame_opengl_screenshot_glReadPixels.py)**  
-:scroll: **[OpenGL immediate mode - store color buffer, glGetTexImage](../../examples/pygame_opengl/immediate_mode/pygame_opengl_store_colorbuffer_glGetTexImage.py)**  
+📁 **[OpenGL immediate mode - screenshot, glReadPixels](../../examples/pygame_opengl/immediate_mode/pygame_opengl_screenshot_glReadPixels.py)**  
+📁 **[OpenGL immediate mode - store color buffer, glGetTexImage](../../examples/pygame_opengl/immediate_mode/pygame_opengl_store_colorbuffer_glGetTexImage.py)**  
 
 ## Mixed drawing
 

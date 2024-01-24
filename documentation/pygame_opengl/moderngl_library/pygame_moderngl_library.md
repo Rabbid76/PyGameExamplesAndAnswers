@@ -22,4 +22,4 @@ Related Stack Overflow questions:
 - [Render pygame sprites with pyopengl](https://stackoverflow.com/questions/54543587/render-pygame-sprites-with-pyopengl/65653236#65653236)  
   ![Render pygame sprites with pyopengl](https://i.stack.imgur.com/VEkp8.png)
 
-  :scroll: **[Minimal example - PyGame Sprite](../../../examples/pygame_opengl/moderngl_library/moderngl_minimal_pygame_sprite.py)**
+  📁 **[Minimal example - PyGame Sprite](../../../examples/pygame_opengl/moderngl_library/moderngl_minimal_pygame_sprite.py)**

@@ -74,7 +74,7 @@ body = [(3, 2), (3, 3), (3, 4), (4, 4), (5, 4)]
 
 ![1](https://i.stack.imgur.com/z9D7B.png)
 
-:scroll: **[Minimal example](../../examples/minimal_examples/pygame_minimal_snake_move_grid.py)**
+📁 **[Minimal example](../../examples/minimal_examples/pygame_minimal_snake_move_grid.py)**
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SnakeMoveInGrid](https://replit.com/@Rabbid76/PyGame-SnakeMoveInGrid#main.py)**
 
@@ -115,7 +115,7 @@ def create_body(track, no_pearls, distance):
     return body
 ```
 
-:scroll: **[Minimal example](../../examples/minimal_examples/pygame_minimal_snake_move_free.py)**
+📁 **[Minimal example](../../examples/minimal_examples/pygame_minimal_snake_move_free.py)**
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SnakeMoveFree](https://replit.com/@Rabbid76/PyGame-SnakeMoveFree#main.py)**
 

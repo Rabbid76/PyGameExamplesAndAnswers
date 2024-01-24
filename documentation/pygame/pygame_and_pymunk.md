@@ -11,7 +11,7 @@ Related Stack Overflow questions:
 - [Get the updated coordinates of a pymunk rotating kinetic body](https://stackoverflow.com/questions/64521750/get-the-updated-coordinates-of-a-pymunk-rotating-kinetic-body/64521960#64521960)  
   ![Get the updated coordinates of a pymunk rotating kinetic body](https://i.stack.imgur.com/iV1Ij.gif)
 
-  :scroll: **[Minimal example - Pymunk kinematics](../../examples/minimal_examples/pygame_minimal_pymuk_kinematics_1.py)**
+  📁 **[Minimal example - Pymunk kinematics](../../examples/minimal_examples/pygame_minimal_pymuk_kinematics_1.py)**
 
 - [Pymunk bodies colliding without touching each other](https://stackoverflow.com/questions/69816874/pymunk-bodies-colliding-without-touching-each-other/69816950#69816950)  
   

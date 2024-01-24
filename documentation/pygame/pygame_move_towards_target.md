@@ -17,12 +17,12 @@ Related Stack Overflow questions:
 - [How can you rotate the sprite and shoot the bullets towards the mouse position?](https://stackoverflow.com/questions/59126785/how-can-you-rotate-the-sprite-and-shoot-the-bullets-towards-the-mouse-position/59126918#59126918)  
   ![How can you rotate the sprite and shoot the bullets towards the mouse position?](https://i.stack.imgur.com/zGoZr.gif)
 
-  :scroll: **[Minimal example - Rotate player and shoot bullet towards faced direction 1](../../examples/minimal_examples/pygame_minimal_rotate_to_target_fire_bullet_1.py)**
+  📁 **[Minimal example - Rotate player and shoot bullet towards faced direction 1](../../examples/minimal_examples/pygame_minimal_rotate_to_target_fire_bullet_1.py)**
 
 - [calculating direction of the player to shoot PyGmae](https://stackoverflow.com/questions/60464828/calculating-direction-of-the-player-to-shoot-pygame/60465212#60465212)  
   ![calculating direction of the player to shoot PyGmae](https://i.stack.imgur.com/3F8Mt.gif)
 
-  :scroll: **[Minimal example - Rotate player and shoot bullet towards faced direction 2](../../examples/minimal_examples/pygame_minimal_rotate_to_target_fire_bullet_2.py)**
+  📁 **[Minimal example - Rotate player and shoot bullet towards faced direction 2](../../examples/minimal_examples/pygame_minimal_rotate_to_target_fire_bullet_2.py)**
 
 - [How do you point the barrel towards mouse in pygame?](https://stackoverflow.com/questions/70283340/how-do-you-point-the-barrel-towards-mouse-in-pygame/70318324#70318324)
   ![How do you point the barrel towards mouse in pygame?](https://i.stack.imgur.com/dmBVe.gif)
@@ -39,7 +39,7 @@ Related Stack Overflow questions:
 - **[Shooting a bullet in pygame in the direction of mouse](https://stackoverflow.com/questions/59977052/shooting-a-bullet-in-pygame-in-the-direction-of-mouse/59980344#59980344)**  
   ![Shooting a bullet in pygame in the direction of mouse](https://i.stack.imgur.com/oyzor.gif)
 
-  :scroll: **[Minimal example - shoot bullet towards mouse](../../examples/minimal_examples/pygame_minimal_move_to_target_fire_bullet_1.py)**
+  📁 **[Minimal example - shoot bullet towards mouse](../../examples/minimal_examples/pygame_minimal_move_to_target_fire_bullet_1.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FireBulletInDirectionOfMouse](https://replit.com/@Rabbid76/PyGame-FireBulletInDirectionOfMouse#main.py)**
 
@@ -106,16 +106,16 @@ Related Stack Overflow questions:
 - [Pygame make sprite walk in given rotation](https://stackoverflow.com/questions/66402816/pygame-make-sprite-walk-in-given-rotation/66403030#66403030)  
   ![Pygame make sprite walk in given rotation](https://i.stack.imgur.com/SyPzP.gif)
 
-  :scroll: **[Minimal example - Move to mouse](../../examples/minimal_examples/pygame_minimal_move_follow_4.py)**
+  📁 **[Minimal example - Move to mouse](../../examples/minimal_examples/pygame_minimal_move_follow_4.py)**
 
 - [pygame 2 dimensional movement of an enemy towards the player, how to calculate x and y velocity?](https://stackoverflow.com/questions/66404707/pygame-2-dimensional-movement-of-an-enemy-towards-the-player-how-to-calculate-x/66406985#66406985)  
   ![pygame 2 dimensional movement of an enemy towards the player, how to calculate x and y velocity?](https://i.stack.imgur.com/PNKiu.gif)
 
-  :scroll: **[Minimal example - Follow moving target](../../examples/minimal_examples/pygame_minimal_move_follow_5.py)**
+  📁 **[Minimal example - Follow moving target](../../examples/minimal_examples/pygame_minimal_move_follow_5.py)**
 
 - [Pygame: Image chasing the mouse cursor from certain length](https://stackoverflow.com/questions/55168892/pygame-image-chasing-the-mouse-cursor-from-certain-length/55169273#55169273)
 
-  :scroll: **[Minimal example - Follow target](../../examples/minimal_examples/pygame_minimal_move_follow_1.py)**
+  📁 **[Minimal example - Follow target](../../examples/minimal_examples/pygame_minimal_move_follow_1.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowMouse](https://replit.com/@Rabbid76/PyGame-FollowMouse#main.py)**
 
@@ -124,7 +124,7 @@ Related Stack Overflow questions:
   [Sprite follow another flexible way within certain distance limits](https://stackoverflow.com/questions/60064644/sprite-follow-another-flexible-way-within-certain-distance-limits/60082313#60082313)  
   ![How to make smooth movement in pygame](https://i.stack.imgur.com/9HL3b.gif)
 
-  :scroll: **[Minimal example - Follow target smoothly](../../examples/minimal_examples/pygame_minimal_move_follow_smoothly.py)**
+  📁 **[Minimal example - Follow target smoothly](../../examples/minimal_examples/pygame_minimal_move_follow_smoothly.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowMouseSmoothly](https://replit.com/@Rabbid76/PyGame-FollowMouseSmoothly#main.py)**
 
@@ -191,17 +191,17 @@ if distance > minimum_distance:
     new_follower_vector = follower_vector + direction_vector * step_distance
 ```
 
-:scroll: **[Minimal example - Follow target smoothly](../../examples/minimal_examples/pygame_minimal_move_follow_smoothly.py)**
+📁 **[Minimal example - Follow target smoothly](../../examples/minimal_examples/pygame_minimal_move_follow_smoothly.py)**
 
 ![How to make smooth movement in pygame](https://i.stack.imgur.com/9HL3b.gif)
 
-:scroll: **[Minimal example - Ball follow ball](../../examples/minimal_examples/pygame_minimal_move_follow_2.py)**
+📁 **[Minimal example - Ball follow ball](../../examples/minimal_examples/pygame_minimal_move_follow_2.py)**
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowBall](https://replit.com/@Rabbid76/PyGame-FollowBall#main.py)**
 
 ![Minimal example - Ball follow ball](../../screenshot/pygame_minimal_move_follow_2.gif)
 
-:scroll: **[Minimal example - Object follow target](../../examples/minimal_examples/pygame_minimal_move_follow_3.py)**
+📁 **[Minimal example - Object follow target](../../examples/minimal_examples/pygame_minimal_move_follow_3.py)**
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowInGrid](https://replit.com/@Rabbid76/PyGame-FollowInGrid#main.py)**
 

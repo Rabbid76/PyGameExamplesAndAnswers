@@ -65,10 +65,10 @@ if jump:
         jump = False 
 ```
 
-:scroll: **[Minimal example - Jump (integral)](../../examples/minimal_examples/pygame_minimal_jump_1.py)**  
+📁 **[Minimal example - Jump (integral)](../../examples/minimal_examples/pygame_minimal_jump_1.py)**  
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-Jump](https://replit.com/@Rabbid76/PyGame-Jump#main.py)**
 
-:scroll: **[Minimal example - Jump (floating point)](../../examples/minimal_examples/pygame_minimal_jump_3.py)**  
+📁 **[Minimal example - Jump (floating point)](../../examples/minimal_examples/pygame_minimal_jump_3.py)**  
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-JumpFloat](https://replit.com/@Rabbid76/PyGame-JumpFloat#main.py)**
 
 A more sophisticated approach is to define constants for the  gravity and player's acceleration as the player jumps:
@@ -99,5 +99,5 @@ if y > ground_y:
     acc_y = 0
 ```
 
-:scroll: **[Minimal example - Jump with acceleration](../../examples/minimal_examples/pygame_minimal_jump_2.py)**  
+📁 **[Minimal example - Jump with acceleration](../../examples/minimal_examples/pygame_minimal_jump_2.py)**  
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-JumpAcceleration](https://replit.com/@Rabbid76/Pygame-JumpAcceleration#main.py)**

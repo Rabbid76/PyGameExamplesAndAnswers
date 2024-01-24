@@ -26,10 +26,10 @@ Related Stack Overflow questions:
 - [Problem with recognising where a ray in raycaster intersects a wall along the horizontal axis](https://stackoverflow.com/questions/73776052/problem-with-recognising-where-a-ray-in-raycaster-intersects-a-wall-along-the-ho/73777906#73777906)  
   ![Problem with recognising where a ray in raycaster intersects a wall along the horizontal axis](https://i.stack.imgur.com/JcURc.gif)
 
-  :scroll: **[Minimal example - tile raycast](../../examples/minimal_examples/pygame_minimal_raycast_tiles.py)**
+  📁 **[Minimal example - tile raycast](../../examples/minimal_examples/pygame_minimal_raycast_tiles.py)**
 
 - [How do I fix wall warping in my raycaster?](https://stackoverflow.com/questions/74060836/how-do-i-fix-wall-warping-in-my-raycaster/74061346#74061346)  
   ![How do I fix wall warping in my raycaster?](https://i.stack.imgur.com/XWWai.png)  
   ![How do I fix wall warping in my raycaster?](https://i.stack.imgur.com/2DdYw.gif)
 
-  :scroll: **[Minimal example - tile raycast](../../examples/minimal_examples/pygame_minimal_raycast_tiles_render.py)**
+  📁 **[Minimal example - tile raycast](../../examples/minimal_examples/pygame_minimal_raycast_tiles_render.py)**

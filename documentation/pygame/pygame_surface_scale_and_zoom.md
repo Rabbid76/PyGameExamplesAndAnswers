@@ -73,7 +73,7 @@ Related Stack Overflow questions:
   [How to change an image size in Pygame?](https://stackoverflow.com/questions/43046376/how-to-change-an-image-size-in-pygame/66611330#66611330)  
   ![How do I scale a PyGame image (Surface) with respect to its center?](https://i.stack.imgur.com/soWSp.gif)
 
-  :scroll: **[Minimal example - Scale](../../examples/minimal_examples/pygame_minimal_scale_center.py)**
+  📁 **[Minimal example - Scale](../../examples/minimal_examples/pygame_minimal_scale_center.py)**
 
 - [pygame.transform.scale does not work on the “game” surface](https://stackoverflow.com/questions/56407891/pygame-transform-scale-does-not-work-on-the-game-surface/56408482#56408482)
 
@@ -120,7 +120,7 @@ window.blit(zoom_surf, (0, 0))
 - [How do I create an extendable bar sprite in PyGame?](https://stackoverflow.com/questions/75561432/how-do-i-create-an-extendable-bar-sprite-in-pygame/75561623#75561623)  
   ![How do I create an extendable bar sprite in PyGame?](https://i.stack.imgur.com/FYNjO.png)
 
-  :scroll: **[Minimal example - Scale inner](../../examples/minimal_examples/pygame_minimal_scale_inner.py)**
+  📁 **[Minimal example - Scale inner](../../examples/minimal_examples/pygame_minimal_scale_inner.py)**
 
 ## Scale and zoom window
 
@@ -129,14 +129,14 @@ See [Display, display position, resize, coordinate system and scroll - Scale and
 - [How to zoom in and out of an image pygame and using the mousposition as the center of the zoom](https://stackoverflow.com/questions/64936805/how-to-zoom-in-and-out-of-an-image-pygame-and-using-the-mousposition-as-the-cent)  
   ![How to zoom in and out of an image pygame and using the mousposition as the center of the zoom](https://i.stack.imgur.com/qYHGr.gif)
 
-  :scroll: **[Minimal example - Display zoom](../../examples/minimal_examples/pygame_minimal_display_zoom.py)**
+  📁 **[Minimal example - Display zoom](../../examples/minimal_examples/pygame_minimal_display_zoom.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-colliderect](https://replit.com/@Rabbid76/PyGame-colliderect#main.py)**
 
 - [Pygame + PyOpenGL Resolution Downscaling](https://stackoverflow.com/questions/76795854/pygame-pyopengl-resolution-downscaling/76796567#76796567)  
   ![Pygame + PyOpenGL Resolution Downscaling](https://i.stack.imgur.com/92IId.png)
 
-  :scroll: **[Minimal example - Display retro zoom](../../examples/minimal_examples/pygame_minimal_scale_retro.py)**
+  📁 **[Minimal example - Display retro zoom](../../examples/minimal_examples/pygame_minimal_scale_retro.py)**
 
 ### Zoom collision and hitboxes
 
@@ -150,4 +150,4 @@ Related Stack Overflow questions:
 - [“Spin” coin image in python, pygame clicker game](https://stackoverflow.com/questions/65173270/spin-coin-image-in-python-pygame-clicker-game/65173486#65173486)  
   ![“Spin” coin image in python, pygame clicker game](https://i.stack.imgur.com/4nsFE.gif)
 
-  :scroll: **[Minimal example - Spin](../../examples/minimal_examples/pygame_minimal_scale_spin.py)**
+  📁 **[Minimal example - Spin](../../examples/minimal_examples/pygame_minimal_scale_spin.py)**

@@ -354,7 +354,7 @@ Related Stack Overflow questions:
 ![Adding rects in list for displaying in 7-segment digits in pygame](https://i.stack.imgur.com/hrDQr.png)  
 ![Adding rects in list for displaying in 7-segment digits in pygame](https://i.stack.imgur.com/hILk7.gif)  
 
-:scroll: **[Minimal example - segment display](../../examples/minimal_examples/pygame_minimal_7_segment_display_1.py)**
+📁 **[Minimal example - segment display](../../examples/minimal_examples/pygame_minimal_7_segment_display_1.py)**
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-7SegementDisplay](https://replit.com/@Rabbid76/PyGame-7SegementDisplay#main.py)**
 
@@ -364,5 +364,5 @@ Related Stack Overflow questions:
 [My parabola is working fine alone, but it's wrong in Pygame](https://stackoverflow.com/questions/70684923/my-parabola-is-working-fine-alone-but-its-wrong-in-pygame/70685947#70685947)  
 ![My parabola is working fine alone, but it's wrong in Pygame](https://i.stack.imgur.com/KQWcb.jpg)  
 
-:scroll: **[Minimal example - parabola](../../examples/minimal_examples/pygame_minimal_parabola.py)**
+📁 **[Minimal example - parabola](../../examples/minimal_examples/pygame_minimal_parabola.py)**
 

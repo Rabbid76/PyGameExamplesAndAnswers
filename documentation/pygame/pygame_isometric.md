@@ -12,7 +12,7 @@ Related Stack Overflow quest
 - [Draw a staggered isometric map with python](https://stackoverflow.com/questions/66568267/draw-a-staggered-isometric-map-with-python/66569330#66569330)  
 - **[Get isometric tile mouse selection in Pygame](https://stackoverflow.com/questions/71336864/get-isometric-tile-mouse-selection-python/73996398#73996398)**
 
-  :scroll: **[Minimal example - isometric grid](../../examples/minimal_examples/pygame_minimal_isometric_map.py)**
+  📁 **[Minimal example - isometric grid](../../examples/minimal_examples/pygame_minimal_isometric_map.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) replit.com/@Rabbid76/Pygame-IsometircMap](https://replit.com/@Rabbid76/Pygame-IsometircMap#main.py)**
 
@@ -72,4 +72,4 @@ Related Stack Overflow quest
 - [How to create a rhomboid in pygame](https://stackoverflow.com/questions/73651474/how-to-create-a-rhomboid-in-pygame/73652102#73652102)  
   ![How to create a rhomboid in pygame](https://i.stack.imgur.com/TRKlB.gif)  
 
-  :scroll: **[Minimal example - isometric cube](../../examples/minimal_examples/pygame_minimal_isometric_cube.py)**
+  📁 **[Minimal example - isometric cube](../../examples/minimal_examples/pygame_minimal_isometric_cube.py)**

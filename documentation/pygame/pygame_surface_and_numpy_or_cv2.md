@@ -80,7 +80,7 @@ def cv2ImageToSurface(cv2Image):
     return surface.convert_alpha() if format == 'RGBA' else surface.convert()
 ```
 
-:scroll: **[Minimal example - Load cv2 image to PyGame _Surface_](../../examples/minimal_examples/pygame_minimal_surface_load_from_cv2.py)**
+📁 **[Minimal example - Load cv2 image to PyGame _Surface_](../../examples/minimal_examples/pygame_minimal_surface_load_from_cv2.py)**
 
 ![Load cv2 image to PyGame _Surface_](https://i.stack.imgur.com/uJ19U.png)
 
@@ -92,7 +92,7 @@ Related Stack Overflow questions:
 - [Pygame surface to opencv image object (not file saving)](https://stackoverflow.com/questions/72756330/pygame-surface-to-opencv-image-object-not-file-saving/72756521#72756521)  
   ![Pygame surface to opencv image object (not file saving](https://i.stack.imgur.com/NItjk.png)
 
-:scroll: **[Minimal example - cv2 image From PyGame _Surface_](../../examples/minimal_examples/pygame_minimal_surface_to_cv2.py)**
+📁 **[Minimal example - cv2 image From PyGame _Surface_](../../examples/minimal_examples/pygame_minimal_surface_to_cv2.py)**
 
 
 Actually, a _cv2_ image is just a three-dimensional _numpy_ array. the 1st dimension is the height, the 2nd the width and the 3rd the number of channels in the order blue, green, red.  
@@ -199,7 +199,7 @@ _format_ specifies the image format and has to be `'RGBA'` (`'BGRA'` doesn't exi
 format = 'RGBA'
 ```
 
-:scroll: **[Minimal example - Load frames from NumPy array](../../examples/minimal_examples/pygame_minimal_surface_load_frames_numpy.py)**
+📁 **[Minimal example - Load frames from NumPy array](../../examples/minimal_examples/pygame_minimal_surface_load_frames_numpy.py)**
 
 ![Pygame and Numpy Animations](https://i.stack.imgur.com/PKT8H.gif)
 
@@ -240,6 +240,6 @@ def loadGIF(filename):
     return frames
 ```
 
-:scroll: **[Minimal example - Load animated GIF PyGame _Surface_ list using cv2](../../examples/minimal_examples/pygame_minimal_surface_load_frames_gif_cv2.py)**
+📁 **[Minimal example - Load animated GIF PyGame _Surface_ list using cv2](../../examples/minimal_examples/pygame_minimal_surface_load_frames_gif_cv2.py)**
 
 ![How can I load an animated GIF and get all of the individual frames in PyGame?](https://i.stack.imgur.com/geYjP.gif)

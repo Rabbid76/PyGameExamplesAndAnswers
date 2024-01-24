@@ -8,7 +8,8 @@
 
 [pip pygbag](https://pypi.org/project/pygbag/)
 
-:scroll: **[minimal example - Pygbag](../../examples/minimal_exmaples_web/pygame_minimal_move_object/main.py)**
+📁 **[minimal example - Pygbag](../../examples/minimal_exmaples_web/pygame_minimal_move_object/main.py)**
+▶ **[run minimal pygbag example](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimal_move_object/build/web/)**
 
 ```bash
 pip3 install pygbag --user --upgrade
@@ -21,4 +22,4 @@ pygbag your.app.folder
 - [pygame-web.github.io](https://pygame-web.github.io/)
 - [pygame-web.github.io - CPython Wasm specifics](https://pygame-web.github.io/wiki/python-wasm/)
 - [pygame-web.github.io - Python code specifics](https://pygame-web.github.io/wiki/pygbag-code/)
-- [https://www.youtube.com/watch?v=6PhDmpBcezQ]
+- [YouTube - Running PyGame in the web browser with Pygbag! mini Python tutorial Wasm WebAssembly](https://www.youtube.com/watch?v=6PhDmpBcezQ)

@@ -47,7 +47,7 @@ Related Stack Overflow questions:
 - [Pygame doesn't let me use float for rect.move, but I need it](https://stackoverflow.com/questions/63468413/pygame-doesnt-let-me-use-float-for-rect-move-but-i-need-it/63468637#63468637)  
   ![Pygame doesn't let me use float for rect.move, but I need it](https://i.stack.imgur.com/xfB54.gif)  
 
-  :scroll: **[Minimal example - Move rectangle diagonal](../../examples/minimal_examples/pygame_minimal_move_rect_float.py)**
+  📁 **[Minimal example - Move rectangle diagonal](../../examples/minimal_examples/pygame_minimal_move_rect_float.py)**
 
 - [Problems with moving an enemy towards a character in pygame](https://stackoverflow.com/questions/70549998/problems-with-moving-an-enemy-towards-a-character-in-pygame/70550038#70550038)
 - [PyGame move one unit in degrees](https://stackoverflow.com/questions/69312639/pygame-move-one-unit-in-degrees/69312664#69312664)  
@@ -57,7 +57,7 @@ Related Stack Overflow questions:
 - [moving with a normalized vector in pygame inconsistent?](https://stackoverflow.com/questions/68486375/moving-with-a-normalized-vector-in-pygame-inconsistent/68486486#68486486)  
   ![moving with a normalized vector in pygame inconsistent?](https://i.stack.imgur.com/oPdGS.gif)
 
-  :scroll: **[Minimal example - Move rectangle diagonal](../../examples/minimal_examples/pygame_minimal_move_diagonal.py)**
+  📁 **[Minimal example - Move rectangle diagonal](../../examples/minimal_examples/pygame_minimal_move_diagonal.py)**
 
 - [Ship moves up and left faster than down and right when rotating in pygame](https://stackoverflow.com/questions/62411259/ship-moves-up-and-left-faster-than-down-and-right-when-rotating-in-pygame/65347117#65347117)  
   ![Ship moves up and left faster than down and right when rotating in pygame](https://i.stack.imgur.com/6IPS1.gif)
@@ -85,7 +85,7 @@ Related Stack Overflow questions:
 - [Setting up an invisible boundary for my sprite](https://stackoverflow.com/questions/69180916/setting-up-an-invisible-boundary-for-my-sprite/69181366#69181366)  
   ![Setting up an invisible boundary for my sprite](https://i.stack.imgur.com/TQ1Ys.gif)  
 
-  :scroll: **[Minimal example - Restrict rectangle to frame](../../examples/minimal_examples/pygame_minimal_intersect_frame_clamp_1.py)**
+  📁 **[Minimal example - Restrict rectangle to frame](../../examples/minimal_examples/pygame_minimal_intersect_frame_clamp_1.py)**
 
 - [How do I get the size (width x height) of my pygame window](https://stackoverflow.com/questions/36653519/how-do-i-get-the-size-width-x-height-of-my-pygame-window) 
   [How do I get the size (width x height) of my pygame window](https://i.stack.imgur.com/xMMCz.gif)
@@ -128,7 +128,7 @@ Explanation:
 [`get_rect()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.get_rect) generates a `pygame.Rect` with the size oft the [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface) which is associated to the display. [`inflate()`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.inflate) generates a new rectangle with the size changed by the diameter oft the circle, where the rectangle remains centered around its current center.  
 In the following, `min` and `max` are used to clamp the center of the circle in the area defined by the rectangle.
 
-:scroll: **[minimal example - Move object with keys limit it to the window borders](../../examples/minimal_examples/pygame_minimal_move_object_limit_window.py)**
+📁 **[minimal example - Move object with keys limit it to the window borders](../../examples/minimal_examples/pygame_minimal_move_object_limit_window.py)**
 
 ## Center of a rectangular area
 
@@ -167,6 +167,6 @@ Related Stack Overflow questions:
 - [rotating a rectangle in pygame](https://stackoverflow.com/questions/68927683/rotating-a-rectangle-in-pygame/68927744#68927744)  
   ![rotating a rectangle in pygame](https://i.stack.imgur.com/2NNT6.gif)  
 
-  :scroll: **[Minimal example - rotate rectangle](../../examples/minimal_examples/pygame_minimal_draw_rectangle_rotated_2.py)**
+  📁 **[Minimal example - rotate rectangle](../../examples/minimal_examples/pygame_minimal_draw_rectangle_rotated_2.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-AnalogClock](https://replit.com/@Rabbid76/PyGame-AnalogClock#main.py)**

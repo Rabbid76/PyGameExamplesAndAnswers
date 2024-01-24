@@ -3,7 +3,7 @@
 #
 # How to get keyboard input in pygame?
 # https://stackoverflow.com/questions/16044229/how-to-get-keyboard-input-in-pygame/64494842#64494842
-#
+#v
 # How can I make a sprite move when key is held down
 # https://stackoverflow.com/questions/9961563/how-can-i-make-a-sprite-move-when-key-is-held-down/64611463#64611463
 #

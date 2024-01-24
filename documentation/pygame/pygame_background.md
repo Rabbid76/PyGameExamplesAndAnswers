@@ -11,9 +11,9 @@ Related Stack Overflow questions:
 - [How To Create A Checkered Background Using Pygame Surfarrays?](https://stackoverflow.com/questions/73277963/how-to-create-a-checkered-background-using-pygame-surfarrays/73278096#73278096)  
   ![How To Create A Checkered Background Using Pygame Surfarrays?](https://i.stack.imgur.com/YYTQ3.png)
 
-  :scroll: **[Minimal example - Checkered background](../../examples/minimal_examples/pygame_minimal_checkered_background_1.py)**
+  📁 **[Minimal example - Checkered background](../../examples/minimal_examples/pygame_minimal_checkered_background_1.py)**
 
-  :scroll: **[Minimal example - Checkered background (NumPy)](../../examples/minimal_examples/pygame_minimal_checkered_background_2.py)**
+  📁 **[Minimal example - Checkered background (NumPy)](../../examples/minimal_examples/pygame_minimal_checkered_background_2.py)**
 
 ## Scale background
 
@@ -24,9 +24,9 @@ Related Stack Overflow questions:
 
 - [How to scale images to screen size in Pygame](https://stackoverflow.com/questions/20002242/how-to-scale-images-to-screen-size-in-pygame/73384976#73384976)
 
-  :scroll: **[Minimal example - Scale background](../../examples/minimal_examples/pygame_minimal_display_scale_background_1.py)**
+  📁 **[Minimal example - Scale background](../../examples/minimal_examples/pygame_minimal_display_scale_background_1.py)**
 
-  :scroll: **[Minimal example - Scale background, keep aspect ratio](../../examples/minimal_examples/pygame_minimal_display_scale_background_2.py)**
+  📁 **[Minimal example - Scale background, keep aspect ratio](../../examples/minimal_examples/pygame_minimal_display_scale_background_2.py)**
 
 ## Scroll background
 
@@ -34,12 +34,12 @@ Related Stack Overflow questions:
 
 - [Making the background move sideways in pygame](https://stackoverflow.com/questions/55050166/making-the-background-move-sideways-in-pygame/55068602#55068602)
 
-  :scroll: **[Minimal example - Scroll background vertical](../../examples/minimal_examples/pygame_minimal_display_scroll_background_1.py)**
+  📁 **[Minimal example - Scroll background vertical](../../examples/minimal_examples/pygame_minimal_display_scroll_background_1.py)**
 
 - [How to scroll the background surface in PyGame?](https://stackoverflow.com/questions/55319181/how-to-scroll-the-background-surface-in-pygame/55321731#55321731)  
   ![How to scroll the background surface in PyGame?](https://i.stack.imgur.com/QosjL.gif)
 
-  :scroll: **[Minimal example - Scroll background vertical](../../examples/minimal_examples/pygame_minimal_display_scroll_background_2.py)**
+  📁 **[Minimal example - Scroll background vertical](../../examples/minimal_examples/pygame_minimal_display_scroll_background_2.py)**
 
 - [How to move the background image with keys in pygame?](https://stackoverflow.com/questions/61039508/how-to-move-the-background-image-with-keys-in-pygame/61039821#61039821)
 - [Pygame : Two layered scrolling background, can you help me?](https://stackoverflow.com/questions/55454487/pygame-two-layered-scrolling-background-can-you-help-me/55460386#55460386)
@@ -47,7 +47,7 @@ Related Stack Overflow questions:
 - [How to move the player across a one background image?](https://stackoverflow.com/questions/67736156/how-to-move-the-player-across-a-one-background-image/67741682#67741682)  
   ![How to move the player across a one background image?](https://i.stack.imgur.com/Mb09D.gif)
 
-  :scroll: **[Minimal example - Scroll background with player](../../examples/minimal_examples/pygame_minimal_display_scroll_background_3.py)**
+  📁 **[Minimal example - Scroll background with player](../../examples/minimal_examples/pygame_minimal_display_scroll_background_3.py)**
 
 - [How to continuously move an image smoothly in Pygame?](https://stackoverflow.com/questions/67944873/how-to-continuously-move-an-image-smoothly-in-pygame/67946424#67946424)  
   ![How to continuously move an image smoothly in Pygame?](https://i.stack.imgur.com/7Rexy.gif)
@@ -98,7 +98,7 @@ Related Stack Overflow questions:
 - [How to make parallax scrolling work properly with a camera that stops at edges pygame](https://stackoverflow.com/questions/63712333/how-to-make-parallax-scrolling-work-properly-with-a-camera-that-stops-at-edges-p/74002486#74002486)
   ![How to make parallax scrolling work properly with a camera that stops at edges pygame](https://i.stack.imgur.com/9Ogyf.png)
 
-  :scroll: **[Minimal example - Parallax background](../../examples/minimal_examples/pygame_minimal_parallax_background.py)**
+  📁 **[Minimal example - Parallax background](../../examples/minimal_examples/pygame_minimal_parallax_background.py)**
 
 Background scrolling is achieved by moving the background image. The image is drawn into the window with an offset and must be drawn twice:
 

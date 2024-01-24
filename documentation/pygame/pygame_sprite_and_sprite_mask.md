@@ -19,13 +19,13 @@ Related Stack Overflow questions:
 - **[How to use sprites in PyGame?](https://stackoverflow.com/questions/73924256/how-to-use-sprites-in-pygame/73924281#73924281)**  
 - [Making and using pygame sprites for donkey kong style game](https://stackoverflow.com/questions/68566126/making-and-using-pygame-sprites-for-donkey-kong-style-game/68600795#68600795)**
 
-  :scroll: **[Minimal example - Minimal sprite image](../../examples/minimal_examples/pygame_minimal_sprite_image.py)**
+  📁 **[Minimal example - Minimal sprite image](../../examples/minimal_examples/pygame_minimal_sprite_image.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-Sprite](https://replit.com/@Rabbid76/PyGame-Sprite#main.py)**
 
 - [Why We Have to Use self.rect and self.image to Determine Rect and Surf on Sprites?](https://stackoverflow.com/questions/68454667/why-we-have-to-use-self-rect-and-self-image-to-determine-rect-and-surf-on-sprite/68456266#68456266)
 
-  :scroll: **[Minimal example - Minimal sprite update](../../examples/minimal_examples/pygame_minimal_sprite_update.py)**
+  📁 **[Minimal example - Minimal sprite update](../../examples/minimal_examples/pygame_minimal_sprite_update.py)**
 
 A [`pygame.sprite.Sprite`](http://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Sprite) encapsulates an [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object and an [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) object. It should have and an `image` and a `rect` attribute. `image` stores the sprite and `rect` stores the position and size of the sprite.
 
@@ -57,7 +57,7 @@ Related Stack Overflow questions:
 - [pygame. How to render the text like a all_sprites.update() but all_texts.update()?](https://stackoverflow.com/questions/74158381/pygame-how-to-render-the-text-like-a-all-sprites-update-but-all-texts-update/74158474#74158474)  
   ![pygame. How to render the text like a all_sprites.update() but all_texts.update()?](https://i.stack.imgur.com/yfYDi.png)
 
-:scroll: **[Minimal example - Text sprite](../../examples/minimal_examples/pygame_minimal_sprite_text.py)**
+📁 **[Minimal example - Text sprite](../../examples/minimal_examples/pygame_minimal_sprite_text.py)**
 
 ## Sprite Groups
 
@@ -65,7 +65,7 @@ Related Stack Overflow questions:
 
 - **[What does pygame.sprite.Group() do](https://stackoverflow.com/questions/68765971/what-does-pygame-sprite-group-do/68767767#68767767)**  
 
-  :scroll: **[Minimal example - Minimal sprite group](../../examples/minimal_examples/pygame_minimal_sprite_group.py)**
+  📁 **[Minimal example - Minimal sprite group](../../examples/minimal_examples/pygame_minimal_sprite_group.py)**
 
 - [Why We Have to Use self.rect and self.image to Determine Rect and Surf on Sprites?](https://stackoverflow.com/questions/68454667/why-we-have-to-use-self-rect-and-self-image-to-determine-rect-and-surf-on-sprite/68456266#68456266)  
 - [Why do group lists in pygame have to have “update” functions, and not any other?](https://stackoverflow.com/questions/64835155/why-do-group-lists-in-pygame-have-to-have-update-functions-and-not-any-other/64835175#64835175)
@@ -119,7 +119,7 @@ Related Stack Overflow questions:
 
 - [Background image change glitches](https://stackoverflow.com/questions/70271511/background-image-change-glitches/70281354#70281354)
 
-  :scroll: **[Minimal example - Minimal sprite group - render update](../../examples/minimal_examples/pygame_minimal_sprite_group_render_update_1.py)**
+  📁 **[Minimal example - Minimal sprite group - render update](../../examples/minimal_examples/pygame_minimal_sprite_group_render_update_1.py)**
 
 ## Destroy (kill) Sprite objects
 
@@ -136,7 +136,7 @@ enemy = min([e for e in chased.sprites()], key=lambda e: pow(e.x-entity.x, 2) + 
 
 - [Why is self.kill() not removing the object from the group?](https://stackoverflow.com/questions/73378230/why-is-self-kill-not-removing-the-object-from-the-group?noredirect=1#comment129587586_73378230)
 
-  :scroll: **[Minimal example - sprite group kill issue](../../examples/minimal_examples/pygame_minimal_sprite_group_render_kill_issue.py)**
+  📁 **[Minimal example - sprite group kill issue](../../examples/minimal_examples/pygame_minimal_sprite_group_render_kill_issue.py)**
 
 ## Sprite collide
 
@@ -150,9 +150,9 @@ Related Stack Overflow questions:
 - [Collisions still aren't getting detected in pygame](https://stackoverflow.com/questions/63465025/collisions-still-arent-getting-detected-in-pygame/63465289#63465289)  
   ![Collisions still aren't getting detected in pygame](https://i.stack.imgur.com/OkZC7.gif)
 
-:scroll: **[Minimal example - Minimal sprite collide](../../examples/minimal_examples/pygame_minimal_sprite_collide.py)**
+📁 **[Minimal example - Minimal sprite collide](../../examples/minimal_examples/pygame_minimal_sprite_collide.py)**
 
-:scroll: **[Minimal example - Minimal sprite collide (class)](../../examples/minimal_examples/pygame_minimal_intersect_spritecollide_class.py)**
+📁 **[Minimal example - Minimal sprite collide (class)](../../examples/minimal_examples/pygame_minimal_intersect_spritecollide_class.py)**
 
 ### Sprite collide with Sprite
 
@@ -167,7 +167,7 @@ Related Stack Overflow questions:
 - [How to make entities take damage with color collision in pygame?](https://stackoverflow.com/questions/65645443/how-to-make-entities-take-damage-with-color-collision-in-pygame/65645826#65645826)  
   ![[How to make entities take damage with color collision in pygame?](https://i.stack.imgur.com/ObuMK.gif)  
 
-  :scroll: **[Minimal example - User defined collision function](../../examples/minimal_examples/pygame_minimal_intersect_spritecollide_userdefined_callback.py)**
+  📁 **[Minimal example - User defined collision function](../../examples/minimal_examples/pygame_minimal_intersect_spritecollide_userdefined_callback.py)**
 
 ### Sprite collide with Group
 
@@ -212,20 +212,20 @@ Related Stack Overflow questions:
 - **[Can't figure out how to check mask collision between two sprites](https://stackoverflow.com/questions/71535185/cant-figure-out-how-to-check-mask-collision-between-two-sprites/71536155#71536155)**  
   ![Can't figure out how to check mask collision between two sprites](https://i.stack.imgur.com/Z2vmv.gif)
 
-  :scroll: **[Minimal example - Find the mask intersection of sprites](../../examples/minimal_examples/pygame_minimal_sprite_mask_intersect_2.py)**
+  📁 **[Minimal example - Find the mask intersection of sprites](../../examples/minimal_examples/pygame_minimal_sprite_mask_intersect_2.py)**
 
 - **[How can I made a collision mask?](https://stackoverflow.com/questions/56043600/how-can-i-made-a-collision-mask/56045037#56045037)**
 - **[Pygame mask collision](https://stackoverflow.com/questions/60077813/pygame-mask-collision/60078039#60078039)**  
   [![Pygame mask collision](https://i.stack.imgur.com/fiLMi.gif)](https://stackoverflow.com/questions/60077813/pygame-mask-collision/60078039#60078039)
 
-  :scroll: **[Minimal example - Find the intersection of rotating sprites](../../examples/minimal_examples/pygame_minimal_sprite_mask_intersect.py)**
+  📁 **[Minimal example - Find the intersection of rotating sprites](../../examples/minimal_examples/pygame_minimal_sprite_mask_intersect.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SpriteMask](https://replit.com/@Rabbid76/PyGame-SpriteMask#main.py)**
 
 - **[Make a line as a sprite with its own collision in Pygame](https://stackoverflow.com/questions/34456195/make-a-line-as-a-sprite-with-its-own-collision-in-pygame/65324946#65324946)**  
   ![Make a line as a sprite with its own collision in Pygame](https://i.stack.imgur.com/tMq2i.gif)
 
-  :scroll: **[Minimal example - Find the intersection of sprites a nd line](../../examples/minimal_examples/pygame_minimal_sprite_mask_intersect_surface_line.py)**
+  📁 **[Minimal example - Find the intersection of sprites a nd line](../../examples/minimal_examples/pygame_minimal_sprite_mask_intersect_surface_line.py)**
 
 [`pygame.sprite.collide_mask()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.collide_mask) use the `.rect` and `.mask` attribute of the sprite object for the collision detection.
 
@@ -246,7 +246,7 @@ Related Stack Overflow questions:
 - [Changing colour of a surface without overwriting transparency](https://stackoverflow.com/questions/64190277/changing-colour-of-a-surface-without-overwriting-transparency/64193109#64193109)  
   ![Changing colour of a surface without overwriting transparency](https://i.stack.imgur.com/oldLt.gif)
 
-  :scroll: **[Minimal example - Chang the color of an area of a Sprite](../../examples/minimal_examples/pygame_minimal_blend_surface_tint_grayscale_1.py)**
+  📁 **[Minimal example - Chang the color of an area of a Sprite](../../examples/minimal_examples/pygame_minimal_blend_surface_tint_grayscale_1.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSpriteArea](https://replit.com/@Rabbid76/PyGame-ChangeColorOfSpriteArea#main.py)**
 
@@ -303,7 +303,7 @@ class AnimatedSpriteObject(pygame.sprite.Sprite):
         self.image = self.images[self.image_index]
 ```
 
-:scroll: **[Minimal example - Animated sprites](../../examples/minimal_examples/pygame_minimal_sprite_animated_gif_pil.py)**
+📁 **[Minimal example - Animated sprites](../../examples/minimal_examples/pygame_minimal_sprite_animated_gif_pil.py)**
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SpriteAnimation](https://replit.com/@Rabbid76/PyGame-SpriteAnimation#main.py)**
 
@@ -316,7 +316,7 @@ Related Stack Overflow questions:
 - [How can you rotate an image around an off center pivot in PyGame](https://stackoverflow.com/questions/59909942/how-can-you-rotate-an-image-around-an-off-center-pivot-in-pygame/59909946#59909946/59909946#59909946)  
   ![How can you rotate an image around an off center pivot in PyGame](https://i.stack.imgur.com/BmG1u.gif)
 
-  :scroll: **[Minimal example - Rotate Sprite around off center pivot](../../examples/surface_rotate/pygame_sprite_rotate_pivot_boomerang.py)**
+  📁 **[Minimal example - Rotate Sprite around off center pivot](../../examples/surface_rotate/pygame_sprite_rotate_pivot_boomerang.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateSpriteAroundOffCenterPivot](https://replit.com/@Rabbid76/PyGame-RotateSpriteAroundOffCenterPivot#main.py)**
 
@@ -326,13 +326,13 @@ Related Stack Overflow questions:
 
 - [How do I rotate a sprite towards the mouse and move it?](https://stackoverflow.com/questions/64805267/in-the-pygame-module-no-matter-what-i-change-the-coordinates-of-player-to-it-w/64806308#64806308)
 
-  :scroll: **[Minimal example - Rotate Sprite to mouse](../../examples/minimal_examples/pygame_minimal_sprite_rotate_to_mouse.py)**
+  📁 **[Minimal example - Rotate Sprite to mouse](../../examples/minimal_examples/pygame_minimal_sprite_rotate_to_mouse.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SpriteRotateToMouse](https://replit.com/@Rabbid76/PyGame-SpriteRotateToMouse#main.py)**
 
   ![How do I rotate a sprite towards the mouse and move it?](https://i.stack.imgur.com/DYZHI.gif)
 
-  :scroll: **[Minimal example - Sprite follows mouse](../../examples/minimal_examples/pygame_minimal_sprite_follow_mouse.py)**
+  📁 **[Minimal example - Sprite follows mouse](../../examples/minimal_examples/pygame_minimal_sprite_follow_mouse.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SpriteFollowMouse](https://replit.com/@Rabbid76/PyGame-SpriteFollowMouse#main.py)**
 
@@ -345,14 +345,14 @@ Related Stack Overflow questions:
 - [Pygame mouse clicking detection](https://stackoverflow.com/questions/10990137/pygame-mouse-clicking-detection/64533684#64533684)  
   ![Pygame mouse clicking detection](https://i.stack.imgur.com/mW6vv.gif)
 
-  :scroll: **[minimal example - Detect click on sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_click.py)**
+  📁 **[minimal example - Detect click on sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_click.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseClick](https://replit.com/@Rabbid76/PyGame-MouseClick#main.py)**
 
 - [How can I add an image or icon to a button rectangle in Pygame?](https://stackoverflow.com/questions/64990710/how-can-i-add-an-image-or-icon-to-a-button-rectangle-in-pygame/64990819#64990819)  
   ![How can I add an image or icon to a button rectangle in Pygame?](https://i.stack.imgur.com/DnQdC.gif)
 
-  :scroll: **[minimal example - Detect click on sprite 2](../../examples/minimal_examples/pygame_minimal_sprite_mouse_click_2.py)**
+  📁 **[minimal example - Detect click on sprite 2](../../examples/minimal_examples/pygame_minimal_sprite_mouse_click_2.py)**
 
 Use the `rect` attribute of the [`pygame.sprite.Sprite`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Sprite) object and the [`collidepoint`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.collidepoint) method to see if the _Sprite_ was clicked.
 Pass the list of events to the [`update`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.update) method of the [`pygame.sprite.Group`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group) so that you can process the events in the _Sprite_ class:
@@ -392,19 +392,19 @@ Related Stack Overflow questions:
 - [Pygame mouse clicking detection](https://stackoverflow.com/questions/10990137/pygame-mouse-clicking-detection/64533684#64533684)  
   ![Pygame mouse clicking detection](https://i.stack.imgur.com/UJVKi.gif)
 
-  :scroll: **[minimal example - Detect Sprite on hover](../../examples/minimal_examples/pygame_minimal_sprite_mouse_hover.py)**
+  📁 **[minimal example - Detect Sprite on hover](../../examples/minimal_examples/pygame_minimal_sprite_mouse_hover.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseHover](https://replit.com/@Rabbid76/PyGame-MouseHover#main.py)**
 
 - [How do I add a border to a sprite when the mouse hovers over it, and delete it after the mouse stops?0](https://stackoverflow.com/questions/70384004/how-do-i-add-a-border-to-a-sprite-when-the-mouse-hovers-over-it-and-delete-it-a/70384279#70384279)  
   ![How do I add a border to a sprite when the mouse hovers over it, and delete it after the mouse stops?](https://i.stack.imgur.com/DQdGr.gif)
 
-  :scroll: **[minimal example - Hover and delete](../../examples/minimal_examples/pygame_minimal_sprite_mouse_hover_3.py)**
+  📁 **[minimal example - Hover and delete](../../examples/minimal_examples/pygame_minimal_sprite_mouse_hover_3.py)**
 
 - [How can I add an image or icon to a button rectangle in Pygame?](https://stackoverflow.com/questions/64990710/how-can-i-add-an-image-or-icon-to-a-button-rectangle-in-pygame/64990819#64990819)  
   ![How can I add an image or icon to a button rectangle in Pygame?](https://i.stack.imgur.com/UEIde.gif)
 
-  :scroll: **[minimal exame_minample - Detect Sprite on hover 2_2](../../examples/minimal_examples/pygimal_sprite_mouse_hover.py)**
+  📁 **[minimal exame_minample - Detect Sprite on hover 2_2](../../examples/minimal_examples/pygimal_sprite_mouse_hover.py)**
 
 Detect  evaluate the mouse states in the `Update` method of the [`pygame.sprite.Sprite`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Sprite) object:
 
@@ -443,14 +443,14 @@ Related Stack Overflow questions:
 - [Drag multiple sprites with different “update ()” methods from the same Sprite class in Pygame](https://stackoverflow.com/questions/64419223/drag-multiple-sprites-with-different-update-methods-from-the-same-sprite-cl/64456959#64456959)  
   ![Drag multiple sprites with different “update ()” methods from the same Sprite class in Pygame](https://i.stack.imgur.com/BaFzb.gif)
 
-  :scroll: **[Minimal example - Drag Sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_drag.py)**
+  📁 **[Minimal example - Drag Sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_drag.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseDrag](https://replit.com/@Rabbid76/PyGame-MouseDrag#main.py)**
 
 - [How to draw a chessboard with Pygame and move the pieces on the board??](https://stackoverflow.com/questions/66467383/how-to-draw-a-chessboard-with-pygame-and-move-the-pieces-on-the-board/66514748#66514748)  
   ![How to draw a chessboard with Pygame and move the pieces on the board??](https://i.stack.imgur.com/i0a0N.gif)
 
-  :scroll: **[Minimal example - Drag chess pieces](../../examples/minimal_examples/pygame_minimal_mouse_drag_chess.py)**
+  📁 **[Minimal example - Drag chess pieces](../../examples/minimal_examples/pygame_minimal_mouse_drag_chess.py)**
 
 ## Circular sprite
 
@@ -466,7 +466,7 @@ Related Stack Overflow questions:
 - [How to put a health bar over the sprite in pygame](https://stackoverflow.com/questions/64867475/how-to-put-a-health-bar-over-the-sprite-in-pygame/64878954#64878954)  
   ![How to put a health bar over the sprite in pygame](https://i.stack.imgur.com/eapda.gif)
 
-  :scroll: **[Minimal example - Drag Sprite](../../examples/minimal_examples/pygame_minimal_sprite_health_bar.py)**
+  📁 **[Minimal example - Drag Sprite](../../examples/minimal_examples/pygame_minimal_sprite_health_bar.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-HealthBar](https://replit.com/@Rabbid76/PyGame-HealthBar#main.py)**
   
@@ -499,7 +499,7 @@ Related Stack Overflow questions:
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SpriteTextInput](https://replit.com/@Rabbid76/PyGame-SpriteTextInput#main.py)**
 
-  :scroll: **[minimal example - Text input box](../../examples/minimal_examples/pygame_minimal_sprite_text_input_box.py)**
+  📁 **[minimal example - Text input box](../../examples/minimal_examples/pygame_minimal_sprite_text_input_box.py)**
 
 ### Radio button
 
@@ -508,6 +508,6 @@ Related Stack Overflow questions:
 - [How do I implement option buttons and change the button color in PyGame?](https://stackoverflow.com/questions/65059267/how-do-i-implement-option-buttons-and-change-the-button-color-in-pygame/65059852#65059852)  
   ![How do I implement option buttons and change the button color in PyGame?](https://i.stack.imgur.com/pPyUV.gif)
 
-:scroll: **[Minimal example - Radio button](../../examples/minimal_examples/pygame_minimal_sprite_mouse_radiobutton.py)**
+📁 **[Minimal example - Radio button](../../examples/minimal_examples/pygame_minimal_sprite_mouse_radiobutton.py)**
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RadioButton](https://replit.com/@Rabbid76/PyGame-RadioButton#main.py)**

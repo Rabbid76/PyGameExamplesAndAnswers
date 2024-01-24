@@ -67,7 +67,7 @@ pixel_array[start_x:end_x, start_y:end_y] = my_color
 pixel_array.close()
 ```
 
-:scroll: **[Minimal example - Draw pixels with `pygame.PixelArray`](../../examples/minimal_examples/pygame_minimal_draw_pixels_2.py)**
+📁 **[Minimal example - Draw pixels with `pygame.PixelArray`](../../examples/minimal_examples/pygame_minimal_draw_pixels_2.py)**
 
 ![Pygame: Draw single pixel](https://i.stack.imgur.com/OiqGY.png)
 

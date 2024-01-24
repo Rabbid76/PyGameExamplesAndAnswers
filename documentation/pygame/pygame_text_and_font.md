@@ -91,8 +91,8 @@ Related Stack Overflow questions:
 - [Make a Single Word Within a String Bold](https://stackoverflow.com/questions/72409725/make-a-single-word-within-a-string-bold/72409816#72409816)
 - [Make a Single Word Within a String Bold](https://i.stack.imgur.com/Gs2ok.png)
 
-  :scroll: **[Minimal example - Bold text](../../examples/minimal_examples/pygame_minimal_text_bold.py)**  
-  :scroll: **[Minimal example - Bold text freetype](../../examples/minimal_examples/pygame_minimal_text_bold_2.py)**
+  📁 **[Minimal example - Bold text](../../examples/minimal_examples/pygame_minimal_text_bold.py)**  
+  📁 **[Minimal example - Bold text freetype](../../examples/minimal_examples/pygame_minimal_text_bold_2.py)**
 
 To draw a"bold" text the "bold" version of the font must be used. "bold" isn't a flag or attribute, it's just a different font.
 Use [`pygame.font.match_font()`](https://www.pygame.org/docs/ref/font.html) to find the path to a specific font file.  
@@ -106,13 +106,13 @@ Related Stack Overflow questions:
 - [how to make PNG canvas see-through in pygame when blitting image](https://stackoverflow.com/questions/64358747/how-to-make-png-canvas-see-through-in-pygame-when-blitting-image/64360467#64360467)  
   ![how to make PNG canvas see-through in pygame when blitting image](https://i.stack.imgur.com/fBEEV.png)
 
-  :scroll: **[Minimal example - Unicode](../../examples/minimal_examples/pygame_minimal_text_unicode.py)**
+  📁 **[Minimal example - Unicode](../../examples/minimal_examples/pygame_minimal_text_unicode.py)**
 
   ![Displaying unicode symbols using pygame](https://i.stack.imgur.com/tZ2EM.png)
 
 - [How to load colorful emojis in pygame?](https://stackoverflow.com/questions/71092136/how-to-load-colorful-emojis-in-pygame/71092137#71092137)  
 
-  :scroll: **[Minimal example - Unicode](../../examples/minimal_examples/pygame_minimal_text_emoji.py)**
+  📁 **[Minimal example - Unicode](../../examples/minimal_examples/pygame_minimal_text_emoji.py)**
 
 I want to use Pygame's [freetype](https://www.pygame.org/docs/ref/freetype.html) module to load a colorful emoji via its unicode. Unfortunately I only get a monochrome image with the outline of the emoji:
 
@@ -234,12 +234,12 @@ Related Stack Overflow questions:
 - [Pygame: Centering text system font text](https://stackoverflow.com/questions/65278123/pygame-centering-text-system-font-text/65278233#65278233)  
   ![Pygame: Centering text system font text](https://i.stack.imgur.com/KnYWY.png)
 
-  :scroll: **[Minimal example - Freetype centered](../../examples/minimal_examples/pygame_minimal_text_freetype_centered.py)**
+  📁 **[Minimal example - Freetype centered](../../examples/minimal_examples/pygame_minimal_text_freetype_centered.py)**
 
 - [pygame text gets out of the screen if increases to much](https://stackoverflow.com/questions/77550093/pygame-text-gets-out-of-the-screen-if-increases-to-much/77550769#77550769)  
   ![pygame text gets out of the window if increases to much](https://i.stack.imgur.com/cVmDS.gif)
 
-  :scroll: **[Minimal example - Text align](../../examples/minimal_examples/pygame_minimal_text_align.py)**
+  📁 **[Minimal example - Text align](../../examples/minimal_examples/pygame_minimal_text_align.py)**
 
 - [Python Pygame Font x coordinate](https://stackoverflow.com/questions/67514758/python-pygame-font-x-coordinate/67514998#67514998)  
   ![Python Pygame Font x coordinate](https://i.stack.imgur.com/1fbjS.gif)
@@ -274,7 +274,7 @@ A _Surface_ can be drawn on another _Surface_ using the [`blit`](https://www.pyg
 screen.blit(text, text_rect)
 ```
 
-:scroll: **[minimal example - Render centered text](../../examples/minimal_examples/pygame_minimal_textpygame_minimal_text_font_font_trasnparent.py)**
+📁 **[minimal example - Render centered text](../../examples/minimal_examples/pygame_minimal_textpygame_minimal_text_font_font_trasnparent.py)**
 
 ![python library pygame: centering text](https://i.stack.imgur.com/tWcUe.png)
 
@@ -304,7 +304,7 @@ Related Stack Overflow questions:
 - [Have an outline of text in Pygame](https://stackoverflow.com/questions/60987711/have-an-outline-of-text-in-pygame/60988595#60988595)  
   ![Have an outline of text in Pygame](https://i.stack.imgur.com/wAmCl.gif)
 
-  :scroll: **[minimal example - Outline](../../examples/minimal_examples/pygame_minimal_text_outline.py)**
+  📁 **[minimal example - Outline](../../examples/minimal_examples/pygame_minimal_text_outline.py)**
 
 - [How to save an image with the outline text using pygame?](https://stackoverflow.com/questions/66154735/how-to-save-an-image-with-the-outline-text-using-pygame/66157210#66157210)  
   ![How to save an image with the outline text using pygame?](https://i.stack.imgur.com/LTDG4.png)  
@@ -313,7 +313,7 @@ Related Stack Overflow questions:
 - [Text with a Drop-shadow](https://stackoverflow.com/questions/52960057/pygame-text-with-a-drop-shadow/73927438#73927438)
   ![Text with a Drop-shadow](https://i.stack.imgur.com/8D4mY.png)
 
-  :scroll: **[minimal example - Drop shadow](../../examples/minimal_examples/pygame_minimal_text_drop_shadow.py)**
+  📁 **[minimal example - Drop shadow](../../examples/minimal_examples/pygame_minimal_text_drop_shadow.py)**
 
 - [How to add a blinking cursor in pygame?](https://stackoverflow.com/questions/68176808/how-to-add-a-blinking-cursor-in-pygame/68181209#68181209)  
   ![How to add a blinking cursor in pygame?](https://i.stack.imgur.com/9OEc6.gif)  
@@ -329,7 +329,7 @@ Related Stack Overflow questions:
 - [Paragraph input in pygame](https://stackoverflow.com/questions/71021541/paragraph-input-in-pygame/71022505#71022505)  
   ![Paragraph input in pygame](https://i.stack.imgur.com/ucFXl.gif)
 
-  :scroll: **[minimal example - Drop shadow](../../examples/minimal_examples/pygame_minimal_text_paragraph_input.py)**
+  📁 **[minimal example - Drop shadow](../../examples/minimal_examples/pygame_minimal_text_paragraph_input.py)**
 
 - [Rendering text with multiple lines in pygame](https://stackoverflow.com/questions/42014195/rendering-text-with-multiple-lines-in-pygame/64598520#64598520)  
   [Python/Pygame make text in Pygame wrap when in leaves the window](https://stackoverflow.com/questions/64273966/python-pygame-make-text-in-pygame-wrap-when-in-leaves-the-window)  
@@ -351,7 +351,7 @@ if event.type == pygame.KEYDOWN and input_active:
         text += event.unicode
 ```
 
-:scroll: **[minimal example - Text input](../../examples/minimal_examples/pygame_minimal_text_input.py)**
+📁 **[minimal example - Text input](../../examples/minimal_examples/pygame_minimal_text_input.py)**
 
 ![How to create a text input box with pygame?](https://i.stack.imgur.com/2X5Se.gif)
 
@@ -385,7 +385,7 @@ for event in event_list:
 group.update(event_list)
 ```
 
-:scroll: **[minimal example - Text input box](../../examples/minimal_examples/pygame_minimal_sprite_text_input_box.py)**
+📁 **[minimal example - Text input box](../../examples/minimal_examples/pygame_minimal_sprite_text_input_box.py)**
 
 ![How to create a text input box with pygame?](https://i.stack.imgur.com/FNJeM.gif)
 
@@ -394,8 +394,8 @@ Fortunately PyGame wiki provides a function that for this task. See PyGame wiki 
 
 I've extended the function and added an additional argument, which provides _left_ or _right_ aligned text, _centerd_ text or even _block_ mode:
 
-:scroll: **[Minimal example - Word wrap](../../examples/minimal_examples/pygame_minimal_text_linebreak.py)**  
-:scroll: **[Minimal example - Word wrap](../../examples/minimal_examples/pygame_minimal_text_box_wrap.py)**  
+📁 **[Minimal example - Word wrap](../../examples/minimal_examples/pygame_minimal_text_linebreak.py)**  
+📁 **[Minimal example - Word wrap](../../examples/minimal_examples/pygame_minimal_text_box_wrap.py)**  
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TextWrap](https://replit.com/@Rabbid76/PyGame-TextWrap#main.py)**
 
@@ -494,7 +494,7 @@ text_surf.set_alpha(127)
 window.blit(text_surf, (x, y))
 ```
 
-:scroll: **[minimal example - Render transparent text with font module](../../examples/minimal_examples/pygame_minimal_text_font_trasparent.py)**
+📁 **[minimal example - Render transparent text with font module](../../examples/minimal_examples/pygame_minimal_text_font_trasparent.py)**
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TransparentText](https://replit.com/@Rabbid76/PyGame-TransparentText#main.py)**
 
@@ -518,13 +518,13 @@ ft_font = pygame.freetype.SysFont('Times New Roman', 150)
 ft_font.render_to(window, (x, y), 'test text', (255, 0, 0, 128))
 ```
 
-:scroll: **[minimal example - Render transparent text with freetype module](../../examples/minimal_examples/pygame_minimal_text_freetype_transparent.py)**
+📁 **[minimal example - Render transparent text with freetype module](../../examples/minimal_examples/pygame_minimal_text_freetype_transparent.py)**
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TransparentFreeTypeText](https://replit.com/@Rabbid76/PyGame-TransparentFreeTypeText#main.py)**
 
 ![Python - Pygame - rendering translucent text](https://i.stack.imgur.com/AqOrH.png)
 
-:scroll: **[minimal example - Render transparent text with transparent background](../../examples/minimal_examples/pygame_minimal_text_font_trasparent_background.py)**
+📁 **[minimal example - Render transparent text with transparent background](../../examples/minimal_examples/pygame_minimal_text_font_trasparent_background.py)**
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TextTransparentBackground](https://replit.com/@Rabbid76/PyGame-TextTransparentBackground#main.py)**
 
@@ -552,7 +552,7 @@ Related Stack Overflow questions:
 - [How to display image and text at the same time in python (like SanctuaryRPG)?](https://stackoverflow.com/questions/67711739/how-to-display-image-and-text-at-the-same-time-in-python-like-sanctuaryrpg/67712339#67712339)
   ![How to display image and text at the same time in python (like SanctuaryRPG)?](https://i.stack.imgur.com/VucC8.png)
 
-  :scroll: **[minimal example - Render ASCII text image](../../examples/minimal_examples/pygame_minimal_text_ascii_image.py)**
+  📁 **[minimal example - Render ASCII text image](../../examples/minimal_examples/pygame_minimal_text_ascii_image.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-AsciiTextImage](https://replit.com/@Rabbid76/PyGame-AsciiTextIamge#main.py)**
 
@@ -564,7 +564,7 @@ Related Stack Overflow questions:
 - [Pygame Rendering Text 1 by 1 Causes Lag In Game How Do I Fix This?](https://stackoverflow.com/questions/67273848/pygame-rendering-text-1-by-1-causes-lag-in-game-how-do-i-fix-this/67273892#67273892)  
   ![Typewriter Effect Pygame](https://i.stack.imgur.com/UenHN.gif)
 
-  :scroll: **[minimal example - Typewriter](../../examples/minimal_examples/pygame_minimal_text_typewriter.py)**
+  📁 **[minimal example - Typewriter](../../examples/minimal_examples/pygame_minimal_text_typewriter.py)**
 
     **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-Typewriter](https://replit.com/@Rabbid76/PyGame-Typewriter#main.py)**
 
@@ -575,7 +575,7 @@ Related Stack Overflow questions:
 - [Pygame when adding new text it appears on bottom and rest of text goes up](https://stackoverflow.com/questions/70102350/pygame-when-adding-new-text-it-appears-on-bottom-and-rest-of-text-goes-up/70128422#70128422)  
   ![Pygame when adding new text it appears on bottom and rest of text goes up](https://i.stack.imgur.com/Rl00d.gif)
 
-  :scroll: **[Minimal example - Text scroll](../../examples/minimal_examples/pygame_minimal_text_scroll.py)**
+  📁 **[Minimal example - Text scroll](../../examples/minimal_examples/pygame_minimal_text_scroll.py)**
 
 - [Make a rect object scrollable](https://stackoverflow.com/questions/67288788/make-a-rect-object-scrollable/67289087?noredirect=1)  
   ![Make a rect object scrollable](https://i.stack.imgur.com/Dezqy.png)

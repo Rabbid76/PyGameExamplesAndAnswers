@@ -45,9 +45,9 @@ Related Stack Overflow questions:
 - [Pygame OpenGL 3D Cube Lag](https://stackoverflow.com/questions/50312760/pygame-opengl-3d-cube-lag/50314047#50314047)  
   ![PyGame OpenGL 3D Cube Lag](https://i.stack.imgur.com/Go9Ym.gif)
 
-  :scroll: **[OpenGL immediate mode - Draw a cube with outline](../../../examples/pygame_opengl/opengl_4/pygame_opengl_mesh_cube_outline.py)**
+  📁 **[OpenGL immediate mode - Draw a cube with outline](../../../examples/pygame_opengl/opengl_4/pygame_opengl_mesh_cube_outline.py)**
 
-  :scroll: **[OpenGL immediate mode - Draw a cube with indces and outline](../../../examples/pygame_opengl/opengl_4/pygame_opengl_mesh_cube_indices_outline.py)**
+  📁 **[OpenGL immediate mode - Draw a cube with indces and outline](../../../examples/pygame_opengl/opengl_4/pygame_opengl_mesh_cube_indices_outline.py)**
 
 ## Clipping and Stencil
 
@@ -93,7 +93,7 @@ Related Stack Overflow questions:
 - [Texture arrays in OpenGL](https://stackoverflow.com/questions/64122446/texture-arrays-in-opengl/64124199#64124199)  
   ![Texture arrays in OpenGL](https://i.stack.imgur.com/zlH2Z.gif)
 
-  :scroll: **[OpenGL immediate mode - Cube and texture array](../../../examples/pygame_opengl/opengl_4/pygame_opengl_mesh_cube_texture_array.py)**
+  📁 **[OpenGL immediate mode - Cube and texture array](../../../examples/pygame_opengl/opengl_4/pygame_opengl_mesh_cube_texture_array.py)**
 
 - [Use Texture Arrays To Texture A Sphere In OpenGL](https://stackoverflow.com/questions/64209236/use-texture-arrays-to-texture-a-sphere-in-opengl?noredirect=1#comment113552166_64209236)
 

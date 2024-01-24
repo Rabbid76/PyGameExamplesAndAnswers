@@ -15,7 +15,7 @@ Related Stack Overflow questions:
 
 The following examples show how to embed a Pygame window in a Tkinter frame. On Windows, this example works only with [Pygame 2.2.0](https://github.com/pygame/pygame/releases) or later:
 
-:scroll: **[Minimal example - tkinter](../../examples/minimal_examples/pygame_minimal_tkinter_1.py)**
+📁 **[Minimal example - tkinter](../../examples/minimal_examples/pygame_minimal_tkinter_1.py)**
 
 ```py
 import tkinter as tk
@@ -61,7 +61,7 @@ Related Stack Overflow questions:
 
 - [Changing the volume when moving the slider](https://stackoverflow.com/questions/59775588/changing-the-volume-when-moving-the-slider/59775888#59775888)
 
-  :scroll: **[Minimal example - Slider change volume](../../examples/pygame_pysimplegui/pysimplegui_minimal_slider_volume.py)**
+  📁 **[Minimal example - Slider change volume](../../examples/pygame_pysimplegui/pysimplegui_minimal_slider_volume.py)**
 
 ## PygameMenu
 
@@ -76,7 +76,7 @@ Related Stack Overflow questions:
 - [How can I integrate a Line Chart Viewer in PyGame?](https://stackoverflow.com/questions/70493951/how-can-i-integrate-a-line-chart-viewer-in-pygame/70494476#70494476)  
   ![How can I integrate a Line Chart Viewer in PyGame?](https://i.stack.imgur.com/iL9v5.png)
 
-  :scroll: **[Minimal example - MAth plot lib](../../examples/minimal_examples/pygame_minimal_mathplotlib_1.py)**
+  📁 **[Minimal example - MAth plot lib](../../examples/minimal_examples/pygame_minimal_mathplotlib_1.py)**
 
 ## PyQt
 

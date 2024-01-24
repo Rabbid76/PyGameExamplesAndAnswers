@@ -98,7 +98,8 @@ object_rect = pygame.Rect(x, y, w, h)
 object_rect.clamp_ip(pygame.display.get_surface().get_rect())
 ```
 
-:scroll: **[minimal example - Move object with keys limit it to the window borders](../../examples/minimal_examples/pygame_minimal_move_object_limit_window.py)**
+📁 **[minimal example - Move object with keys limit it to the window borders](../../examples/minimal_examples/pygame_minimal_move_object_limit_window.py)**  
+▶ **[run minimal example - Move object with keys limit it to the window borders](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimal_move_object/build/web/)**
 
 [How do I get the size (width x height) of my pygame window](https://i.stack.imgur.com/xMMCz.gif)
 
@@ -138,7 +139,7 @@ while run:
             screen = pygame.display.set_mode((width, height), pygame.RESIZABLE)
 ```
 
-:scroll: **[Minimal example - Resize](../../examples/minimal_examples/pygame_minimal_display_resize.py)**
+📁 **[Minimal example - Resize](../../examples/minimal_examples/pygame_minimal_display_resize.py)**
 
 ### SDL Resize issues on Windows
 
@@ -186,7 +187,7 @@ Related Stack Overflow questions:
 
 - [How to move a no frame pygame windows when user click on it?](https://stackoverflow.com/questions/57674156/how-to-move-a-no-frame-pygame-windows-when-user-click-on-it/57681853#57681853)
 
-  :scroll: **[Minimal example - Display zoom](../../examples/minimal_examples/pygame_minimal_display_move_no_frame_window_1.py)**
+  📁 **[Minimal example - Display zoom](../../examples/minimal_examples/pygame_minimal_display_move_no_frame_window_1.py)**
 
 - [Pygame Display Position](https://stackoverflow.com/questions/4135928/pygame-display-position)  
 - [Make a pygame resizable window that can be snapped to the screen](https://stackoverflow.com/questions/62034222/make-a-pygame-resizable-window-that-can-be-snapped-to-the-screen/62035592#62035592)
@@ -218,7 +219,7 @@ Related Stack Overflow questions:
 - [How to zoom in and out of an image pygame and using the mousposition as the center of the zoom](https://stackoverflow.com/questions/64936805/how-to-zoom-in-and-out-of-an-image-pygame-and-using-the-mousposition-as-the-cent)  
   ![How to zoom in and out of an image pygame and using the mousposition as the center of the zoom](https://i.stack.imgur.com/qYHGr.gif)
 
-  :scroll: **[Minimal example - Display zoom](../../examples/minimal_examples/pygame_minimal_display_zoom.py)**
+  📁 **[Minimal example - Display zoom](../../examples/minimal_examples/pygame_minimal_display_zoom.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-colliderect](https://replit.com/@Rabbid76/PyGame-colliderect#main.py)**
 
@@ -249,7 +250,7 @@ while running:
     pygame.display.flip()
 ```
 
-:scroll: [Minimal example - Scale up display window](../../examples/minimal_examples/pygame_minimal_dispaly_up_scale.py)
+📁 [Minimal example - Scale up display window](../../examples/minimal_examples/pygame_minimal_dispaly_up_scale.py)
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ZoomInAndOut](https://replit.com/@Rabbid76/PyGame-ZoomInAndOut#main.py)**
 
@@ -260,7 +261,7 @@ Related Stack Overflow questions:
 - [Rotate pygame screen](https://stackoverflow.com/questions/69394255/rotate-pygame-screen/69394709#69394709)  
   ![Rotate pygame screen](https://i.stack.imgur.com/d4WcW.png)
 
-:scroll: **[Minimal example - Rotate screen](../../examples/minimal_examples/pygame_minimal_display_rotate_screen.py)**
+📁 **[Minimal example - Rotate screen](../../examples/minimal_examples/pygame_minimal_display_rotate_screen.py)**
 
 - [Assosiate rects to specific window in pygame](https://stackoverflow.com/questions/70447129/assosiate-rects-to-specific-window-in-pygame/70448761#70448761)  
 - [How do I change the Pygame coordinate system so that the center of the window is (0,0)?](https://stackoverflow.com/questions/61514113/how-do-i-change-the-pygame-coordinate-system-so-that-the-center-of-the-window-is/61516769#61516769)
@@ -268,7 +269,7 @@ Related Stack Overflow questions:
 - [Polygons on created surfaces](https://stackoverflow.com/questions/56639370/polygons-on-created-surfaces/65456150#65456150)  
 - [pygame define different position order make the different result](https://stackoverflow.com/questions/59810922/pygame-define-different-position-order-make-the-different-result/59810986#59810986)
 
-:scroll: **[Minimal example - Center the origin of the coordinate system](../../examples/minimal_examples/pygame_minimal_display_center_origin.py)**
+📁 **[Minimal example - Center the origin of the coordinate system](../../examples/minimal_examples/pygame_minimal_display_center_origin.py)**
 
 Be aware that the y-axis needs to be reversed (`-y` respectively `y1-y2`) because the y-axis is generally pointing up but in the PyGame coordinate system the y-axis is pointing down.
 

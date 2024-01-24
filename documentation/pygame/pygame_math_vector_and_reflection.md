@@ -64,7 +64,7 @@ def angle_of_line(x1, y1, x2, y2):
     return angle_of_vector(x2-x1, y2-y1)
 ```
 
-:scroll: **[Minimal example - Calculate angle of vector animation](../../examples/minimal_examples/pygame_minimal_math_vector_angle_of_vector.py)**
+📁 **[Minimal example - Calculate angle of vector animation](../../examples/minimal_examples/pygame_minimal_math_vector_angle_of_vector.py)**
 
 ![How to know the angle between two vectors?](https://i.stack.imgur.com/Sb5p3.gif)
 
@@ -75,7 +75,7 @@ def angle_between_vectors(x1, y1, x2, y2):
     return pygame.math.Vector2(x1, y1).angle_to((x2, y2))
 ```
 
-:scroll: **[Minimal example - Calculate angle between vector animation](../../examples/minimal_examples/pygame_minimal_math_vector_angle_between_vectors.py)**
+📁 **[Minimal example - Calculate angle between vector animation](../../examples/minimal_examples/pygame_minimal_math_vector_angle_between_vectors.py)**
 
 ![How to know the angle between two vectors?](https://i.stack.imgur.com/fW3WH.gif)
 
@@ -148,7 +148,7 @@ Related Stack Overflow questions:
 - [How to collide with the window frame, bounce the ball and restrict the ball to the rectangular area?](https://stackoverflow.com/questions/60213103/how-to-collide-with-the-window-frame-bounce-the-ball-and-restrict-the-ball-to-t/60214064#60214064)  
   ![Use vector2 in pygame](https://i.stack.imgur.com/jbmJ1.gif)
 
-  :scroll: **[Minimal example - Bball bounce off the frame](../../examples/minimal_examples/pygame_minimal_math_vector_reflect_frame.py)**
+  📁 **[Minimal example - Bball bounce off the frame](../../examples/minimal_examples/pygame_minimal_math_vector_reflect_frame.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-BallBounceOffFrame](https://replit.com/@Rabbid76/PyGame-BallBounceOffFrame#main.py)**
 
@@ -194,7 +194,7 @@ Related Stack Overflow questions:
 - [Python pygame - center axis rotation segment line](https://stackoverflow.com/questions/64446045/python-pygame-center-axis-rotation-segment-line/64446683#64446683)
   ![Python pygame - center axis rotation segment line](https://i.stack.imgur.com/C6EWg.gif)
 
-  :scroll: **[Minimal example - Rotate line](../../examples/minimal_examples/pygame_minimal_math_vector_rotate_line.py)**
+  📁 **[Minimal example - Rotate line](../../examples/minimal_examples/pygame_minimal_math_vector_rotate_line.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-VectorRotateLine](https://replit.com/@Rabbid76/PyGame-VectorRotateLine#main.py)**
 
@@ -207,7 +207,7 @@ Related Stack Overflow questions:
 - [Gaps in a line while trying to draw them with a mouse problem](https://stackoverflow.com/questions/56379888/gaps-in-a-line-while-trying-to-draw-them-with-a-mouse-problem/56380523#56380523)  
   ![Gaps in a line while trying to draw them with a mouse problem](https://i.stack.imgur.com/sCdN0.gif)
 
-  :scroll: **[Minimal example - Sine curve](../../examples/minimal_examples/pygame_minimal_math_curve_sine.py)**
+  📁 **[Minimal example - Sine curve](../../examples/minimal_examples/pygame_minimal_math_curve_sine.py)**
 
 ### Lissajous curve
 
@@ -216,7 +216,7 @@ Related Stack Overflow questions:
 - [How to Get the X and Y Positions of All Curves in a Lissajous Curve Table?](https://stackoverflow.com/questions/55076531/how-to-get-the-x-and-y-positions-of-all-curves-in-a-lissajous-curve-table/55076619#55076619)  
  ![How to Get the X and Y Positions of All Curves in a Lissajous Curve Table?](https://i.stack.imgur.com/MPH0Y.gif)
 
-  :scroll: **[Minimal example - Lissajous curve](../../examples/minimal_examples/pygame_minimal_2D_so_lissajous.py)**
+  📁 **[Minimal example - Lissajous curve](../../examples/minimal_examples/pygame_minimal_2D_so_lissajous.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LissajousCurve](https://replit.com/@Rabbid76/PyGame-LissajousCurve#main.py)**
 
@@ -227,7 +227,7 @@ Related Stack Overflow questions:
 - [I want to make a visualized bubble sort in pygame, the sort works but the visualization doesn't](https://stackoverflow.com/questions/58039583/i-want-to-make-a-visualized-bubble-sort-in-pygame-the-sort-works-but-the-visual/58039872#58039872)  
   ![scene](https://i.stack.imgur.com/h48Os.gif)
 
-  :scroll: **[Minimal example - Sort](../../examples/minimal_examples/pygame_minimal_2D_so_lissajous.py)**
+  📁 **[Minimal example - Sort](../../examples/minimal_examples/pygame_minimal_2D_so_lissajous.py)**
 
 - [I want to make insertig sorting visualizer,the sorting works but not the visualizer](https://stackoverflow.com/questions/62327655/i-want-to-make-insertig-sorting-visualizer-the-sorting-works-but-not-the-visuali/62328400#62328400)  
 ![I want to make insertig sorting visualizer,the sorting works but not the visualizer](https://i.stack.imgur.com/DFAkW.gif)

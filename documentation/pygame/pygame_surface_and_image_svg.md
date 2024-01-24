@@ -27,7 +27,7 @@ SFV File:
 surface = pygame.image.load('my.svg')
 ```
 
-:scroll: **[Minimal example - Load Scalable Vector Graphics (SVG) file in PyGame](../../examples/minimal_examples/pygame_minimal_surface_load_svg_1.py)**
+📁 **[Minimal example - Load Scalable Vector Graphics (SVG) file in PyGame](../../examples/minimal_examples/pygame_minimal_surface_load_svg_1.py)**
 
 SVG binary string
 
@@ -35,7 +35,7 @@ SVG binary string
 pygame_surface = pygame.image.load(io.BytesIO(svg_string.encode()))
 ```
 
-:scroll: **[Minimal example - Load Scalable Vector Graphics (SVG) string in PyGame](../../examples/minimal_examples/pygame_minimal_surface_load_svg_2.py)**
+📁 **[Minimal example - Load Scalable Vector Graphics (SVG) string in PyGame](../../examples/minimal_examples/pygame_minimal_surface_load_svg_2.py)**
 
 Scale SVG:
 
@@ -50,7 +50,7 @@ def load_and_scale_svg(filename, scale):
 pygame_surface = load_and_scale_svg('my.svg', 0.5)
 ```
 
-:scroll: **[Minimal example - Load and scale Scalable Vector Graphics (SVG) file in PyGame](../../examples/minimal_examples/pygame_minimal_surface_load_svg_3.py)**
+📁 **[Minimal example - Load and scale Scalable Vector Graphics (SVG) file in PyGame](../../examples/minimal_examples/pygame_minimal_surface_load_svg_3.py)**
 
 ## Legacy SVG loading
 
@@ -76,7 +76,7 @@ def load_svg(filename):
     return pygame.image.load(byte_io)
 ```
 
-:scroll: **[Minimal example - Load Scalable Vector Graphics (SVG) in PyGame _Surface_ (cairosvg)](../../examples/minimal_examples/pygame_minimal_surface_load_svg_legacy_3.py)**
+📁 **[Minimal example - Load Scalable Vector Graphics (SVG) in PyGame _Surface_ (cairosvg)](../../examples/minimal_examples/pygame_minimal_surface_load_svg_legacy_3.py)**
 
 An alternative is to use _svglib_. However, there seems to be a problem with transparent backgrounds. There is an issue about this topic [How to make the png background transparent? #171](https://github.com/deeplook/svglib/issues/171).  
 
@@ -96,7 +96,7 @@ def load_svg(filename):
     return pygame.image.load(byte_io)
 ```
 
-:scroll: **[Minimal example - Load Scalable Vector Graphics (SVG) in PyGame _Surface_ (svglib)](../../examples/minimal_examples/pygame_minimal_surface_load_svg_legacy_2.py)**
+📁 **[Minimal example - Load Scalable Vector Graphics (SVG) in PyGame _Surface_ (svglib)](../../examples/minimal_examples/pygame_minimal_surface_load_svg_legacy_2.py)**
 
 Anther simple solution is to use _pynanosvg_. The downside of this solution is that _nanosvg_ is no longer actively supported and does not work with Python 3.9. [pynanosvg](https://github.com/ethanhs/pynanosvg) can be used to load and rasterize [Vector Graphics (SVG)](https://de.wikipedia.org/wiki/Scalable_Vector_Graphics) files. Install [Cython](https://cython.org/) and [pynanosvg](https://github.com/ethanhs/pynanosvg):
 
@@ -118,4 +118,4 @@ def load_svg(filename, scale=None, size=None, clip_from=None, fit_to=None, foram
     return  pygame.image.frombuffer(buffer, surf_size, foramt)
 ```
 
-:scroll: **[Minimal example - Load Scalable Vector Graphics (SVG) to PyGame _Surface_ (pynanosvg)](../../examples/minimal_examples/pygame_minimal_surface_load_svg_legacy_1.py)**
+📁 **[Minimal example - Load Scalable Vector Graphics (SVG) to PyGame _Surface_ (pynanosvg)](../../examples/minimal_examples/pygame_minimal_surface_load_svg_legacy_1.py)**

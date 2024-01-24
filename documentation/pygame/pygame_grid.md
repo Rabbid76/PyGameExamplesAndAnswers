@@ -9,7 +9,7 @@ Related Stack Overflow quest
 - [Making a clickable grid using Pygame](https://stackoverflow.com/questions/73835007/making-a-clickable-grid-using-pygame/73835336#73835336)  
   ![Making a clickable grid using Pygame](https://i.stack.imgur.com/rkgFS.gif)
 
-   :scroll: **[Minimal example - Grid](../../examples/minimal_examples/pygame_minimal_grid_click.py)**
+   📁 **[Minimal example - Grid](../../examples/minimal_examples/pygame_minimal_grid_click.py)**
 
 ## Draw grid
 
@@ -79,7 +79,7 @@ Related Stack Overflow quest
 - [Diagonal lines of squares in grids](https://stackoverflow.com/questions/16499848/diagonal-lines-of-squares-in-grids/74072623#74072623)  
   ![Diagonal lines of squares in grid](https://i.stack.imgur.com/6lEA0.gif)  
 
-  :scroll: **[Minimal example - Grid](../../examples/minimal_examples/pygame_minimal_grid_diagonal_cells.py)**
+  📁 **[Minimal example - Grid](../../examples/minimal_examples/pygame_minimal_grid_diagonal_cells.py)**
 
 ## Move in grid
 
@@ -95,7 +95,7 @@ Related Stack Overflow quest
 - [Drawing square colour stored in a list of tuples?](https://stackoverflow.com/questions/69828786/drawing-square-colour-stored-in-a-list-of-tuples/69828913#69828913)  
   ![Drawing square colour stored in a list of tuples?](https://i.stack.imgur.com/e7ecp.gif)
 
-   :scroll: **[Minimal example - Drag pieces](../../examples/minimal_examples/pygame_minimal_mouse_drag_pieces.py)**
+   📁 **[Minimal example - Drag pieces](../../examples/minimal_examples/pygame_minimal_mouse_drag_pieces.py)**
 
 ## Chess board, checker texture
 
@@ -106,7 +106,7 @@ Related Stack Overflow quest
 - [How to draw a chessboard with Pygame and move the pieces on the board??](https://stackoverflow.com/questions/66467383/how-to-draw-a-chessboard-with-pygame-and-move-the-pieces-on-the-board/66514748#66514748)  
   ![How to draw a chessboard with Pygame and move the pieces on the board??](https://i.stack.imgur.com/i0a0N.gif)
 
-  :scroll: **[Minimal example - Drag chess pieces](../../examples/minimal_examples/pygame_minimal_mouse_drag_chess.py)**
+  📁 **[Minimal example - Drag chess pieces](../../examples/minimal_examples/pygame_minimal_mouse_drag_chess.py)**
 
 - [python pygame mouse events not working and not raising errors](https://stackoverflow.com/questions/67437709/python-pygame-mouse-events-not-working-and-not-raising-errors/67449984#67449984)  
   ![python pygame mouse events not working and not raising errors](https://i.stack.imgur.com/cYnIY.gif)

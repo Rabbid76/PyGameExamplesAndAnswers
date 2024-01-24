@@ -13,11 +13,11 @@ Related Stack Overflow questions:
 - [How to open camera with pygame in Windows?](https://stackoverflow.com/questions/29673348/how-to-open-camera-with-pygame-in-windows)  
 - [hard lag when webcam is release(https://stackoverflow.com/questions/74215542/hard-lag-when-webcam-is-release/74217826#74217826)  
 
-:scroll: **[Minimal example - OpenCV Camera capture](../../examples/minimal_examples/pygame_minimal_video_camera.py)**
+📁 **[Minimal example - OpenCV Camera capture](../../examples/minimal_examples/pygame_minimal_video_camera.py)**
 
-:scroll: **[Minimal example - Camera capture (pygame.camera)](../../examples/minimal_examples/pygame_minimal_video_camera_2.py)**
+📁 **[Minimal example - Camera capture (pygame.camera)](../../examples/minimal_examples/pygame_minimal_video_camera_2.py)**
 
-:scroll: **[Minimal example - OpenCV Camera capture and release](../../examples/minimal_examples/pygame_minimal_video_camera_rlease.py)**
+📁 **[Minimal example - OpenCV Camera capture and release](../../examples/minimal_examples/pygame_minimal_video_camera_rlease.py)**
 
 The [`pygame.camera`](https://www.pygame.org/docs/ref/camera.html) is only supported on linux:
 
@@ -50,9 +50,9 @@ Related Stack Overflow questions:
 - [How to load and play a video in pygame](https://stackoverflow.com/questions/21356439/how-to-load-and-play-a-video-in-pygame/69054207#69054207)  
 - [How to play video in Pygame currently?](https://stackoverflow.com/questions/62870381/how-to-play-video-in-pygame-currently)
 
-:scroll: **[Minimal example - Play video with MoviePy](../../examples/minimal_examples/pygame_minimal_video_play.py)**
+📁 **[Minimal example - Play video with MoviePy](../../examples/minimal_examples/pygame_minimal_video_play.py)**
 
-:scroll: **[Minimal example - Play video](../../examples/minimal_examples/pygame_minimal_video_play.py)**
+📁 **[Minimal example - Play video](../../examples/minimal_examples/pygame_minimal_video_play.py)**
 
 The [`pygame.movie`](http://man.hubwiz.com/docset/PyGame.docset/Contents/Resources/Documents/ref/movie.html) is deprecated and not longer supported.
 

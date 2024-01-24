@@ -137,7 +137,7 @@ Related Stack Overflow questions:
 - [How do I blit a PNG with some transparency onto a surface in Pygame?](https://stackoverflow.com/questions/1634208/how-do-i-blit-a-png-with-some-transparency-onto-a-surface-in-pygame/64630678#64630678)  
   ![How do I blit a PNG with some transparency onto a surface in Pygame?](https://i.stack.imgur.com/a62px.png)
 
-  :scroll: **[Minimal example - Load transparent image](../../examples/minimal_examples/pygame_minimal_surface_load_2.py)**
+  📁 **[Minimal example - Load transparent image](../../examples/minimal_examples/pygame_minimal_surface_load_2.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LoadTransparentImage](https://replit.com/@Rabbid76/PyGame-LoadTransparentImage#main.py)**
 
@@ -286,11 +286,11 @@ window_surface.blit(image_surface,
     image_surface.get_rect(center = window_surface.get_rect().center))
 ```
 
-:scroll: **[Minimal example - Load image](../../examples/minimal_examples/pygame_minimal_surface_load_1.py)**
+📁 **[Minimal example - Load image](../../examples/minimal_examples/pygame_minimal_surface_load_1.py)**
 
 ![What is a good way to draw images using pygame?](https://i.stack.imgur.com/FZ2OT.png)
 
-:scroll: **[Minimal example - Load transparent image](../../examples/minimal_examples/pygame_minimal_surface_load_2.py)**
+📁 **[Minimal example - Load transparent image](../../examples/minimal_examples/pygame_minimal_surface_load_2.py)**
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LoadTransparentImage](https://replit.com/@Rabbid76/PyGame-LoadTransparentImage#main.py)**
 
@@ -302,7 +302,7 @@ Related Stack Overflow questions:
 
 - [How do you load all images at a time in pygame?](https://stackoverflow.com/questions/67141356/how-do-you-load-all-images-at-a-time-in-pygame/67141422#67141422)
 
-  :scroll: **[Minimal example - Load all images from directory](../../examples/minimal_examples/pygame_minimal_surface_load_all_From_directory.py)**
+  📁 **[Minimal example - Load all images from directory](../../examples/minimal_examples/pygame_minimal_surface_load_all_From_directory.py)**
 
 Get a list of all the files in the directory (see [os](https://docs.python.org/3/library/os.html)) and create a dictionary with the loaded files:
 
@@ -356,7 +356,7 @@ def pilImageToSurface(pilImage):
         pilImage.tobytes(), pilImage.size, pilImage.mode).convert()
 ```
 
-:scroll: **[Minimal example - Load PIL image to PyGame _Surface_](../../examples/minimal_examples/pygame_minimal_surface_load_from_pil.py)**
+📁 **[Minimal example - Load PIL image to PyGame _Surface_](../../examples/minimal_examples/pygame_minimal_surface_load_from_pil.py)**
 
 ### Load SVG
 
@@ -389,7 +389,7 @@ Related Stack Overflow questions:
 - **[How do I create animated sprites using Sprite Sheets in Pygame?](https://stackoverflow.com/questions/55200501/how-do-i-create-animated-sprites-using-sprite-sheets-in-pygame/55200625#55200625)**  
   ![How do I create animated sprites using Sprite Sheets in Pygame?](https://i.stack.imgur.com/Ekuju.gif)
 
-:scroll: **[Minimal example - Load Sprite Sheet](../../examples/minimal_examples/pygame_minimal_surface_load_sprite_sheet.py)**
+📁 **[Minimal example - Load Sprite Sheet](../../examples/minimal_examples/pygame_minimal_surface_load_sprite_sheet.py)**
 
 - [Invalid destination position for blit error, not seeing how](https://stackoverflow.com/questions/55199591/invalid-destination-position-for-blit-error-not-seeing-how/55199736#55199736)
 
@@ -466,9 +466,9 @@ def loadGIF(filename):
     return frames
 ```
 
-:scroll: **[Minimal example - Load animated GIF PyGame _Surface_ list using cv2](../../examples/minimal_examples/pygame_minimal_surface_load_frames_gif_cv2.py)**
+📁 **[Minimal example - Load animated GIF PyGame _Surface_ list using cv2](../../examples/minimal_examples/pygame_minimal_surface_load_frames_gif_cv2.py)**
 
-:scroll: **[Minimal example - Load animated GIF PyGame _Surface_ list using PLI](../../examples/minimal_examples/pygame_minimal_surface_load_frames_gif_pil.py)**
+📁 **[Minimal example - Load animated GIF PyGame _Surface_ list using PLI](../../examples/minimal_examples/pygame_minimal_surface_load_frames_gif_pil.py)**
 
 ![How can I load an animated GIF and get all of the individual frames in PyGame?](https://i.stack.imgur.com/geYjP.gif)
 
@@ -504,7 +504,7 @@ the_img_alpha.blit(the_img, (0, 0))
 pygame.image.save(the_img_alpha, the_name)
 ```
 
-:scroll: **[Minimal example - Scroll](../../examples/minimal_examples/pygame_minimal_save_transparent_surface.py)**
+📁 **[Minimal example - Scroll](../../examples/minimal_examples/pygame_minimal_save_transparent_surface.py)**
 
 ## Surface lock
 
@@ -539,7 +539,7 @@ Related Stack Overflow questions:
 - [Adjust image of rect](https://stackoverflow.com/questions/66443304/adjust-image-of-rect/66443370#66443370)  
   ![Adjust image of rect](https://i.stack.imgur.com/r0wY5.gif)
 
-  :scroll: **[Minimal example - Scroll](../../examples/minimal_examples/pygame_minimal_surface_scroll_1.py)**
+  📁 **[Minimal example - Scroll](../../examples/minimal_examples/pygame_minimal_surface_scroll_1.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SCroll](https://replit.com/@Rabbid76/PyGame-Scroll#main.py)**
 
@@ -548,4 +548,4 @@ Related Stack Overflow questions:
 - [How to blur the edges of a surface in Pygame?](https://stackoverflow.com/questions/77117250/how-to-blur-the-edges-of-a-surface-in-pygame/77117325#77117325)  
   ![How to blur the edges of a surface in Pygame?](https://i.stack.imgur.com/0COhi.png)
 
-  :scroll: **[Minimal example - BLur edge](../../examples/minimal_examples/pygame_minimal_blur_and_blit.py)**
+  📁 **[Minimal example - BLur edge](../../examples/minimal_examples/pygame_minimal_blur_and_blit.py)**

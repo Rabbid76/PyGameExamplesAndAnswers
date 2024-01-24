@@ -23,7 +23,7 @@ Related Stack Overflow questions:
 - [Collision between masks in PyGame](https://stackoverflow.com/questions/55817422/collision-between-masks-in-pygame/55818093#55818093)  
   ![Check collision between a image and a line](https://i.stack.imgur.com/gEqXr.gif)
 
-  :scroll: **[Minimal example - Find intersection of surfaces](../../examples/minimal_examples/pygame_minimal_mask_intersect_surface.py)**
+  📁 **[Minimal example - Find intersection of surfaces](../../examples/minimal_examples/pygame_minimal_mask_intersect_surface.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SurfaceMaskIntersect](https://replit.com/@Rabbid76/PyGame-SurfaceMaskIntersect#main.py)**
 
@@ -39,7 +39,7 @@ Related Stack Overflow questions:
 - [Check collision between a image and a line](https://stackoverflow.com/questions/58662215/check-collision-between-a-image-and-a-line-pygame/58662648#58662648)  
   ![Check collision between a image and a line](https://i.stack.imgur.com/tMq2i.gif)
 
-  :scroll: **[Minimal example - Find intersection of surfaces and line](../../examples/minimal_examples/pygame_minimal_mask_intersect_surface_line_1.py)**
+  📁 **[Minimal example - Find intersection of surfaces and line](../../examples/minimal_examples/pygame_minimal_mask_intersect_surface_line_1.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-PyGame-SurfaceLineMaskIntersect-1](https://replit.com/@Rabbid76/PyGame-SurfaceLineMaskIntersect-1#main.py)**
 
@@ -49,7 +49,7 @@ Related Stack Overflow questions:
 - **[Overlap between mask and fired beams in PyGame [AI car model vision]](https://stackoverflow.com/questions/62008457/overlap-between-mask-and-fired-beams-in-pygame-ai-car-model-vision/62082726#62082726)**  
   ![Overlap between mask and fired beams in PyGame](https://i.stack.imgur.com/YyFbN.gif)  
 
-  :scroll: **[Minimal example - Find intersection of surface and lines](../../examples/minimal_examples/pygame_minimal_mask_intersect_surface_line_2.py)**
+  📁 **[Minimal example - Find intersection of surface and lines](../../examples/minimal_examples/pygame_minimal_mask_intersect_surface_line_2.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-PyGame-SurfaceLineMaskIntersect-2](https://replit.com/@Rabbid76/PyGame-SurfaceLineMaskIntersect-2#main.py)**
 
@@ -63,7 +63,7 @@ Related Stack Overflow questions:
 - [How would I make color collision using pygame.mask?](https://stackoverflow.com/questions/65981815/how-would-i-make-color-collision-using-pygame-mask/65982315#65982315)  
   ![How would I make color collision using pygame.mask?](https://i.stack.imgur.com/YT515.png)
 
-  :scroll: **[Minimal example - Mask form a single color](../../examples/minimal_examples/pygame_minimal_mask_from_color.py)**
+  📁 **[Minimal example - Mask form a single color](../../examples/minimal_examples/pygame_minimal_mask_from_color.py)**
 
 - [Pygame mask collision only putting damage on base on first collision](https://stackoverflow.com/questions/67429383/pygame-mask-collision-only-putting-damage-on-base-on-first-collision/67429569#67429569)  
   ![Pygame mask collision only putting damage on base on first collision](https://i.stack.imgur.com/eIynX.gif)
@@ -75,19 +75,19 @@ Related Stack Overflow questions:
 - [wondering about pixel perfect mousepointer collision in the case of a button](https://stackoverflow.com/questions/70338690/pygame-wondering-about-pixel-perfect-mousepointer-collision-in-the-case-of-a-b/70338984#70338984)  
   ![wondering about pixel perfect mousepointer collision in the case of a button](https://i.stack.imgur.com/ZymGp.gif)
 
-  scroll: **[Minimal example - Mask collide point](../../examples/minimal_examples/pygame_minimal_mask_intersect_point.py)**
+  📁 **[Minimal example - Mask collide point](../../examples/minimal_examples/pygame_minimal_mask_intersect_point.py)**
 
 - [How do I check if a mask fully contains another mask in Pygame?](https://stackoverflow.com/questions/71155740/how-do-i-check-if-a-mask-fully-contains-another-mask-in-pygame/71162805#71162805)  
 
 - [How would I clamp the player sprite to a certain polygon boundary](https://stackoverflow.com/questions/73991746/how-would-i-clamp-the-player-sprite-to-a-certain-polygon-boundary/74085878#74085878)  
   ![How would I clamp the player sprite to a certain polygon boundary](https://i.stack.imgur.com/luM77.gif)  
 
-  scroll: **[Minimal example - Keepn in mask with overlapping area](../../examples/minimal_examples/pygame_minimal_collide_in_mask_1.py)**
+  📁 **[Minimal example - Keepn in mask with overlapping area](../../examples/minimal_examples/pygame_minimal_collide_in_mask_1.py)**
 
 - [How to know if two ellipses are colliding](https://stackoverflow.com/questions/65323156/how-to-know-if-two-ellipses-are-colliding/74922965#74922965)  
   ![How to know if two ellipses are colliding](https://i.stack.imgur.com/9VWYL.gif)
 
-  :scroll: **[Minimal example - Ellipse mask overlap](../../examples/minimal_examples/pygame_minimal_mask_intersect_ellipses.py)**
+  📁 **[Minimal example - Ellipse mask overlap](../../examples/minimal_examples/pygame_minimal_mask_intersect_ellipses.py)**
 
 ## Mask count pixel
 
@@ -96,7 +96,7 @@ Related Stack Overflow questions:
 - [Get the average Color of a Surface ignoring transparent pixels](https://stackoverflow.com/questions/69876220/get-the-average-color-of-a-surface-ignoring-transparent-pixels/70056421#70056421)  
   ![Get the average Color of a Surface ignoring transparent pixels](https://i.stack.imgur.com/mWM9e.png)
 
-  :scroll: **[Minimal example - Load image](../../examples/minimal_examples/pygame_minimal_mask_count_pixel_1.py)**
+  📁 **[Minimal example - Load image](../../examples/minimal_examples/pygame_minimal_mask_count_pixel_1.py)**
 
 ## Selection and highlighting
 
@@ -105,7 +105,7 @@ Related Stack Overflow questions:
 - [How to add a white surface with the shape of my original image in pygame?](https://stackoverflow.com/questions/67884084/how-to-add-a-white-surface-with-the-shape-of-my-original-image-in-pygame/67889758#67889758)  
   ![How to add a white surface with the shape of my original image in pygame?](https://i.stack.imgur.com/jnZNK.gif)
 
-  :scroll: **[Minimal example - Highlight object](../../examples/minimal_examples/pygame_minimal_mask_hightlighting.py)**
+  📁 **[Minimal example - Highlight object](../../examples/minimal_examples/pygame_minimal_mask_hightlighting.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-PyGame-HighlightObject](https://replit.com/@Rabbid76/PyGame-HighlightObject#main.py)**
 
@@ -122,7 +122,7 @@ Related Stack Overflow questions:
 - [How can I visualize the overlapping area of 2 masks in pygame?](https://stackoverflow.com/questions/70485132/how-can-i-visualize-the-overlapping-area-of-2-masks-in-pygame/70485262#70485262)  
   ![How can I visualize the overlapping area of 2 masks in pygame?](https://i.stack.imgur.com/N6DZ4.gif)  
 
-  :scroll: **[Minimal example - Visualize overlapping area](../../examples/minimal_examples/pygame_minimal_mask_visualize_overlapping_area.py)**
+  📁 **[Minimal example - Visualize overlapping area](../../examples/minimal_examples/pygame_minimal_mask_visualize_overlapping_area.py)**
 
 ## Mask bounding area rectangle
 
@@ -132,7 +132,7 @@ Related Stack Overflow questions:
   [Questions regarding the pygame.mask function](https://stackoverflow.com/questions/67523501/questions-regarding-the-pygame-mask-function/67523631#67523631)  
   ![How to get the correct dimensions for a pygame rectangle created from an image](https://i.stack.imgur.com/iZH3y.png)
 
-  :scroll: **[Minimal example - Find bounding area rectangle](../../examples/minimal_examples/pygame_minimal_mask_bounding_area_rectangle.py)**
+  📁 **[Minimal example - Find bounding area rectangle](../../examples/minimal_examples/pygame_minimal_mask_bounding_area_rectangle.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/ImageHitbox](https://replit.com/@Rabbid76/PyGame-ImageHitbox#main.py)**
 

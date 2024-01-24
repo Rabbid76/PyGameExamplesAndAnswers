@@ -11,14 +11,14 @@ Related Stack Overflow questions:
 - [Pygame mouse clicking detection](https://stackoverflow.com/questions/10990137/pygame-mouse-clicking-detection/64533684#64533684)  
   ![Pygame mouse clicking detection](https://i.stack.imgur.com/mW6vv.gif)
 
-  :scroll: **[minimal example - Detect click on sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_click.py)**
+  📁 **[minimal example - Detect click on sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_click.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseClick](https://replit.com/@Rabbid76/PyGame-MouseClick#main.py)**
 
 - [How can I add an image or icon to a button rectangle in Pygame?](https://stackoverflow.com/questions/64990710/how-can-i-add-an-image-or-icon-to-a-button-rectangle-in-pygame/64990819#64990819)  
   ![How can I add an image or icon to a button rectangle in Pygame?](https://i.stack.imgur.com/DnQdC.gif)
 
-  :scroll: **[minimal example - Detect click on sprite 2](../../examples/minimal_examples/pygame_minimal_sprite_mouse_click_2.py)**
+  📁 **[minimal example - Detect click on sprite 2](../../examples/minimal_examples/pygame_minimal_sprite_mouse_click_2.py)**
 
 - [How to detect when a rectangular object, image or sprite is clicked](https://stackoverflow.com/questions/58917346/how-to-detect-when-a-sprite-is-clicked/58935218#58935218)
 - [How do I detect if the mouse is hovering over a button? PyGame button class is not displaying the text or changing colour on hover](https://stackoverflow.com/questions/63831057/pygame-button-class-is-not-displaying-the-text-or-changing-colour-on-hover/63831641#63831641)
@@ -34,7 +34,7 @@ Related Stack Overflow questions:
 
 - [How to pass a parameter to a function from a button in Pygame?](https://stackoverflow.com/questions/75619069/how-to-pass-a-parameter-to-a-function-from-a-button-in-pygame/75619102#75619102)
 
-  :scroll: **[Minimal example - TRansparent button with shadow](../../examples/minimal_examples/pygame_minimal_ui_button_transparent_shadow.py)**
+  📁 **[Minimal example - TRansparent button with shadow](../../examples/minimal_examples/pygame_minimal_ui_button_transparent_shadow.py)**
 
 ## Radio button
 
@@ -43,7 +43,7 @@ Related Stack Overflow questions:
 - [How do I implement option buttons and change the button color in PyGame?](https://stackoverflow.com/questions/65059267/how-do-i-implement-option-buttons-and-change-the-button-color-in-pygame/65059852#65059852)  
   ![How do I implement option buttons and change the button color in PyGame?](https://i.stack.imgur.com/pPyUV.gif)
 
-:scroll: **[Minimal example - Radio button](../../examples/minimal_examples/pygame_minimal_sprite_mouse_radiobutton.py)**
+📁 **[Minimal example - Radio button](../../examples/minimal_examples/pygame_minimal_sprite_mouse_radiobutton.py)**
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RadioButton](https://replit.com/@Rabbid76/PyGame-RadioButton#main.py)**
 
@@ -75,7 +75,7 @@ Related Stack Overflow questions:
 - [Paragraph input in pygame](https://stackoverflow.com/questions/71021541/paragraph-input-in-pygame/71022505#71022505)  
   ![Paragraph input in pygame](https://i.stack.imgur.com/ucFXl.gif)
 
-  :scroll: **[minimal example - Drop shadow](../../examples/minimal_examples/pygame_minimal_text_paragraph_input.py)**
+  📁 **[minimal example - Drop shadow](../../examples/minimal_examples/pygame_minimal_text_paragraph_input.py)**
 
 ## Progress bar and health bar
 
@@ -103,7 +103,7 @@ Related Stack Overflow questions:v
 - [How do i make a text box pop up when i hover over a button in pygame](https://stackoverflow.com/questions/69833827/how-do-i-make-a-text-box-pop-up-when-i-hover-over-a-button-in-pygame/69961155#69961155)  
   ![How do i make a text box pop up when i hover over a button in pygame](https://i.stack.imgur.com/Ojmgk.gif)
 
-  :scroll: **[minimal exame_minample - Detect Sprite on hover 2_2](../../examples/minimal_examples/pygame_minimal_ui_tooltip.py)**
+  📁 **[minimal exame_minample - Detect Sprite on hover 2_2](../../examples/minimal_examples/pygame_minimal_ui_tooltip.py)**
 
 # Color picker
 
@@ -112,4 +112,4 @@ Related Stack Overflow questions:v
 - [How to make an color picker in pygame?](https://stackoverflow.com/questions/73517832/how-to-make-an-color-picker-in-pygame/73518042#73518042)  
   ![How to make an color picker in pygame?](https://i.stack.imgur.com/NCIIu.gif)
 
-  :scroll: **[minimal exame_minample - Color picker](../../examples/minimal_examples/pygame_minimal_color_color_picker.py)**
+  📁 **[minimal exame_minample - Color picker](../../examples/minimal_examples/pygame_minimal_color_color_picker.py)**

@@ -77,14 +77,14 @@ See [`pygame.display.flip()`](https://www.pygame.org/docs/ref/display.html#pygam
 
 > This will update the contents of the entire display.
 
-:scroll: **[Minimal example - Game loop](../../examples/minimal_examples/pygame_minimal_application_loop.py)**
+📁 **[Minimal example - Game loop](../../examples/minimal_examples/pygame_minimal_application_loop.py)**
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MinimalApplicationLoop](https://replit.com/@Rabbid76/PyGame-MinimalApplicationLoop#main.py)**
 
 - [How to add a background and simple square as a character for a single screen platformer in pygame?](https://stackoverflow.com/questions/74161044/how-to-add-a-background-and-simple-square-as-a-character-for-a-single-screen-pla/74161707#74161707)  
   ![How to add a background and simple square as a character for a single screen platformer in pygame?](https://i.stack.imgur.com/lC8JO.gif)
 
-:scroll: **[Minimal example - Game loop and movement](../../examples/minimal_examples/pygame_minimal_application_loop_2.py)**
+📁 **[Minimal example - Game loop and movement](../../examples/minimal_examples/pygame_minimal_application_loop_2.py)**
 
 ### Quit
 
@@ -101,7 +101,7 @@ Related Stack Overflow questions:
 
 - [Why is my display not responding while waiting for input?](https://stackoverflow.com/questions/67111782/why-is-my-display-not-responding-while-waiting-for-input/67113040#67113040)  
 
-  :scroll: **[Minimal example - Input in application loop](../../examples/minimal_examples/pygame_minimal_threading_input.py)**
+  📁 **[Minimal example - Input in application loop](../../examples/minimal_examples/pygame_minimal_threading_input.py)**
 
 - [Pygame Window not Responding after few seconds](https://stackoverflow.com/questions/64830453/pygame-window-not-responding-after-few-seconds/64832291#64832291)
 - [Why does pygame.display.update() not work if an input is directly followed after it?](https://stackoverflow.com/questions/58794093/why-does-pygame-display-update-not-work-if-an-input-is-directly-followed-after/58812876#58812876)
@@ -164,7 +164,7 @@ Related Stack Overflow questions:
 - [Why doesn't PyGame draw in the window before the delay or sleep?](https://stackoverflow.com/questions/63218889/why-is-pygame-not-showing-text-on-window/63218970#63218970)
 
 - [How to wait some time in pygame?](https://stackoverflow.com/questions/18839039/how-to-wait-some-time-in-pygame)
-  :scroll: **[Minimal example - Display a message for a period of time](../../examples/minimal_examples/pygame_minimal_time_text_message_delay.py)**  
+  📁 **[Minimal example - Display a message for a period of time](../../examples/minimal_examples/pygame_minimal_time_text_message_delay.py)**  
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MessageDelay](https://replit.com/@Rabbid76/PyGame-MessageDelay#main.py)**
 
 - [How do you make Pygame stop for a few seconds?](https://stackoverflow.com/questions/65083381/how-do-you-make-pygame-stop-for-a-few-seconds/65093284#65093284)
@@ -185,7 +185,7 @@ Related Stack Overflow questions:
 - [In pygame for event.type == ACTIVEEVENT, where is the documentation on what the different event.state and event.gain parameters mean](https://stackoverflow.com/questions/61488114/in-pygame-for-event-type-activeevent-where-is-the-documentation-on-what-the/73275032#73275032)  
   ![In pygame for event.type == ACTIVEEVENT, where is the documentation on what the different event.state and event.gain parameters mean](https://i.stack.imgur.com/ZsY84.gif)
 
-  :scroll: **[Minimal example - event ACTIVEEVENT](../../examples/minimal_examples/pygame_minimal_event_activevent.py)**
+  📁 **[Minimal example - event ACTIVEEVENT](../../examples/minimal_examples/pygame_minimal_event_activevent.py)**
 
 ### Recursiveness and restart
 
@@ -348,6 +348,6 @@ while True:
                 target(event)
 ```
 
-:scroll: **[Minimal example - Polymorphically event handling 1](../../examples/minimal_examples/pygame_minimal_event_polymorph_1.py)**
+📁 **[Minimal example - Polymorphically event handling 1](../../examples/minimal_examples/pygame_minimal_event_polymorph_1.py)**
 
-:scroll: **[Minimal example - Polymorphically event handling 2](../../examples/minimal_examples/pygame_minimal_event_polymorph_2.py)**
+📁 **[Minimal example - Polymorphically event handling 2](../../examples/minimal_examples/pygame_minimal_event_polymorph_2.py)**

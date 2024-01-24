@@ -12,7 +12,7 @@ Related Stack Overflow questions:
 - [How to move Sprite in Pygame](https://stackoverflow.com/questions/16183265/how-to-move-sprite-in-pygame/66515040#66515040)  
   ![How to move Sprite in Pygame](https://i.stack.imgur.com/3dmc6.gif)  
 
-  :scroll: **[Minimal example - Move sprite](../../examples/minimal_examples/pygame_minimal_move_object_2.py)**
+  📁 **[Minimal example - Move sprite](../../examples/minimal_examples/pygame_minimal_move_object_2.py)**
 
 - [how to teleport player to the other side of the screen when he touches the screen border?](https://stackoverflow.com/questions/74352270/how-to-teleport-player-to-the-other-side-of-the-screen-when-he-touches-the-scree/74352401#74352401)  
   ![how to teleport player to the other side of the screen when he touches the screen border?](https://i.stack.imgur.com/XQ8ZZ.gif)
@@ -36,12 +36,12 @@ Related Stack Overflow questions:
 - [How to change my ball direction by clicking keys in pygame?](https://stackoverflow.com/questions/65358328/how-to-change-my-ball-direction-by-clicking-keys-in-pygame/65358558#65358558)  
   ![How to change my ball direction by clicking keys in pygame?](https://i.stack.imgur.com/njuTj.gif)
 
-  :scroll: **[Minimal example - Change direction smoothly](../../examples/minimal_examples/pygame_minimal_move_change_direction_smoothly.py)**
+  📁 **[Minimal example - Change direction smoothly](../../examples/minimal_examples/pygame_minimal_move_change_direction_smoothly.py)**
 
 - [moving with a normalized vector in pygame inconsistent?](https://stackoverflow.com/questions/68486375/moving-with-a-normalized-vector-in-pygame-inconsistent/68486486#68486486)  
   ![moving with a normalized vector in pygame inconsistent?](https://i.stack.imgur.com/oPdGS.gif)
 
-  :scroll: **[Minimal example - Move rectangle diagonal](../../examples/minimal_examples/pygame_minimal_move_diagonal.py)**
+  📁 **[Minimal example - Move rectangle diagonal](../../examples/minimal_examples/pygame_minimal_move_diagonal.py)**
 
 ## Move and rotate
 
@@ -50,7 +50,7 @@ Related Stack Overflow questions:
 - [How to turn the sprite in pygame while moving with the keys](https://stackoverflow.com/questions/64792467/how-to-turn-the-sprite-in-pygame-while-moving-with-the-keys/64792568#64792568)  
   ![How to turn the sprite in pygame while moving with the keys](https://i.stack.imgur.com/ALQJc.gif)
 
-  :scroll: **[Minimal example - Car movement](../../examples/minimal_examples/pygame_minimal_move_car.py)**
+  📁 **[Minimal example - Car movement](../../examples/minimal_examples/pygame_minimal_move_car.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CarMovement](https://replit.com/@Rabbid76/PyGame-CarMovement#main.py)**
 
@@ -66,34 +66,34 @@ Related Stack Overflow questions:
 - [The car moves and changes direction when it hits the window edge](https://stackoverflow.com/questions/65001510/the-car-moves-and-changes-direction-when-it-hits-the-window-edge/65010442#65010442)  
   ![The car moves and changes direction when it hits the window edge](https://i.stack.imgur.com/7u7Gj.gif)
 
-  :scroll: **[Minimal example - Car movement](../../examples/minimal_examples/pygame_minimal_move_car_reflect.py)**
+  📁 **[Minimal example - Car movement](../../examples/minimal_examples/pygame_minimal_move_car_reflect.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CarMovement](https://replit.com/@Rabbid76/PyGame-CarMovementReflect#main.py)**
 
 - [How do I gently change the direction of movement when moving forward?](https://stackoverflow.com/questions/70541096/how-do-i-gently-change-the-direction-of-movement-when-moving-forward/70541236#70541236)  
   ![How do I gently change the direction of movement when moving forward?](https://i.stack.imgur.com/1tE2u.gif)  
 
-  :scroll: **[Minimal example - Car movement](../../examples/minimal_examples/pygame_minimal_move_car_steer.py)**
+  📁 **[Minimal example - Car movement](../../examples/minimal_examples/pygame_minimal_move_car_steer.py)**
 
 - [Rotation of a sprite on a circle](https://stackoverflow.com/questions/26517579/rotation-of-a-sprite-on-a-circle/65332120#65332120)  
   ![Rotation of a sprite on a circle](https://i.stack.imgur.com/mqlhm.gif)
 
-  :scroll: **[Minimal example - Rotate on circle](../../examples/minimal_examples/pygame_minimal_move_rotate_on_circle.py)**
+  📁 **[Minimal example - Rotate on circle](../../examples/minimal_examples/pygame_minimal_move_rotate_on_circle.py)**
 
 - [Why it doesn't spin in a circle? And how to fix it?](https://stackoverflow.com/questions/62883103/why-it-doesnt-spin-in-a-circle-and-how-to-fix-it/62883770#62883770)  
   ![Why it doesn't spin in a circle? And how to fix it?](https://i.stack.imgur.com/UD6Wt.gif)
 
-  :scroll: **[Minimal example - Spin in a circle](../../examples/minimal_examples/pygame_minimal_move_spin_in_circle.py)**
+  📁 **[Minimal example - Spin in a circle](../../examples/minimal_examples/pygame_minimal_move_spin_in_circle.py)**
 
 - [Ship moves up and left faster than down and right when rotating in pygame](https://stackoverflow.com/questions/62411259/ship-moves-up-and-left-faster-than-down-and-right-when-rotating-in-pygame/65347117#65347117)  
   ![Ship moves up and left faster than down and right when rotating in pygame](https://i.stack.imgur.com/6IPS1.gif)
 
-  :scroll: **[Minimal example - Spin in a circle 2](../../examples/minimal_examples/pygame_minimal_move_spin_in_circle_2.py)**
+  📁 **[Minimal example - Spin in a circle 2](../../examples/minimal_examples/pygame_minimal_move_spin_in_circle_2.py)**
 
 - [how to make rotate polygon on key in pygame?](https://stackoverflow.com/questions/75116101/how-to-make-rotate-polygon-on-key-in-pygame/75116556#75116556)  
   ![how to make rotate polygon on key in pygame?](https://i.stack.imgur.com/b1wXp.gif)  
 
-  :scroll: **[Minimal example - Rotated polygon](../../examples/minimal_examples/pygame_minimal_draw_rotated_polygon_1.py)**
+  📁 **[Minimal example - Rotated polygon](../../examples/minimal_examples/pygame_minimal_draw_rotated_polygon_1.py)**
 
 - [Bullet movement not working as expected when player sprite is moving](https://stackoverflow.com/questions/75149306/bullet-movement-not-working-as-expected-when-player-sprite-is-moving/75149510#75149510)  
   ![Bullet movement not working as expected when player sprite is moving](https://i.stack.imgur.com/GuTUX.gif)
@@ -104,7 +104,7 @@ Related Stack Overflow questions:
 - [How do I make a sprite rotate around another moving sprite?](https://stackoverflow.com/questions/75498320/how-do-i-make-a-sprite-rotate-around-another-moving-sprite/75498844#75498844)  
   ![How do I make a sprite rotate around another moving sprite?](https://i.stack.imgur.com/3HtzF.gif)
 
-  :scroll: **[Minimal example - Orbit around moving object](../../examples/minimal_examples/pygame_minimal_rotate_orbit_1.py)**
+  📁 **[Minimal example - Orbit around moving object](../../examples/minimal_examples/pygame_minimal_rotate_orbit_1.py)**
 
 ### Rotate and collide
 
@@ -132,9 +132,9 @@ Related Stack Overflow questions:
 - [How to animate the position of an object or sprite in Pygame and move it towards predefined positions or along a defined path?](https://stackoverflow.com/questions/74163435/how-to-animate-the-position-of-an-object-or-sprite-in-pygame-and-move-it-towards/74163522#74163522)  
   ![How to animate the position of an object or sprite in Pygame and move it towards predefined positions or along a defined path?](https://i.stack.imgur.com/LGU5o.gif)
 
-:scroll: **[Minimal example - Move along path](../../examples/minimal_examples/pygame_minimal_move_along_path.py)**
+📁 **[Minimal example - Move along path](../../examples/minimal_examples/pygame_minimal_move_along_path.py)**
 
-:scroll: **[Minimal example - Move sprite along path](../../examples/minimal_examples/pygame_minimal_move_along_path_2.py)**
+📁 **[Minimal example - Move sprite along path](../../examples/minimal_examples/pygame_minimal_move_along_path_2.py)**
 
 ### Move in grid
 
@@ -143,7 +143,7 @@ Related Stack Overflow questions:
 - [How do I move the player smoothly in a tile based game?](https://stackoverflow.com/questions/63478615/how-do-i-move-the-player-smoothly-in-a-tile-based-game/65338538#65338538)  
   ![How do I move the player smoothly in a tile based game?](https://i.stack.imgur.com/Gapfj.gif)
 
-  :scroll: **[Minimal example - Move smoothly in grid](../../examples/minimal_examples/pygame_minimal_move_smoothly_in_grid.py)**
+  📁 **[Minimal example - Move smoothly in grid](../../examples/minimal_examples/pygame_minimal_move_smoothly_in_grid.py)**
 
 ## Throw
 
@@ -152,7 +152,7 @@ Related Stack Overflow questions:
 - [Pygame- rotate sprite and follow path simultaneously](https://stackoverflow.com/questions/56297756/pygame-rotate-sprite-and-follow-path-simultaneously/56298370#56298370)  
   ![Pygame- rotate sprite and follow path simultaneously](https://i.stack.imgur.com/7pbE7.gif)
 
-  :scroll: **[Minimal example - Throw ball](../../examples/minimal_examples/pygame_minimal_move_throw_ball.py)**
+  📁 **[Minimal example - Throw ball](../../examples/minimal_examples/pygame_minimal_move_throw_ball.py)**
 
 ## Slide
 
@@ -161,7 +161,7 @@ Related Stack Overflow questions:
 - [How to fix character constantly accelerating in both directions after deceleration Pygame?](https://stackoverflow.com/questions/59832445/how-to-fix-character-constantly-accelerating-in-both-directions-after-decelerati/59846286#59846286)  
   ![How to fix character constantly accelerating in both directions after deceleration Pygame?](https://i.stack.imgur.com/8I8HV.gif)
 
-  :scroll: **[Minimal example - Slide and bounce](../../examples/minimal_examples/pygame_minimal_move_slide_1.py)**
+  📁 **[Minimal example - Slide and bounce](../../examples/minimal_examples/pygame_minimal_move_slide_1.py)**
 
 - [Acceleration and Deceleration in pygame](https://stackoverflow.com/questions/68333521/acceleration-and-deceleration-in-pygame/68333687#68333687)  
   ![Acceleration and Deceleration in pygame](https://i.stack.imgur.com/KcdXR.gif)
@@ -175,7 +175,7 @@ Related Stack Overflow questions:
 - [Collision detection / physics for simple game](https://stackoverflow.com/questions/59656983/collision-detection-physics-for-simple-game/59658289#59658289)  
   ![Collision detection / physics for simple game](https://i.stack.imgur.com/bqVOa.gif)
 
-  :scroll: **[Minimal example - Slide and bounce](../../examples/minimal_examples/pygame_minimal_move_slide_and_bounce.py)**
+  📁 **[Minimal example - Slide and bounce](../../examples/minimal_examples/pygame_minimal_move_slide_and_bounce.py)**
 
 ## Jump
 
@@ -188,12 +188,12 @@ Related Stack Overflow questions:
 - [Making falling objects in pygame](https://stackoverflow.com/questions/74925508/making-falling-objects-in-pygame/74926867#74926867)  
   ![Making falling objects in pygame](https://i.stack.imgur.com/Yhc61.gif)
 
-  :scroll: **[Minimal example - falling objects](../../examples/minimal_examples/pygame_minimal_falling_objects_1.py)**
+  📁 **[Minimal example - falling objects](../../examples/minimal_examples/pygame_minimal_falling_objects_1.py)**
 
 - [How to correctly update the grid in falling sand simulation?](https://stackoverflow.com/questions/71257560/how-to-correctly-update-the-grid-in-falling-sand-simulation/71257698#71257698)  
   ![How to correctly update the grid in falling sand simulation?](https://i.stack.imgur.com/b3GRi.gif)  
 
-  :scroll: **[Minimal example - falling sand](../../examples/minimal_examples/pygame_minimal_falling_sand.py)**
+  📁 **[Minimal example - falling sand](../../examples/minimal_examples/pygame_minimal_falling_sand.py)**
 
 - [How do you properly implement gravity to a free floating space object and some sort of friction when thrusting in opposite direction](https://stackoverflow.com/questions/65546677/how-do-you-properly-implement-gravity-to-a-free-floating-space-object-and-some-s/65548182#65548182)
 
@@ -203,7 +203,7 @@ Related Stack Overflow questions:
 - [Pygame Curve Movement Problem How To Fix?](https://stackoverflow.com/questions/67766962/pygame-curve-movement-problem-how-to-fix/67777164#67777164)  
   ![Pygame Curve Movement Problem How To Fix?](https://i.stack.imgur.com/sDD0g.gif)![Pygame Curve Movement Problem How To Fix?](https://i.stack.imgur.com/ZPXzi.gif)![Pygame Curve Movement Problem How To Fix?](https://i.stack.imgur.com/Ubji7.gif)  
 
-  :scroll: **[Minimal example - Gravitational force](../../examples/minimal_examples/pygame_minimal_move_gravitational_force.py)**
+  📁 **[Minimal example - Gravitational force](../../examples/minimal_examples/pygame_minimal_move_gravitational_force.py)**
 
 - [How to fix Type Error in Pygame: TypeError: unsupported operand type(s) for +=: 'int' and 'pygame.math.Vector2'](https://stackoverflow.com/questions/68377408/how-to-fix-type-error-in-pygame-typeerror-unsupported-operand-types-for/68380513#68380513)  
   ![How to fix Type Error in Pygame: TypeError: unsupported operand type(s) for +=: 'int' and 'pygame.math.Vector2'](https://i.stack.imgur.com/sxyZw.gif)
@@ -215,7 +215,7 @@ Related Stack Overflow questions:
 - [Projectile motion and gravity in pygame only sometimes working](https://stackoverflow.com/questions/55822116/projectile-motion-and-gravity-in-pygame-only-sometimes-working/55836374#55836374)  
   ![Projectile motion and gravity in pygame only sometimes working](https://i.stack.imgur.com/MxE2C.gif)
 
-  :scroll: **[Minimal example - Particle explosion](../../examples/minimal_examples/pygame_minimal_move_particle_explosion.py)**
+  📁 **[Minimal example - Particle explosion](../../examples/minimal_examples/pygame_minimal_move_particle_explosion.py)**
 
 ## Physics
 
@@ -228,11 +228,11 @@ Related Stack Overflow questions:
 - [Pygame object instance speed increases](https://stackoverflow.com/questions/66943486/pygame-object-instance-speed-increases)  
   [Python Pygame Making a ball push another ball](https://stackoverflow.com/questions/66721398/python-pygame-making-a-ball-push-another-ball)  
 
-  :scroll: **[Minimal example - Follow player](../../examples/minimal_examples/pygame_minimal_move_follow_6.py)**
+  📁 **[Minimal example - Follow player](../../examples/minimal_examples/pygame_minimal_move_follow_6.py)**
 
 ## Animation
 
 - [Trouble with explosion animation Pygame](https://stackoverflow.com/questions/70128800/trouble-with-explosion-animation-pygame/70129027#70129027)  
   ![Trouble with explosion animation Pygame](https://i.stack.imgur.com/TiceX.gif)
 
-  :scroll: **[Minimal example - Timed animation](../../examples/minimal_examples/pygame_minimal_timer_animation_1.py)**
+  📁 **[Minimal example - Timed animation](../../examples/minimal_examples/pygame_minimal_timer_animation_1.py)**

@@ -10,12 +10,12 @@ Related Stack Overflow questions:
 
 - [Random non overlapping circles(with circle number controlled) in python and pygame](https://stackoverflow.com/questions/62079192/random-non-overlapping-circleswith-circle-number-controlled-in-python-and-pyga/62080074#62080074)
 
-  :scroll: **[Minimal example - Random distribution of circles](../../examples/minimal_examples/pygame_minimal_random_distribution_of_circles.py)**
+  📁 **[Minimal example - Random distribution of circles](../../examples/minimal_examples/pygame_minimal_random_distribution_of_circles.py)**
 
 - [My implementation of Bridson's algorithm Poisson-Disk Sampling seems to be stuck in an infinite loop](https://stackoverflow.com/questions/58240188/my-implementation-of-bridsons-algorithm-poisson-disk-sampling-seems-to-be-stuck/58241165#58241165)  
   ![scene](https://i.stack.imgur.com/sQSUS.gif)![scene](https://i.stack.imgur.com/tR6Zh.gif)
 
-  :scroll: **[Minimal example - Bridson's Poisson disk sampling](../../examples/minimal_examples/pygame_minimal_random_bridson_poisson_disk.py)**
+  📁 **[Minimal example - Bridson's Poisson disk sampling](../../examples/minimal_examples/pygame_minimal_random_bridson_poisson_disk.py)**
 
 - [How do I make objects never overlap?](https://stackoverflow.com/questions/62488596/how-do-i-make-objects-never-overlap/62489048#62489048)
 

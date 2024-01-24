@@ -78,7 +78,7 @@ Related Stack Overflow questions:
 - [**How can I stop my player from glitching through my platform?**](https://stackoverflow.com/questions/67630796/how-can-i-stop-my-player-from-glitching-through-my-platform/67647476#67647476)  
   ![How can I stop my player from glitching through my platform?](https://i.stack.imgur.com/NraKd.gif)
 
-  :scroll: **[Minimal example - platform](../../examples/minimal_examples/pygame_minimal_platformer_1.py)**
+  📁 **[Minimal example - platform](../../examples/minimal_examples/pygame_minimal_platformer_1.py)**
 
 - [**How to make a collision system in pygame?**](https://stackoverflow.com/questions/74332401/how-to-make-a-collision-system-in-pygame/74333777#74333777)  
   ![How to make a collision system in pygame?](https://i.stack.imgur.com/KqGU2.gif)

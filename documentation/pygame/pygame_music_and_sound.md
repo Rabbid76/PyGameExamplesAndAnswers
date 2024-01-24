@@ -25,11 +25,11 @@ Related Stack Overflow questions:
   [Pygame, sounds don't play](https://stackoverflow.com/questions/2936914/pygame-sounds-dont-play/64521581#64521581)  
   [PyGame sound keeps repeating](https://stackoverflow.com/questions/60013591/pygame-sound-keeps-repeating/60015169#60015169)
 
-  :scroll: **[Minimal example - Play sound 1](../../examples/minimal_examples/pygame_minimal_mixer_sound_1.py)**
+  📁 **[Minimal example - Play sound 1](../../examples/minimal_examples/pygame_minimal_mixer_sound_1.py)**
 
-  :scroll: **[Minimal example - Play sound 2](../../examples/minimal_examples/pygame_minimal_mixer_sound_2.py)**
+  📁 **[Minimal example - Play sound 2](../../examples/minimal_examples/pygame_minimal_mixer_sound_2.py)**
 
-  :scroll: **[Minimal example - Play sound 3](../../examples/minimal_examples/pygame_minimal_mixer_sound_3.py)**
+  📁 **[Minimal example - Play sound 3](../../examples/minimal_examples/pygame_minimal_mixer_sound_3.py)**
 
 - [Pygame setting volume when target is a list](https://stackoverflow.com/questions/63099024/pygame-setting-volume-when-target-is-a-list/63099061#63099061)
 
@@ -71,11 +71,11 @@ Related Stack Overflow questions:
 
 - [How can I play a sine/square wave using Pygame?](https://stackoverflow.com/questions/63980583/how-can-i-play-a-sine-square-wave-using-pygame/63980631#63980631)
 
-  :scroll: **[Minimal example - Play sound buffer](../../examples/minimal_examples/pygame_minimal_mixer_sound_buffer.py)**
+  📁 **[Minimal example - Play sound buffer](../../examples/minimal_examples/pygame_minimal_mixer_sound_buffer.py)**
 
 - [Trying to play a sound wave on python using pygame](https://stackoverflow.com/questions/64950167/trying-to-play-a-sound-wave-on-python-using-pygame/64951687#64951687)
 
-  :scroll: **[Minimal example - Play sound buffer 2](../../examples/minimal_examples/pygame_minimal_mixer_sound_buffer_2.py)**
+  📁 **[Minimal example - Play sound buffer 2](../../examples/minimal_examples/pygame_minimal_mixer_sound_buffer_2.py)**
 
 [Numpy arrays](https://numpy.org/doc/stable/reference/generated/numpy.array.html) can be loaded directly to a [`pygame.mixer.Sound`](https://www.pygame.org/docs/ref/mixer.html#pygame.mixer.Sound) object and [`play`](https://www.pygame.org/docs/ref/mixer.html#pygame.mixer.Sound.play) it:
 
@@ -146,28 +146,28 @@ Related Stack Overflow questions:
 
   - [How can I Iterate through a list of songs and play them one after eachother](https://stackoverflow.com/questions/70457867/how-can-i-iterate-through-a-list-of-songs-and-play-them-one-after-eachother/70458293#70458293)
 
-  :scroll: **[Minimal example - Play list of mp3 files from directory](../../examples/minimal_examples/pygame_minimal_mixer_music_list.py)**
+  📁 **[Minimal example - Play list of mp3 files from directory](../../examples/minimal_examples/pygame_minimal_mixer_music_list.py)**
 
   - [How to play random Mp3 files in Pygame](https://stackoverflow.com/questions/60250171/how-to-play-random-mp3-files-in-pygame/60250258#60250258)
 
-  :scroll: **[Minimal example - Play random mp3 from directory](../../examples/minimal_examples/pygame_minimal_mixer_music_random.py)**
+  📁 **[Minimal example - Play random mp3 from directory](../../examples/minimal_examples/pygame_minimal_mixer_music_random.py)**
 
 - [using PyGame to load mp3](https://stackoverflow.com/questions/58569476/using-pygame-to-load-mp3/58569531#58569531)
 
-  :scroll: **[Minimal example - Music fade](../../examples/minimal_examples/pygame_minimal_mixer_music_fade.py)**
+  📁 **[Minimal example - Music fade](../../examples/minimal_examples/pygame_minimal_mixer_music_fade.py)**
 
 - [How can I change the name of audio stream in pygame mixer?](https://stackoverflow.com/questions/68589200/how-can-i-change-the-name-of-audio-stream-in-pygame-mixer/68589599#68589599)  
   ![How can I change the name of audio stream in pygame mixer?](https://i.stack.imgur.com/IjPm8.png)
 
-  :scroll: **[Minimal example - Music window](../../examples/minimal_examples/pygame_minimal_mixer_music_window.py)**
+  📁 **[Minimal example - Music window](../../examples/minimal_examples/pygame_minimal_mixer_music_window.py)**
 
 - [Pygame background music not playing](https://stackoverflow.com/questions/56572662/pygame-background-music-not-playing/56573636#56573636)
 - [Why pygame.event.wait stops music play after 20 seconds or so](https://stackoverflow.com/questions/61389698/why-pygame-event-wait-stops-music-play-after-20-seconds-or-so/61390284#61390284)
 - [Loop over a list containing path to sound files](https://stackoverflow.com/questions/63488105/loop-over-a-list-containing-path-to-sound-files/63488275#63488275)
 
-:scroll: **[Minimal example - Play music 1](../../examples/minimal_examples/pygame_minimal_mixer_music_1.py)**
+📁 **[Minimal example - Play music 1](../../examples/minimal_examples/pygame_minimal_mixer_music_1.py)**
 
-:scroll: **[Minimal example - Play music 2](../../examples/minimal_examples/pygame_minimal_mixer_music_2.py)**
+📁 **[Minimal example - Play music 2](../../examples/minimal_examples/pygame_minimal_mixer_music_2.py)**
 
 If you want to play a _mp3_ file, you need to initialize the module. Load the file with [`pygame.mixer.music.load`](https://www.pygame.org/docs/ref/music.html#pygame.mixer.music.load). Invoke [`pygame.mixer.music.play()`](https://www.pygame.org/docs/ref/mixer.html#pygame.mixer.Sound.play) to start playback of the music stream. Finally, you have to wait for the file to play.  
 Use [`pygame.mixer.music.get_busy()`](https://www.pygame.org/docs/ref/music.html#pygame.mixer.music.get_busy) to test if a sound is being mixed. Query the status of the mixer continuously in a loop.  
@@ -221,7 +221,7 @@ Related Stack Overflow questions:
 
 - [I want to play selected mp3 files in my folder but it doesn't work](https://stackoverflow.com/questions/64842008/i-want-to-play-selected-mp3-files-in-my-folder-but-it-doesnt-work/65352966#65352966)
 
-  :scroll: **[Minimal example - Open file and play music](../../examples/minimal_examples/pygame_minimal_mixer_music_filedialog.py)**
+  📁 **[Minimal example - Open file and play music](../../examples/minimal_examples/pygame_minimal_mixer_music_filedialog.py)**
 
 ## Volume
 

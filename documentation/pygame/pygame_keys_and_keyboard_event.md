@@ -12,31 +12,31 @@ Related Stack Overflow questions:
 - **[How to get keyboard input in pygame?](https://stackoverflow.com/questions/16044229/how-to-get-keyboard-input-in-pygame/64494842#64494842)**  
   ![How to get keyboard input in pygame?](https://i.stack.imgur.com/S24dj.gif)
 
-  :scroll: **[minimal example - Move object with keys](../../examples/minimal_examples/pygame_minimal_move_object.py)**
+  📁 **[minimal example - Move object with keys](../../examples/minimal_examples/pygame_minimal_move_object.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ContinuousMovement](https://replit.com/@Rabbid76/PyGame-ContinuousMovement#main.py)**
 
 - **[How can I make a sprite move when key is held down](https://stackoverflow.com/questions/9961563/how-can-i-make-a-sprite-move-when-key-is-held-down)**  
 
-  :scroll: **[minimal example - Move object with keys](../../examples/minimal_examples/pygame_minimal_move_object.py)**
+  📁 **[minimal example - Move object with keys](../../examples/minimal_examples/pygame_minimal_move_object.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ContinuousMovement](https://replit.com/@Rabbid76/PyGame-ContinuousMovement#main.py)**
 
   ![How can I make a sprite move when key is held down](https://i.stack.imgur.com/S24dj.gif)
 
-  :scroll: **[minimal example - Move object with keys limit it to the window borders](../../examples/minimal_examples/pygame_minimal_move_object_limit_window.py)**  
-  :scroll: **[minimal example - Move object fast when key is hit twice](../../examples/minimal_examples/pygame_minimal_move_object_fast_on_key_twice.py)**  
-  :scroll: **[minimal example - Move object fast when key is in opposite direction is hit](../../examples/minimal_examples/pygame_minimal_move_object_slow_on_opposite_key.py)**  
+  📁 **[minimal example - Move object with keys limit it to the window borders](../../examples/minimal_examples/pygame_minimal_move_object_limit_window.py)**  
+  📁 **[minimal example - Move object fast when key is hit twice](../../examples/minimal_examples/pygame_minimal_move_object_fast_on_key_twice.py)**  
+  📁 **[minimal example - Move object fast when key is in opposite direction is hit](../../examples/minimal_examples/pygame_minimal_move_object_slow_on_opposite_key.py)**  
 
 - [How to check if keyboard button is getting spammed and add a cool down on before it can be pressed again](https://stackoverflow.com/questions/56615781/how-to-check-if-keyboard-button-is-getting-spammed-and-add-a-cool-down-on-before/56617202#56617202)
 
 - [I have a function that detects if i press a key in pygame, but it only detects one key?](https://stackoverflow.com/questions/73953058/i-have-a-function-that-detects-if-i-press-a-key-in-pygame-but-it-only-detects-o/73953116#73953116)
 
-  :scroll: **[minimal example - Move object with keys continuous or step by step.py](../../examples/minimal_examples/pygame_minimal_move_object_continuous_or_step.py)**  
+  📁 **[minimal example - Move object with keys continuous or step by step.py](../../examples/minimal_examples/pygame_minimal_move_object_continuous_or_step.py)**  
 
 - [How can I allow keyboard inputs to override each other in pygame?](https://stackoverflow.com/questions/73937281/how-can-i-allow-keyboard-inputs-to-override-each-other-in-pygame/73937309#73937309)
 
-  :scroll: **[minimal example - Move object, key queue](../../examples/minimal_examples/pygame_minimal_move_object_3.py)**
+  📁 **[minimal example - Move object, key queue](../../examples/minimal_examples/pygame_minimal_move_object_3.py)**
 
 - [Two keypresses processed in each frame (pygame snake game)](https://stackoverflow.com/questions/74249252/two-keypresses-processed-in-each-frame-pygame-snake-game/74326162#74326162)  
   ![Two keypresses processed in each frame (pygame snake game)](https://i.stack.imgur.com/XQams.gif)
@@ -97,14 +97,14 @@ Related Stack Overflow questions:
 - [How can i shoot a bullet with space bar?](https://stackoverflow.com/questions/59687250/how-can-i-shoot-a-bullet-with-space-bar/59689297#59689297)  
   ![How can i shoot a bullet with space bar?](https://i.stack.imgur.com/2sp5D.gif)
 
-  :scroll: **[minimal example - Sustained fire](../../examples/minimal_examples/pygame_minimal_shoot_bullet_sustained_fire.py)**
+  📁 **[minimal example - Sustained fire](../../examples/minimal_examples/pygame_minimal_shoot_bullet_sustained_fire.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBulletSustainedFire](https://replit.com/@Rabbid76/PyGame-ShootBulletSustainedFire#main.py)**
 
 - [How do I stop more than 1 bullet firing at once?](https://stackoverflow.com/questions/60122492/how-do-i-stop-more-than-1-bullet-firing-at-once/60125448#60125448)  
   ![How do I stop more than 1 bullet firing at once?](https://i.stack.imgur.com/W6lzh.gif)
 
-  :scroll: **[minimal example - Shoot bullet](../../examples/minimal_examples/pygame_minimal_shoot_bullet.py)**
+  📁 **[minimal example - Shoot bullet](../../examples/minimal_examples/pygame_minimal_shoot_bullet.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBullet](https://replit.com/@Rabbid76/PyGame-ShootBullet#main.py)**
 

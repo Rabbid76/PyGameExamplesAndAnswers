@@ -19,7 +19,7 @@ Related Stack Overflow questions:
 - [How do I add a border to a sprite when the mouse hovers over it, and delete it after the mouse stops?0](https://stackoverflow.com/questions/70384004/how-do-i-add-a-border-to-a-sprite-when-the-mouse-hovers-over-it-and-delete-it-a/70384279#70384279)  
   ![How do I add a border to a sprite when the mouse hovers over it, and delete it after the mouse stops?](https://i.stack.imgur.com/DQdGr.gif)
 
-  :scroll: **[minimal example - Hover and delete](../../examples/minimal_examples/pygame_minimal_sprite_mouse_hover_3.py)**
+  📁 **[minimal example - Hover and delete](../../examples/minimal_examples/pygame_minimal_sprite_mouse_hover_3.py)**
 
 - [How can I add an image or icon to a button rectangle in Pygame?](https://stackoverflow.com/questions/64990710/how-can-i-add-an-image-or-icon-to-a-button-rectangle-in-pygame/64990819#64990819)  
   ![How can I add an image or icon to a button rectangle in Pygame?](https://i.stack.imgur.com/24ns9.gif)![How can I add an image or icon to a button rectangle in Pygame?](https://i.stack.imgur.com/UEIde.gif)
@@ -27,7 +27,7 @@ Related Stack Overflow questions:
 - [How to detect touch screen clicks in python?](https://stackoverflow.com/questions/69024021/how-to-detect-touch-screen-clicks-in-python/69032776#69032776)  
   ![How to detect touch screen clicks in python?](https://i.stack.imgur.com/3ENNw.gif)  
 
-  :scroll: **[minimal example - Detect mouse touch](../../examples/minimal_examples/pygame_minimal_mouse_touch.py)**
+  📁 **[minimal example - Detect mouse touch](../../examples/minimal_examples/pygame_minimal_mouse_touch.py)**
 
 - [Detect Mouse Scroll](https://stackoverflow.com/questions/72858633/detect-mouse-scroll/72858761#72858761)  
 - [How to distinguish left click , right click mouse clicks in pygame?](https://stackoverflow.com/questions/34287938/how-to-distinguish-left-click-right-click-mouse-clicks-in-pygame)  
@@ -37,11 +37,11 @@ Related Stack Overflow questions:
 
 The [`pygame.event.Event`](https://www.pygame.org/docs/ref/event.html#pygame.event.Event) object has two attributes that provide information about the mouse event. `pos` is a tuple that stores the position that was clicked. `button` stores the button that was clicked. Each mouse button is associated a value. For instance the value of the attributes is 1, 2, 3, 4, 5 for the left mouse button, middle mouse button, right mouse button, mouse wheel up respectively mouse wheel down. When multiple keys are pressed, multiple mouse button events occur. Further explanations can be found in the documentation of the module [`pygame.event`](https://www.pygame.org/docs/ref/event.html).
 
-:scroll: **[minimal example - Detect mouse button click events](../../examples/minimal_examples/pygame_minimal_mouse_event_1.py)**
+📁 **[minimal example - Detect mouse button click events](../../examples/minimal_examples/pygame_minimal_mouse_event_1.py)**
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseEvents](https://replit.com/@Rabbid76/PyGame-MouseEvents#main.py)**
 
-:scroll: **[minimal example - Detect click on Sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_click.py)**
+📁 **[minimal example - Detect click on Sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_click.py)**
 
 ![Pygame - Mouse clicks not getting detected](https://i.stack.imgur.com/mW6vv.gif)
 
@@ -69,11 +69,11 @@ if any(buttons):
 
 Further explanations can be found in the documentation of the module [`pygame.mouse`](https://www.pygame.org/docs/ref/mouse.html).
 
-:scroll: **[minimal example - Detect mouse button states](../../examples/minimal_examples/pygame_minimal_mouse_states_1.py)**
+📁 **[minimal example - Detect mouse button states](../../examples/minimal_examples/pygame_minimal_mouse_states_1.py)**
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseStates](https://replit.com/@Rabbid76/PyGame-MouseStates#main.py)**
 
-:scroll: **[minimal example - Detect Sprite on hover](../../examples/minimal_examples/pygame_minimal_sprite_mouse_hover.py)**
+📁 **[minimal example - Detect Sprite on hover](../../examples/minimal_examples/pygame_minimal_sprite_mouse_hover.py)**
 
 ![Pygame - Mouse clicks not getting detected](https://i.stack.imgur.com/UJVKi.gif)
 
@@ -133,7 +133,7 @@ Related Stack Overflow questions:
 - [Image lagging while blitting on top of mouse rect](https://stackoverflow.com/questions/56961186/image-lagging-while-blitting-on-top-of-mouse-rect/56976454#56976454)  
 - [Pygame.mouse.set_cursor((8,8),(0,0),(0,0,0,0,0,0,0,0),(0,0,0,0,0,0,0,0)) is causing errors](https://stackoverflow.com/questions/65383098/pygame-mouse-set-cursor8-8-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-is-caus/65383209#65383209)  
 
-:scroll: **[Minimal example - Image on mouse cursor](../../examples/minimal_examples/pygame_minimal_mouse_cursor_image.py)**
+📁 **[Minimal example - Image on mouse cursor](../../examples/minimal_examples/pygame_minimal_mouse_cursor_image.py)**
 
 ## Change mouse position
 
@@ -142,7 +142,7 @@ Related Stack Overflow questions:
 - [Make cursor unable to move through sprite PyGame](https://stackoverflow.com/questions/54509869/make-cursor-unable-to-move-through-sprite-pygame/54511823#54511823)  
   ![Make cursor unable to move through sprite PyGame](https://i.stack.imgur.com/QAJAL.gif)
 
-  :scroll: **[Minimal example - Block mouse cursor by obstacle](../../examples/minimal_examples/pygame_minimal_mouse_cursor_block_by_obstacle.py)**
+  📁 **[Minimal example - Block mouse cursor by obstacle](../../examples/minimal_examples/pygame_minimal_mouse_cursor_block_by_obstacle.py)**
 
 ## Mouse Drag
 
@@ -165,16 +165,16 @@ Related Stack Overflow questions:
 - [How to drag an object around the screen in pygame?](https://stackoverflow.com/questions/64241742/how-to-drag-an-object-around-the-screen-in-pygame/64249660#64249660)  
   ![How to drag an object around the screen in pygame?](https://i.stack.imgur.com/Qgh20.gif)
 
-:scroll: **[Minimal example - Drag rectangle](../../examples/minimal_examples/pygame_minimal_mouse_drag_rectangle.py)**
+📁 **[Minimal example - Drag rectangle](../../examples/minimal_examples/pygame_minimal_mouse_drag_rectangle.py)**
 
-:scroll: **[Minimal example - Drag Sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_drag.py)**
+📁 **[Minimal example - Drag Sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_drag.py)**
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseDragSimple](https://replit.com/@Rabbid76/PyGame-MouseDragSimple#main.py)**
 
 - [Drawing square colour stored in a list of tuples?](https://stackoverflow.com/questions/69828786/drawing-square-colour-stored-in-a-list-of-tuples/69828913#69828913)  
   ![Drawing square colour stored in a list of tuples?](https://i.stack.imgur.com/e7ecp.gif)
 
-   :scroll: **[Minimal example - Drag pieces](../../examples/minimal_examples/pygame_minimal_mouse_drag_pieces.py)**
+   📁 **[Minimal example - Drag pieces](../../examples/minimal_examples/pygame_minimal_mouse_drag_pieces.py)**
 
 ### Mouse drag and rotate
 
@@ -195,6 +195,6 @@ Related Stack Overflow questions:
 
 - [How to use Pygame touch events in a mobile game?](https://stackoverflow.com/questions/69593109/how-to-use-pygame-touch-events-in-a-mobile-game/69593913#69593913)
 
-:scroll: **[Minimal example - Touch event](../../examples/minimal_examples/pygame_minimal_touch_event_1.py)**
+📁 **[Minimal example - Touch event](../../examples/minimal_examples/pygame_minimal_touch_event_1.py)**
 
 - [Is it possible to drag two sprites independently using FINGERDOWN in pygame on mobile?](https://stackoverflow.com/questions/74891922/is-it-possible-to-drag-two-sprites-independently-using-fingerdown-in-pygame-on-m/74919117#74919117)

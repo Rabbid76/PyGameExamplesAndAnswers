@@ -14,7 +14,7 @@ Related Stack Overflow questions:
 - [Why is alpha blending not working properly?](https://stackoverflow.com/questions/54342525/why-is-alpha-blending-not-working-properly-pygame/54348618#54348618)  
   ![Why is alpha blending not working properly?](https://i.stack.imgur.com/OiIzC.gif)
 
-  :scroll: **[Minimal example - Blend surfaces](../../examples/minimal_examples/pygame_minimal_blend_surface.py)**
+  📁 **[Minimal example - Blend surfaces](../../examples/minimal_examples/pygame_minimal_blend_surface.py)**
 
 - [PyGame Negative Color / Surface](https://stackoverflow.com/questions/63665826/pygame-negative-color-surface/63665904#63665904)
 
@@ -23,7 +23,7 @@ Related Stack Overflow questions:
 - [How to get the Difference blending mode?](https://stackoverflow.com/questions/67737854/how-to-get-the-difference-blending-mode/67737939#67737939)  
   ![How to get the Difference blending mode?](https://i.stack.imgur.com/KH59V.png)
 
-  :scroll: **[Minimal example - Difference blend mode](../../examples/minimal_examples/pygame_minimal_blend_surface_difference_mode.py)**
+  📁 **[Minimal example - Difference blend mode](../../examples/minimal_examples/pygame_minimal_blend_surface_difference_mode.py)**
 
 The blending mode can be changed by setting the optional _special_flags_ argument of [`pygame.Surface.blit`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.blit):
 
@@ -69,14 +69,14 @@ Related Stack Overflow questions:
 - [How to fade in a text or an image with PyGame](https://stackoverflow.com/questions/54593653/how-to-fade-in-a-text-or-an-image-with-pygame/54594196#54594196)  
   ![How to fade in a text or an image with PyGame](https://i.stack.imgur.com/2mkKD.gif)
 
-  :scroll: **[Minimal example - Blend text](../../examples/minimal_examples/pygame_minimal_blend_text.py)**
+  📁 **[Minimal example - Blend text](../../examples/minimal_examples/pygame_minimal_blend_text.py)**
 
   ![How to fade in a text or an image with PyGame](https://i.stack.imgur.com/2mkKD.gif)  
 
 - [Pygame: Frame ghosting?](https://stackoverflow.com/questions/20862695/pygame-frame-ghosting/73964785#73964785)  
   ![Pygame: Frame ghosting?](https://i.stack.imgur.com/odiIG.gif)
 
-  :scroll: **[Minimal example - Blend frames](../../examples/minimal_examples/pygame_minimal_blend_text.py)**
+  📁 **[Minimal example - Blend frames](../../examples/minimal_examples/pygame_minimal_blend_text.py)**
 
 ### Fade in and out
 
@@ -85,7 +85,7 @@ Related Stack Overflow questions:
 - [Im trying to make a fade in and out](https://stackoverflow.com/questions/75001219/im-trying-to-make-a-fade-in-and-out/75003503#75003503)  
   ![Im trying to make a fade in and out](https://i.stack.imgur.com/GHwXk.gif)
 
-  :scroll: **[Minimal example - Fade in and out image](../../examples/minimal_examples/pygame_minimal_surface_fade_1.py)**
+  📁 **[Minimal example - Fade in and out image](../../examples/minimal_examples/pygame_minimal_surface_fade_1.py)**
 
 ### Change color of an image
 
@@ -106,14 +106,14 @@ remove "duplicate"
 - **[Is it possible to change sprite colours in Pygame?](https://stackoverflow.com/questions/56209634/is-it-possible-to-change-sprite-colours-in-pygame/56210460#56210460)**  
   ![Is it possible to change sprite colours in Pygame?](https://i.stack.imgur.com/jTwph.gif)
 
-  :scroll: **[Minimal example - Tint a grayscale image 2](../../examples/minimal_examples/pygame_minimal_blend_surface_tint_grayscale_2.py)**
+  📁 **[Minimal example - Tint a grayscale image 2](../../examples/minimal_examples/pygame_minimal_blend_surface_tint_grayscale_2.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-4](https://replit.com/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-4#main.py)**
 
 - [Changing colour of a surface without overwriting transparency](https://stackoverflow.com/questions/64190277/changing-colour-of-a-surface-without-overwriting-transparency/64193109#64193109/64193109#64193109)  
   ![Changing colour of a surface without overwriting transparency](https://i.stack.imgur.com/oldLt.gif)
 
-  :scroll: **[Minimal example - Tint a grayscale image 1](../../examples/minimal_examples/pygame_minimal_blend_surface_tint_grayscale_1.py)**
+  📁 **[Minimal example - Tint a grayscale image 1](../../examples/minimal_examples/pygame_minimal_blend_surface_tint_grayscale_1.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSpriteArea](https://replit.com/@Rabbid76/PyGame-ChangeColorOfSpriteArea#main.py)**
 
@@ -125,7 +125,7 @@ remove "duplicate"
 - [How do I palette swap sprites in pygame without the rectangle in the back](https://stackoverflow.com/questions/77590955/how-do-i-palette-swap-sprites-in-pygame-without-the-rectangle-in-the-back/77591351#77591351)  
   ![How do I palette swap sprites in pygame without the rectangle in the back](https://i.stack.imgur.com/qqaH6.png)
 
-  :scroll: **[Minimal example - Swap color of image](../../examples/minimal_examples/pygame_minimal_blend_surface_swap_color_1.py)**
+  📁 **[Minimal example - Swap color of image](../../examples/minimal_examples/pygame_minimal_blend_surface_swap_color_1.py)**
 
 #### Change the color of a surface area (mask)
 
@@ -134,14 +134,14 @@ Related Stack Overflow questions:
 - **[Trying to make sections of sprite change colour, but whole sprite changes instead](https://stackoverflow.com/questions/58385570/trying-to-make-sections-of-sprite-change-colour-but-whole-sprite-changes-instea/58402923#58402923/58402923#58402923)**  
   ![Trying to make sections of sprite change colour, but whole sprite changes instead](https://i.stack.imgur.com/qotun.png)
 
-  :scroll: **[Minimal example - Change color of Surface 1](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_1.py)**
+  📁 **[Minimal example - Change color of Surface 1](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_1.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea](https://replit.com/@Rabbid76/PyGame-ChangeColorOfSurfaceArea#main.py)**
 
 - [Changing ememy's color to show that it is asking damage?](https://stackoverflow.com/questions/63734429/changing-ememys-color-to-show-that-it-is-aking-damage/63745242#63745242)  
   ![Changing ememy's color to show that it is asking damage?](https://i.stack.imgur.com/CjV0r.gif)
 
-  :scroll: **[Minimal example - Change color of Surface 2](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_2.py)**
+  📁 **[Minimal example - Change color of Surface 2](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_2.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-2](https://replit.com/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-2#main.py)**
 
@@ -186,7 +186,7 @@ def changColor(image, maskImage, newColor):
     return finalImage
 ```
 
-:scroll: **[Minimal example - Change color of Surface 3](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_3.py)**
+📁 **[Minimal example - Change color of Surface 3](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_3.py)**
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-3](https://replit.com/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-3#main.py)**
 
@@ -255,7 +255,7 @@ neg.fill((255, 255, 255))
 neg.blit(image, (0, 0), special_flags=pygame.BLEND_SUB)
 ```
 
-:scroll: **[Minimal example - Fill the area of intersection](../../examples/minimal_examples/pygame_minimal_blend_intersection_area.py)**
+📁 **[Minimal example - Fill the area of intersection](../../examples/minimal_examples/pygame_minimal_blend_intersection_area.py)**
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CircleIntersection](https://replit.com/@Rabbid76/PyGame-CircleIntersection#main.py)**
 

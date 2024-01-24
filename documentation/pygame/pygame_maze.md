@@ -31,12 +31,12 @@ Related Stack Overflow questions:
 - [Adding collision to maze walls](https://stackoverflow.com/questions/55833941/adding-collision-to-maze-walls/55837809#55837809)  
   ![Adding collision to maze walls](https://i.stack.imgur.com/EUDwK.gif)
 
-  :scroll: **[Minimal example - Maze generator](../../examples/minimal_examples/pygame_minimal_maze_1.py)**
+  📁 **[Minimal example - Maze generator](../../examples/minimal_examples/pygame_minimal_maze_1.py)**
 
 - [How to implement barriers to stop the player moving through walls](https://stackoverflow.com/questions/65124664/how-to-implement-barriers-to-stop-the-player-moving-through-walls/65130719#65130719)  
   ![How to implement barriers to stop the player moving through walls](https://i.stack.imgur.com/WKJ5K.gif)
 
-  :scroll: **[Minimal example - Maze generator 2](../../examples/minimal_examples/pygame_minimal_maze_2.py)**
+  📁 **[Minimal example - Maze generator 2](../../examples/minimal_examples/pygame_minimal_maze_2.py)**
 
 - [Creating collisions between a Sprite and a list (that aren't sprites) in a Maze](https://stackoverflow.com/questions/68665022/creating-collisions-between-a-sprite-and-a-list-that-arent-sprites-in-a-maze/68668529#68668529)  
   ![Creating collisions between a Sprite and a list (that aren't sprites) in a Maze](https://i.stack.imgur.com/5aYT2.gif)  
@@ -125,7 +125,7 @@ if keys[pygame.K_DOWN]:
 
 ![maze move - collision logic](https://i.stack.imgur.com/LG0Xm.gif)
 
-:scroll: **[Minimal example - Maze collision detection with logic](../../examples/minimal_examples/pygame_minimal_maze_collide_1.py)**
+📁 **[Minimal example - Maze collision detection with logic](../../examples/minimal_examples/pygame_minimal_maze_collide_1.py)**
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-Maze-CollisionLogic](https://replit.com/@Rabbid76/PyGame-Maze-CollisionLogic#main.py)**
 
@@ -172,6 +172,6 @@ if not maze_mask.overlap(player_mask, offset):
 
 ![maze move - mask collision](https://i.stack.imgur.com/PeY8C.gif)][1]
 
-:scroll: **[Minimal example - Maze collision detection with mask](../../examples/minimal_examples/pygame_minimal_maze_collide_2.py)**
+📁 **[Minimal example - Maze collision detection with mask](../../examples/minimal_examples/pygame_minimal_maze_collide_2.py)**
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-Maze-MaskCollision](https://replit.com/@Rabbid76/PyGame-Maze-MaskCollision#main.py)**

@@ -30,7 +30,7 @@ Some examples:
   
   > Test if a point is inside a rectangle
 
-  :scroll: **[Minimal example - collidepoint](../../examples/minimal_examples/pygame_minimal_rectangle_collidepoint.py)**
+  📁 **[Minimal example - collidepoint](../../examples/minimal_examples/pygame_minimal_rectangle_collidepoint.py)**
 
   ![collidepoint](https://i.stack.imgur.com/wCi2z.gif)
 
@@ -65,7 +65,7 @@ Some examples:
 
   > Test if two rectangles overlap
 
-  :scroll: **[Minimal example - collidepoint](../../examples/minimal_examples/pygame_minimal_rectangle_colliderect.py)**
+  📁 **[Minimal example - collidepoint](../../examples/minimal_examples/pygame_minimal_rectangle_colliderect.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-colliderect](https://replit.com/@Rabbid76/PyGame-colliderect#main.py)**
 
@@ -110,7 +110,7 @@ Some examples:
 
 - [`pygame.sprite.spritecollide()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.spritecollide)
 
-  :scroll: **[Minimal example - collidepoint](../../examples/minimal_examples/pygame_minimal_rectangle_spritecollide.py)**
+  📁 **[Minimal example - collidepoint](../../examples/minimal_examples/pygame_minimal_rectangle_spritecollide.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-spritecollide](https://replit.com/@Rabbid76/PyGame-spritecollide#main.py)**
 
@@ -155,7 +155,7 @@ Some examples:
 
 - [`pygame.sprite.spritecollide()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.spritecollide) / [`collide_circle`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.collide_circle)
 
-  :scroll: **[Minimal example - collidepoint](../../examples/minimal_examples/pygame_minimal_intersect_spritecollide_collide_circle.py)**
+  📁 **[Minimal example - collidepoint](../../examples/minimal_examples/pygame_minimal_intersect_spritecollide_collide_circle.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-spritecollidecollidecircle](https://replit.com/@Rabbid76/PyGame-spritecollidecollidecircle#main.py)**
 
@@ -207,7 +207,7 @@ Related Stack Overflow questions:
 - [Setting up an invisible boundary for my sprite](https://stackoverflow.com/questions/69180916/setting-up-an-invisible-boundary-for-my-sprite/69181366#69181366)  
   ![Setting up an invisible boundary for my sprite](https://i.stack.imgur.com/TQ1Ys.gif)  
 
-  :scroll: **[Minimal example - Restrict rectangle to frame](../../examples/minimal_examples/pygame_minimal_intersect_frame_clamp_1.py)**
+  📁 **[Minimal example - Restrict rectangle to frame](../../examples/minimal_examples/pygame_minimal_intersect_frame_clamp_1.py)**
 
 - [How to collide with the window frame, bounce the ball and restrict the ball to the rectangular area?](https://stackoverflow.com/questions/60213103/how-to-collide-with-the-window-frame-bounce-the-ball-and-restrict-the-ball-to-t/60214064#60214064)  
   ![Use vector2 in pygame](https://i.stack.imgur.com/jbmJ1.gif)  
@@ -223,11 +223,11 @@ Related Stack Overflow questions:
   ![Colour Changing Bouncing Ball](https://i.stack.imgur.com/Bz0cu.gif)  
 - [how to keep polygon in screen in pygame?](https://stackoverflow.com/questions/75092185/how-to-keep-polygon-in-screen-in-pygame/75092354#75092354)  
 
-:scroll: **[Minimal example - Restrict circle to frame](../../examples/minimal_examples/pygame_minimal_intersect_frame_clamp_2.py)**
+📁 **[Minimal example - Restrict circle to frame](../../examples/minimal_examples/pygame_minimal_intersect_frame_clamp_2.py)**
 
-:scroll: **[Minimal example - Let a ball bounce off floor](../../examples/minimal_examples/pygame_minimal_intersect_circle_floor.py)**
+📁 **[Minimal example - Let a ball bounce off floor](../../examples/minimal_examples/pygame_minimal_intersect_circle_floor.py)**
 
-:scroll: **[Minimal example - ball bounce and change size](../../examples/minimal_examples/pygame_minimal_sprite_bounce_and_inflate.py)**
+📁 **[Minimal example - ball bounce and change size](../../examples/minimal_examples/pygame_minimal_sprite_bounce_and_inflate.py)**
 
 PyGame has a feature that does exactly what you want it to do. Use [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) objects and [`pygame.Rect.clamp()`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.clamp) respectively [`pygame.Rect.clamp_ip()`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.clamp_ip):
 
@@ -268,7 +268,7 @@ Related Stack Overflow questions:
 - [How to detect when a rectangular object, image or sprite is clicked](https://stackoverflow.com/questions/58917346/how-to-detect-when-a-sprite-is-clicked/58935218#58935218)
 - [How do I detect if the mouse is hovering over a button? PyGame button class is not displaying the text or changing colour on hover](https://stackoverflow.com/questions/63831057/pygame-button-class-is-not-displaying-the-text-or-changing-colour-on-hover/63831641#63831641)
 
-:scroll: **[Minimal example - Mouse collide with rectangle](../../examples/minimal_examples/pygame_minimal_rectangle_collidepoint.py)**
+📁 **[Minimal example - Mouse collide with rectangle](../../examples/minimal_examples/pygame_minimal_rectangle_collidepoint.py)**
 
 ## Point and Grid - Click in grid
 
@@ -283,7 +283,7 @@ Related Stack Overflow questions:
 - [Line is detected as diagonal of rectangle while using collidepoint function in pygame](https://stackoverflow.com/questions/67372361/line-is-detected-as-diagonal-of-rectangle-while-using-collidepoint-function-in-p/67372647#67372647)  
   [Line is detected as diagonal of rectangle while using collidepoint function in pygame](https://i.stack.imgur.com/ZC3Vr.gif)
 
-:scroll: **[Minimal example - Is point on line](../../examples/minimal_examples/pygame_minimal_intersect_point_line.py)**
+📁 **[Minimal example - Is point on line](../../examples/minimal_examples/pygame_minimal_intersect_point_line.py)**
 
 computes the shortest distance of a point to a line:
 
@@ -342,7 +342,7 @@ Related Stack Overflow questions:
 - [Only some points inside of triangle are considered 'inside' the triangle](https://stackoverflow.com/questions/59289954/only-some-points-inside-of-triangle-are-considered-inside-the-triangle/59290098#59290098)  
   ![Only some points inside of triangle are considered 'inside' the triangle](https://i.stack.imgur.com/2q2G9.gif)
 
-:scroll: **[Minimal example - Is point in triangle](../../examples/minimal_examples/pygame_minimal_intersect_point_triangle.py)**
+📁 **[Minimal example - Is point in triangle](../../examples/minimal_examples/pygame_minimal_intersect_point_triangle.py)**
 
 ## Point and hexagon
 
@@ -351,7 +351,7 @@ Related Stack Overflow questions:
 - [Maximising Collidable area for a hexagonal "Button" in pygame](https://stackoverflow.com/questions/76399452/maximising-collidable-area-for-a-hexagonal-button-in-pygame/76399557#76399557)  
   [Maximising Collidable area for a hexagonal "Button" in pygame](https://i.stack.imgur.com/sMVvR.gif)
 
-:scroll: **[Minimal example - Is point in triangle](../../examples/minimal_examples/pygame_minimal_intersect_point_hexagon.py)**
+📁 **[Minimal example - Is point in triangle](../../examples/minimal_examples/pygame_minimal_intersect_point_hexagon.py)**
 
 ## Point and Circle - Click in circle
 
@@ -367,7 +367,7 @@ Related Stack Overflow questions:
 - [How can I test if a point is in an ellipse?](https://stackoverflow.com/questions/59971407/how-can-i-test-if-a-point-is-in-an-ellipse/65601453#65601453)  
   ![How can I test if a point is in an ellipse?](https://i.stack.imgur.com/DQuaE.gif)
 
-  :scroll: **[Minimal example - Is point in ellipse](../../examples/minimal_examples/pygame_minimal_intersect_ellipse_point.py)**
+  📁 **[Minimal example - Is point in ellipse](../../examples/minimal_examples/pygame_minimal_intersect_ellipse_point.py)**
 
 The collision of an ellipse and a point can be reduced to the collision of a circle and a point by scaling the ellipse to appear as a circle and scaling the distance vector of the point to the center of the ellipse in the same way. Since the ellipses are axis-aligned in PyGame, this can easily be achieved by scaling one of the coordinates by the ratio of the [ellipse](https://en.wikipedia.org/wiki/Ellipse) axis length.
 
@@ -409,7 +409,7 @@ Related Stack Overflow questions:
 - [Animation glitch when simulating the collision of two blocks for the calculation of PI](https://stackoverflow.com/questions/56912016/animation-glitch-when-simulating-the-collision-of-two-blocks-for-the-calculation/56914481#56914481)  
   ![Animation glitch when simulating the collision of two blocks for the calculation of PI](https://i.stack.imgur.com/iTfNl.gif)
 
-  :scroll: **[Minimal example - Compute PI by collision of rectangles](../../examples/minimal_examples/pygame_minimal_intersect_rectangle_compute_pi.py)**
+  📁 **[Minimal example - Compute PI by collision of rectangles](../../examples/minimal_examples/pygame_minimal_intersect_rectangle_compute_pi.py)**
 
 - [Collision detection against player and blocks in the map](https://stackoverflow.com/questions/59957214/collision-detection-against-player-and-blocks-in-the-map/59957520#59957520)
 - [PyGame collision system working only every other time](https://stackoverflow.com/questions/64334715/pygame-collision-system-working-only-every-other-time/64334754#64334754)
@@ -464,7 +464,7 @@ if player_rect.colliderect(tile_rects) >= 0:
 
 [`pygame.Rect.collidelist`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.collidelist) and [`pygame.Rect.collidelistall`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.collidelistall) can be used for the collision test between a rectangle and a list of rectangles.
 
-:scroll: **[Minimal example - Mouse collide with list of rectangles](../../examples/minimal_examples/pygame_minimal_rectangle_collidelist.py)**
+📁 **[Minimal example - Mouse collide with list of rectangles](../../examples/minimal_examples/pygame_minimal_rectangle_collidelist.py)**
 
 [`pygame.Rect.collidedict`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.collidedict) and [`pygame.Rect.collidedictall`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.collidedictall) can be used for the collision collision test between a rectangle and a dictionary of rectangles.
 
@@ -485,7 +485,7 @@ Related Stack Overflow questions:
 - [when the rectangle descends the ramp, the rectangle shakes](https://stackoverflow.com/questions/70521047/when-the-rectangle-descends-the-ramp-the-rectangle-shakes/70521216#70521216)  
   ![when the rectangle descends the ramp, the rectangle shakes](https://i.stack.imgur.com/B5znW.gif)
 
-  :scroll: **[Minimal example - Move over ramp](../../examples/minimal_examples/pygame_minimal_move_ramp.py)**
+  📁 **[Minimal example - Move over ramp](../../examples/minimal_examples/pygame_minimal_move_ramp.py)**
 
 ## Rectangle and line
 
@@ -494,7 +494,7 @@ Related Stack Overflow questions:
 - [How do I check collision between a line and a rect in pygame?](https://stackoverflow.com/questions/56100547/how-do-i-check-collision-between-a-line-and-a-rect-in-pygame/74117346#74117346)  
   ![How do I check collision between a line and a rect in pygame?](https://i.stack.imgur.com/YrZKU.gif)
 
-  :scroll: **[Minimal example - Intersect rectangle and line](../../examples/minimal_examples/pygame_minimal_intersect_rectnagle_line.py)**
+  📁 **[Minimal example - Intersect rectangle and line](../../examples/minimal_examples/pygame_minimal_intersect_rectnagle_line.py)**
 
 ## Rectangle and circle
 
@@ -504,7 +504,7 @@ Related Stack Overflow questions:
   ![How do I avoid an glitchy collision between circle and rectangle in PyGame?](https://i.stack.imgur.com/ekmV6.gif)
   ![How do I avoid an glitchy collision between circle and rectangle in PyGame?](https://i.stack.imgur.com/30mEF.gif)
 
-  :scroll: **[Minimal example - Avoid glitchy collision between circle and rectangle](../../examples/minimal_examples/pygame_minimal_intersect_circle_rectangle_1.py)**
+  📁 **[Minimal example - Avoid glitchy collision between circle and rectangle](../../examples/minimal_examples/pygame_minimal_intersect_circle_rectangle_1.py)**
 
 - [how do i make the ball bounce off of the all the rectangles sides](https://stackoverflow.com/questions/67890481/how-do-i-make-the-ball-bounce-off-of-the-all-the-rectangles-sides/67906560#67906560)  
   ![how do i make the ball bounce off of the all the rectangles sides](https://i.stack.imgur.com/JcF91.gif) 
@@ -512,17 +512,17 @@ Related Stack Overflow questions:
 - [Issue finding side of collision for Circle-Rectangle collision](https://stackoverflow.com/questions/61718259/issue-finding-side-of-collision-for-circle-rectangle-collision/61719115#61719115)  
   ![Issue finding side of collision for Circle-Rectangle collision](https://i.stack.imgur.com/J1lc1.gif)
 
-  :scroll: **[Minimal example - Find the intersection side between the circle and the rectangle](../../examples/minimal_examples/pygame_minimal_intersect_circle_rectangle_2.py)**
+  📁 **[Minimal example - Find the intersection side between the circle and the rectangle](../../examples/minimal_examples/pygame_minimal_intersect_circle_rectangle_2.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-NearestPointOnRectangle](https://replit.com/@Rabbid76/PyGame-NearestPointOnRectangle#main.py)**
 
 - [Detect collision between textbox and circle in pygame](https://stackoverflow.com/questions/58305721/detect-collision-between-textbox-and-circle-in-pygame/58306368#58306368)
 
-  :scroll: **[Minimal example - Find the intersection of a small rectangle with the outline of a large circle](../../examples/minimal_examples/pygame_minimal_intersect_circle_rectangle_3.py)**
+  📁 **[Minimal example - Find the intersection of a small rectangle with the outline of a large circle](../../examples/minimal_examples/pygame_minimal_intersect_circle_rectangle_3.py)**
 
 - [How can I know if a circle and a rect is touched in Pygame?](https://stackoverflow.com/questions/54840710/how-can-i-know-if-a-circle-and-a-rect-is-touched-in-pygame/54841116#54841116)
 
-  :scroll: **[Minimal example - Find the intersection of a rectangle and a circle](../../examples/minimal_examples/pygame_minimal_intersect_circle_rectangle_4.py)**
+  📁 **[Minimal example - Find the intersection of a rectangle and a circle](../../examples/minimal_examples/pygame_minimal_intersect_circle_rectangle_4.py)**
 
 How to avoid a glitchy collision between circle and rectangle:
 
@@ -551,7 +551,7 @@ There are 2 strategies to a void that.
             v.reflect_ip(pygame.math.Vector2(0, 1))
     ```
 
-:scroll: **[Minimal example - Avoid glitchy collision between circle and rectangle](../../examples/minimal_examples/pygame_minimal_intersection_circle_rectangle_1.py)**
+📁 **[Minimal example - Avoid glitchy collision between circle and rectangle](../../examples/minimal_examples/pygame_minimal_intersection_circle_rectangle_1.py)**
 
 ### Pong
 
@@ -578,21 +578,21 @@ Related Stack Overflow questions:
 - [Problem with calculating line intersections](https://stackoverflow.com/questions/56312503/problem-with-calculating-line-intersections/56312654#56312654)  
   ![Problem with calculating line intersections](https://i.stack.imgur.com/l2NS9.png)
 
-  :scroll: **[Minimal example - Intersect lines](../../examples/minimal_examples/pygame_minimal_intersect_line_line_1.py)**
+  📁 **[Minimal example - Intersect lines](../../examples/minimal_examples/pygame_minimal_intersect_line_line_1.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-IntersectLines](https://replit.com/@Rabbid76/PyGame-IntersectLines#main.py)**
 
 - [Problem with finding the closest intersection](https://stackoverflow.com/questions/56316263/problem-with-finding-the-closest-intersection/56316370#56316370)  
   ![Problem with finding the closest intersection](../../screenshot/pygame_minimal_intersect_line_line_2.png)
 
-  :scroll: **[Minimal example - Intersect and cut lines](../../examples/minimal_examples/pygame_minimal_intersect_line_line_2.py)**
+  📁 **[Minimal example - Intersect and cut lines](../../examples/minimal_examples/pygame_minimal_intersect_line_line_2.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-IntersectAndCutLines](https://replit.com/@Rabbid76/PyGame-IntersectAndCutLines#main.py)**
 
 - [I'm having a problem with determining the intersection of two lines in this python code](https://stackoverflow.com/questions/69353309/im-having-a-problem-with-determining-the-intersection-of-two-lines-in-this-pyth/69357134#69357134)  
   ![I'm having a problem with determining the intersection of two lines in this python code](https://i.stack.imgur.com/UnS8P.gif)
 
-  :scroll: **[Minimal example - Calculate intersection of lines](../../examples/minimal_examples/pygame_minimal_intersect_line_line_3.py)**
+  📁 **[Minimal example - Calculate intersection of lines](../../examples/minimal_examples/pygame_minimal_intersect_line_line_3.py)**
 
 - [fiding every point of intersection of multiple lines using pygame in python for creation of game board](https://stackoverflow.com/questions/63521847/fiding-every-point-of-intersection-of-multiple-lines-using-pygame-in-python-for/63523520#63523520)  
   ![fiding every point of intersection of multiple lines using pygame in python for creation of game board](https://i.stack.imgur.com/6Do1b.png)
@@ -602,7 +602,7 @@ Related Stack Overflow questions:
 - [Make cursor unable to move through sprite pygame](https://stackoverflow.com/questions/54509869/make-cursor-unable-to-move-through-sprite-pygame/54511823#54511823)  
   ![Make cursor unable to move through sprite pygame](https://i.stack.imgur.com/QAJAL.gif)
   
-  :scroll: **[Minimal example - Block mouse cursor by obstacle](../../examples/minimal_examples/pygame_minimal_mouse_cursor_block_by_obstacle.py)**
+  📁 **[Minimal example - Block mouse cursor by obstacle](../../examples/minimal_examples/pygame_minimal_mouse_cursor_block_by_obstacle.py)**
 
 To find the intersection points of 2 rays or line segments in two-dimensional space, I use vector arithmetic and the following algorithm:
 
@@ -680,9 +680,9 @@ Related Stack Overflow questions:
 - [Trajectory plalnification](https://stackoverflow.com/questions/74595968/trajectory-plalnification/74604014#74604014)  
   ![Trajectory plalnification](https://i.stack.imgur.com/QDsWl.gif)  
 
-  :scroll: **[Minimal example - Find the intersection of an endless line and a circle](../../examples/minimal_examples/pygame_minimal_intersect_circle_line.py)**
+  📁 **[Minimal example - Find the intersection of an endless line and a circle](../../examples/minimal_examples/pygame_minimal_intersect_circle_line.py)**
 
-  :scroll: **[Minimal example - Find the intersection of a line segment and a circle](../../examples/minimal_examples/pygame_minimal_intersect_circle_linesegment.py)**
+  📁 **[Minimal example - Find the intersection of a line segment and a circle](../../examples/minimal_examples/pygame_minimal_intersect_circle_linesegment.py)**
 
 ## Rectangle and polygon
 
@@ -691,7 +691,7 @@ Related Stack Overflow questions:
 - [Detecting collisions between polygons and rectangles in Pygame](https://stackoverflow.com/questions/64095396/detecting-collisions-between-polygons-and-rectangles-in-pygame/64106246#64106246)  
   ![Detecting collisions between polygons and rectangles in Pygame](../../screenshot/pygame_minimal_intersect_rectangle_polygon.gif)
 
-  :scroll: **[Minimal example - Find the intersection of a rectangle and a polygon](../../examples/minimal_examples/pygame_minimal_intersect_rectangle_polygon.py)**
+  📁 **[Minimal example - Find the intersection of a rectangle and a polygon](../../examples/minimal_examples/pygame_minimal_intersect_rectangle_polygon.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CollisionPolygonRectangle](https://replit.com/@Rabbid76/PyGame-CollisionPolygonRectangle#main.py)**
 
@@ -705,7 +705,7 @@ Related Stack Overflow questions:
 - [How to make ball bounce off triangle in pygame?](https://stackoverflow.com/questions/54256104/how-to-make-ball-bounce-off-triangle-in-pygame)  
   ![How to make ball bounce off triangle in pygame?](https://i.stack.imgur.com/dAf8O.gif)
 
-  :scroll: **[Minimal example - Let a ball bounce off a triangle](../../examples/minimal_examples/pygame_minimal_intersect_circle_triangle.py)**
+  📁 **[Minimal example - Let a ball bounce off a triangle](../../examples/minimal_examples/pygame_minimal_intersect_circle_triangle.py)**
 
 ## Circle and circle
 
@@ -714,28 +714,28 @@ Related Stack Overflow questions:
 - [How to detect the collision of circles or balls in Pygame?](https://stackoverflow.com/questions/63145493/how-to-detect-the-collision-of-circles-or-balls-in-pygame)  
   ![How to detect the collision of circles or balls in Pygame?](https://i.stack.imgur.com/pNzMb.gif)
 
-  :scroll: **[Minimal example - Make circles bounce off each other](../../examples/minimal_examples/pygame_minimal_intersect_circle_circle_1.py)**
+  📁 **[Minimal example - Make circles bounce off each other](../../examples/minimal_examples/pygame_minimal_intersect_circle_circle_1.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CirclesBounceOff](https://replit.com/@Rabbid76/PyGame-CirclesBounceOff#main.py)**
 
 - [pygame Get the balls to bounce off each other](https://stackoverflow.com/questions/63586822/pygame-get-the-balls-to-bounce-off-each-other/63587147#63587147)  
   ![pygame Get the balls to bounce off each other](https://i.stack.imgur.com/dlD4v.gif)
 
-  :scroll: **[Minimal example - Make balls bounce off each other](../../examples/minimal_examples/pygame_minimal_intersect_circle_circle_2.py)**
+  📁 **[Minimal example - Make balls bounce off each other](../../examples/minimal_examples/pygame_minimal_intersect_circle_circle_2.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-BallsBounceOff](https://replit.com/@Rabbid76/PyGame-BallsBounceOff#main.py)**
 
 - [Collision detection / physics for simple game](https://stackoverflow.com/questions/59656983/collision-detection-physics-for-simple-game/59658289#59658289)  
   ![Collision detection / physics for simple game](https://i.stack.imgur.com/bqVOa.gif)
 
-  :scroll: **[Minimal example - Slide and bounce](../../examples/minimal_examples/pygame_minimal_move_slide_and_bounce.py)**
+  📁 **[Minimal example - Slide and bounce](../../examples/minimal_examples/pygame_minimal_move_slide_and_bounce.py)**
 
 - [Pygame: How to make two objects stop moving once they collide](https://stackoverflow.com/questions/62054942/pygame-how-to-make-two-objects-stop-moving-once-they-collide/62068800#62068800)
 
 - [Random systematic movement in pygame](https://stackoverflow.com/questions/65468240/random-systematic-movement-in-pygame/65468502#65468502)  
   ![Random systematic movement in pygame](https://i.stack.imgur.com/Ftsin.gif)
 
-  :scroll: **[Minimal example - Make particles bounce off each other](../../examples/minimal_examples/pygame_minimal_intersect_circular_particles.py)**
+  📁 **[Minimal example - Make particles bounce off each other](../../examples/minimal_examples/pygame_minimal_intersect_circular_particles.py)**
 
 ## Circle and ellipse
 
@@ -744,7 +744,7 @@ Related Stack Overflow questions:
 - [Collision detection between an ellipse and a circle](https://stackoverflow.com/questions/64107897/collision-detection-between-an-ellipse-and-a-circle/64108816#64108816)  
   ![Collision detection between an ellipse and a circle](https://i.stack.imgur.com/ITAxv.gif)
 
-  :scroll: **[Minimal example - Find the intersection of a circle and a rectangle](../../examples/minimal_examples/pygame_minimal_intersect_circle_ellipse.py)**
+  📁 **[Minimal example - Find the intersection of a circle and a rectangle](../../examples/minimal_examples/pygame_minimal_intersect_circle_ellipse.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-IntersectCircleEllipse](https://replit.com/@Rabbid76/PyGame-IntersectCircleEllipse#main.py)**
 
