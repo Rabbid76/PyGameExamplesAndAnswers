@@ -259,7 +259,7 @@ Related Stack Overflow questions:
 - [Play animation upon collision with enemy](https://stackoverflow.com/questions/61964552/play-animation-upon-collision-with-enemy/61968944#61968944)
 - [trying to get sprite to disappear from screen after certain amount of time](https://stackoverflow.com/questions/62614228/trying-to-get-sprite-to-disappear-from-screen-after-certain-amount-of-time/62614388#62614388)
 - [Animated sprite from few images](https://stackoverflow.com/questions/14044147/animated-sprite-from-few-images/64668964#64668964)
-
+c
 For an animated _Sprite_ a list of images ([`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) objects) must be generated. A different picture of the list is displayed in each frame, just like in the pictures of a movie. This gives the appearance of an animated object.  
 One way to get a list of images is to load an animated [_GIF_ (Graphics Interchange Format)](https://de.wikipedia.org/wiki/Graphics_Interchange_Format). Unfortunately, PyGame doesn't offer a function to load the frames of an animated GIF. However, there are several Stack Overflow answers that address this issue:
 

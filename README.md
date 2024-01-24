@@ -250,6 +250,8 @@ The site is still under construction :construction:.
 
 [Code snippets](documentation/pygame/pygame_code_snippets.md)
 
+[Ruun pygame in a web browser](documentation/pygame/pygame_in_web_browser.md)
+
 ## Libraries
 
 [PyGame and PyMunk](documentation/pygame/pygame_and_pymunk.md)
@@ -272,4 +274,3 @@ See [PyGame Ray Tracing](https://github.com/Rabbid76/PyGameRayTracing) repositor
 [Github - pygame](https://github.com/pygame/)  
 [Github - pygame/pygame](https://github.com/pygame/pygame)  
 [GitHub - CTPUG/pygame_cffi](https://github.com/CTPUG/pygame_cffi)  
-
