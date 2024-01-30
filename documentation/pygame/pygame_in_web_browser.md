@@ -8,7 +8,7 @@
 
 [pip pygbag](https://pypi.org/project/pygbag/)
 
-📁 **[minimal example - Pygbag](../../examples/minimal_exmaples_web/pygame_minimal_move_object/main.py)**
+📁 **[minimal example - Pygbag](../../examples/minimal_exmaples_web/pygame_minimal_move_object/main.py)**  
 ▶ **[run minimal pygbag example](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimal_move_object/build/web/)**
 
 ```bash
