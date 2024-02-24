@@ -68,7 +68,7 @@ while run:
     if colorVal <= 0 or colorVal >= 511:
         colorAdd *= -1
 
-    window.fill(0)
+    window.fill('black')
     group.draw(window)
     pygame.display.flip()
 

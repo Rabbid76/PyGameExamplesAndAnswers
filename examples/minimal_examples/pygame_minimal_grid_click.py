@@ -32,7 +32,7 @@ while run:
                 col = event.pos[0] // cell_size
                 board[row][col].clicked = True
 
-    window.fill(0)
+    window.fill('black')
     for iy, rowOfCells in enumerate(board):
         for ix, cell in enumerate(rowOfCells):
             color = (64, 64, 64) if cell.clicked else (164, 164, 164)

@@ -48,7 +48,7 @@ while run:
     #for t, e in c:
     #    print(t.rect, e.rect)
     
-    window.fill(0)
+    window.fill('black')
     all_group.draw(window)
     for s in collide:
         pygame.draw.rect(window, (255, 255, 255), s.rect, 5, 1)

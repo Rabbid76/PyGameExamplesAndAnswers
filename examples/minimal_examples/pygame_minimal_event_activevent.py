@@ -27,7 +27,7 @@ while run:
             if hasattr(event, 'gain'):
                 pause = event.gain == 0
 
-    window.fill(0)
+    window.fill('black')
     if pause:
         window.blit(pause_text, pause_text.get_rect(center = window.get_rect().center))
     pygame.display.update()

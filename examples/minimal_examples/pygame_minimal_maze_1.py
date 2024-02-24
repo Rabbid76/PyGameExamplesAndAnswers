@@ -144,7 +144,7 @@ while run:
         if pygame.Rect(0, 0, tilesize, tilesize).colliderect(player.rect):
             grid, current_cell = new_grid()
             player.random_position(cols, rows, tilesize)
-            window.fill(0)
+            window.fill('black')
             play = False
 
     else:

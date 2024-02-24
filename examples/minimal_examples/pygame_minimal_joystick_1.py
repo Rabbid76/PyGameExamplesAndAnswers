@@ -53,7 +53,7 @@ while run:
     rect.centerx = rect.centerx % window.get_width()
     rect.centery = rect.centery % window.get_height()
 
-    window.fill(0)
+    window.fill('black')
     pygame.draw.rect(window, color, rect)
     pygame.display.flip()
 

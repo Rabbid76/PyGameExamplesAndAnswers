@@ -38,7 +38,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-    window.fill(0)
+    window.fill('black')
     window.blit(test_image, (25, 25))
     window.blit(mask.to_surface(), (250, 25))
     pygame.display.flip()

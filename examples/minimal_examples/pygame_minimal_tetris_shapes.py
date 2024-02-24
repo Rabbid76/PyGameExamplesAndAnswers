@@ -40,7 +40,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False          
 
-    window.fill(0)
+    window.fill('black')
     draw_shape(70, 70, 0, red_tile)
     draw_shape(170, 70, 1, blue_tile)
     draw_shape(70, 170, 2, green_tile)

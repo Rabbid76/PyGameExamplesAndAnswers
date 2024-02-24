@@ -22,7 +22,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False          
 
-    window.fill(0)
+    window.fill('black')
     pygame.draw.circle(window, white, (50, 50), 45)
     pygame.draw.circle(window, pink25, (150, 50), 45)
     pygame.draw.circle(window, pink50, (250, 50), 45)

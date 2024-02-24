@@ -33,7 +33,7 @@ while run:
         enemy_x += min(enemy_vel, dist) * dx / dist
         enemy_y += min(enemy_vel, dist) * dy / dist
 
-    window.fill(0)
+    window.fill('black')
     pygame.draw.circle(window, (0, 128, 255), (player_x, player_y), 10)
     pygame.draw.circle(window, (255, 32, 32), (enemy_x, enemy_y), 10)
     pygame.display.flip()

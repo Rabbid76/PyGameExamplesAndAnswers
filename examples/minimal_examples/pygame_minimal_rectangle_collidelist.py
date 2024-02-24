@@ -29,7 +29,7 @@ while run:
 
     point = pygame.mouse.get_pos()
 
-    window.fill(0)
+    window.fill('black')
     for r in rectangles:
         pygame.draw.rect(window, (255, 0, 0), r)
     collideindex = pygame.Rect(point, (1, 1)).collidelist(rectangles)

@@ -26,7 +26,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-    window.fill(0)
+    window.fill('black')
     bar_width = window.get_width() // len(numbers_to_order)
     scale_height = window.get_height() // len(numbers_to_order)
     for k, n in enumerate(numbers_to_order):

@@ -67,7 +67,7 @@ while run:
     rocket_rect.y += (keys[pygame.K_UP] - keys[pygame.K_DOWN]) * velocity
     rocket_rect.clamp_ip(window.get_rect())
     
-    window.fill(0)
+    window.fill('black')
     for bullet_pos in list_of_bullets:
         window.blit(bullet, bullet.get_rect(center = (round(bullet_pos[0]),round(bullet_pos[1]))))
     blit_point_to_mouse(window, rocket, *rocket_rect.center)

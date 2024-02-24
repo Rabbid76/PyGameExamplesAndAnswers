@@ -47,7 +47,7 @@ while run:
     if collideHexagon(tiel_rect, pygame.mouse.get_pos()):
         color = "red"
  
-    window.fill(0)
+    window.fill('black')
     pygame.draw.polygon(window, color, pts)         
     pygame.display.flip() 
 

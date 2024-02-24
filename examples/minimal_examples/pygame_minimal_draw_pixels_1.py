@@ -24,7 +24,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-    window.fill(0)
+    window.fill('black')
 
     rect = pygame.Rect(window.get_rect().center, (0, 0)).inflate(*([min(window.get_size())//2]*2))
     

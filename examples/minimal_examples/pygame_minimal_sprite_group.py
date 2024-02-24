@@ -50,7 +50,7 @@ while run:
     all_sprites.update()
     print(len(all_sprites))
 
-    window.fill(0)
+    window.fill('black')
     pygame.draw.rect(window, (255, 0, 0), (300, 0, 10, window.get_height()))
     all_sprites.draw(window)
     pygame.display.flip()

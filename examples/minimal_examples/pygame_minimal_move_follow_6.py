@@ -76,7 +76,7 @@ while run:
             
             player.pos = collide_and_react(player.pos, f1.pos, player.radius, f1.radius)
     
-    window.fill(0) 
+    window.fill('black') 
     for obstacle in obstacles:
         obstacle.draw()
     for follower in followers:

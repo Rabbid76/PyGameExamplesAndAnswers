@@ -23,7 +23,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-    window.fill(0)
+    window.fill('black')
     pygame.draw.rect(window, (255, 255, 0), (100, 100, 200, 200), border_radius = radius)
     pygame.display.flip()
 

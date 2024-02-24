@@ -30,7 +30,7 @@ while run:
 
     window_center = window.get_rect().center
 
-    window.fill(0)
+    window.fill('black')
     window.blit(text1, (50, 75))
     window.blit(text2, (50 + rect1.width, 75))
     pygame.display.flip()

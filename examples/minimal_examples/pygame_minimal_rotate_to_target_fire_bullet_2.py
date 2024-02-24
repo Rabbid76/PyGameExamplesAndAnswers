@@ -63,7 +63,7 @@ while run:
         if not window.get_rect().collidepoint(bullet.pos):
             bullets.remove(bullet)
 
-    window.fill(0)
+    window.fill('black')
     window.blit(player1.rotated_player, player1.rotated_player.get_rect(center=player1.pos))
     for bullet in bullets:
         window.blit(bullet.rotated_bullet, bullet.rotated_bullet.get_rect(center=bullet.pos))

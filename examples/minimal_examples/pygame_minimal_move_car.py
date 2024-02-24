@@ -42,7 +42,7 @@ while run:
     if keys[pygame.K_d]:
         direction.rotate_ip(1)
 
-    window.fill(0)
+    window.fill('black')
     angle = direction.angle_to((1, 0))
     rotated_car = pygame.transform.rotate(car, angle)
     window.blit(rotated_car, rotated_car.get_rect(center = (round(position.x), round(position.y))))

@@ -57,7 +57,7 @@ while run:
         if not window.get_rect().collidepoint(bullet.pos):
             bullets.remove(bullet)
 
-    window.fill(0)
+    window.fill('black')
     for bullet in bullets:
         bullet.draw(window)
     pygame.draw.circle(window, (0, 255, 0), pos, 10)

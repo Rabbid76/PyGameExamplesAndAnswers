@@ -39,7 +39,7 @@ while run:
     rect.x %= 400
     rect.y %= 400
     
-    window.fill(0)
+    window.fill('black')
     pygame.draw.rect(window, "red", rect)
     pygame.display.flip()
 

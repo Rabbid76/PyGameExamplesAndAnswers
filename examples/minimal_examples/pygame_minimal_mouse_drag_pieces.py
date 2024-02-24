@@ -75,7 +75,7 @@ while run:
         if event.type == pygame.MOUSEMOTION and dragitem:
             dragpos = event.pos
 
-    window.fill(0)
+    window.fill('black')
     board.draw(window)
     if dragitem:
         pygame.draw.circle(window, PIECE_COLOUR[dragitem[2]-2], dragpos, RADIUS)

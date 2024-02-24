@@ -44,7 +44,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-    window.fill(0)
+    window.fill('black')
     pygame.display.flip()
 
 pygame.quit()

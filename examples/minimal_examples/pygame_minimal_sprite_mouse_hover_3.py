@@ -63,7 +63,7 @@ while run:
 
     group.update()
 
-    window.fill(0)
+    window.fill('black')
     group.draw(window)
     pygame.display.flip()
 

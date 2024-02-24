@@ -33,7 +33,7 @@ while run:
             text = font.render('button ' + str(event.button) + ' pressed', True, (255, 0, 0))
             message_end_time = pygame.time.get_ticks() + 2000
 
-    window.fill(0)
+    window.fill('black')
     if current_time < message_end_time:
         window.blit(text, text.get_rect(center = window.get_rect().center))
     pygame.display.flip()

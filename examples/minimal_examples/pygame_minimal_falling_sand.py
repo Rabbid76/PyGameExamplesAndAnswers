@@ -67,7 +67,7 @@ while run:
             if pygame.mouse.get_pressed()[0]:
                 grid.add_cell(*pygame.mouse.get_pos())
 
-    window.fill(0)  
+    window.fill('black')  
     grid.draw_grid(window)
     pygame.display.update()
 

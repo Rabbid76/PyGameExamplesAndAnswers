@@ -40,7 +40,7 @@ while run:
     if not hit_list and not rectangles:
         create_rectangles()
 
-    window.fill(0)
+    window.fill('black')
     for r in rectangles:
         pygame.draw.rect(window, (255, 0, 0), r)
     for i in range(len(hit_list)):

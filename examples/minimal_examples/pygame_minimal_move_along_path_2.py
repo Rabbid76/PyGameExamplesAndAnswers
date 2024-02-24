@@ -54,7 +54,7 @@ while run:
     pos = move(pos, speed, corner_points)
     image_rect = image.get_rect(center = pos)
            
-    window.fill(0)
+    window.fill('black')
     pygame.draw.lines(window, "gray", True, corner_points) 
     window.blit(image, image_rect)
     pygame.display.update()

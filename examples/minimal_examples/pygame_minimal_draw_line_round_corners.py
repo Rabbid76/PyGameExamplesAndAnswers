@@ -47,7 +47,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False 
 
-    window.fill(0)
+    window.fill('black')
     draw_line_round_corners(window, (50, 50), (300, 300), "red", 20)
     draw_line_round_corners_polygon(window, (50, 100), (250, 350), "orange", 20)
     draw_line_round_corners_cv(window, (100, 50), (350, 250), "yellow", 20)

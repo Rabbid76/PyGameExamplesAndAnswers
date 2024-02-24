@@ -26,7 +26,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-    window.fill(0)
+    window.fill('black')
     drawAACircle(window, (255, 0, 0), window.get_rect().center, 100, 20)
     pygame.display.flip()
 

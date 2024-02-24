@@ -58,7 +58,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-    window.fill(0)
+    window.fill('black')
 
     window.blit(image, (20, 20))
     window.blit(font.render("image", True, (255, 255, 255)), (100, 35))

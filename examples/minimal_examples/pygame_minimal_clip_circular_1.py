@@ -30,7 +30,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False
         
-    window.fill(0)
+    window.fill('black')
     window.blit(cropped_background, (0, 0))
     pygame.display.flip()
 

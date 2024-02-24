@@ -26,7 +26,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-    window.fill(0) 
+    window.fill('black') 
     pygame.draw.aalines(window, "white", True, points)
     pygame.display.flip()
 

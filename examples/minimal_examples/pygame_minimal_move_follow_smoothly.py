@@ -50,7 +50,7 @@ while run:
     player   = pygame.mouse.get_pos()
     follower = FollowMe(player, follower)
 
-    window.fill(0)  
+    window.fill('black')  
     pygame.draw.circle(window, (0, 0, 255), player, 10)
     pygame.draw.circle(window, (255, 0, 0), (round(follower[0]), round(follower[1])), 10)
     pygame.display.flip()

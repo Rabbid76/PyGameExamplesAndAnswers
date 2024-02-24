@@ -47,6 +47,6 @@ while True:
         EventHandler.notify(event)
 
     text_surface = font50.render(str(count), True, (255, 255, 255))
-    window.fill(0)
+    window.fill('black')
     window.blit(text_surface, text_surface.get_rect(center = window.get_rect().center))
     pygame.display.flip()

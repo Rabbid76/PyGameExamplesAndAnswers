@@ -60,7 +60,7 @@ while run:
 
     all_groups.update(border_rect)
 
-    window.fill(0)
+    window.fill('black')
     pygame.draw.rect(window, (255, 0, 0), border_rect, 1)
     all_groups.draw(window)
     pygame.display.flip()

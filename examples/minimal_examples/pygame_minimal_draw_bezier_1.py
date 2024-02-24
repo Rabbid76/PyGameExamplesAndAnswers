@@ -22,7 +22,7 @@ while run:
     
     p0,  p1, p2 = (250, 200), pygame.mouse.get_pos(), (250, 300)
 
-    window.fill(0)
+    window.fill('black')
     for p in [p0, p1, p2]:
         pygame.draw.circle(window, (255, 255, 255), p, 5)
     for i in range(101):

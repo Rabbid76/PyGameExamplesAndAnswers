@@ -32,7 +32,7 @@ while run:
                 rn += dir[1]
                 cn += dir[0]
 
-    window.fill(0)
+    window.fill('black')
     for row in range(rows):
         for column in range(columns):
             if (row, column) in cells_on_diagonals:

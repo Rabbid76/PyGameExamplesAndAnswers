@@ -59,7 +59,7 @@ while run:
             run = False
 
     # clear the display
-    window.fill(0)
+    window.fill('black')
 
     # draw the scene   
     pygame.draw.circle(window, (255, 0, 0), (250, 250), 100)
@@ -149,7 +149,7 @@ while run:
             run = False          
 
     window_center = window.get_rect().center
-    window.fill(0)
+    window.fill('black')
     pygame.draw.circle(window, color, window_center, 100)
     pygame.display.flip()
 

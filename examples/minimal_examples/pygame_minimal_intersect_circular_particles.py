@@ -94,7 +94,7 @@ while run:
 
     all_particles.update(rect_area)
 
-    window.fill(0)
+    window.fill('black')
     pygame.draw.rect(window, (255, 0, 0), rect_area, 3)
     all_particles.draw(window)
     pygame.display.flip()

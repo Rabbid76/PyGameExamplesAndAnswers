@@ -25,7 +25,7 @@ while run:
     collide = rect.collidepoint(point)
     color = (255, 0, 0) if collide else (255, 255, 255)
     
-    window.fill(0)
+    window.fill('black')
     pygame.draw.rect(window, color, rect)
     pygame.display.flip()
 

@@ -51,7 +51,7 @@ while run:
     drag_rectangle.update(event_list)
     rectangle_color = (0, 255, 0) if drag_rectangle.dragging else (255, 0, 0)
 
-    window.fill(0)
+    window.fill('black')
     pygame.draw.rect(window, rectangle_color, rectangle)
     pygame.display.flip()
 

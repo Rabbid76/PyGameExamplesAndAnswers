@@ -43,7 +43,7 @@ while run:
 
     pos = move(pos, speed, corner_points)
            
-    window.fill(0)
+    window.fill('black')
     pygame.draw.lines(window, "gray", True, corner_points) 
     pygame.draw.circle(window, "red", pos, 20)
     pygame.display.update()

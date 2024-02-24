@@ -68,7 +68,7 @@ while run:
     if not collideRectPolygon(new_rect, polygon):
         player.rect = new_rect.copy()   
 
-    window.fill(0)
+    window.fill('black')
     pygame.draw.polygon(window, (255, 0, 0), polygon, 1)
     player.draw()
     pygame.display.flip()

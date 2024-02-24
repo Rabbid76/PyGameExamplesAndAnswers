@@ -34,7 +34,7 @@ while run:
         if fireballrect.top > window.get_height():
             fireballs.remove(fireballrect)
 
-    window.fill(0)
+    window.fill('black')
     for fireballrect in fireballs:
         window.blit(fireball, fireballrect)
     pygame.display.flip()

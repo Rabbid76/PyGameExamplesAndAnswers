@@ -21,7 +21,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False          
 
-    window.fill(0)
+    window.fill('black')
     window.blit(text, text.get_rect(center = window.get_rect().center))
     window.blit(pygame.transform.rotate(window, 90), (0, 0))
     pygame.display.flip()

@@ -30,7 +30,7 @@ while run:
     rect = surface.get_rect(center = window_center)
     window_points = [(p[0] + rect.x, p[1] + rect.y) for p in outline]
 
-    window.fill(0)
+    window.fill('black')
     window.blit(surface, rect)
     pygame.draw.lines(window, "white", True, window_points, 5)
     pygame.display.flip()

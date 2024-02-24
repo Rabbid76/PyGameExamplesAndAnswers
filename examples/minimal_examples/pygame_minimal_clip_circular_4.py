@@ -43,7 +43,7 @@ while run:
     player.rect.clamp_ip(window.get_rect().inflate(-10, -10))
 
     window.set_clip(None)
-    window.fill(0)
+    window.fill('black')
 
     clipRect = pygame.Rect(player.rect.center, (0, 0)).inflate((areaRadius*2, areaRadius*2))
     window.set_clip(clipRect)

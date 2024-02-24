@@ -60,7 +60,7 @@ while run:
         origin = pygame.mouse.get_pos()
         rays = createRays(origin) 
         
-    window.fill(0)
+    window.fill('black')
     for endpoint in rays:
         endpoint = intersect(obstacles, origin, endpoint)
         pygame.draw.line(window, (128, 128, 128), origin, endpoint)

@@ -43,7 +43,7 @@ while run:
 
     window_center = window.get_rect().center
 
-    window.fill(0)
+    window.fill('black')
     drawCube(window, window_center, 150, angle)
     pygame.display.flip()
 

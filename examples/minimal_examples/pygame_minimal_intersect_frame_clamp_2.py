@@ -34,7 +34,7 @@ while run:
     circleX = max(clampRect.left, min(clampRect.right, circleX))
     circleY = max(clampRect.top, min(clampRect.bottom, circleY))
 
-    window.fill(0)
+    window.fill('black')
     pygame.draw.circle(window, (255, 0, 0), (circleX, circleY), radius)
     pygame.display.flip()
 

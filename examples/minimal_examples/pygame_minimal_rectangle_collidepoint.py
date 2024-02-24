@@ -36,7 +36,7 @@ while run:
 
     point = pygame.mouse.get_pos()
 
-    window.fill(0)
+    window.fill('black')
     for r, c, h in zip(rectangles, colors, hightlightColors):
         drawRectHighlight(window, r, c, h, point)
     pygame.display.flip()

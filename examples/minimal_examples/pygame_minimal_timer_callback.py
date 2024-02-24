@@ -53,7 +53,7 @@ while run:
             run = False
     timer.validate(event_list)
 
-    window.fill(0)   
+    window.fill('black')   
     all_sprites.draw(window)
     pygame.display.flip()
 

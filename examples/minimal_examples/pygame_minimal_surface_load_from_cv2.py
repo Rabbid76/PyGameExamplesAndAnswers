@@ -45,7 +45,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-    window.fill(0)
+    window.fill('black')
     window.blit(pygameSurface1, pygameSurface1.get_rect(topleft = window.get_rect().inflate(-10, -10).topleft))
     window.blit(pygameSurface2, pygameSurface2.get_rect(center = window.get_rect().center))
     window.blit(pygameSurface3, pygameSurface3.get_rect(bottomright = window.get_rect().inflate(-10, -10).bottomright))

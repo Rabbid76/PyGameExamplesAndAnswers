@@ -49,7 +49,7 @@ while run:
 
     object_group.update()
 
-    window.fill(0)
+    window.fill('black')
     pygame.draw.lines(window, 'grey', False, positions, 4)
     for p in positions:
         pygame.draw.circle(window, 'white', p, 8)

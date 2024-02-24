@@ -51,7 +51,7 @@ while run:
             row.append([gx, gy, color])
         grid.append(row)
 
-    window.fill(0)
+    window.fill('black')
     for row in grid:
         for x, y, colour in row:
             pygame.draw.rect(window, colour, (x, y, grid_width, grid_height))

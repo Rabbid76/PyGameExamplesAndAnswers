@@ -32,7 +32,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-    window.fill(0)
+    window.fill('black')
 
     for i in range(int(count)):
         draw_red_line(window, (255, 255, 255), line_start[i], line_end[i], 1)

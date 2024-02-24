@@ -91,7 +91,7 @@ while run:
         for b2 in ball_list[i+1:]:
             reflectBalls(b1, b2)
 
-    window.fill(0)
+    window.fill('black')
     pygame.draw.rect(window, (255, 0, 0), window.get_rect(), 1)
     all_balls.draw(window)
     pygame.display.flip()

@@ -95,7 +95,7 @@ while run:
     x2 += x2_dir
     y2 += y2_dir
 
-    window.fill(0)
+    window.fill('black')
     pygame.draw.circle(window, (127, 191, 255), (centerX,centerY), stageR)
     pygame.draw.circle(window, (192, 0, 0), (round(x1), round(y1)), xR)
     pygame.draw.circle(window, (0, 127, 0), (round(x2),round(y2)), xR)

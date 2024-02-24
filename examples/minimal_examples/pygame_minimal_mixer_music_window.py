@@ -35,7 +35,7 @@ while run and pygame.mixer.music.get_busy():
         if event.type == pygame.QUIT:
             run = False
 
-    window.fill(0)
+    window.fill('black')
     window.blit(title_surf, title_surf.get_rect(center = window_center))
     pygame.display.flip()
 

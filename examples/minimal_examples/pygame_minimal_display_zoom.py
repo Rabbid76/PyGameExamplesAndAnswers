@@ -39,7 +39,7 @@ while run:
                 maprect = pygame.Rect(left, top, right-left, bottom-top)
                 mapsurface = pygame.transform.smoothscale(map, maprect.size)
                 
-    window.fill(0)
+    window.fill('black')
     window.blit(mapsurface, maprect)
     pygame.display.flip()
 

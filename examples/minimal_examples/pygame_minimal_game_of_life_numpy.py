@@ -60,7 +60,7 @@ while run:
     grid_surf = pygame.image.frombuffer(color_grid.flatten(), (cols, rows), 'RGB')
     grid_surf = pygame.transform.scale(grid_surf, (cols*tile_size, rows*tile_size))
 
-    window.fill(0)
+    window.fill('black')
     window.blit(grid_surf, (0, 0))
     pygame.display.flip()
 

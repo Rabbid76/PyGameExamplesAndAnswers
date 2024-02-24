@@ -31,7 +31,7 @@ while run:
     start = round(center_x + rot_vector.x), round(center_y + rot_vector.y)
     end = round(center_x - rot_vector.x), round(center_y - rot_vector.y)
     
-    window.fill(0)
+    window.fill('black')
     pygame.draw.line(window, (255, 255, 255), start, end, 3)
     pygame.display.flip()
 

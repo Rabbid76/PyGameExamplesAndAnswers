@@ -36,7 +36,7 @@ while run:
 
     scaled_image = scale_bar(bar, 100)
 
-    window.fill(0)
+    window.fill('black')
     window.blit(scaled_image, scaled_image.get_rect(center = window.get_rect().center))
     pygame.display.flip()
 

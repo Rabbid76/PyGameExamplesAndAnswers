@@ -32,7 +32,7 @@ while run:
             run = False 
 
     window_center = window.get_rect().center
-    window.fill(0)
+    window.fill('black')
     window.blit(text, text.get_rect(center = window_center))
     pygame.display.flip()
     clock.tick(60)

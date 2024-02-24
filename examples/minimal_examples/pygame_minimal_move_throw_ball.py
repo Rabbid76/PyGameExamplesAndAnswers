@@ -41,7 +41,7 @@ while run:
     i += 1
     if i >= 120:
         i = 0
-        window.fill(0)
+        window.fill('black')
 
 pygame.quit()
 exit()

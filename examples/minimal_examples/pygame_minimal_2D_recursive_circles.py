@@ -39,7 +39,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-    window.fill(0)
+    window.fill('black')
     pygame.draw.circle(window, (255, 255, 255), cpt, radius+1, 3)
     innerCircles(window, cpt, radius, 0)
     pygame.display.flip()

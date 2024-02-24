@@ -32,7 +32,7 @@ while run:
 
     camera_frame = camera.get_image()
 
-    window.fill(0)
+    window.fill('black')
     window.blit(camera_frame, (0, 0))
     pygame.display.flip()
 

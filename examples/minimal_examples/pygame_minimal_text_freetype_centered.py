@@ -26,7 +26,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-    window.fill(0)
+    window.fill('black')
     drawTextCentered(window, "Hello World", 50, (255, 0, 0))  
     pygame.display.flip()
 

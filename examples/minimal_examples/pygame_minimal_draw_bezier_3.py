@@ -28,7 +28,7 @@ while run:
     
     pts = [(100, 100), (100, 400), (400, 400)]
 
-    window.fill(0)
+    window.fill('black')
     for p in pts:
         pygame.draw.circle(window, (255, 255, 255), p, 5)
     for i in range(101):

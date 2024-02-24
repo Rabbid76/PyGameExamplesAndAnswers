@@ -45,7 +45,7 @@ while run:
         player_xy[0] = border.right - radius
         veloc = 0
 
-    window.fill(0) 
+    window.fill('black') 
     pygame.draw.rect(window, (255, 0, 0), border, 1)
     pygame.draw.circle(window, (0, 255, 0), (round(player_xy[0]), round(player_xy[1])), radius)
     pygame.display.flip()

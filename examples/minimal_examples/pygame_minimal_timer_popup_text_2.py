@@ -90,7 +90,7 @@ while run:
         if current_time > hit_sprite.end_time:
             hit_sprite.kill()
 
-    window.fill(0)    
+    window.fill('black')    
     pygame.draw.rect(window, "gray", bounds, 3)
     all_sprites.draw(window)
     text_sprites.draw(window)

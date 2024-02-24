@@ -38,7 +38,7 @@ while run:
             else:
                 text += event.unicode
 
-        window.fill(0)
+        window.fill("black")
         text_surf = font.render(text, True, (255, 0, 0))
         window.blit(text_surf, text_surf.get_rect(center = window.get_rect().center))
         pygame.display.flip()

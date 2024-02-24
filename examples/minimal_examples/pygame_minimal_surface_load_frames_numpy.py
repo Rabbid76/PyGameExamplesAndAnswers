@@ -53,7 +53,7 @@ while not run:
         if event.type == pygame.QUIT:
             run = True
 
-    window.fill(0)
+    window.fill('black')
     window.blit(surf_list[count], surf_list[0].get_rect(center = window.get_rect().center))
     pygame.display.flip()
     count = (count + 1) %  len(surf_list)

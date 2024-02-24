@@ -52,7 +52,7 @@ while run:
     my_sprite.turnLeft()
     all_sprites.update()
 
-    window.fill(0)
+    window.fill('black')
     pygame.draw.circle(window, (127, 127, 127), window.get_rect().center, 100, 1)
     all_sprites.draw(window)
     pygame.display.flip()

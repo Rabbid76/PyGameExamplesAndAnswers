@@ -32,7 +32,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False 
 
-    window.fill(0)
+    window.fill('black')
     all_text.draw(window)
     pygame.display.flip()
 

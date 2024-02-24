@@ -32,7 +32,7 @@ while run:
             run = False
 
     # clear the display
-    window.fill(0)
+    window.fill('black')
 
     # draw the scene   
     pygame.draw.circle(window, (255, 0, 0), (250, 250), 100)

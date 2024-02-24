@@ -43,7 +43,7 @@ while run:
     if ball.colliderect(paddleRight):
         move_x = -abs(move_x)   
 
-    window.fill(0)
+    window.fill('black')
     pygame.draw.rect(window, (255, 255, 255), paddleLeft)
     pygame.draw.rect(window, (255, 255, 255), paddleRight)
     pygame.draw.circle(window, (255, 255, 255), ball.center, radius)

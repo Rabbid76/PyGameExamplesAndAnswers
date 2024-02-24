@@ -43,7 +43,7 @@ while run:
             
     explosion_group.update() 
             
-    window.fill(0)
+    window.fill('black')
     explosion_group.draw(window)
     pygame.display.flip()
     clock.tick(100)

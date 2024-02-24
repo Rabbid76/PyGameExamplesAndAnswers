@@ -51,7 +51,7 @@ while run:
 
     cp.update()
 
-    window.fill(0)
+    window.fill('black')
     cp.draw(window)
     pygame.display.flip()
     

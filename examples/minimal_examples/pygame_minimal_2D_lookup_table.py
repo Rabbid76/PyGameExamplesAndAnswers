@@ -39,7 +39,7 @@ while run:
     scaled_image = pygame.transform.scale(image, window.get_size())
     applyLUT(scaled_image, LUT)
 
-    window.fill(0)
+    window.fill('black')
     window.blit(scaled_image, (0, 0))
     pygame.display.flip()
 

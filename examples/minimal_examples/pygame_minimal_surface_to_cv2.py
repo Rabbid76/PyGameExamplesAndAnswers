@@ -43,7 +43,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False 
 
-    window.fill(0)
+    window.fill('black')
     window.blit(image, image.get_rect(center = window.get_rect().center))
     pygame.display.flip()
     clock.tick(60)

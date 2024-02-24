@@ -33,7 +33,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False 
 
-    window.fill(0)
+    window.fill('black')
     window.blit(plot_surface, (0, 0))
     pygame.display.flip()
 

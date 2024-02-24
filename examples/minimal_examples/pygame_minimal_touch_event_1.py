@@ -41,7 +41,7 @@ while run:
 
     highlight = [any(r.collidepoint(p) for _, p in fingers.items()) for _, r in enumerate(buttons)]
 
-    window.fill(0)
+    window.fill('black')
     for rect, color, colorH, h in zip(buttons, colors, colorsH, highlight):
         c = colorH if h else color
         pygame.draw.rect(window, c, rect)

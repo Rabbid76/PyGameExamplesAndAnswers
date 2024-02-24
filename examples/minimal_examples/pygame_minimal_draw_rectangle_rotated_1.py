@@ -32,7 +32,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False    
 
-    window.fill(0)
+    window.fill('black')
     window_center = window.get_rect().center
     window.blit(rotated_image, rotated_image.get_rect(center = window_center))
     rect = orig_image.get_rect(center = window_center)

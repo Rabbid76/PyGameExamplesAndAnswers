@@ -42,7 +42,7 @@ while run:
     overlap_surf = overlap_mask.to_surface(setcolor = (255, 0, 0))
     overlap_surf.set_colorkey((0, 0, 0))
 
-    window.fill(0)
+    window.fill('black')
     window.blit(image1, rect1)
     window.blit(image2, rect2)
     window.blit(overlap_surf, rect1)

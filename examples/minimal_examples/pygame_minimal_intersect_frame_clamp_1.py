@@ -25,7 +25,7 @@ while run:
     rect.y += (keys[pygame.K_DOWN] - keys[pygame.K_UP]) * speed  
     rect.clamp_ip(pygame.display.get_surface().get_rect())    
 
-    window.fill(0)
+    window.fill('black')
     pygame.draw.rect(window, (255, 0, 0), rect)
     pygame.display.flip()
     clock.tick(60)

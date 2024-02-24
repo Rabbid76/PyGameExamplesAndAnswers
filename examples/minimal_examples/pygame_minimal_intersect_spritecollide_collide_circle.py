@@ -37,7 +37,7 @@ while run:
     sprite1.rect.center = pygame.mouse.get_pos()
     collide = pygame.sprite.spritecollide(sprite1, test_group, False, pygame.sprite.collide_circle)
     
-    window.fill(0)
+    window.fill('black')
     all_group.draw(window)
     for s in collide:
         pygame.draw.circle(window, (255, 255, 255), s.rect.center, s.rect.width // 2, 5)

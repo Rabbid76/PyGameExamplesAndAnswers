@@ -36,7 +36,7 @@ while run:
                 sprite.rect.x += steps * dx / dist
                 sprite.rect.y += steps * dy / dist
 
-    window.fill(0)
+    window.fill('black')
     group.draw(window)
     pygame.display.flip()
 

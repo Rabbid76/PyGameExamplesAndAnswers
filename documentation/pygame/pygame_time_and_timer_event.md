@@ -22,14 +22,17 @@ If you want to control something over time in Pygame you have two options:
 
 ![time example](https://i.stack.imgur.com/QTT2q.gif)
 
-📁 **[Minimal example - `get_ticks`](../../examples/minimal_examples/pygame_minimal_timer_get_ticks_1.py)**
+📁 **[Minimal example - `get_ticks`](../../examples/minimal_examples/pygame_minimal_timer_get_ticks_1.py)**  
+▶ **[run minimal example - `get_ticks`](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimla_timer_get_ticks_1/build/web/)**
 
-📁 **[Minimal example - timer event](../../examples/minimal_examples/pygame_minimal_timer_event_1.py)**
+📁 **[Minimal example - timer event](../../examples/minimal_examples/pygame_minimal_timer_event_1.py)**  
+▶ **[run minimal example - timer event](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimal_timer_event_1/build/web/)**
 
 - [Rendering Images At a Different Framerate Than The Game Window](https://stackoverflow.com/questions/75712024/rendering-images-at-a-different-framerate-than-the-game-window/75712065#75712065)
   ![Rendering Images At a Different Framerate Than The Game Window](https://i.stack.imgur.com/ZTPYx.gif)
 
-📁 **[Minimal example - different frame rates](../../examples/minimal_examples/pygame_minimal_timer_animation_2.py)**
+📁 **[Minimal example - different frame rates](../../examples/minimal_examples/pygame_minimal_timer_animation_2.py)**  
+▶ **[run minimal example - different frame rates](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimal_timer_animation_2/build/web/)**
 
 ## Wait for a period of time
 
@@ -74,7 +77,7 @@ while run:
         message_surf = font.render('Important message!', True, (255, 0, 0))
         message_end_time = pygame.time.get_ticks() + 3000 # display for 3 seconds
 
-    window.fill(0)
+    window.fill('black')
 
     # [...]
 
@@ -83,7 +86,8 @@ while run:
     pygame.display.flip()
 ```
 
-📁 **[Minimal example - Display a message for a period of time](../../examples/minimal_examples/pygame_minimal_time_text_message_delay.py)**
+📁 **[Minimal example - Display a message for a period of time](../../examples/minimal_examples/pygame_minimal_time_text_message_delay.py)**  
+▶ **[run minimal example - Display a message for a period of time](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimal_time_text_message_delay/build/web/)**
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MessageDelay](https://replit.com/@Rabbid76/PyGame-MessageDelay#main.py)**
 
@@ -175,20 +179,25 @@ Related Stack Overflow questions:
 - [How can I show explosion image when collision happens?](https://stackoverflow.com/questions/64305426/how-can-i-show-explosion-image-when-collision-happens/64305746#64305746)  
   ![How can I show explosion image when collision happens?](https://i.stack.imgur.com/mdCj6.gif)
 
+   📁 **[Minimal example - Timer for a period of time](../../examples/minimal_examples/pygame_minimal_timer_for_a_period_of_time.py)**  
+
 - [Adding a particle effect to my clicker game](https://stackoverflow.com/questions/64793618/adding-a-particle-effect-to-my-clicker-game/64794954#64794954)  
   ![Adding a particle effect to my clicker game](https://i.stack.imgur.com/bWOOF.gif)
 
-  📁 **[Minimal example - Spawn text on click](../../examples/minimal_examples/pygame_minimal_timer_for_a_period_of_time_random_text.py)**
+  📁 **[Minimal example - Spawn text on click](../../examples/minimal_examples/pygame_minimal_timer_for_a_period_of_time_random_text.py)**  
+  ▶ **[run minimal example - Spawn text on click](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimal_timer_for_a_period_of_time_random_text/build/web/)**
 
 - [Pygame "pop up" text - How to show an image only for a period of time?](https://stackoverflow.com/questions/70996802/pygame-pop-up-text-how-to-show-an-image-only-for-a-period-of-time/70996856#70996856)  
   ![Pygame "pop up" text - How to show an image only for a period of time?](https://i.stack.imgur.com/TIyPv.gif)  
 
-  📁 **[Minimal example - pop up text](../../examples/minimal_examples/pygame_minimal_timer_popup_text_1.py)**
+  📁 **[Minimal example - pop up text](../../examples/minimal_examples/pygame_minimal_timer_popup_text_1.py)**  
+  ▶ **[run minimal example - Spawn text on click](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimal_timer_popup_text_1/build/web/)**
 
 - [How can i controll collision from sprites?](https://stackoverflow.com/questions/71184756/how-can-i-controll-collision-from-sprites/73938856#73938856)  
   ![How can i controll collision from sprites?](https://i.stack.imgur.com/eRmUW.gif)  
 
-  📁 **[Minimal example - random pop up text](../../examples/minimal_examples/pygame_minimal_timer_popup_text_2.py)**
+  📁 **[Minimal example - random pop up text](../../examples/minimal_examples/pygame_minimal_timer_popup_text_2.py)**  
+  ▶ **[run minimal example - random pop up text](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimal_timer_popup_text_2/build/web/)**
 
 - [how to handle time for different components in pygame](https://stackoverflow.com/questions/62151703/how-to-handle-time-for-different-components-in-pygame)
 - [How to make image stay on screen in pygame?](https://stackoverflow.com/questions/63718110/how-to-make-image-stay-on-screen-in-pygame/63726447#63726447)
@@ -228,7 +237,8 @@ Related Stack Overflow questions:
 - **[Spawning multiple instances of the same object concurrently in python](https://stackoverflow.com/questions/62112754/spawning-multiple-instances-of-the-same-object-concurrently-in-python/62112894#62112894)**  
   ![Spawning multiple instances of the same object concurrently in python](https://i.stack.imgur.com/cVQze.gif)
 
-  📁 **[Minimal example - Spawn objects](../../examples/minimal_examples/pygame_minimal_timer_spawn_objects.py)**
+  📁 **[Minimal example - Spawn objects](../../examples/minimal_examples/pygame_minimal_timer_spawn_objects.py)**  
+  ▶ **[run minimal example - Spawn objects](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimal_timer_spawn_objects/build/web/)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TimerSpawnObjects](https://replit.com/@Rabbid76/PyGame-TimerSpawnObjects#main.py)**
 

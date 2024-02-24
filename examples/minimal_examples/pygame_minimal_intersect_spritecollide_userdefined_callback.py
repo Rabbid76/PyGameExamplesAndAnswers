@@ -42,7 +42,7 @@ while run:
     sprite1.rect.center = pygame.mouse.get_pos()
     collide = pygame.sprite.spritecollide(sprite1, all_group, False, color_collision)
     
-    window.fill(0)
+    window.fill('black')
     all_group.draw(window)
     for s in collide:
         pygame.draw.rect(window, (255, 255, 255), s.rect, 5, 1)

@@ -56,7 +56,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False 
 
-    window.fill(0)
+    window.fill('black')
     drawOutline(window, body, "yellow", 3)
     pygame.display.flip()
 

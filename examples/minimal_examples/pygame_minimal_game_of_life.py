@@ -66,7 +66,7 @@ while run:
                 else:
                     grid[y][x] = 0
 
-    window.fill(0)
+    window.fill('black')
     for y in range(rows):
         for x in range(cols):
             if grid[y][x] == 1:

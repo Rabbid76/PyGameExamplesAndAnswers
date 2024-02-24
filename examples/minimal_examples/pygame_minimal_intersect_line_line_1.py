@@ -68,7 +68,7 @@ while run:
         origin = pygame.mouse.get_pos()
         rays = createRays(origin) 
         
-    window.fill(0)
+    window.fill('black')
     for endpoint in rays:
         pygame.draw.line(window, (128, 128, 128), origin, endpoint)
     pygame.draw.circle(window, (255, 255, 255), origin, 10)

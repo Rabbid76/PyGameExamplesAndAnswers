@@ -27,7 +27,7 @@ while run:
         if event.type == timer_event:
             rect.x = (rect.x + 20) % window.get_width()
 
-    window.fill(0)
+    window.fill('black')
     pygame.draw.rect(window, (255, 0, 0), rect)
     pygame.display.flip()
     clock.tick(100)

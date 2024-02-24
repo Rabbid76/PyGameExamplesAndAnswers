@@ -34,7 +34,7 @@ while run:
     dy = (test_y - cpt_y) * scale_y
     collide = dx*dx + dy*dy <= a*a  
             
-    window.fill(0)
+    window.fill('black')
     
     color = (127, 0, 0) if collide else (0, 127, 0)
     pygame.draw.ellipse(window, color, ellipse_rect)

@@ -52,7 +52,7 @@ while run:
 
     sprite_sheet.update()
 
-    window.fill(0)
+    window.fill('black')
     sprite_sheet.draw(window, *window.get_rect().center)
     pygame.display.update()
     

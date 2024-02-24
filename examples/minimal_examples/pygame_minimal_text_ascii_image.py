@@ -60,7 +60,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False          
 
-    window.fill(0)
+    window.fill('black')
     renderTextImage(window, font, img_text, 50, 20, (255, 255, 0))
     pygame.display.flip()
 

@@ -53,7 +53,7 @@ Some examples:
       collide = rect.collidepoint(point)
       color = (255, 0, 0) if collide else (255, 255, 255)
 
-      window.fill(0)
+      window.fill('black')
       pygame.draw.rect(window, color, rect)
       pygame.display.flip()
 
@@ -89,7 +89,7 @@ Some examples:
       collide = rect1.colliderect(rect2)
       color = (255, 0, 0) if collide else (255, 255, 255)
 
-      window.fill(0)
+      window.fill('black')
       pygame.draw.rect(window, color, rect1)
       pygame.draw.rect(window, (0, 255, 0), rect2, 6, 1)
       pygame.display.flip()
@@ -143,7 +143,7 @@ Some examples:
       sprite1.rect.center = pygame.mouse.get_pos()
       collide = pygame.sprite.spritecollide(sprite1, test_group, False)
 
-      window.fill(0)
+      window.fill('black')
       all_group.draw(window)
       for s in collide:
           pygame.draw.rect(window, (255, 255, 255), s.rect, 5, 1)
@@ -190,7 +190,7 @@ Some examples:
       sprite1.rect.center = pygame.mouse.get_pos()
       collide = pygame.sprite.spritecollide(sprite1, test_group, False, pygame.sprite.collide_circle)
 
-      window.fill(0)
+      window.fill('black')
       all_group.draw(window)
       for s in collide:
           pygame.draw.circle(window, (255, 255, 255), s.rect.center, s.rect.width // 2, 5)

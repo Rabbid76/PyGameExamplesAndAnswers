@@ -69,7 +69,7 @@ while run:
     if not maze_mask.overlap(player_mask, offset):
         player_rect = new_rect
 
-    window.fill(0)
+    window.fill('black')
     window.blit(maze_surf, maze_pos)
     window.blit(player_surf, player_rect)
     pygame.display.flip()

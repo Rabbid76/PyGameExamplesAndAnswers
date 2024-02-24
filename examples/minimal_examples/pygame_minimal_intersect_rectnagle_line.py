@@ -29,7 +29,7 @@ while run:
 
     color = "red" if any(rect.clipline(*line) for line in lines) else "green"
 
-    window.fill(0)
+    window.fill('black')
     pygame.draw.rect(window, color, rect)
     for line in lines:
         pygame.draw.line(window, "white", *line)

@@ -65,7 +65,7 @@ while run:
         ball.reflect((0, -1))
     ball.rect.clamp_ip(frame_rect)
 
-    window.fill(0)
+    window.fill('black')
     pygame.draw.rect(window, (255, 0, 0), frame_rect, 1)
     all_groups.draw(window)
     pygame.display.flip()

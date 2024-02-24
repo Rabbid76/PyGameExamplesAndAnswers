@@ -37,7 +37,7 @@ while run:
             text_pos_and_time.append((coin.center, current_time + pop_up_seconds * 1000))
             coins.remove(coin)
 
-    window.fill(0)    
+    window.fill('black')    
     pygame.draw.rect(window, "red", player)
     for coin in coins:
         pygame.draw.circle(window, "yellow", coin.center, 20)

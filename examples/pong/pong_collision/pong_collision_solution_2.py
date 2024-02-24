@@ -45,7 +45,7 @@ while run:
         move_x *= -1
         ball.right = paddleRight.left 
 
-    window.fill(0)
+    window.fill('black')
     pygame.draw.rect(window, (255, 255, 255), paddleLeft)
     pygame.draw.rect(window, (255, 255, 255), paddleRight)
     pygame.draw.circle(window, (255, 255, 255), ball.center, radius)

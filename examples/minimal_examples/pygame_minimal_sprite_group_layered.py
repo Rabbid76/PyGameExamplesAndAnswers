@@ -39,7 +39,7 @@ while run:
             if event.button == 3:
                 layered_sprites.move_to_front(obstacle)
 
-    window.fill(0)
+    window.fill('black')
     layered_sprites.draw(window)
     pygame.display.flip()
 

@@ -27,7 +27,7 @@ while run:
             run = False          
 
     window_center = window.get_rect().center
-    window.fill(0)
+    window.fill('black')
     pygame.draw.circle(window, color, window_center, 100)
     pygame.display.flip()
 

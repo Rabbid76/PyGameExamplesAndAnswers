@@ -82,7 +82,7 @@ while run:
         if j1 == nj or not (maze.wall_bottom(i0, j1) or maze.wall_bottom(i1, j1) or (i0 != i1 and maze.wall_right(i0, nj))):
             player_rect = new_rect
 
-    window.fill(0)
+    window.fill('black')
     draw_maze(window, maze, 20, 20, cell_size, (196, 196, 196), 3)
     pygame.draw.circle(window, (255, 255, 0), player_rect.center, player_rect.width//2)
     pygame.display.flip()

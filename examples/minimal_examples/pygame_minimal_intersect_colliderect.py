@@ -26,7 +26,7 @@ while run:
     collide = rect1.colliderect(rect2)
     color = (255, 0, 0) if collide else (255, 255, 255)
     
-    window.fill(0)
+    window.fill('black')
     pygame.draw.rect(window, color, rect1)
     pygame.draw.rect(window, (0, 255, 0), rect2, 6, 1)
     pygame.display.flip()

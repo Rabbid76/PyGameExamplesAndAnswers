@@ -55,7 +55,7 @@ while run:
     
     sheep.move(window)
 
-    window.fill(0)
+    window.fill('black')
     sheep.draw(window)
     pygame.display.flip()
 

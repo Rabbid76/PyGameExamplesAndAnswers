@@ -46,7 +46,7 @@ while run:
 
     all_sprites.update(window)
 
-    window.fill(0)
+    window.fill('black')
     all_sprites.draw(window)
     pygame.display.flip()
 

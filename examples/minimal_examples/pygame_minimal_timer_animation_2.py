@@ -42,3 +42,4 @@ while running:
     clock.tick(100)
 
 pygame.quit()
+exit()

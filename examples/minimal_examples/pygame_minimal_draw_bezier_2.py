@@ -33,7 +33,7 @@ while run:
     x, y = pygame.mouse.get_pos()
     b_points = [(100, 100), (150, 100), (250, y), (x, y)]
 
-    window.fill(0)
+    window.fill('black')
     bezier(window, b_points, 10, (128, 0, 0), 10)
     pygame.draw.lines(window, (128, 128, 128), False, b_points, 1)
     pygame.gfxdraw.bezier(window, b_points, 6, (255, 255, 0))

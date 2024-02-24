@@ -55,7 +55,7 @@ while run:
 
     all_sprites.update(window.get_rect())
 
-    window.fill(0)
+    window.fill('black')
     all_sprites.draw(window)
     pygame.draw.circle(window, "white", start_pos, 10)
     pygame.draw.line(window, "white", start_pos, pygame.mouse.get_pos())

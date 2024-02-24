@@ -50,7 +50,7 @@ while run:
     trajectory_parabola = Parabola(1, *pts)
     trajectory = [(pt[0], round(pt[1])) for pt in trajectory_parabola.pointsOnCurve(0, window_rect.width)]
 
-    window.fill(0)
+    window.fill('black')
     pygame.draw.lines(window, (255, 255, 0), False, trajectory)
     for pt in pts:
         pygame.draw.circle(window, (255, 0, 0), pt, 10)

@@ -58,7 +58,7 @@ while run:
 
     group.update(event_list)
 
-    window.fill(0)
+    window.fill('black')
     group.draw(window)
     pygame.display.flip()
 

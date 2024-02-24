@@ -29,7 +29,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False 
 
-    window.fill(0)
+    window.fill('black')
     window.blit(text1, (50, 75))
     window.blit(text2, (50 + text1.get_width(), 75))
     pygame.display.flip()

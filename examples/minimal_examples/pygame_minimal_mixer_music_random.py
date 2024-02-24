@@ -41,7 +41,7 @@ while run:
         pygame.mixer.music.play()
         title_surf = font.render(current_song, True, (255, 255, 0))
 
-    window.fill(0)
+    window.fill('black')
     if title_surf:
         window.blit(title_surf, title_surf.get_rect(center = window_center))
     pygame.display.flip()

@@ -27,7 +27,7 @@ while run:
 
     window_center = window.get_rect().center
 
-    window.fill(0)
+    window.fill('black')
     pygame.draw.circle(window, (255, 0, 0), window_center, 100)
     window.blit(text, text.get_rect(center = window_center))
     pygame.display.flip()

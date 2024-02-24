@@ -57,7 +57,7 @@ while run:
     angle_second = 90 - 360 * now.second / 60
     center = window.get_rect().center
     
-    window.fill(0)
+    window.fill('black')
     blitRotate(window, hour, center, (5, 5), angle_hour) 
     blitRotate(window, minute, center, (5, 4), angle_minute)  
     blitRotate(window, second, center, (5, 2), angle_second) 

@@ -38,7 +38,7 @@ while run:
         next_object_time += time_interval
         object_list.append(Object())
     
-    window.fill(0)
+    window.fill('black')
     for object in object_list[:]:
         pygame.draw.circle(window, object.color, (object.x, object.y), round(object.radius))
         object.radius -= 0.2

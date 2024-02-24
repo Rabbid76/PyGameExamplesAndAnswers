@@ -31,7 +31,7 @@ while run:
     clip_center = pygame.mouse.get_pos()
 
     # clear screen and set clipping region
-    window.fill(0)    
+    window.fill('black')    
     clip_rect = pygame.Rect(clip_center[0]-radius, clip_center[1]-radius, radius*2, radius*2)
     window.set_clip(clip_rect)
 

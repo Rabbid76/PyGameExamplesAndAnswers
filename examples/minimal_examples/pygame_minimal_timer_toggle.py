@@ -27,7 +27,7 @@ while run:
         elif event.type == pygame.USEREVENT:
             blink = not blink
     
-    window.fill(0)
+    window.fill('black')
     if blink:
         pygame.draw.circle(window, (255, 0, 0), (100, 100), 80)
     pygame.display.flip()

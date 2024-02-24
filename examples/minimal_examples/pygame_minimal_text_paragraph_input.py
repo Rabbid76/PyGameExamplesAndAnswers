@@ -115,7 +115,7 @@ while run:
             run = False
         inputbox.event_handler(event)
     
-    window.fill(0)        
+    window.fill('black')        
     inputbox.update()
     inputbox.draw(window)
     pygame.display.update()

@@ -89,7 +89,7 @@ while run:
     if count >= len(pts):
         count = 0
 
-    window.fill(0)
+    window.fill('black')
     for pt in pts[:count]:
         pygame.draw.circle(window, (255, 255, 255), (round(pt.x+margin), round(pt.y+margin)), 3)
     pygame.display.flip()

@@ -31,7 +31,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-    window.fill(0)    
+    window.fill('black')    
     
     new_width = round(math.sin(math.radians(angle)) * coin_rect.width) 
     angle += 2

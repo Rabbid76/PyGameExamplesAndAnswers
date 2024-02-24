@@ -32,7 +32,7 @@ while run:
         if particle[2] <= 0:
             particles.remove(particle)
 
-    window.fill(0) 
+    window.fill('black') 
     for particle in particles:
         pygame.draw.circle(window, (255, 255, 0), (round(particle[0][0]), round(particle[0][1])), round(particle[2]))
     pygame.display.flip()
