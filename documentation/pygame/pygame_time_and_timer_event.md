@@ -23,12 +23,12 @@ If you want to control something over time in Pygame you have two options:
 ![time example](https://i.stack.imgur.com/QTT2q.gif)
 
 📁 **[Minimal example - `get_ticks`](../../examples/minimal_examples/pygame_minimal_timer_get_ticks_1.py)**  
-▶ **[run minimal example - `get_ticks`](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimla_timer_get_ticks_1/build/web/)**
+▶ **[run minimal example - `get_ticks`](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimal_timer_get_ticks_1/build/web/)**
 
 📁 **[Minimal example - timer event](../../examples/minimal_examples/pygame_minimal_timer_event_1.py)**  
 ▶ **[run minimal example - timer event](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimal_timer_event_1/build/web/)**
 
-- [Rendering Images At a Different Framerate Than The Game Window](https://stackoverflow.com/questions/75712024/rendering-images-at-a-different-framerate-than-the-game-window/75712065#75712065)
+- [Rendering Images At a Different Framerate Than The Game Window](https://stackoverflow.com/questions/75712024/rendering-images-at-a-different-framerate-than-the-game-window/75712065#75712065)  
   ![Rendering Images At a Different Framerate Than The Game Window](https://i.stack.imgur.com/ZTPYx.gif)
 
 📁 **[Minimal example - different frame rates](../../examples/minimal_examples/pygame_minimal_timer_animation_2.py)**  
@@ -180,6 +180,7 @@ Related Stack Overflow questions:
   ![How can I show explosion image when collision happens?](https://i.stack.imgur.com/mdCj6.gif)
 
    📁 **[Minimal example - Timer for a period of time](../../examples/minimal_examples/pygame_minimal_timer_for_a_period_of_time.py)**  
+   ▶ **[run minimal example - Timer for a period of time](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimal_timer_for_a_period_of_time/build/web/)**  
 
 - [Adding a particle effect to my clicker game](https://stackoverflow.com/questions/64793618/adding-a-particle-effect-to-my-clicker-game/64794954#64794954)  
   ![Adding a particle effect to my clicker game](https://i.stack.imgur.com/bWOOF.gif)
