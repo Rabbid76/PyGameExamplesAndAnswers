@@ -59,3 +59,8 @@ Related Stack Overflow questions:
 
 - [Creating a 3d rendering in python with a camera. objects get progressively deformed toward the edge of the screen](https://stackoverflow.com/questions/74353418/creating-a-3d-rendering-in-python-with-a-camera-objects-get-progressively-defor)  
   ![Creating a 3d rendering in python with a camera. objects get progressively deformed toward the edge of the screen](https://i.stack.imgur.com/BY8O9.gif)
+
+## Textures
+
+- [Adding Sprites To Pygame Raycasting Engine](https://stackoverflow.com/questions/47363925/adding-sprites-to-pygame-raycasting-engine)  
+- [Python, Pygame, Image manipulation: Restretch a loaded png, to be the texture for an isometric Tile](https://stackoverflow.com/questions/44619304/python-pygame-image-manipulation-restretch-a-loaded-png-to-be-the-texture-fo)  
