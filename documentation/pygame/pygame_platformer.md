@@ -89,6 +89,9 @@ Related Stack Overflow questions:
 - [**pygame platformer collision causes weird spacing issue**](https://stackoverflow.com/questions/68423726/pygame-platformer-collision-causes-weird-spacing-issue/68424155#68424155)  
   ![pygame platformer collision causes weird spacing issue](https://i.stack.imgur.com/REXqX.gif)
 
+- [When my player sprite runs into a wall sprite from the side, it teleports the player to the top of the wall](https://stackoverflow.com/questions/70395639/when-my-player-sprite-runs-into-a-wall-sprite-from-the-side-it-teleports-the-pl)  
+  ![When my player sprite runs into a wall sprite from the side, it teleports the player to the top of the wall](https://i.stack.imgur.com/HfvpQ.gif)
+
 - [**how do I make my player collide with the bottom of my platform**](https://stackoverflow.com/questions/65119361/how-do-i-make-my-player-collide-with-the-bottom-of-my-platform/65170067#65170067)  
   ![how do I make my player collide with the bottom of my platform](https://i.stack.imgur.com/YHicZ.gif)
 
