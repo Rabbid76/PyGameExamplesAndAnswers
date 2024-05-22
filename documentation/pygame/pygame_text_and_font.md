@@ -236,7 +236,7 @@ Related Stack Overflow questions:
 
   📁 **[Minimal example - Freetype centered](../../examples/minimal_examples/pygame_minimal_text_freetype_centered.py)**
 
-- [pygame text gets out of the screen if increases to much](https://stackoverflow.com/questions/77550093/pygame-text-gets-out-of-the-screen-if-increases-to-much/77550769#77550769)  
+- [How do I draw text that's right aligned in Pygame?](https://stackoverflow.com/questions/78465168/how-do-i-draw-text-thats-right-aligned-in-pygame/78465174#78465174)  
   ![pygame text gets out of the window if increases to much](https://i.stack.imgur.com/cVmDS.gif)
 
   📁 **[Minimal example - Text align](../../examples/minimal_examples/pygame_minimal_text_align.py)**
