@@ -18,6 +18,9 @@ Related Stack Overflow questions:
 
 - [PyGame Negative Color / Surface](https://stackoverflow.com/questions/63665826/pygame-negative-color-surface/63665904#63665904)
 
+- [How can i optimize the code of inversion mask in Pygame](https://stackoverflow.com/questions/78532738/how-can-i-optimize-the-code-of-inversion-mask-in-pygame/78534477#78534477)
+  [How can i optimize the code of inversion mask in Pygame](https://i.sstatic.net/FyUJKSFV.gif)
+
 - [How can I remove the black of some of the tile textures](https://stackoverflow.com/questions/54428774/how-can-i-remove-the-black-of-some-of-the-tile-textures/54429784#54429784)  
 
 - [How to get the Difference blending mode?](https://stackoverflow.com/questions/67737854/how-to-get-the-difference-blending-mode/67737939#67737939)  
