@@ -1,0 +1,50 @@
+# How can i optimize the code of inversion mask in Pygame
+# https://stackoverflow.com/questions/78532738/how-can-i-optimize-the-code-of-inversion-mask-in-pygame?noredirect=1#comment138451336_78532738
+#
+# GitHub - Sprite, Group and Sprite mask - Sprite mask
+# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_sprite_and_sprite_mask.md
+#
+# https://replit.com/@Rabbid76/PyGame-SpriteMask
+
+import os
+os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../resource'))
+import pygame
+
+pygame.init()
+screen = pygame.display.set_mode((1024, 683))
+clock = pygame.time.Clock()
+
+image = pygame.image.load('image/parrot1.png').convert_alpha()
+
+inversionMaskImage = pygame.Surface((200, 200), pygame.SRCALPHA)
+pygame.draw.circle(inversionMaskImage, (255, 255, 255), inversionMaskImage.get_rect().center, inversionMaskImage.get_width()//2)
+mask = pygame.mask.from_surface(inversionMaskImage)
+inversionMask = mask.to_surface(setcolor=(255, 255, 255, 255), unsetcolor=(0, 0, 0, 0))
+
+def invert_surface(surface, mask, sx, sy):
+    subSurface = surface.subsurface(pygame.Rect((sx, sy), mask.get_size()))
+    pixelOfArea = pygame.surfarray.array3d(subSurface)
+    inveertedPixelOfArea = 255 - pixelOfArea
+    invertedArea = pygame.surfarray.make_surface(inveertedPixelOfArea)
+    finalImage = mask.copy()
+    finalImage.blit(invertedArea, (0, 0), special_flags = pygame.BLEND_MULT)
+    return finalImage
+
+run = True
+while run:
+    clock.tick(100)
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            run = False
+
+    areaRect = pygame.Rect(pygame.mouse.get_pos(), (0, 0)).inflate(inversionMask.get_size())
+    areaRect.clamp_ip(screen.get_rect())
+    invertedArea = invert_surface(image, inversionMask, areaRect.x, areaRect.y)
+
+    screen.fill('black')
+    screen.blit(image, (0, 0))
+    screen.blit(invertedArea, areaRect)
+    pygame.display.flip()
+
+pygame.quit()
+exit()
