@@ -20,9 +20,11 @@ mask = pygame.mask.from_surface(inversionMaskImage)
 inversionMask = mask.to_surface(setcolor=(255, 255, 255, 255), unsetcolor=(0, 0, 0, 0))
 
 def invert_surface(surface, mask, sx, sy):
-    subSurface = surface.subsurface(pygame.Rect((sx, sy), mask.get_size()))
+    areaRect = pygame.Rect((sx, sy), mask.get_size())
+    clipRect = areaRect.clip(surface.get_rect())
+    subSurface = surface.subsurface(clipRect)
     finalImage = mask.copy()
-    finalImage.blit(subSurface, (0, 0), special_flags = pygame.BLEND_SUB)
+    finalImage.blit(subSurface, (clipRect.x - areaRect.x, clipRect.y - areaRect.y), special_flags = pygame.BLEND_SUB)
     return finalImage
 
 run = True
@@ -33,7 +35,6 @@ while run:
             run = False
 
     areaRect = pygame.Rect(pygame.mouse.get_pos(), (0, 0)).inflate(inversionMask.get_size())
-    areaRect.clamp_ip(screen.get_rect())
     invertedArea = invert_surface(image, inversionMask, areaRect.x, areaRect.y)
 
     screen.fill('black')
