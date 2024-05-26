@@ -45,7 +45,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [Pygame doesn't let me use float for rect.move, but I need it](https://stackoverflow.com/questions/63468413/pygame-doesnt-let-me-use-float-for-rect-move-but-i-need-it/63468637#63468637)  
-  ![Pygame doesn't let me use float for rect.move, but I need it](https://i.stack.imgur.com/xfB54.gif)  
+  ![Pygame doesn't let me use float for rect.move, but I need it](https://i.sstatic.net/xfB54.gif)  
 
   📁 **[Minimal example - Move rectangle diagonal](../../examples/minimal_examples/pygame_minimal_move_rect_float.py)**
 
@@ -55,15 +55,15 @@ Related Stack Overflow questions:
 - [How to draw a moving circle in Pygame with a small angle at a low speed and blinking?](https://stackoverflow.com/questions/61528967/how-to-draw-a-moving-circle-in-pygame-with-a-small-angle-at-a-low-speed-and-blin/61529427#61529427)
 
 - [moving with a normalized vector in pygame inconsistent?](https://stackoverflow.com/questions/68486375/moving-with-a-normalized-vector-in-pygame-inconsistent/68486486#68486486)  
-  ![moving with a normalized vector in pygame inconsistent?](https://i.stack.imgur.com/oPdGS.gif)
+  ![moving with a normalized vector in pygame inconsistent?](https://i.sstatic.net/oPdGS.gif)
 
   📁 **[Minimal example - Move rectangle diagonal](../../examples/minimal_examples/pygame_minimal_move_diagonal.py)**
 
 - [Ship moves up and left faster than down and right when rotating in pygame](https://stackoverflow.com/questions/62411259/ship-moves-up-and-left-faster-than-down-and-right-when-rotating-in-pygame/65347117#65347117)  
-  ![Ship moves up and left faster than down and right when rotating in pygame](https://i.stack.imgur.com/6IPS1.gif)
+  ![Ship moves up and left faster than down and right when rotating in pygame](https://i.sstatic.net/6IPS1.gif)
 
 - [moving diagonally makes player go faster](https://stackoverflow.com/questions/69246646/moving-diagonally-makes-player-go-faster/69246836#69246836)  
-  ![moving diagonally makes player go faster](https://i.stack.imgur.com/V1aYe.gif)  
+  ![moving diagonally makes player go faster](https://i.sstatic.net/V1aYe.gif)  
 
 Since [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) is supposed to represent an area on the screen, a `pygame.Rect` object can only store integral data.  
 
@@ -83,12 +83,12 @@ rect.topleft = round(x), round(y)
 Related Stack Overflow questions:
 
 - [Setting up an invisible boundary for my sprite](https://stackoverflow.com/questions/69180916/setting-up-an-invisible-boundary-for-my-sprite/69181366#69181366)  
-  ![Setting up an invisible boundary for my sprite](https://i.stack.imgur.com/TQ1Ys.gif)  
+  ![Setting up an invisible boundary for my sprite](https://i.sstatic.net/TQ1Ys.gif)  
 
   📁 **[Minimal example - Restrict rectangle to frame](../../examples/minimal_examples/pygame_minimal_intersect_frame_clamp_1.py)**
 
 - [How do I get the size (width x height) of my pygame window](https://stackoverflow.com/questions/36653519/how-do-i-get-the-size-width-x-height-of-my-pygame-window) 
-  [How do I get the size (width x height) of my pygame window](https://i.stack.imgur.com/xMMCz.gif)
+  [How do I get the size (width x height) of my pygame window](https://i.sstatic.net/xMMCz.gif)
 
 If you only want to limit the player to a bounding rectangle, I recommend using [`pygame.Rect.clamp_ip`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.clamp)
 
@@ -138,7 +138,7 @@ Related Stack Overflow questions:
 - [How do I center objects so the rectangle is around my character?](https://stackoverflow.com/questions/65789733/how-do-i-center-objects-so-the-rectangle-is-around-my-character/65789980#65789980)  
 
 - [How to pin an image in the center of sprite rect](https://stackoverflow.com/questions/74973872/how-to-pin-an-image-in-the-center-of-sprite-rect/74973887#74973887)  
-  ![How to pin an image in the center of sprite rect](https://i.stack.imgur.com/TL6Q1.gif)  
+  ![How to pin an image in the center of sprite rect](https://i.sstatic.net/TL6Q1.gif)  
 
 ## Nested rectangles
 
@@ -165,8 +165,8 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [rotating a rectangle in pygame](https://stackoverflow.com/questions/68927683/rotating-a-rectangle-in-pygame/68927744#68927744)  
-  ![rotating a rectangle in pygame](https://i.stack.imgur.com/2NNT6.gif)  
+  ![rotating a rectangle in pygame](https://i.sstatic.net/2NNT6.gif)  
 
   📁 **[Minimal example - rotate rectangle](../../examples/minimal_examples/pygame_minimal_draw_rectangle_rotated_2.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-AnalogClock](https://replit.com/@Rabbid76/PyGame-AnalogClock#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-AnalogClock](https://replit.com/@Rabbid76/PyGame-AnalogClock#main.py)**

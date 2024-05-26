@@ -14,7 +14,7 @@ Related Stack Overflow quest
 
   📁 **[Minimal example - isometric grid](../../examples/minimal_examples/pygame_minimal_isometric_map.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) replit.com/@Rabbid76/Pygame-IsometircMap](https://replit.com/@Rabbid76/Pygame-IsometircMap#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) replit.com/@Rabbid76/Pygame-IsometircMap](https://replit.com/@Rabbid76/Pygame-IsometircMap#main.py)**
 
 Define the corner points of the map:
 
@@ -35,7 +35,7 @@ x_axis = (map_outline[1] - map_outline[0]) / columns
 y_axis = (map_outline[3] - map_outline[0]) / rows
 ```
 
-![Get isometric tile mouse selection in Pygame](https://i.stack.imgur.com/76T75.png)
+![Get isometric tile mouse selection in Pygame](https://i.sstatic.net/76T75.png)
 
 You can use the x-axis and the y-axis to calculate a point in the map as a function of the row and column:
 
@@ -48,7 +48,7 @@ def transform(p, mat2x2):
 p_position = transform((column + 0.5, row + 0.5), (x_axis, y_axis)) + origin
 ```
 
-![Get isometric tile mouse selection in Pygame](https://i.stack.imgur.com/ME2Xc.gif)
+![Get isometric tile mouse selection in Pygame](https://i.sstatic.net/ME2Xc.gif)
 
 If you want to get the row and column depending on the mouse cursor, you need to do the opposite. You need to calculate the [inverse 2x2 matrix](https://en.wikipedia.org/wiki/Invertible_matrix) from the x and y axis. Using the inverse matrix, you can calculate the row and column as a function of a point on the map:
 
@@ -63,13 +63,13 @@ m_grid_pos = transform(pygame.math.Vector2(m_pos) - origin, point_to_grid)
 m_col, m_row = int(m_grid_pos[0]), int(m_grid_pos[1])
 ```
 
-![Get isometric tile mouse selection in Pygame](https://i.stack.imgur.com/AE7IS.gif)
+![Get isometric tile mouse selection in Pygame](https://i.sstatic.net/AE7IS.gif)
 
 ## Isometric cube
 
 Related Stack Overflow quest
 
 - [How to create a rhomboid in pygame](https://stackoverflow.com/questions/73651474/how-to-create-a-rhomboid-in-pygame/73652102#73652102)  
-  ![How to create a rhomboid in pygame](https://i.stack.imgur.com/TRKlB.gif)  
+  ![How to create a rhomboid in pygame](https://i.sstatic.net/TRKlB.gif)  
 
   📁 **[Minimal example - isometric cube](../../examples/minimal_examples/pygame_minimal_isometric_cube.py)**

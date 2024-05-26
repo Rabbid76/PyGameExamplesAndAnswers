@@ -14,15 +14,15 @@ Related Stack Overflow questions:
 - [Conway's Game of life pygame implementation not working with a copy of the grid, not using numpy](https://stackoverflow.com/questions/62221456/conways-game-of-life-pygame-implementation-not-working-with-a-copy-of-the-grid/62221553#62221553)
 
 - [I'm trying to make conway game of life but something happening](https://stackoverflow.com/questions/67831700/im-trying-to-make-conway-game-of-life-but-something-happening/67832608#67832608)  
-  ![I'm trying to make conway game of life but something happening](https://i.stack.imgur.com/m4T5H.gif)
+  ![I'm trying to make conway game of life but something happening](https://i.sstatic.net/m4T5H.gif)
 
 - [I tried to make Game of Life by John Conway in pygame. Not sure exactly what went wrong](https://stackoverflow.com/questions/68517557/i-tried-to-make-game-of-life-by-john-conway-in-pygame-not-sure-exactly-what-wen/68517803#68517803)  
-  ![I tried to make Game of Life by John Conway in pygame. Not sure exactly what went wrong](https://i.stack.imgur.com/oHkna.gif)
+  ![I tried to make Game of Life by John Conway in pygame. Not sure exactly what went wrong](https://i.sstatic.net/oHkna.gif)
 
 - [Pygame is running game of life very slowly](https://stackoverflow.com/questions/69056318/pygame-is-running-game-of-life-very-slowly/69056448#69056448)  
 
 - [Game of life, adding endless field](https://stackoverflow.com/questions/70324550/game-of-life-adding-endless-field/70325007#70325007)  
-  ![Game of life, adding endless field](https://i.stack.imgur.com/rvEZN.gif)
+  ![Game of life, adding endless field](https://i.sstatic.net/rvEZN.gif)
 
 📁 **[Minimal example - Game of life](../../examples/minimal_examples/pygame_minimal_game_of_life.py)**
 

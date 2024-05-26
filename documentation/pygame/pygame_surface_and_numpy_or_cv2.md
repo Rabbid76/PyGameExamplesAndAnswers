@@ -18,7 +18,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [How do I convert an OpenCV (cv2) image (BGR and BGRA) to a pygame.Surface object](https://stackoverflow.com/questions/64183409/how-do-i-convert-an-opencv-cv2-image-bgr-and-bgra-to-a-pygame-surface-object/64183410#64183410)  
-  ![How do I convert an OpenCV (cv2) image (BGR and BGRA) to a pygame.Surface object](https://i.stack.imgur.com/J5itT.png)
+  ![How do I convert an OpenCV (cv2) image (BGR and BGRA) to a pygame.Surface object](https://i.sstatic.net/J5itT.png)
 - [Temporary save Image in pygame](https://stackoverflow.com/questions/64410240/temporary-save-image-in-pygame/64410622#64410622)
 - [Pygame, create grayscale from 2d numpy array](https://stackoverflow.com/questions/40755989/pygame-create-grayscale-from-2d-numpy-array)
 
@@ -82,7 +82,7 @@ def cv2ImageToSurface(cv2Image):
 
 📁 **[Minimal example - Load cv2 image to PyGame _Surface_](../../examples/minimal_examples/pygame_minimal_surface_load_from_cv2.py)**
 
-![Load cv2 image to PyGame _Surface_](https://i.stack.imgur.com/uJ19U.png)
+![Load cv2 image to PyGame _Surface_](https://i.sstatic.net/uJ19U.png)
 
 ## Capture screen and convert Surface to cv2
 
@@ -90,7 +90,7 @@ Related Stack Overflow questions:
 
 - [Read pygame window with open cv](https://stackoverflow.com/questions/68841168/read-pygame-window-with-open-cv/68842883#68842883)
 - [Pygame surface to opencv image object (not file saving)](https://stackoverflow.com/questions/72756330/pygame-surface-to-opencv-image-object-not-file-saving/72756521#72756521)  
-  ![Pygame surface to opencv image object (not file saving](https://i.stack.imgur.com/NItjk.png)
+  ![Pygame surface to opencv image object (not file saving](https://i.sstatic.net/NItjk.png)
 
 📁 **[Minimal example - cv2 image From PyGame _Surface_](../../examples/minimal_examples/pygame_minimal_surface_to_cv2.py)**
 
@@ -201,12 +201,12 @@ format = 'RGBA'
 
 📁 **[Minimal example - Load frames from NumPy array](../../examples/minimal_examples/pygame_minimal_surface_load_frames_numpy.py)**
 
-![Pygame and Numpy Animations](https://i.stack.imgur.com/PKT8H.gif)
+![Pygame and Numpy Animations](https://i.sstatic.net/PKT8H.gif)
 
 ### Load animated GIF
 
 - [Animated sprite from few images](https://stackoverflow.com/questions/14044147/animated-sprite-from-few-images/64668964#64668964)  
-  ![Animated sprite from few images](https://i.stack.imgur.com/SzKwL.gif)
+  ![Animated sprite from few images](https://i.sstatic.net/SzKwL.gif)
 
 - [How can I load an animated GIF and get all of the individual frames in PyGame?](https://stackoverflow.com/questions/29571399/how-can-i-load-an-animated-gif-and-get-all-of-the-individual-frames-in-pygame)
 - [How do I make a sprite as a gif in pygame?](https://stackoverflow.com/questions/64179680/how-do-i-make-a-sprite-as-a-gif-in-pygame/64182074#64182074)
@@ -242,4 +242,4 @@ def loadGIF(filename):
 
 📁 **[Minimal example - Load animated GIF PyGame _Surface_ list using cv2](../../examples/minimal_examples/pygame_minimal_surface_load_frames_gif_cv2.py)**
 
-![How can I load an animated GIF and get all of the individual frames in PyGame?](https://i.stack.imgur.com/geYjP.gif)
+![How can I load an animated GIF and get all of the individual frames in PyGame?](https://i.sstatic.net/geYjP.gif)

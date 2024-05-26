@@ -37,7 +37,7 @@ Related Stack Overflow questions:
 - [How to know the angle between two vectors?](https://stackoverflow.com/questions/42258637/how-to-know-the-angle-between-two-vectors/64563327#64563327)
 
 - [How do I find the coordinates of a point on a circle in PyGame?](https://stackoverflow.com/questions/67197763/how-do-i-find-the-coordinates-of-a-point-on-a-circle-in-pygame/67198226#67198226)  
-  ![How do I find the coordinates of a point on a circle in PyGame?](https://i.stack.imgur.com/jaJRV.gif)
+  ![How do I find the coordinates of a point on a circle in PyGame?](https://i.sstatic.net/jaJRV.gif)
 
 - [Calculate angles that are in degrees (clockwise) to radians (counter clockwise)](https://stackoverflow.com/questions/58845411/calculate-angles-that-are-in-degrees-clockwise-to-radians-counter-clockwise/58845851#58845851)
 
@@ -66,7 +66,7 @@ def angle_of_line(x1, y1, x2, y2):
 
 📁 **[Minimal example - Calculate angle of vector animation](../../examples/minimal_examples/pygame_minimal_math_vector_angle_of_vector.py)**
 
-![How to know the angle between two vectors?](https://i.stack.imgur.com/Sb5p3.gif)
+![How to know the angle between two vectors?](https://i.sstatic.net/Sb5p3.gif)
 
 [`angle_to`](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2.angle_to) can be used to calculate the angle between 2 vectors or lines:
 
@@ -77,7 +77,7 @@ def angle_between_vectors(x1, y1, x2, y2):
 
 📁 **[Minimal example - Calculate angle between vector animation](../../examples/minimal_examples/pygame_minimal_math_vector_angle_between_vectors.py)**
 
-![How to know the angle between two vectors?](https://i.stack.imgur.com/fW3WH.gif)
+![How to know the angle between two vectors?](https://i.sstatic.net/fW3WH.gif)
 
 ## Dot product
 
@@ -127,7 +127,7 @@ uB = normalize(B)
 cos(angle_A_B) == dot(uA, uB)
 ```
 
-[![A dot B](https://i.stack.imgur.com/4ooWe.png)](https://i.stack.imgur.com/4ooWe.png)
+[![A dot B](https://i.sstatic.net/4ooWe.png)](https://i.sstatic.net/4ooWe.png)
 
 If 2 normalized vectors point in the same direction, then the dot product is 1, if the point in the opposite direction, the dot product is -1 and if the vectors are perpendicular then the dot product is 0.
 
@@ -146,19 +146,19 @@ Related Stack Overflow questions:
 - [Angle Reflexion for bouncing ball in a circle](https://stackoverflow.com/questions/54543170/angle-reflexion-for-bouncing-ball-in-a-circle/54543878#54543878)
 - [How do I determine a direction vector for a point on a circle to be away from a circle?](https://stackoverflow.com/questions/57678408/how-do-i-determine-a-direction-vector-for-a-point-on-a-circle-to-be-away-from-a/57678750#57678750)
 - [How to collide with the window frame, bounce the ball and restrict the ball to the rectangular area?](https://stackoverflow.com/questions/60213103/how-to-collide-with-the-window-frame-bounce-the-ball-and-restrict-the-ball-to-t/60214064#60214064)  
-  ![Use vector2 in pygame](https://i.stack.imgur.com/jbmJ1.gif)
+  ![Use vector2 in pygame](https://i.sstatic.net/jbmJ1.gif)
 
   📁 **[Minimal example - Bball bounce off the frame](../../examples/minimal_examples/pygame_minimal_math_vector_reflect_frame.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-BallBounceOffFrame](https://replit.com/@Rabbid76/PyGame-BallBounceOffFrame#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-BallBounceOffFrame](https://replit.com/@Rabbid76/PyGame-BallBounceOffFrame#main.py)**
 
 - [Pygame Vector2.reflect not working when i pass an argument](https://stackoverflow.com/questions/66744421/pygame-vector2-reflect-not-working-when-i-pass-an-argument/66745306#66745306)  
-  ![Pygame Vector2.reflect not working when i pass an argument](https://i.stack.imgur.com/5Qz0D.png)
+  ![Pygame Vector2.reflect not working when i pass an argument](https://i.sstatic.net/5Qz0D.png)
 
 - [Circular Ping Pong Game](https://stackoverflow.com/questions/66983357/circular-ping-pong-game/66984542#66984542)
 
 - [noisy bouncing in pygame](https://stackoverflow.com/questions/68302165/noisy-bouncing-in-pygame)  
-  ![noisy bouncing in pygame](https://i.stack.imgur.com/Lcog9.gif)
+  ![noisy bouncing in pygame](https://i.sstatic.net/Lcog9.gif)
 
 Calculate the [reflection](https://en.wikipedia.org/wiki/Reflection_(mathematics)) vector to the incident vector on the circular surface.  
 In the following formula `N` is the normal vector of the circle, `I` is the incident vector (the current direction vector of the bouncing ball) and `R` is the reflection vector (outgoing direction vector of the bouncing ball):
@@ -192,11 +192,11 @@ self.angle  = math.atan2(vecR[1], vecR[0])
 Related Stack Overflow questions:
 
 - [Python pygame - center axis rotation segment line](https://stackoverflow.com/questions/64446045/python-pygame-center-axis-rotation-segment-line/64446683#64446683)
-  ![Python pygame - center axis rotation segment line](https://i.stack.imgur.com/C6EWg.gif)
+  ![Python pygame - center axis rotation segment line](https://i.sstatic.net/C6EWg.gif)
 
   📁 **[Minimal example - Rotate line](../../examples/minimal_examples/pygame_minimal_math_vector_rotate_line.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-VectorRotateLine](https://replit.com/@Rabbid76/PyGame-VectorRotateLine#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-VectorRotateLine](https://replit.com/@Rabbid76/PyGame-VectorRotateLine#main.py)**
 
 ## Curve
 
@@ -205,7 +205,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [Gaps in a line while trying to draw them with a mouse problem](https://stackoverflow.com/questions/56379888/gaps-in-a-line-while-trying-to-draw-them-with-a-mouse-problem/56380523#56380523)  
-  ![Gaps in a line while trying to draw them with a mouse problem](https://i.stack.imgur.com/sCdN0.gif)
+  ![Gaps in a line while trying to draw them with a mouse problem](https://i.sstatic.net/sCdN0.gif)
 
   📁 **[Minimal example - Sine curve](../../examples/minimal_examples/pygame_minimal_math_curve_sine.py)**
 
@@ -214,20 +214,20 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [How to Get the X and Y Positions of All Curves in a Lissajous Curve Table?](https://stackoverflow.com/questions/55076531/how-to-get-the-x-and-y-positions-of-all-curves-in-a-lissajous-curve-table/55076619#55076619)  
- ![How to Get the X and Y Positions of All Curves in a Lissajous Curve Table?](https://i.stack.imgur.com/MPH0Y.gif)
+ ![How to Get the X and Y Positions of All Curves in a Lissajous Curve Table?](https://i.sstatic.net/MPH0Y.gif)
 
   📁 **[Minimal example - Lissajous curve](../../examples/minimal_examples/pygame_minimal_2D_so_lissajous.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LissajousCurve](https://replit.com/@Rabbid76/PyGame-LissajousCurve#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-LissajousCurve](https://replit.com/@Rabbid76/PyGame-LissajousCurve#main.py)**
 
 ## Sort
 
 Related Stack Overflow questions:
 
 - [I want to make a visualized bubble sort in pygame, the sort works but the visualization doesn't](https://stackoverflow.com/questions/58039583/i-want-to-make-a-visualized-bubble-sort-in-pygame-the-sort-works-but-the-visual/58039872#58039872)  
-  ![scene](https://i.stack.imgur.com/h48Os.gif)
+  ![scene](https://i.sstatic.net/h48Os.gif)
 
   📁 **[Minimal example - Sort](../../examples/minimal_examples/pygame_minimal_2D_so_lissajous.py)**
 
 - [I want to make insertig sorting visualizer,the sorting works but not the visualizer](https://stackoverflow.com/questions/62327655/i-want-to-make-insertig-sorting-visualizer-the-sorting-works-but-not-the-visuali/62328400#62328400)  
-![I want to make insertig sorting visualizer,the sorting works but not the visualizer](https://i.stack.imgur.com/DFAkW.gif)
+![I want to make insertig sorting visualizer,the sorting works but not the visualizer](https://i.sstatic.net/DFAkW.gif)

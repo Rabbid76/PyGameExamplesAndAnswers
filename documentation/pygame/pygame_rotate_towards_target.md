@@ -13,27 +13,27 @@ Related Stack Overflow questions:
   [How do I make my player rotate towards mouse position?](https://stackoverflow.com/questions/56627414/how-do-i-make-my-player-rotate-towards-mouse-position/56627834#56627834)  
   [Still Having Problems With Rotating Cannon's Properly Towards The Player PyGame](https://stackoverflow.com/questions/62520375/still-having-problems-with-rotating-cannons-properly-towards-the-player-pygame)  
   [How do I make image rotate with mouse python](https://stackoverflow.com/questions/65573379/how-do-i-make-image-rotate-with-mouse-python/65575874#65575874)  
-  ![How to rotate an image(player) to the mouse direction?](https://i.stack.imgur.com/0E6u6.gif)
-  ![How do I make my player rotate towards mouse position?](https://i.stack.imgur.com/eOdjl.gif)
-  ![Still Having Problems With Rotating Cannon's Properly Towards The Player PyGame](https://i.stack.imgur.com/PGm4q.gif)
-  ![How do I make image rotate with mouse python](https://i.stack.imgur.com/B1CrI.gif)
+  ![How to rotate an image(player) to the mouse direction?](https://i.sstatic.net/0E6u6.gif)
+  ![How do I make my player rotate towards mouse position?](https://i.sstatic.net/eOdjl.gif)
+  ![Still Having Problems With Rotating Cannon's Properly Towards The Player PyGame](https://i.sstatic.net/PGm4q.gif)
+  ![How do I make image rotate with mouse python](https://i.sstatic.net/B1CrI.gif)
 
   📁 **[Minimal example - Rotate surface towards mouse](../../examples/minimal_examples/pygame_minimal_rotate_to_target_1.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateWithMouse](https://replit.com/@Rabbid76/PyGame-RotateWithMouse#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateWithMouse](https://replit.com/@Rabbid76/PyGame-RotateWithMouse#main.py)**
   
   - [PyGame move drawn rect(not image) in the same way as the player, including rotation](https://stackoverflow.com/questions/59549149/pygame-move-drawn-rectnot-image-in-the-same-way-as-the-player-including-rotat/59552025#59552025)  
-  ![PyGame move drawn rect(not image) in the same way as the player, including rotation](https://i.stack.imgur.com/ItYvA.gif)
+  ![PyGame move drawn rect(not image) in the same way as the player, including rotation](https://i.sstatic.net/ItYvA.gif)
 
   📁 **[Minimal example - Rotate laser towards mouse](../../examples/minimal_examples/pygame_minimal_rotate_to_target_intersect_laser.py)**
 
 - [How to rotate a triangle to a certain angle in PyGame?](https://stackoverflow.com/questions/58100335/how-to-rotate-a-triangle-to-a-certain-angle-in-pygame/58102259#58102259)  
-  ![How to rotate a triangle to a certain angle in PyGame?](https://i.stack.imgur.com/wAXqi.gif)
+  ![How to rotate a triangle to a certain angle in PyGame?](https://i.sstatic.net/wAXqi.gif)
 
   📁 **[Minimal example - Rotate triangle towards mouse](../../examples/minimal_examples/pygame_minimal_rotate_towards_mouse_triangle.py)**
 
 - [player turns in wrong direction if angle is negative](https://stackoverflow.com/questions/61817913/player-turns-in-wrong-direction-if-angle-is-negative)  
-  ![player turns in wrong direction if angle is negative](https://i.stack.imgur.com/xxADo.gif)
+  ![player turns in wrong direction if angle is negative](https://i.sstatic.net/xxADo.gif)
 
   📁 **[Minimal example - Slowly rotate triangle towards mouse](../../examples/minimal_examples/pygame_minimal_rotate_towards_mouse_triangle_slowly.py)**
 
@@ -66,7 +66,7 @@ rot_image = pygame.transform.rotate(Player_1, angle)
 rot_image_rect = rot_image.get_rect(center=player_rect.center)
 ```
 
-![How do I make my player rotate towards mouse position?](https://i.stack.imgur.com/eOdjl.gif)
+![How do I make my player rotate towards mouse position?](https://i.sstatic.net/eOdjl.gif)
 
 📁 **[Minimal example - Rotate surface towards mouse](../../examples/minimal_examples/pygame_minimal_rotate_to_target_1.py)**
 
@@ -115,8 +115,8 @@ The result coordinates are the same.
 
 📁 **[Minimal example - Rotate triangle towards mouse](../../examples/minimal_examples/pygame_minimal_rotate_towards_mouse_triangle.py)**
 
-![How to rotate a triangle to a certain angle in PyGame?](https://i.stack.imgur.com/wAXqi.gif)
+![How to rotate a triangle to a certain angle in PyGame?](https://i.sstatic.net/wAXqi.gif)
 
 📁 **[Minimal example - Slowly rotate triangle towards mouse](../../examples/minimal_examples/pygame_minimal_rotate_towards_mouse_triangle_slowly.py)**
 
-![player turns in wrong direction if angle is negative](https://i.stack.imgur.com/xxADo.gif)
+![player turns in wrong direction if angle is negative](https://i.sstatic.net/xxADo.gif)

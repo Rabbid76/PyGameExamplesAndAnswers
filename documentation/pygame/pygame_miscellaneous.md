@@ -312,57 +312,57 @@ Related Stack Overflow questions:
 ## Collection
 
 [Pygame Basic calculator](https://stackoverflow.com/questions/63200489/pygame-basic-calculator)  
-![scene](https://i.stack.imgur.com/tbIt8.gif)
+![scene](https://i.sstatic.net/tbIt8.gif)
 
 [How to draw with mouse and save as 1s and 0s](https://stackoverflow.com/questions/58847079/how-to-draw-with-mouse-and-save-as-1s-and-0s/58850614#58850614)  
-![scene](https://i.stack.imgur.com/hMHD8.gif)
+![scene](https://i.sstatic.net/hMHD8.gif)
 
 [Pygame low frame rate on simple game](https://stackoverflow.com/questions/55073598/pygame-low-frame-rate-on-simple-game/55076222#55076222)  
-![scene](https://i.stack.imgur.com/hseTx.gif)
+![scene](https://i.sstatic.net/hseTx.gif)
 
 [How can I create a window where my program draws a dot ( which is point.png here ) wherever I click on the screen?](https://stackoverflow.com/questions/59002061/how-can-i-create-a-window-where-my-program-draws-a-dot-which-is-point-png-here/59002137#59002137)  
-![scene](https://i.stack.imgur.com/XthPF.gif)
+![scene](https://i.sstatic.net/XthPF.gif)
 
 [How to code a rectangles that start from right in circular motion in pygame](https://stackoverflow.com/questions/59180556/how-to-code-a-rectangles-that-start-from-right-in-circular-motion-in-pygame/59217711#59217711)  
-![scene](https://i.stack.imgur.com/Jskrw.png)
+![scene](https://i.sstatic.net/Jskrw.png)
 
 [Pygame problem: how to execute conditional on collision?](https://stackoverflow.com/questions/59522285/pygame-problem-how-to-execute-conditional-on-collision/59522405#59522405)  
-![scene](https://i.stack.imgur.com/iTIE0.gif)
+![scene](https://i.sstatic.net/iTIE0.gif)
 
 [How do i correctly update the position and velocity of 100 class objects individually drawing with pygame?](https://stackoverflow.com/questions/59868994/how-do-i-correctly-update-the-position-and-velocity-of-100-class-objects-individ/59869091#59869091)  
-![scene](https://i.stack.imgur.com/dgCq1.gif)
+![scene](https://i.sstatic.net/dgCq1.gif)
 
 [How can I blit an image on the screen where i click after pressing a button](https://stackoverflow.com/questions/61556099/how-can-i-blit-an-image-on-the-screen-where-i-click-after-pressing-a-button/61556461#61556461)
 
 [pygame.mouse.get_pressed() not responding](https://stackoverflow.com/questions/63197182/pygame-mouse-get-pressed-not-responding/63197269#63197269)  
-![scene](https://i.stack.imgur.com/zL9WO.gif)
+![scene](https://i.sstatic.net/zL9WO.gif)
 
 [How to shade all the cells that will be useless when you click on them?](https://stackoverflow.com/questions/64625472/how-to-shade-all-the-cells-that-will-be-useless-when-you-click-on-them)  
-![scene](https://i.stack.imgur.com/qwMND.png)
+![scene](https://i.sstatic.net/qwMND.png)
 
 [How can I make my recursive function go back to continue recursing other cells](https://stackoverflow.com/questions/64721771/how-can-i-make-my-recursive-function-go-back-to-continue-recursing-other-cells/64722209#64722209)  
-![scene](https://i.stack.imgur.com/L32ZZ.png)
+![scene](https://i.sstatic.net/L32ZZ.png)
 
 [How do I add a rubber band for mouse dragging in PyGame?](https://stackoverflow.com/questions/64880962/how-do-i-add-a-rubber-band-for-mouse-dragging-in-pygame/64881500#64881500)  
-![How do I add a rubber band for mouse dragging in PyGame?](https://i.stack.imgur.com/f3aOb.gif)
+![How do I add a rubber band for mouse dragging in PyGame?](https://i.sstatic.net/f3aOb.gif)
 
 [Pygame Lever Images Display On Key Click Problem](https://stackoverflow.com/questions/65908309/pygame-lever-images-display-on-key-click-problem/65908602#65908602)  
-![Pygame Lever Images Display On Key Click Problem](https://i.stack.imgur.com/6Uq9o.gif)
+![Pygame Lever Images Display On Key Click Problem](https://i.sstatic.net/6Uq9o.gif)
 
 [Adding rects in list for displaying in 7-segment digits in pygame](https://stackoverflow.com/questions/66533451/adding-rects-in-list-for-displaying-in-7-segment-digits-in-pygame/66533802#66533802)  
-![Adding rects in list for displaying in 7-segment digits in pygame](https://i.stack.imgur.com/8JVdm.png)  
-![Adding rects in list for displaying in 7-segment digits in pygame](https://i.stack.imgur.com/hrDQr.png)  
-![Adding rects in list for displaying in 7-segment digits in pygame](https://i.stack.imgur.com/hILk7.gif)  
+![Adding rects in list for displaying in 7-segment digits in pygame](https://i.sstatic.net/8JVdm.png)  
+![Adding rects in list for displaying in 7-segment digits in pygame](https://i.sstatic.net/hrDQr.png)  
+![Adding rects in list for displaying in 7-segment digits in pygame](https://i.sstatic.net/hILk7.gif)  
 
 📁 **[Minimal example - segment display](../../examples/minimal_examples/pygame_minimal_7_segment_display_1.py)**
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-7SegementDisplay](https://replit.com/@Rabbid76/PyGame-7SegementDisplay#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-7SegementDisplay](https://replit.com/@Rabbid76/PyGame-7SegementDisplay#main.py)**
 
 [Colours not printing - connect 4](https://stackoverflow.com/questions/66942419/colours-not-printing-connect-4/66943467#66943467)  
-![Colours not printing - connect 4](https://i.stack.imgur.com/A5uFF.gif)
+![Colours not printing - connect 4](https://i.sstatic.net/A5uFF.gif)
 
 [My parabola is working fine alone, but it's wrong in Pygame](https://stackoverflow.com/questions/70684923/my-parabola-is-working-fine-alone-but-its-wrong-in-pygame/70685947#70685947)  
-![My parabola is working fine alone, but it's wrong in Pygame](https://i.stack.imgur.com/KQWcb.jpg)  
+![My parabola is working fine alone, but it's wrong in Pygame](https://i.sstatic.net/KQWcb.jpg)  
 
 📁 **[Minimal example - parabola](../../examples/minimal_examples/pygame_minimal_parabola.py)**
 

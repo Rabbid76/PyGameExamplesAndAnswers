@@ -14,18 +14,18 @@ Richard P. Feynman
 Related Stack Overflow questions:
 
 - [Pygame mouse clicking detection](https://stackoverflow.com/questions/10990137/pygame-mouse-clicking-detection/64533684#64533684)  
-  ![Pygame mouse clicking detection](https://i.stack.imgur.com/mW6vv.gif)![Pygame mouse clicking detection](https://i.stack.imgur.com/UJVKi.gif)  
+  ![Pygame mouse clicking detection](https://i.sstatic.net/mW6vv.gif)![Pygame mouse clicking detection](https://i.sstatic.net/UJVKi.gif)  
 
 - [How do I add a border to a sprite when the mouse hovers over it, and delete it after the mouse stops?0](https://stackoverflow.com/questions/70384004/how-do-i-add-a-border-to-a-sprite-when-the-mouse-hovers-over-it-and-delete-it-a/70384279#70384279)  
-  ![How do I add a border to a sprite when the mouse hovers over it, and delete it after the mouse stops?](https://i.stack.imgur.com/DQdGr.gif)
+  ![How do I add a border to a sprite when the mouse hovers over it, and delete it after the mouse stops?](https://i.sstatic.net/DQdGr.gif)
 
   📁 **[minimal example - Hover and delete](../../examples/minimal_examples/pygame_minimal_sprite_mouse_hover_3.py)**
 
 - [How can I add an image or icon to a button rectangle in Pygame?](https://stackoverflow.com/questions/64990710/how-can-i-add-an-image-or-icon-to-a-button-rectangle-in-pygame/64990819#64990819)  
-  ![How can I add an image or icon to a button rectangle in Pygame?](https://i.stack.imgur.com/24ns9.gif)![How can I add an image or icon to a button rectangle in Pygame?](https://i.stack.imgur.com/UEIde.gif)
+  ![How can I add an image or icon to a button rectangle in Pygame?](https://i.sstatic.net/24ns9.gif)![How can I add an image or icon to a button rectangle in Pygame?](https://i.sstatic.net/UEIde.gif)
 
 - [How to detect touch screen clicks in python?](https://stackoverflow.com/questions/69024021/how-to-detect-touch-screen-clicks-in-python/69032776#69032776)  
-  ![How to detect touch screen clicks in python?](https://i.stack.imgur.com/3ENNw.gif)  
+  ![How to detect touch screen clicks in python?](https://i.sstatic.net/3ENNw.gif)  
 
   📁 **[minimal example - Detect mouse touch](../../examples/minimal_examples/pygame_minimal_mouse_touch.py)**
 
@@ -39,11 +39,11 @@ The [`pygame.event.Event`](https://www.pygame.org/docs/ref/event.html#pygame.eve
 
 📁 **[minimal example - Detect mouse button click events](../../examples/minimal_examples/pygame_minimal_mouse_event_1.py)**
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseEvents](https://replit.com/@Rabbid76/PyGame-MouseEvents#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseEvents](https://replit.com/@Rabbid76/PyGame-MouseEvents#main.py)**
 
 📁 **[minimal example - Detect click on Sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_click.py)**
 
-![Pygame - Mouse clicks not getting detected](https://i.stack.imgur.com/mW6vv.gif)
+![Pygame - Mouse clicks not getting detected](https://i.sstatic.net/mW6vv.gif)
 
 The coordinates which are returned by [`pygame.mouse.get_pos()`](https://www.pygame.org/docs/ref/mouse.html#pygame.mouse.get_pressed) are evaluated when the events are handled. You need to handle the events by either [`pygame.event.pump()`](https://www.pygame.org/docs/ref/event.html#pygame.event.pump) or [`pygame.event.get()`](https://www.pygame.org/docs/ref/event.html#pygame.event.get).
 
@@ -71,11 +71,11 @@ Further explanations can be found in the documentation of the module [`pygame.mo
 
 📁 **[minimal example - Detect mouse button states](../../examples/minimal_examples/pygame_minimal_mouse_states_1.py)**
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseStates](https://replit.com/@Rabbid76/PyGame-MouseStates#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseStates](https://replit.com/@Rabbid76/PyGame-MouseStates#main.py)**
 
 📁 **[minimal example - Detect Sprite on hover](../../examples/minimal_examples/pygame_minimal_sprite_mouse_hover.py)**
 
-![Pygame - Mouse clicks not getting detected](https://i.stack.imgur.com/UJVKi.gif)
+![Pygame - Mouse clicks not getting detected](https://i.sstatic.net/UJVKi.gif)
 
 For instance:
 
@@ -140,7 +140,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [Make cursor unable to move through sprite PyGame](https://stackoverflow.com/questions/54509869/make-cursor-unable-to-move-through-sprite-pygame/54511823#54511823)  
-  ![Make cursor unable to move through sprite PyGame](https://i.stack.imgur.com/QAJAL.gif)
+  ![Make cursor unable to move through sprite PyGame](https://i.sstatic.net/QAJAL.gif)
 
   📁 **[Minimal example - Block mouse cursor by obstacle](../../examples/minimal_examples/pygame_minimal_mouse_cursor_block_by_obstacle.py)**
 
@@ -149,30 +149,30 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [pygame rect is slipping out of the mouse curser](https://stackoverflow.com/questions/74002619/pygame-rect-is-slipping-out-of-the-mouse-curser/74002649#74002649)  
-  ![pygame rect is slipping out of the mouse curser](https://i.stack.imgur.com/2vVwB.gif)  
+  ![pygame rect is slipping out of the mouse curser](https://i.sstatic.net/2vVwB.gif)  
 - [Drag multiple sprites with different “update ()” methods from the same Sprite class in Pygame](https://stackoverflow.com/questions/64419223/drag-multiple-sprites-with-different-update-methods-from-the-same-sprite-cl/64456959#64456959)  
-  ![Drag multiple sprites with different “update ()” methods from the same Sprite class in Pygame](https://i.stack.imgur.com/BaFzb.gif)
+  ![Drag multiple sprites with different “update ()” methods from the same Sprite class in Pygame](https://i.sstatic.net/BaFzb.gif)
 - [How can I drag more than 2 images in PyGame?](https://stackoverflow.com/questions/64592440/how-can-i-drag-more-than-2-images-in-pygame/64592600#64592600)  
-  ![How can I drag more than 2 images in PyGame?](https://i.stack.imgur.com/Cmxd9.gif)
+  ![How can I drag more than 2 images in PyGame?](https://i.sstatic.net/Cmxd9.gif)
 - [How to drag multiple images in PyGame?](https://stackoverflow.com/questions/64504480/how-to-drag-multiple-images-in-pygame/64504767#64504767)  
-  ![How to drag multiple images in PyGame?](https://i.stack.imgur.com/mOnHo.gif)
+  ![How to drag multiple images in PyGame?](https://i.sstatic.net/mOnHo.gif)
 - [how to adapt the second code to put in the first?](https://stackoverflow.com/questions/64880962/how-to-adapt-the-second-code-to-put-in-the-first/64881500#64881500)  
-  ![how to adapt the second code to put in the first?](https://i.stack.imgur.com/f3aOb.gif)  
-  ![how to adapt the second code to put in the first?](https://i.stack.imgur.com/ZBvDp.gif)  
-  ![how to adapt the second code to put in the first?](https://i.stack.imgur.com/M1k3p.gif)
+  ![how to adapt the second code to put in the first?](https://i.sstatic.net/f3aOb.gif)  
+  ![how to adapt the second code to put in the first?](https://i.sstatic.net/ZBvDp.gif)  
+  ![how to adapt the second code to put in the first?](https://i.sstatic.net/M1k3p.gif)
 - [Dragging object along x-axis in pygame](https://stackoverflow.com/questions/61781533/dragging-object-along-x-axis-in-pygame/61781683#61781683)  
-  ![Dragging object along x-axis in pygame](https://i.stack.imgur.com/l9IOr.gif)
+  ![Dragging object along x-axis in pygame](https://i.sstatic.net/l9IOr.gif)
 - [How to drag an object around the screen in pygame?](https://stackoverflow.com/questions/64241742/how-to-drag-an-object-around-the-screen-in-pygame/64249660#64249660)  
-  ![How to drag an object around the screen in pygame?](https://i.stack.imgur.com/Qgh20.gif)
+  ![How to drag an object around the screen in pygame?](https://i.sstatic.net/Qgh20.gif)
 
 📁 **[Minimal example - Drag rectangle](../../examples/minimal_examples/pygame_minimal_mouse_drag_rectangle.py)**
 
 📁 **[Minimal example - Drag Sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_drag.py)**
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseDragSimple](https://replit.com/@Rabbid76/PyGame-MouseDragSimple#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseDragSimple](https://replit.com/@Rabbid76/PyGame-MouseDragSimple#main.py)**
 
 - [Drawing square colour stored in a list of tuples?](https://stackoverflow.com/questions/69828786/drawing-square-colour-stored-in-a-list-of-tuples/69828913#69828913)  
-  ![Drawing square colour stored in a list of tuples?](https://i.stack.imgur.com/e7ecp.gif)
+  ![Drawing square colour stored in a list of tuples?](https://i.sstatic.net/e7ecp.gif)
 
    📁 **[Minimal example - Drag pieces](../../examples/minimal_examples/pygame_minimal_mouse_drag_pieces.py)**
 
@@ -181,7 +181,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [how rotate the images with keyboards?](https://stackoverflow.com/questions/64862405/how-rotate-the-images-with-keyboards/64862779#64862779)  
-  ![how rotate the images with keyboards?](https://i.stack.imgur.com/aUlEe.gif)
+  ![how rotate the images with keyboards?](https://i.sstatic.net/aUlEe.gif)
 
 ### Mouse speed
 

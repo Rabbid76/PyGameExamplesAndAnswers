@@ -20,7 +20,7 @@ If you want to control something over time in Pygame you have two options:
 
 2. Use the timer event. Use [`pygame.time.set_timer()`](https://www.pygame.org/docs/ref/time.html#pygame.time.set_timer) to repeatedly create a [`USEREVENT`](https://www.pygame.org/docs/ref/event.html) in the event queue. Change object states when the event occurs.
 
-![time example](https://i.stack.imgur.com/QTT2q.gif)
+![time example](https://i.sstatic.net/QTT2q.gif)
 
 📁 **[Minimal example - `get_ticks`](../../examples/minimal_examples/pygame_minimal_timer_get_ticks_1.py)**  
 ▶ **[run minimal example - `get_ticks`](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimal_timer_get_ticks_1/build/web/)**
@@ -29,7 +29,7 @@ If you want to control something over time in Pygame you have two options:
 ▶ **[run minimal example - timer event](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimal_timer_event_1/build/web/)**
 
 - [Rendering Images At a Different Framerate Than The Game Window](https://stackoverflow.com/questions/75712024/rendering-images-at-a-different-framerate-than-the-game-window/75712065#75712065)  
-  ![Rendering Images At a Different Framerate Than The Game Window](https://i.stack.imgur.com/ZTPYx.gif)
+  ![Rendering Images At a Different Framerate Than The Game Window](https://i.sstatic.net/ZTPYx.gif)
 
 📁 **[Minimal example - different frame rates](../../examples/minimal_examples/pygame_minimal_timer_animation_2.py)**  
 ▶ **[run minimal example - different frame rates](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimal_timer_animation_2/build/web/)**
@@ -89,7 +89,7 @@ while run:
 📁 **[Minimal example - Display a message for a period of time](../../examples/minimal_examples/pygame_minimal_time_text_message_delay.py)**  
 ▶ **[run minimal example - Display a message for a period of time](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimal_time_text_message_delay/build/web/)**
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MessageDelay](https://replit.com/@Rabbid76/PyGame-MessageDelay#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-MessageDelay](https://replit.com/@Rabbid76/PyGame-MessageDelay#main.py)**
 
 ## Time
 
@@ -127,22 +127,22 @@ while run:
 
 📁 **[Minimal example - Until a certain time](../../examples/minimal_examples/pygame_minimal_timer_after_a_certain_time.py)**
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TimerAfterACertainTime](https://replit.com/@Rabbid76/PyGame-TimerAfterACertainTime#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-TimerAfterACertainTime](https://replit.com/@Rabbid76/PyGame-TimerAfterACertainTime#main.py)**
 
 ### Lock for a period of time
 
 Related Stack Overflow questions:
 
 - [How do I stop more than 1 bullet firing at once?](https://stackoverflow.com/questions/60122492/how-do-i-stop-more-than-1-bullet-firing-at-once/60125448#60125448)  
-  ![How do I stop more than 1 bullet firing at once?](https://i.stack.imgur.com/W6lzh.gif)
+  ![How do I stop more than 1 bullet firing at once?](https://i.sstatic.net/W6lzh.gif)
 
   📁 **[minimal example - Shoot bullet](../../examples/minimal_examples/pygame_minimal_shoot_bullet.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBullet](https://replit.com/@Rabbid76/PyGame-ShootBullet#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBullet](https://replit.com/@Rabbid76/PyGame-ShootBullet#main.py)**
 
   📁 **[minimal example - Sustained fire](../../examples/minimal_examples/pygame_minimal_shoot_bullet_sustained_fire.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBulletSustainedFire](https://replit.com/@Rabbid76/PyGame-ShootBulletSustainedFire#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBulletSustainedFire](https://replit.com/@Rabbid76/PyGame-ShootBulletSustainedFire#main.py)**
 
 - [Python Pygame Tetris, problems with handling of keypresses. implement delayed auto shift. how long a key has to be pressed before moving](https://stackoverflow.com/questions/69344528/python-pygame-tetris-problems-with-handling-of-keypresses-implement-delayed-au/69344706#69344706)  
 
@@ -177,25 +177,25 @@ while run == True:
 Related Stack Overflow questions:
 
 - [How can I show explosion image when collision happens?](https://stackoverflow.com/questions/64305426/how-can-i-show-explosion-image-when-collision-happens/64305746#64305746)  
-  ![How can I show explosion image when collision happens?](https://i.stack.imgur.com/mdCj6.gif)
+  ![How can I show explosion image when collision happens?](https://i.sstatic.net/mdCj6.gif)
 
    📁 **[Minimal example - Timer for a period of time](../../examples/minimal_examples/pygame_minimal_timer_for_a_period_of_time.py)**  
    ▶ **[run minimal example - Timer for a period of time](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimal_timer_for_a_period_of_time/build/web/)**  
 
 - [Adding a particle effect to my clicker game](https://stackoverflow.com/questions/64793618/adding-a-particle-effect-to-my-clicker-game/64794954#64794954)  
-  ![Adding a particle effect to my clicker game](https://i.stack.imgur.com/bWOOF.gif)
+  ![Adding a particle effect to my clicker game](https://i.sstatic.net/bWOOF.gif)
 
   📁 **[Minimal example - Spawn text on click](../../examples/minimal_examples/pygame_minimal_timer_for_a_period_of_time_random_text.py)**  
   ▶ **[run minimal example - Spawn text on click](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimal_timer_for_a_period_of_time_random_text/build/web/)**
 
 - [Pygame "pop up" text - How to show an image only for a period of time?](https://stackoverflow.com/questions/70996802/pygame-pop-up-text-how-to-show-an-image-only-for-a-period-of-time/70996856#70996856)  
-  ![Pygame "pop up" text - How to show an image only for a period of time?](https://i.stack.imgur.com/TIyPv.gif)  
+  ![Pygame "pop up" text - How to show an image only for a period of time?](https://i.sstatic.net/TIyPv.gif)  
 
   📁 **[Minimal example - pop up text](../../examples/minimal_examples/pygame_minimal_timer_popup_text_1.py)**  
   ▶ **[run minimal example - Spawn text on click](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimal_timer_popup_text_1/build/web/)**
 
 - [How can i controll collision from sprites?](https://stackoverflow.com/questions/71184756/how-can-i-controll-collision-from-sprites/73938856#73938856)  
-  ![How can i controll collision from sprites?](https://i.stack.imgur.com/eRmUW.gif)  
+  ![How can i controll collision from sprites?](https://i.sstatic.net/eRmUW.gif)  
 
   📁 **[Minimal example - random pop up text](../../examples/minimal_examples/pygame_minimal_timer_popup_text_2.py)**  
   ▶ **[run minimal example - random pop up text](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimal_timer_popup_text_2/build/web/)**
@@ -231,26 +231,26 @@ while len(explosionList) > 0:
 Related Stack Overflow questions:
 
 - [pygame tetris fever_mode adding timer](https://stackoverflow.com/questions/69590294/pygame-tetris-fever-mode-adding-timer/69590304#69590304)  
-  ![pygame tetris fever_mode adding timer](https://i.stack.imgur.com/00weE.gif)
+  ![pygame tetris fever_mode adding timer](https://i.sstatic.net/00weE.gif)
 
   📁 **[Minimal example - Timer toggle](../../examples/minimal_examples/pygame_minimal_timer_toggle.py)**
 
 - **[Spawning multiple instances of the same object concurrently in python](https://stackoverflow.com/questions/62112754/spawning-multiple-instances-of-the-same-object-concurrently-in-python/62112894#62112894)**  
-  ![Spawning multiple instances of the same object concurrently in python](https://i.stack.imgur.com/cVQze.gif)
+  ![Spawning multiple instances of the same object concurrently in python](https://i.sstatic.net/cVQze.gif)
 
   📁 **[Minimal example - Spawn objects](../../examples/minimal_examples/pygame_minimal_timer_spawn_objects.py)**  
   ▶ **[run minimal example - Spawn objects](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimal_timer_spawn_objects/build/web/)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TimerSpawnObjects](https://replit.com/@Rabbid76/PyGame-TimerSpawnObjects#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-TimerSpawnObjects](https://replit.com/@Rabbid76/PyGame-TimerSpawnObjects#main.py)**
 
 - [How do I make the image repeat - for example 10x in a row - in Pygame](https://stackoverflow.com/questions/69884697/how-do-i-make-the-image-repeat-for-example-10x-in-a-row-in-pygame/69884946#69884946)  
-  ![How do I make the image repeat - for example 10x in a row - in Pygame](https://i.stack.imgur.com/2kbR7.gif)
+  ![How do I make the image repeat - for example 10x in a row - in Pygame](https://i.sstatic.net/2kbR7.gif)
 
   📁 **[Minimal example - Spawn sprites](../../examples/minimal_examples/pygame_minimal_sprite_spawn.py)**
 
 - [How to make instances spawn automatically around the player?](https://stackoverflow.com/questions/54717938/how-to-make-instances-spawn-automatically-around-the-player/54723594#54723594)  
-  ![How to make instances spawn automatically around the player?](https://i.stack.imgur.com/RIskl.gif)
-  ![Spawning multiple instances of the same object concurrently in python](https://i.stack.imgur.com/1X0kk.gif)
+  ![How to make instances spawn automatically around the player?](https://i.sstatic.net/RIskl.gif)
+  ![Spawning multiple instances of the same object concurrently in python](https://i.sstatic.net/1X0kk.gif)
 - [How to run multiple while loops at a time in Pygame](https://stackoverflow.com/questions/65263318/how-to-run-multiple-while-loops-at-a-time-in-pygame/65263396#65263396)  
 - [Issues with pygame.time.get_ticks()](https://stackoverflow.com/questions/65529525/issues-with-pygame-time-get-ticks/65529554#65529554)  
 
@@ -279,7 +279,7 @@ Related Stack Overflow questions:
 - [Python Pygame - How do I add a time counter for my game?](https://stackoverflow.com/questions/55327065/python-pygame-how-do-i-add-a-time-counter-for-my-game/55327292#55327292)
 - [Stopwatch between mouse up/down](https://stackoverflow.com/questions/56062519/stopwatch-between-mouse-up-down/56063229#56063229)
 - [how to add a stopwatch to pygame?](https://stackoverflow.com/questions/61994805/how-to-add-a-stopwatch-to-pygame/61997846#61997846)  
-  ![how to add a stopwatch to pygame?](https://i.stack.imgur.com/ahANd.gif)
+  ![how to add a stopwatch to pygame?](https://i.sstatic.net/ahANd.gif)
 - [Trying to change image of moving character in every 0.25 seconds PyGame](https://stackoverflow.com/questions/64188831/trying-to-change-image-of-moving-character-in-every-0-25-seconds-pygame-1-9-6-py/65380355#65380355)
 
 Use [`pygame.time.get_ticks`](https://www.pygame.org/docs/ref/time.html#pygame.time.get_ticks) to get the current time in milliseconds and set the start time, before the main loop:
@@ -377,11 +377,11 @@ The timer event can be stopped by passing 0 to the _time_ argument of `pygame.ti
 Related Stack Overflow questions:
 
 - [Countdown timer in Pygame](https://stackoverflow.com/questions/30720665/countdown-timer-in-pygame/63551239#63551239)  
-  ![Countdown timer in Pygame](https://i.stack.imgur.com/10Gj0.gif)
+  ![Countdown timer in Pygame](https://i.sstatic.net/10Gj0.gif)
 - [How do I use a PyGame timer event? How to add a clock to a pygame screen using a timer?](https://stackoverflow.com/questions/59944795/python-3-8-pygame-timer/59944869#59944869)  
-  ![How do I use a PyGame timer event? How to add a clock to a pygame screen using a timer?](https://i.stack.imgur.com/axkzq.gif)
+  ![How do I use a PyGame timer event? How to add a clock to a pygame screen using a timer?](https://i.sstatic.net/axkzq.gif)
 - [How to display dynamically in Pygame?](https://stackoverflow.com/questions/56453574/how-to-display-dynamically-in-pygame/56454295#56454295)  
-  ![How to display dynamically in Pygame?](https://i.stack.imgur.com/C3RZ8.gif)
+  ![How to display dynamically in Pygame?](https://i.sstatic.net/C3RZ8.gif)
 
 📁 **[Minimal example - Counter](../../examples/minimal_examples/pygame_minimal_timer_counter.py)**
 
@@ -389,18 +389,18 @@ Related Stack Overflow questions:
 
 📁 **[Minimal example - Timer callback](../../examples/minimal_examples/pygame_minimal_timer_callback.py)**
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TimerCallback](https://replit.com/@Rabbid76/PyGame-TimerCallback#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-TimerCallback](https://replit.com/@Rabbid76/PyGame-TimerCallback#main.py)**
 
 ### Action trigger based on timer event
 
 Related Stack Overflow questions:
 
 - **[Spawning multiple instances of the same object concurrently in python](https://stackoverflow.com/questions/62112754/spawning-multiple-instances-of-the-same-object-concurrently-in-python/62112894#62112894)**  
-  ![Spawning multiple instances of the same object concurrently in python](https://i.stack.imgur.com/cVQze.gif)
+  ![Spawning multiple instances of the same object concurrently in python](https://i.sstatic.net/cVQze.gif)
 
   📁 **[Minimal example - Spawn objects](../../examples/minimal_examples/pygame_minimal_timer_event_spawn_objects.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TimerEventSpawn](https://replit.com/@Rabbid76/PyGame-TimerEventSpawn#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-TimerEventSpawn](https://replit.com/@Rabbid76/PyGame-TimerEventSpawn#main.py)**
 
 - [Trying to delay a specific function for spawning enemy after a certain amount of time](https://stackoverflow.com/questions/61409702/trying-to-delay-a-specific-function-for-spawning-enemy-after-a-certain-amount-of/61410788#61410788)
 - [How do I continuously trigger an action at certain time intervals? Enemy shoots constant beam instead of bullets in pygame](https://stackoverflow.com/questions/58224668/enemy-shoots-constant-beam-instead-of-bullets-in-pygame/58224870#58224870)
@@ -435,7 +435,7 @@ The timer event can be stopped by passing 0 to the _time_ argument of `pygame.ti
 Related Stack Overflow questions:
 
 - [How to create a visual timer?](https://stackoverflow.com/questions/71134979/how-to-create-a-visual-timer/71165600#71165600)  
-  ![How to create a visual timer?](https://i.stack.imgur.com/kE4zf.gif)
+  ![How to create a visual timer?](https://i.sstatic.net/kE4zf.gif)
 
 ## Clock and frames per second
 

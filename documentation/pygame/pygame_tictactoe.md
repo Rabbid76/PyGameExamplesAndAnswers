@@ -8,7 +8,7 @@
 Related Stack Overflow questions:
 
 - [Pygame Tic Tak Toe Logic? How Would I Do It](https://stackoverflow.com/questions/64825967/pygame-tic-tak-toe-logic-how-would-i-do-it/64934964#64934964)  
-  ![Pygame Tic Tak Toe Logic? How Would I Do It](https://i.stack.imgur.com/p7mfM.gif)
+  ![Pygame Tic Tak Toe Logic? How Would I Do It](https://i.sstatic.net/p7mfM.gif)
 
   📁 **[Minimal example - Tic Tac Toe](../../examples/minimal_examples/pygame_minimal_tic_tac_toe_1.py)**
 

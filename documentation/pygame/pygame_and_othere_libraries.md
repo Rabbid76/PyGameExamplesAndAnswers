@@ -74,7 +74,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [How can I integrate a Line Chart Viewer in PyGame?](https://stackoverflow.com/questions/70493951/how-can-i-integrate-a-line-chart-viewer-in-pygame/70494476#70494476)  
-  ![How can I integrate a Line Chart Viewer in PyGame?](https://i.stack.imgur.com/iL9v5.png)
+  ![How can I integrate a Line Chart Viewer in PyGame?](https://i.sstatic.net/iL9v5.png)
 
   📁 **[Minimal example - MAth plot lib](../../examples/minimal_examples/pygame_minimal_mathplotlib_1.py)**
 

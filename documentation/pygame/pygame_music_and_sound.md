@@ -157,7 +157,7 @@ Related Stack Overflow questions:
   📁 **[Minimal example - Music fade](../../examples/minimal_examples/pygame_minimal_mixer_music_fade.py)**
 
 - [How can I change the name of audio stream in pygame mixer?](https://stackoverflow.com/questions/68589200/how-can-i-change-the-name-of-audio-stream-in-pygame-mixer/68589599#68589599)  
-  ![How can I change the name of audio stream in pygame mixer?](https://i.stack.imgur.com/IjPm8.png)
+  ![How can I change the name of audio stream in pygame mixer?](https://i.sstatic.net/IjPm8.png)
 
   📁 **[Minimal example - Music window](../../examples/minimal_examples/pygame_minimal_mixer_music_window.py)**
 

@@ -11,9 +11,9 @@ Related Stack Overflow questions:
 
 - [How to draw images and sprites in pygame?](https://stackoverflow.com/questions/8873219/how-to-draw-images-and-sprites-in-pygame/64630591#64630591)  
 - **[Replace a rectangle with an Image in Pygame](https://stackoverflow.com/questions/69634473/replace-a-rectangle-with-an-image-in-pygame/69634652#69634652)**  
-  ![Replace a rectangle with an Image in Pygame](https://i.stack.imgur.com/dWhMB.gif)
+  ![Replace a rectangle with an Image in Pygame](https://i.sstatic.net/dWhMB.gif)
 - [Import a player icon and replace a block](https://stackoverflow.com/questions/74963599/import-a-player-icon-and-replace-a-block/74964284#74964284)  
-  ![Import a player icon and replace a block](https://i.stack.imgur.com/w04pH.gif)  
+  ![Import a player icon and replace a block](https://i.sstatic.net/w04pH.gif)  
 - [What is the difference between pygame.draw.rect and screen_surface.blit()?](https://stackoverflow.com/questions/65964467/what-is-the-difference-between-pygame-draw-rect-and-screen-surface-blit/65965806#65965806)  
 - [What is the difference between pygame sprite and surface?](https://stackoverflow.com/questions/66665946/what-is-the-difference-between-pygame-sprite-and-surface/66667420#66667420)  
 
@@ -53,7 +53,7 @@ self.rect.topleft = (self.x, self.y)
 Related Stack Overflow questions:
 
 - [texts are not shown on pygame screen](https://stackoverflow.com/questions/68734429/texts-are-not-shown-on-pygame-screen/68736231#68736231)  
-  [texts are not shown on pygame screen](https://i.stack.imgur.com/Cn2YY.png)
+  [texts are not shown on pygame screen](https://i.sstatic.net/Cn2YY.png)
 
 ## Surface format and performance
 
@@ -135,11 +135,11 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [How do I blit a PNG with some transparency onto a surface in Pygame?](https://stackoverflow.com/questions/1634208/how-do-i-blit-a-png-with-some-transparency-onto-a-surface-in-pygame/64630678#64630678)  
-  ![How do I blit a PNG with some transparency onto a surface in Pygame?](https://i.stack.imgur.com/a62px.png)
+  ![How do I blit a PNG with some transparency onto a surface in Pygame?](https://i.sstatic.net/a62px.png)
 
   📁 **[Minimal example - Load transparent image](../../examples/minimal_examples/pygame_minimal_surface_load_2.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LoadTransparentImage](https://replit.com/@Rabbid76/PyGame-LoadTransparentImage#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-LoadTransparentImage](https://replit.com/@Rabbid76/PyGame-LoadTransparentImage#main.py)**
 
 - [How do you blit/draw a sprite in Pygame with lower opacity?](https://stackoverflow.com/questions/65259552/how-do-you-blit-draw-a-sprite-in-pygame-with-lower-opacity)
 
@@ -151,7 +151,7 @@ Related Stack Overflow questions:
 
 - [How can I make an Image with a transparent Backround in Pygame?](https://stackoverflow.com/questions/62623341/how-can-i-make-an-image-with-a-transparent-backround-in-pygame/62623422#62623422)
 - [How to convert the background color of image to match the color of Pygame window?](https://stackoverflow.com/questions/63976450/how-to-convert-the-background-color-of-image-to-match-the-color-of-pygame-window/63976738#63976738)  
-  ![How to convert the background color of image to match the color of Pygame window?](https://i.stack.imgur.com/56y1w.png)
+  ![How to convert the background color of image to match the color of Pygame window?](https://i.sstatic.net/56y1w.png)
 - [How do I make the screen ignore the background color of some image?](https://stackoverflow.com/questions/55648488/how-do-i-make-the-screen-ignore-the-background-color-of-some-image/55654549#55654549)
 - [pygame image background does not match main background](https://stackoverflow.com/questions/62689244/pygame-image-background-does-not-match-main-background/62689442#62689442)
 - [Pygame image transparency confusion](https://stackoverflow.com/questions/64704789/pygame-image-transparency-confusion/64704923#64704923)
@@ -288,13 +288,13 @@ window_surface.blit(image_surface,
 
 📁 **[Minimal example - Load image](../../examples/minimal_examples/pygame_minimal_surface_load_1.py)**
 
-![What is a good way to draw images using pygame?](https://i.stack.imgur.com/FZ2OT.png)
+![What is a good way to draw images using pygame?](https://i.sstatic.net/FZ2OT.png)
 
 📁 **[Minimal example - Load transparent image](../../examples/minimal_examples/pygame_minimal_surface_load_2.py)**
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LoadTransparentImage](https://replit.com/@Rabbid76/PyGame-LoadTransparentImage#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-LoadTransparentImage](https://replit.com/@Rabbid76/PyGame-LoadTransparentImage#main.py)**
 
-![How do I blit a PNG with some transparency onto a surface in Pygame?](https://i.stack.imgur.com/a62px.png)
+![How do I blit a PNG with some transparency onto a surface in Pygame?](https://i.sstatic.net/a62px.png)
 
 ### Load multiple images
 
@@ -378,7 +378,7 @@ Related Stack Overflow questions:
 
 - [how to create an illusion of animations in pygame](https://stackoverflow.com/questions/71229981/how-to-create-an-illusion-of-animations-in-pygame/71232110#71232110)  
 - [Playing multiple animations at the same time in pygame](https://stackoverflow.com/questions/74744198/playing-multiple-animations-at-the-same-time-in-pygame/74744315#74744315)  
-  ![Playing multiple animations at the same time in pygame](https://i.stack.imgur.com/MVOaZ.gif)
+  ![Playing multiple animations at the same time in pygame](https://i.sstatic.net/MVOaZ.gif)
 
 ### Load Sprite Sheet
 
@@ -387,7 +387,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - **[How do I create animated sprites using Sprite Sheets in Pygame?](https://stackoverflow.com/questions/55200501/how-do-i-create-animated-sprites-using-sprite-sheets-in-pygame/55200625#55200625)**  
-  ![How do I create animated sprites using Sprite Sheets in Pygame?](https://i.stack.imgur.com/Ekuju.gif)
+  ![How do I create animated sprites using Sprite Sheets in Pygame?](https://i.sstatic.net/Ekuju.gif)
 
 📁 **[Minimal example - Load Sprite Sheet](../../examples/minimal_examples/pygame_minimal_surface_load_sprite_sheet.py)**
 
@@ -396,13 +396,13 @@ Related Stack Overflow questions:
 ### Load animated GIF
 
 - [Animated sprite from few images](https://stackoverflow.com/questions/14044147/animated-sprite-from-few-images/64668964#64668964)  
-  ![Animated sprite from few images](https://i.stack.imgur.com/SzKwL.gif)
+  ![Animated sprite from few images](https://i.sstatic.net/SzKwL.gif)
 
 - [How can I load an animated GIF and get all of the individual frames in PyGame?](https://stackoverflow.com/questions/29571399/how-can-i-load-an-animated-gif-and-get-all-of-the-individual-frames-in-pygame)
 - [How do I make a sprite as a gif in pygame?](https://stackoverflow.com/questions/64179680/how-do-i-make-a-sprite-as-a-gif-in-pygame/64182074#64182074)
 
 - [PyGame OR Moviepy - Show a video with transparency](https://stackoverflow.com/questions/66829740/pygame-or-moviepy-show-a-video-with-transparency?noredirect=1#comment118133434_66829740)  
-  ![PyGame OR Moviepy - Show a video with transparency](https://i.stack.imgur.com/yUxaz.gif)
+  ![PyGame OR Moviepy - Show a video with transparency](https://i.sstatic.net/yUxaz.gif)
 
 [PyGame](https://www.pygame.org/news) respectively the [`pygame.image`](https://www.pygame.org/docs/ref/image.html) module can only handle non-animated [GIFs](https://en.wikipedia.org/wiki/GIF).  
 But on the PyGame homepage is introduced the [GIFImage](https://www.pygame.org/project-GIFImage-1039-.html) library:
@@ -470,7 +470,7 @@ def loadGIF(filename):
 
 📁 **[Minimal example - Load animated GIF PyGame _Surface_ list using PLI](../../examples/minimal_examples/pygame_minimal_surface_load_frames_gif_pil.py)**
 
-![How can I load an animated GIF and get all of the individual frames in PyGame?](https://i.stack.imgur.com/geYjP.gif)
+![How can I load an animated GIF and get all of the individual frames in PyGame?](https://i.sstatic.net/geYjP.gif)
 
 ## Store Image (Save image)
 
@@ -537,15 +537,15 @@ See [Rotate surface](pygame_surface_rotate.md)
 Related Stack Overflow questions:
 
 - [Adjust image of rect](https://stackoverflow.com/questions/66443304/adjust-image-of-rect/66443370#66443370)  
-  ![Adjust image of rect](https://i.stack.imgur.com/r0wY5.gif)
+  ![Adjust image of rect](https://i.sstatic.net/r0wY5.gif)
 
   📁 **[Minimal example - Scroll](../../examples/minimal_examples/pygame_minimal_surface_scroll_1.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SCroll](https://replit.com/@Rabbid76/PyGame-Scroll#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-SCroll](https://replit.com/@Rabbid76/PyGame-Scroll#main.py)**
 
 ### Blur
 
 - [How to blur the edges of a surface in Pygame?](https://stackoverflow.com/questions/77117250/how-to-blur-the-edges-of-a-surface-in-pygame/77117325#77117325)  
-  ![How to blur the edges of a surface in Pygame?](https://i.stack.imgur.com/0COhi.png)
+  ![How to blur the edges of a surface in Pygame?](https://i.sstatic.net/0COhi.png)
 
   📁 **[Minimal example - BLur edge](../../examples/minimal_examples/pygame_minimal_blur_and_blit.py)**

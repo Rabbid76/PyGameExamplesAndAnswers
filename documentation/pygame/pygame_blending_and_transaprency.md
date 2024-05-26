@@ -12,7 +12,7 @@ Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
 Related Stack Overflow questions:
 
 - [Why is alpha blending not working properly?](https://stackoverflow.com/questions/54342525/why-is-alpha-blending-not-working-properly-pygame/54348618#54348618)  
-  ![Why is alpha blending not working properly?](https://i.stack.imgur.com/OiIzC.gif)
+  ![Why is alpha blending not working properly?](https://i.sstatic.net/OiIzC.gif)
 
   📁 **[Minimal example - Blend surfaces](../../examples/minimal_examples/pygame_minimal_blend_surface.py)**
 
@@ -24,7 +24,7 @@ Related Stack Overflow questions:
 - [How can I remove the black of some of the tile textures](https://stackoverflow.com/questions/54428774/how-can-i-remove-the-black-of-some-of-the-tile-textures/54429784#54429784)  
 
 - [How to get the Difference blending mode?](https://stackoverflow.com/questions/67737854/how-to-get-the-difference-blending-mode/67737939#67737939)  
-  ![How to get the Difference blending mode?](https://i.stack.imgur.com/KH59V.png)
+  ![How to get the Difference blending mode?](https://i.sstatic.net/KH59V.png)
 
   📁 **[Minimal example - Difference blend mode](../../examples/minimal_examples/pygame_minimal_blend_surface_difference_mode.py)**
 
@@ -57,27 +57,27 @@ final_image.blit(image1, (0, 0), special_flags = pygame.BLEND_RGBA_SUB)
 final_image.blit(temp_image, (0, 0), special_flags = pygame.BLEND_RGBA_MAX)
 ```
 
-![blend mode difference](https://i.stack.imgur.com/KH59V.png)
+![blend mode difference](https://i.sstatic.net/KH59V.png)
 
 ### Transparency
 
 Related Stack Overflow questions:
 
 - [How to make transparent pygame.draw.circle](https://stackoverflow.com/questions/59293057/how-to-make-transparent-pygame-draw-circle/59294087#59294087)  
-  ![How to make transparent pygame.draw.circle](https://i.stack.imgur.com/nOoJj.png)  
+  ![How to make transparent pygame.draw.circle](https://i.sstatic.net/nOoJj.png)  
 
 - [python pygame set color transparency](https://stackoverflow.com/questions/59613548/python-pygame-set-color-transparency/59613903#59613903)  
-  ![python pygame set color transparency](https://i.stack.imgur.com/VLpmO.png)  
+  ![python pygame set color transparency](https://i.sstatic.net/VLpmO.png)  
 
 - [How to fade in a text or an image with PyGame](https://stackoverflow.com/questions/54593653/how-to-fade-in-a-text-or-an-image-with-pygame/54594196#54594196)  
-  ![How to fade in a text or an image with PyGame](https://i.stack.imgur.com/2mkKD.gif)
+  ![How to fade in a text or an image with PyGame](https://i.sstatic.net/2mkKD.gif)
 
   📁 **[Minimal example - Blend text](../../examples/minimal_examples/pygame_minimal_blend_text.py)**
 
-  ![How to fade in a text or an image with PyGame](https://i.stack.imgur.com/2mkKD.gif)  
+  ![How to fade in a text or an image with PyGame](https://i.sstatic.net/2mkKD.gif)  
 
 - [Pygame: Frame ghosting?](https://stackoverflow.com/questions/20862695/pygame-frame-ghosting/73964785#73964785)  
-  ![Pygame: Frame ghosting?](https://i.stack.imgur.com/odiIG.gif)
+  ![Pygame: Frame ghosting?](https://i.sstatic.net/odiIG.gif)
 
   📁 **[Minimal example - Blend frames](../../examples/minimal_examples/pygame_minimal_blend_text.py)**
 
@@ -86,7 +86,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [Im trying to make a fade in and out](https://stackoverflow.com/questions/75001219/im-trying-to-make-a-fade-in-and-out/75003503#75003503)  
-  ![Im trying to make a fade in and out](https://i.stack.imgur.com/GHwXk.gif)
+  ![Im trying to make a fade in and out](https://i.sstatic.net/GHwXk.gif)
 
   📁 **[Minimal example - Fade in and out image](../../examples/minimal_examples/pygame_minimal_surface_fade_1.py)**
 
@@ -107,26 +107,26 @@ Related Stack Overflow questions:
 remove "duplicate"
 
 - **[Is it possible to change sprite colours in Pygame?](https://stackoverflow.com/questions/56209634/is-it-possible-to-change-sprite-colours-in-pygame/56210460#56210460)**  
-  ![Is it possible to change sprite colours in Pygame?](https://i.stack.imgur.com/jTwph.gif)
+  ![Is it possible to change sprite colours in Pygame?](https://i.sstatic.net/jTwph.gif)
 
   📁 **[Minimal example - Tint a grayscale image 2](../../examples/minimal_examples/pygame_minimal_blend_surface_tint_grayscale_2.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-4](https://replit.com/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-4#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-4](https://replit.com/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-4#main.py)**
 
 - [Changing colour of a surface without overwriting transparency](https://stackoverflow.com/questions/64190277/changing-colour-of-a-surface-without-overwriting-transparency/64193109#64193109/64193109#64193109)  
-  ![Changing colour of a surface without overwriting transparency](https://i.stack.imgur.com/oldLt.gif)
+  ![Changing colour of a surface without overwriting transparency](https://i.sstatic.net/oldLt.gif)
 
   📁 **[Minimal example - Tint a grayscale image 1](../../examples/minimal_examples/pygame_minimal_blend_surface_tint_grayscale_1.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSpriteArea](https://replit.com/@Rabbid76/PyGame-ChangeColorOfSpriteArea#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSpriteArea](https://replit.com/@Rabbid76/PyGame-ChangeColorOfSpriteArea#main.py)**
 
 - [How to tint a png image with an alpha channel?](https://stackoverflow.com/questions/54633756/how-to-tint-a-png-image-with-an-alpha-channel/54635608#54635608)  
 
 - [How to fill shape white](https://stackoverflow.com/questions/71276881/how-to-fill-shape-white/71276921#71276921)  
-  ![How to fill shape white](https://i.stack.imgur.com/TWG3R.png)
+  ![How to fill shape white](https://i.sstatic.net/TWG3R.png)
 
 - [How do I palette swap sprites in pygame without the rectangle in the back](https://stackoverflow.com/questions/77590955/how-do-i-palette-swap-sprites-in-pygame-without-the-rectangle-in-the-back/77591351#77591351)  
-  ![How do I palette swap sprites in pygame without the rectangle in the back](https://i.stack.imgur.com/qqaH6.png)
+  ![How do I palette swap sprites in pygame without the rectangle in the back](https://i.sstatic.net/qqaH6.png)
 
   📁 **[Minimal example - Swap color of image](../../examples/minimal_examples/pygame_minimal_blend_surface_swap_color_1.py)**
 
@@ -135,18 +135,18 @@ remove "duplicate"
 Related Stack Overflow questions:
 
 - **[Trying to make sections of sprite change colour, but whole sprite changes instead](https://stackoverflow.com/questions/58385570/trying-to-make-sections-of-sprite-change-colour-but-whole-sprite-changes-instea/58402923#58402923/58402923#58402923)**  
-  ![Trying to make sections of sprite change colour, but whole sprite changes instead](https://i.stack.imgur.com/qotun.png)
+  ![Trying to make sections of sprite change colour, but whole sprite changes instead](https://i.sstatic.net/qotun.png)
 
   📁 **[Minimal example - Change color of Surface 1](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_1.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea](https://replit.com/@Rabbid76/PyGame-ChangeColorOfSurfaceArea#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea](https://replit.com/@Rabbid76/PyGame-ChangeColorOfSurfaceArea#main.py)**
 
 - [Changing ememy's color to show that it is asking damage?](https://stackoverflow.com/questions/63734429/changing-ememys-color-to-show-that-it-is-aking-damage/63745242#63745242)  
-  ![Changing ememy's color to show that it is asking damage?](https://i.stack.imgur.com/CjV0r.gif)
+  ![Changing ememy's color to show that it is asking damage?](https://i.sstatic.net/CjV0r.gif)
 
   📁 **[Minimal example - Change color of Surface 2](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_2.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-2](https://replit.com/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-2#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-2](https://replit.com/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-2#main.py)**
 
 If you want to brighten an image, thenA I recommend to add a constant color to the surface. This can be achieved by [`.fill()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.fill), wby the use of the  special parameter `BLEND_RGB_ADD`. If the fill color is black (0, 0, 0) then the image won't change at all. If the fill color is white (255, 255, 255), then the entire image will become white. e.g.:  
 
@@ -191,18 +191,18 @@ def changColor(image, maskImage, newColor):
 
 📁 **[Minimal example - Change color of Surface 3](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_3.py)**
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-3](https://replit.com/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-3#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-3](https://replit.com/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-3#main.py)**
 
-![Trying to make sections of sprite change colour, but whole sprite changes instead](https://i.stack.imgur.com/F45EC.png)
+![Trying to make sections of sprite change colour, but whole sprite changes instead](https://i.sstatic.net/F45EC.png)
 
 ## Intersection area
 
 - [How to subtract geometry in pygame?](https://stackoverflow.com/questions/75268726/how-to-subtract-geometry-in-pygame/75268850#75268850)  
-  ![How to subtract geometry in pygame?](https://i.stack.imgur.com/djCx2.png)
+  ![How to subtract geometry in pygame?](https://i.sstatic.net/djCx2.png)
 
 - [Fill the area of intersection of two Circles in PyGame](https://stackoverflow.com/questions/63058731/fill-the-area-of-intersection-of-two-circles-in-pygame/63060020#63060020)  
-  ![Fill the area of intersection of two Circles in PyGame](https://i.stack.imgur.com/2ef0w.png)
-  ![Fill the area of intersection of two Circles in PyGame](https://i.stack.imgur.com/zzHTY.png)
+  ![Fill the area of intersection of two Circles in PyGame](https://i.sstatic.net/2ef0w.png)
+  ![Fill the area of intersection of two Circles in PyGame](https://i.sstatic.net/zzHTY.png)
 
 Create 2 [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) objects with per pixel alpha (`pygame.SRCALPHA`):
 
@@ -233,7 +233,7 @@ surf1.blit(surf2, (0, 0), special_flags = pygame.BLEND_RGBA_MIN)
 
 At this point `surf1` contains the intersection area of the 2 circles.
 
-![Fill the area of intersection of two Circles in PyGame](https://i.stack.imgur.com/2ef0w.png)
+![Fill the area of intersection of two Circles in PyGame](https://i.sstatic.net/2ef0w.png)
 
 To get the outer section, another step is required. Blend `surf1` on `surf2`, using the blend mode `pygame.BLEND_RGBA_MIN`:
 
@@ -243,7 +243,7 @@ surf2.blit(surf1, (0, 0), special_flags = pygame.BLEND_RGBA_SUB)
 
 Now `surf2` contains the the part of  _circle B_ which is left if _circle A_ is subtracted:
 
-![Fill the area of intersection of two Circles in PyGame](https://i.stack.imgur.com/zzHTY.png)
+![Fill the area of intersection of two Circles in PyGame](https://i.sstatic.net/zzHTY.png)
 
 ---
 
@@ -260,7 +260,7 @@ neg.blit(image, (0, 0), special_flags=pygame.BLEND_SUB)
 
 📁 **[Minimal example - Fill the area of intersection](../../examples/minimal_examples/pygame_minimal_blend_intersection_area.py)**
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CircleIntersection](https://replit.com/@Rabbid76/PyGame-CircleIntersection#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-CircleIntersection](https://replit.com/@Rabbid76/PyGame-CircleIntersection#main.py)**
 
- ![Fill the area of intersection of two Circles in PyGame](https://i.stack.imgur.com/2ef0w.png)
- ![Fill the area of intersection of two Circles in PyGame](https://i.stack.imgur.com/zzHTY.png)
+ ![Fill the area of intersection of two Circles in PyGame](https://i.sstatic.net/2ef0w.png)
+ ![Fill the area of intersection of two Circles in PyGame](https://i.sstatic.net/zzHTY.png)

@@ -255,4 +255,4 @@ See the example program for a *3x3x3* cube. The slices of the cube are rotated t
         pygame.quit()
         quit()
 
-  [1]: https://i.stack.imgur.com/ZriyZ.gif
+  [1]: https://i.sstatic.net/ZriyZ.gif

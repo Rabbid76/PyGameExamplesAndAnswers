@@ -10,19 +10,19 @@ Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
 Related Stack Overflow questions:
 
 - **[How to get keyboard input in pygame?](https://stackoverflow.com/questions/16044229/how-to-get-keyboard-input-in-pygame/64494842#64494842)**  
-  ![How to get keyboard input in pygame?](https://i.stack.imgur.com/S24dj.gif)
+  ![How to get keyboard input in pygame?](https://i.sstatic.net/S24dj.gif)
 
   📁 **[minimal example - Move object with keys](../../examples/minimal_examples/pygame_minimal_move_object.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ContinuousMovement](https://replit.com/@Rabbid76/PyGame-ContinuousMovement#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-ContinuousMovement](https://replit.com/@Rabbid76/PyGame-ContinuousMovement#main.py)**
 
 - **[How can I make a sprite move when key is held down](https://stackoverflow.com/questions/9961563/how-can-i-make-a-sprite-move-when-key-is-held-down)**  
 
   📁 **[minimal example - Move object with keys](../../examples/minimal_examples/pygame_minimal_move_object.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ContinuousMovement](https://replit.com/@Rabbid76/PyGame-ContinuousMovement#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-ContinuousMovement](https://replit.com/@Rabbid76/PyGame-ContinuousMovement#main.py)**
 
-  ![How can I make a sprite move when key is held down](https://i.stack.imgur.com/S24dj.gif)
+  ![How can I make a sprite move when key is held down](https://i.sstatic.net/S24dj.gif)
 
   📁 **[minimal example - Move object with keys limit it to the window borders](../../examples/minimal_examples/pygame_minimal_move_object_limit_window.py)**  
   📁 **[minimal example - Move object fast when key is hit twice](../../examples/minimal_examples/pygame_minimal_move_object_fast_on_key_twice.py)**  
@@ -39,7 +39,7 @@ Related Stack Overflow questions:
   📁 **[minimal example - Move object, key queue](../../examples/minimal_examples/pygame_minimal_move_object_3.py)**
 
 - [Two keypresses processed in each frame (pygame snake game)](https://stackoverflow.com/questions/74249252/two-keypresses-processed-in-each-frame-pygame-snake-game/74326162#74326162)  
-  ![Two keypresses processed in each frame (pygame snake game)](https://i.stack.imgur.com/XQams.gif)
+  ![Two keypresses processed in each frame (pygame snake game)](https://i.sstatic.net/XQams.gif)
 
 When does it make sense to use keyboard events (`pygame.KEYDOWN`, `pygame.KEYUP` see [`pygame.event`](https://www.pygame.org/docs/ref/event.html)), and when is it better to get the state of the keys ([`pygame.key.get_pressed()`](https://www.pygame.org/docs/ref/key.html))?
 
@@ -95,24 +95,24 @@ while run:
 Related Stack Overflow questions:
 
 - [How can i shoot a bullet with space bar?](https://stackoverflow.com/questions/59687250/how-can-i-shoot-a-bullet-with-space-bar/59689297#59689297)  
-  ![How can i shoot a bullet with space bar?](https://i.stack.imgur.com/2sp5D.gif)
+  ![How can i shoot a bullet with space bar?](https://i.sstatic.net/2sp5D.gif)
 
   📁 **[minimal example - Sustained fire](../../examples/minimal_examples/pygame_minimal_shoot_bullet_sustained_fire.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBulletSustainedFire](https://replit.com/@Rabbid76/PyGame-ShootBulletSustainedFire#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBulletSustainedFire](https://replit.com/@Rabbid76/PyGame-ShootBulletSustainedFire#main.py)**
 
 - [How do I stop more than 1 bullet firing at once?](https://stackoverflow.com/questions/60122492/how-do-i-stop-more-than-1-bullet-firing-at-once/60125448#60125448)  
-  ![How do I stop more than 1 bullet firing at once?](https://i.stack.imgur.com/W6lzh.gif)
+  ![How do I stop more than 1 bullet firing at once?](https://i.sstatic.net/W6lzh.gif)
 
   📁 **[minimal example - Shoot bullet](../../examples/minimal_examples/pygame_minimal_shoot_bullet.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBullet](https://replit.com/@Rabbid76/PyGame-ShootBullet#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBullet](https://replit.com/@Rabbid76/PyGame-ShootBullet#main.py)**
 
 - [Pygame: problems with shooting in Space Invaders](https://stackoverflow.com/questions/65759929/pygame-problems-with-shooting-in-space-invaders/65759972#65759972)  
-  ![Pygame: problems with shooting in Space Invaders](https://i.stack.imgur.com/bSRed.gif)
+  ![Pygame: problems with shooting in Space Invaders](https://i.sstatic.net/bSRed.gif)
 
 - [Pygame How to check for second press of a key](https://stackoverflow.com/questions/65832446/pygame-how-to-check-for-second-press-of-a-key/65832768#65832768)  
-  ![Pygame How to check for second press of a key](https://i.stack.imgur.com/vl3gn.gif)
+  ![Pygame How to check for second press of a key](https://i.sstatic.net/vl3gn.gif)
 
 The general approach to firing bullets is to store the positions of the bullets in a list (`bullet_list`). When a bullet is fired, add the bullet's starting position (`[start_x, start_y]`) to the list. The starting position is the position of the object (player or enemy) that fires the bullet. Use a `for`-loop to iterate through all the bullets in the list. Move position of each individual bullet in the loop. Remove a bullet from the list that leaves the screen (`bullet_list.remove(bullet_pos)`). For this reason, a copy of the list (`bullet_list[:]`) must be run through (see [How to remove items from a list while iterating?](https://stackoverflow.com/questions/1207406/how-to-remove-items-from-a-list-while-iterating)). Use another ` for`-loop to `blit` the remaining bullets on the screen:
 

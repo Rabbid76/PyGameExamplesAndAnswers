@@ -5,47 +5,47 @@
 # Maze
 
 - [Hide and Seek/Maze game in pygame not working](https://stackoverflow.com/questions/63853997/hide-and-seek-maze-game-in-pygame-not-working/63854295#63854295)  
-  ![scene](https://i.stack.imgur.com/2QYir.gif)
+  ![scene](https://i.sstatic.net/2QYir.gif)
 
 - [Pygame Maze Game not creating levels correctly](https://stackoverflow.com/questions/59436266/pygame-maze-game-not-creating-levels-correctly/59436430#59436430)
 
 - [How do I move elements of a matrix in python?](https://stackoverflow.com/questions/65174955/how-do-i-move-elements-of-a-matrix-in-python/65178270#65178270)  
-  ![How do I move elements of a matrix in python?](https://i.stack.imgur.com/QgD5t.gif)
+  ![How do I move elements of a matrix in python?](https://i.sstatic.net/QgD5t.gif)
 
 - [How do I randomly move objects in a maze using pygame?](https://stackoverflow.com/questions/65189546/how-do-i-randomly-move-objects-in-a-maze-using-pygame/65190004#65190004)  
-  ![How do I randomly move objects in a maze using pygame?](https://i.stack.imgur.com/C7gft.gif)
+  ![How do I randomly move objects in a maze using pygame?](https://i.sstatic.net/C7gft.gif)
 
 - [How I make my python code delete the pills from my pac man game?](https://stackoverflow.com/questions/65201227/how-i-make-my-python-code-delete-the-pills-from-my-pac-man-game/65204858#65204858)  
-  ![How I make my python code delete the pills from my pac man game?](https://i.stack.imgur.com/aO99q.gif)
+  ![How I make my python code delete the pills from my pac man game?](https://i.sstatic.net/aO99q.gif)
 
 - [How do I make my monster move randomly in my game](https://stackoverflow.com/questions/59327552/how-do-i-make-my-monster-move-randomly-in-my-game/59329312#59329312)  
-  ![How do I make my monster move randomly in my game](https://i.stack.imgur.com/J7bIM.gif)
+  ![How do I make my monster move randomly in my game](https://i.sstatic.net/J7bIM.gif)
 
 ## Maze collision detection
 
 Related Stack Overflow questions:
 
 - [Collision for Pygame Game Map](https://stackoverflow.com/questions/65887274/collision-for-pygame-game-map/65888081#65888081)  
-  ![Collision for Pygame Game Map](https://i.stack.imgur.com/2KOIq.gif)
+  ![Collision for Pygame Game Map](https://i.sstatic.net/2KOIq.gif)
 
 - [Adding collision to maze walls](https://stackoverflow.com/questions/55833941/adding-collision-to-maze-walls/55837809#55837809)  
-  ![Adding collision to maze walls](https://i.stack.imgur.com/EUDwK.gif)
+  ![Adding collision to maze walls](https://i.sstatic.net/EUDwK.gif)
 
   📁 **[Minimal example - Maze generator](../../examples/minimal_examples/pygame_minimal_maze_1.py)**
 
 - [How to implement barriers to stop the player moving through walls](https://stackoverflow.com/questions/65124664/how-to-implement-barriers-to-stop-the-player-moving-through-walls/65130719#65130719)  
-  ![How to implement barriers to stop the player moving through walls](https://i.stack.imgur.com/WKJ5K.gif)
+  ![How to implement barriers to stop the player moving through walls](https://i.sstatic.net/WKJ5K.gif)
 
   📁 **[Minimal example - Maze generator 2](../../examples/minimal_examples/pygame_minimal_maze_2.py)**
 
 - [Creating collisions between a Sprite and a list (that aren't sprites) in a Maze](https://stackoverflow.com/questions/68665022/creating-collisions-between-a-sprite-and-a-list-that-arent-sprites-in-a-maze/68668529#68668529)  
-  ![Creating collisions between a Sprite and a list (that aren't sprites) in a Maze](https://i.stack.imgur.com/5aYT2.gif)  
+  ![Creating collisions between a Sprite and a list (that aren't sprites) in a Maze](https://i.sstatic.net/5aYT2.gif)  
 
 - [How do I prevent the player from moving through the walls in a maze in pygame?](https://stackoverflow.com/questions/68691507/how-do-i-prevent-the-player-from-moving-through-the-walls-in-a-maze-in-pygame/68691536#68691536)
 
 I have a maze organized in a grid. Each cell of the grid stores the information about the walls to its right and bottom neighboring cell. The player is an object of a certain size whose bounding box is known. I want to move the player smoothly through the maze with the walls preventing them from going through.
 
-![move player in maze](https://i.stack.imgur.com/2JBsh.png)
+![move player in maze](https://i.sstatic.net/2JBsh.png)
 
 ```py
 class Maze:
@@ -123,11 +123,11 @@ if keys[pygame.K_DOWN]:
         player_rect = new_rect
 ```
 
-![maze move - collision logic](https://i.stack.imgur.com/LG0Xm.gif)
+![maze move - collision logic](https://i.sstatic.net/LG0Xm.gif)
 
 📁 **[Minimal example - Maze collision detection with logic](../../examples/minimal_examples/pygame_minimal_maze_collide_1.py)**
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-Maze-CollisionLogic](https://replit.com/@Rabbid76/PyGame-Maze-CollisionLogic#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-Maze-CollisionLogic](https://replit.com/@Rabbid76/PyGame-Maze-CollisionLogic#main.py)**
 
 Another solution is to use mask collision. Draw the maze of a transparent [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html):
 
@@ -170,8 +170,8 @@ if not maze_mask.overlap(player_mask, offset):
     player_rect = new_rect
 ```
 
-![maze move - mask collision](https://i.stack.imgur.com/PeY8C.gif)][1]
+![maze move - mask collision](https://i.sstatic.net/PeY8C.gif)][1]
 
 📁 **[Minimal example - Maze collision detection with mask](../../examples/minimal_examples/pygame_minimal_maze_collide_2.py)**
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-Maze-MaskCollision](https://replit.com/@Rabbid76/PyGame-Maze-MaskCollision#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-Maze-MaskCollision](https://replit.com/@Rabbid76/PyGame-Maze-MaskCollision#main.py)**

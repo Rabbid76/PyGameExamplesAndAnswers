@@ -10,22 +10,22 @@
 Related Stack Overflow questions:
 
 - **[How do I rotate an image around its center using PyGame?](https://stackoverflow.com/questions/4183208/how-do-i-rotate-an-image-around-its-center-using-pygame/54714144#54714144)**  
-  ![How do I rotate an image around its center using Pygame?](https://i.stack.imgur.com/qnDPP.gif)
+  ![How do I rotate an image around its center using Pygame?](https://i.sstatic.net/qnDPP.gif)
 - [pygame doesn't rotate surface](https://stackoverflow.com/questions/76966463/pygame-doesnt-rotate-surface/76966484#76966484)  
-  ![pygame doesn't rotate surface](https://i.stack.imgur.com/IxElh.png)
+  ![pygame doesn't rotate surface](https://i.sstatic.net/IxElh.png)
 - [How can you rotate an image around an off center pivot in PyGame](https://stackoverflow.com/questions/59909942/how-can-you-rotate-an-image-around-an-off-center-pivot-in-pygame/59909946#59909946/59909946#59909946)  
-  ![How can you rotate an image around an off center pivot in PyGame](https://i.stack.imgur.com/BmG1u.gif)
+  ![How can you rotate an image around an off center pivot in PyGame](https://i.sstatic.net/BmG1u.gif)
 - [How to rotate an image around its center while its scale is getting larger(in Pygame)](https://stackoverflow.com/questions/54462645/how-to-rotate-an-image-around-its-center-while-its-scale-is-getting-largerin-py/54713639#54713639/54713639#54713639)  
-  ![How to rotate an image around its center while its scale is getting larger(in Pygame)](https://i.stack.imgur.com/yLxBi.gif)
+  ![How to rotate an image around its center while its scale is getting larger(in Pygame)](https://i.sstatic.net/yLxBi.gif)
 - [How to set the pivot point (center of rotation) for pygame.transform.rotate()?](https://stackoverflow.com/questions/15098900/how-to-set-the-pivot-point-center-of-rotation-for-pygame-transform-rotate/69312319#69312319)  
-  ![How to set the pivot point (center of rotation) for pygame.transform.rotate()?](https://i.stack.imgur.com/fhxNf.gif)  
+  ![How to set the pivot point (center of rotation) for pygame.transform.rotate()?](https://i.sstatic.net/fhxNf.gif)  
 - [Rotating and scaling an image around a pivot, while scaling width and height separately in Pygame](https://stackoverflow.com/questions/70819750/rotating-and-scaling-an-image-around-a-pivot-while-scaling-width-and-height-sep/70820034#70820034)  
-  ![Rotating and scaling an image around a pivot, while scaling width and height separately in Pygame](https://i.stack.imgur.com/KMZqD.gif)
-  ![Rotating and scaling an image around a pivot, while scaling width and height separately in Pygame](https://i.stack.imgur.com/QcX0r.gif)  
+  ![Rotating and scaling an image around a pivot, while scaling width and height separately in Pygame](https://i.sstatic.net/KMZqD.gif)
+  ![Rotating and scaling an image around a pivot, while scaling width and height separately in Pygame](https://i.sstatic.net/QcX0r.gif)  
 - [how to draw line in pygame from player](https://stackoverflow.com/questions/72590319/how-to-draw-line-in-pygame-from-player/72590489#72590489)  
-  ![how to draw line in pygame from player](https://i.stack.imgur.com/93HeG.gif)  
+  ![how to draw line in pygame from player](https://i.sstatic.net/93HeG.gif)  
 - [How to create sprites around a location?](https://stackoverflow.com/questions/65564426/how-to-create-sprites-around-a-location/65565203#65565203)  
-  ![How to create sprites around a location?](https://i.stack.imgur.com/4tcVH.gif)
+  ![How to create sprites around a location?](https://i.sstatic.net/4tcVH.gif)
 
 Short answer:
 
@@ -78,7 +78,7 @@ while not done:
     pygame.display.flip()
 ```
 
-![rotate 1](https://i.stack.imgur.com/AXgmY.gif)
+![rotate 1](https://i.sstatic.net/AXgmY.gif)
 
 📁 **[Minimal example - Distortion](../../examples/surface_rotate/pygame_image_rotate_1_distort.py)**
 
@@ -100,7 +100,7 @@ while not done:
     pygame.display.flip()
 ```
 
-![rotate 2](https://i.stack.imgur.com/vrhgt.gif)
+![rotate 2](https://i.sstatic.net/vrhgt.gif)
 
 📁 **[Minimal example - Rotate](../../examples/surface_rotate/pygame_image_rotate_2_rotate.py)**
 
@@ -138,7 +138,7 @@ rotated_image = pygame.transform.rotate(image, angle)
 screen.blit(rotated_image, origin)
 ```
 
-![rotate 3](https://i.stack.imgur.com/IKZ6a.gif)
+![rotate 3](https://i.sstatic.net/IKZ6a.gif)
 
 📁 **[Minimal example - Rotate around (0, 0)](../../examples/surface_rotate/pygame_image_rotate_3__0_0.py)**
 
@@ -186,21 +186,21 @@ In the following example program, the function `blitRotate(surf, image, pos, ori
 
 This means, the 2nd argument (`pos`) of `blitRotate` is the position of the pivot point in the window and the 3rd argument (`originPos`) is the position of the pivot point on the rotating _Surface_:
 
-![rotate 4](https://i.stack.imgur.com/qnDPP.gif)
+![rotate 4](https://i.sstatic.net/qnDPP.gif)
 
 📁 **[Minimal example - Rotate around pivot](../../examples/surface_rotate/pygame_image_rotate_4_pivot.py)**
 
 📁 **[Minimal example - Rotate around pivot function](../../examples/surface_rotate/pygame_image_rotate_5_pivot_function.py)**
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateAroundPivot](https://replit.com/@Rabbid76/PyGame-RotateAroundPivot#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateAroundPivot](https://replit.com/@Rabbid76/PyGame-RotateAroundPivot#main.py)**
 
-![roatate and scale](https://i.stack.imgur.com/yLxBi.gif)
+![roatate and scale](https://i.sstatic.net/yLxBi.gif)
 
 📁 **[Minimal example - Rotate around pivot and scale](../../examples/surface_rotate/pygame_image_rotate_4_scale.py)**
 
 📁 **[Minimal example - Rotate around pivot and scale function](../../examples/surface_rotate/pygame_image_rotate_5_scale_function.py)**
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateAroundPivotAndZoom](https://replit.com/@Rabbid76/PyGame-RotateAroundPivotAndZoom#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateAroundPivotAndZoom](https://replit.com/@Rabbid76/PyGame-RotateAroundPivotAndZoom#main.py)**
 
 First the position of the pivot on the `Surface` has to be defined:
 
@@ -256,7 +256,7 @@ def blitRotate(surf, image, origin, pivot, angle):
     surf.blit(rotated_image, rotated_image_rect)
 ```
 
-![rotate](https://i.stack.imgur.com/BmG1u.gif)
+![rotate](https://i.sstatic.net/BmG1u.gif)
 
 📁 **[Minimal example - Rotate around off center pivot](../../examples/surface_rotate/pygame_image_rotate_pivot_boomerang.py)**
 
@@ -265,10 +265,10 @@ In that case the position (`self.pos`), pivot (`self.pivot`) and angle (`self.an
 In the `update` method the `self.rect` and `self.image` attributes are computed. e.g:
 
 📁 **[Minimal example - Rotate Sprite around off center pivot (boomerang)](../../examples/surface_rotate/pygame_sprite_rotate_pivot_boomerang.py)**  
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateSpriteAroundOffCenterPivot](https://replit.com/@Rabbid76/PyGame-RotateSpriteAroundOffCenterPivot#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateSpriteAroundOffCenterPivot](https://replit.com/@Rabbid76/PyGame-RotateSpriteAroundOffCenterPivot#main.py)**
 
 📁 **[Minimal example - Rotate Sprite around off center pivot (cannon)](../../examples/surface_rotate/pygame_sprite_rotate_pivot_cannon.py)**  
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateSpriteAroundOffCenterPivotCannon](https://replit.com/@Rabbid76/PyGame-RotateSpriteAroundOffCenterPivotCannon#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateSpriteAroundOffCenterPivotCannon](https://replit.com/@Rabbid76/PyGame-RotateSpriteAroundOffCenterPivotCannon#main.py)**
 
 To rotate an image around a pivot point and zoom the image, all you have to do is scale the vector from the center of the image to the pivot point on the image by the zoom factor:
 
@@ -310,15 +310,15 @@ def blitRotateZoomXY(surf, original_image, origin, pivot, angle, scale_x, scale_
     surf.blit(rotozoom_image, rect)
 ```
 
-![Rotating and scaling an image around a pivot, while scaling width and height separately in Pygame](https://i.stack.imgur.com/KMZqD.gif)  
+![Rotating and scaling an image around a pivot, while scaling width and height separately in Pygame](https://i.sstatic.net/KMZqD.gif)  
 
 📁 **[Minimal example - Rotate Sprite around pivot and zoom](../../examples/surface_rotate/pygame_image_rotate_6_scale_pivote_function.py)**  
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateZoomPivot](https://replit.com/@Rabbid76/PyGame-RotateZoomPivot#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateZoomPivot](https://replit.com/@Rabbid76/PyGame-RotateZoomPivot#main.py)**
 
-![Rotating and scaling an image around a pivot, while scaling width and height separately in Pygame](https://i.stack.imgur.com/QcX0r.gif)  
+![Rotating and scaling an image around a pivot, while scaling width and height separately in Pygame](https://i.sstatic.net/QcX0r.gif)  
 
 📁 **[Minimal example - Rotate Sprite around pivot and zoom - cannon](../../examples/surface_rotate/pygame_image_rotate_6_scale_pivote_function_2.py)**  
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateZoomPivot-Example](https://replit.com/@Rabbid76/PyGame-RotateZoomPivot-Example#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateZoomPivot-Example](https://replit.com/@Rabbid76/PyGame-RotateZoomPivot-Example#main.py)**
 
 Another important point when rotating an image is that the image must have an alpha channel. Many people use rectangular, uniformly filled surfaces to test their code, forgetting about the alpha channel. This results in what appears to be a randomly stretched rectangle. How to create a surface with an alpha channel is explained in the answer to the question: [pygame doesn't rotate surface](https://stackoverflow.com/questions/76966463/pygame-doesnt-rotate-surface/76966484#76966484). In the example I create the [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) with the `pygame.SRCALPHA` flag to get an image with an alpha channel:
 

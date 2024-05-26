@@ -10,17 +10,17 @@ Richard P. Feynman
 Related Stack Overflow questions:
 
 - **[How to make a character jump in Pygame?](https://stackoverflow.com/questions/70591591/how-to-make-a-character-jump-in-pygame/70591592#70591592)**  
-  ![How to make a character jump in Pygame?](https://i.stack.imgur.com/6NReI.gif)
-  ![How to make a character jump in Pygame?](https://i.stack.imgur.com/phpoF.gif)
+  ![How to make a character jump in Pygame?](https://i.sstatic.net/6NReI.gif)
+  ![How to make a character jump in Pygame?](https://i.sstatic.net/phpoF.gif)
 
 - **[How can I do a double jump in pygame?](https://stackoverflow.com/questions/67667103/how-can-i-do-a-double-jump-in-pygame/67667585#67667585)**  
-  ![How can I do a double jump in pygame?](https://i.stack.imgur.com/9ICi5.gif)  
+  ![How can I do a double jump in pygame?](https://i.sstatic.net/9ICi5.gif)  
 
 - **[How to do a variable jump height based on how long key is held in Pygame](https://stackoverflow.com/questions/68839727/how-to-do-a-variable-jump-height-based-on-how-long-key-is-held-in-pygame/68843102#68843102)**  
-  ![How to do a variable jump height based on how long key is held in Pygame](https://i.stack.imgur.com/jhf3z.gif)
+  ![How to do a variable jump height based on how long key is held in Pygame](https://i.sstatic.net/jhf3z.gif)
 
 - [python, pygame - jumping too fast?](https://stackoverflow.com/questions/58474204/python-pygame-jumping-too-fast/58474280#58474280)  
-  ![python, pygame - jumping too fast?](https://i.stack.imgur.com/gWHCT.gif)
+  ![python, pygame - jumping too fast?](https://i.sstatic.net/gWHCT.gif)
 
 - [How does this algorithm make the character jump in pygame?](https://stackoverflow.com/questions/65873880/how-does-this-algorithm-make-the-character-jump-in-pygame/65874132#65874132)     
 
@@ -66,10 +66,10 @@ if jump:
 ```
 
 📁 **[Minimal example - Jump (integral)](../../examples/minimal_examples/pygame_minimal_jump_1.py)**  
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-Jump](https://replit.com/@Rabbid76/PyGame-Jump#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-Jump](https://replit.com/@Rabbid76/PyGame-Jump#main.py)**
 
 📁 **[Minimal example - Jump (floating point)](../../examples/minimal_examples/pygame_minimal_jump_3.py)**  
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-JumpFloat](https://replit.com/@Rabbid76/PyGame-JumpFloat#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-JumpFloat](https://replit.com/@Rabbid76/PyGame-JumpFloat#main.py)**
 
 A more sophisticated approach is to define constants for the  gravity and player's acceleration as the player jumps:
 
@@ -100,4 +100,4 @@ if y > ground_y:
 ```
 
 📁 **[Minimal example - Jump with acceleration](../../examples/minimal_examples/pygame_minimal_jump_2.py)**  
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-JumpAcceleration](https://replit.com/@Rabbid76/Pygame-JumpAcceleration#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-JumpAcceleration](https://replit.com/@Rabbid76/Pygame-JumpAcceleration#main.py)**

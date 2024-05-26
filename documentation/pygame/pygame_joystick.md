@@ -7,15 +7,15 @@
 Related Stack Overflow questions:
 
 - [How do I get xbox controls outside event loop in pygame?](https://stackoverflow.com/questions/73502525/how-do-i-get-xbox-controls-outside-event-loop-in-pygame/73502685#73502685)  
-  ![How do I get xbox controls outside event loop in pygame?](https://i.stack.imgur.com/xXIOv.gif)
+  ![How do I get xbox controls outside event loop in pygame?](https://i.sstatic.net/xXIOv.gif)
 
   📁 **[move with joystick](../../examples/minimal_examples/pygame_minimal_joystick_1.py)**
 
 - [how to make sprite move upwards and downwards with joystick in PyGame](https://stackoverflow.com/questions/54677539/how-to-make-sprite-move-upwards-and-downwards-with-joystick-in-pygame/54679667#54679667)  
-  ![how to make sprite move upwards and downwards with joystick in PyGame](https://i.stack.imgur.com/VXFfF.gif)
+  ![how to make sprite move upwards and downwards with joystick in PyGame](https://i.sstatic.net/VXFfF.gif)
 
 - [problems with pygame controller support](https://stackoverflow.com/questions/68218005/problems-with-pygame-controller-support/68219654#68219654)  
-  ![problems with pygame controller support](https://i.stack.imgur.com/eZlPa.gif)
+  ![problems with pygame controller support](https://i.sstatic.net/eZlPa.gif)
   
 ```py
 joystick = None

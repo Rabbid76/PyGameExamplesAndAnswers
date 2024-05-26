@@ -15,25 +15,25 @@ Related Stack Overflow questions:
   
   📁 **[Minimal example - Water ripple effect](../../examples/minimal_examples/pygame_minimal_2D_water_ripple_effect.py)**
 
-  ![Water ripple effect Python and Pygame, from coding train video](https://i.stack.imgur.com/L0Ct5.gif)
+  ![Water ripple effect Python and Pygame, from coding train video](https://i.sstatic.net/L0Ct5.gif)
 
   📁 **[Minimal example - Water ripple effect using NumPy](../../examples/minimal_examples/pygame_minimal_2D_water_ripple_effect_numpy.py)**
 
-  ![Water ripple effect Python and Pygame, from coding train video](https://i.stack.imgur.com/FfCWu.gif)
+  ![Water ripple effect Python and Pygame, from coding train video](https://i.sstatic.net/FfCWu.gif)
 
 ## Particles
 
 Related Stack Overflow questions:
 
 - [Pygame change particle color](https://stackoverflow.com/questions/60944070/pygame-change-particle-color/60953697#60953697)  
-  ![Pygame change particle color](https://i.stack.imgur.com/DcHQy.gif)
+  ![Pygame change particle color](https://i.sstatic.net/DcHQy.gif)
 
   📁 **[Minimal example - Spraying particles](../../examples/minimal_examples/pygame_minimal_2D_particles.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-BarnsleysFern](https://replit.com/@Rabbid76/PyGame-BarnsleysFern#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-BarnsleysFern](https://replit.com/@Rabbid76/PyGame-BarnsleysFern#main.py)**
 
 - [Create trails of particles for the bullets](https://stackoverflow.com/questions/72643317/create-trails-of-paticles-for-the-bullets/72644068#72644068)  
-  ![Create trails of particles for the bullets](https://i.stack.imgur.com/BOiNf.gif)
+  ![Create trails of particles for the bullets](https://i.sstatic.net/BOiNf.gif)
 
   📁 **[Minimal example - Rocket particles](../../examples/minimal_examples/pygame_minimal_2D_rocket_particles.py)**
 
@@ -44,7 +44,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [Simple physics string](https://stackoverflow.com/questions/41862541/simple-physics-string/67749043#67749043)  
-  ![Simple physics string](https://i.stack.imgur.com/gNlG0.gif)
+  ![Simple physics string](https://i.sstatic.net/gNlG0.gif)
 
   📁 **[Minimal example - String animation](../../examples/minimal_examples/pygame_minimal_2D_string_animation.py)**
 
@@ -58,12 +58,12 @@ Related Stack Overflow questions:
   📁 **[Minimal example - Barnsley's Fern](../../examples/minimal_examples/pygame_minimal_2D_barnsleys_fern.py)**
 
 - [Is there anyway to do this recursively in pygame?](https://stackoverflow.com/questions/59455641/is-there-anyway-to-do-this-recursively-in-pygame/59456232#59456232)  
-- ![Is there anyway to do this recursively in pygame?](https://i.stack.imgur.com/fyYSY.png)
+- ![Is there anyway to do this recursively in pygame?](https://i.sstatic.net/fyYSY.png)
 
   📁 **[Minimal example - Recursive circles](../../examples/minimal_examples/pygame_minimal_2D_recursive_circles.py)**
 
 - [Recursive Fractal Pygame - Not Displaying Shapes](https://stackoverflow.com/questions/30140671/recursive-fractal-pygame-not-displaying-shapes/69036894#69036894)  
-  ![Recursive Fractal Pygame - Not Displaying Shapes](https://i.stack.imgur.com/RxK8x.gif)  
+  ![Recursive Fractal Pygame - Not Displaying Shapes](https://i.sstatic.net/RxK8x.gif)  
 
   📁 **[Minimal example - Fractal Sierpinski Carpet](../../examples/minimal_examples/pygame_minimal_2D_fractal_sierpinski_carpet.py)**
 
@@ -80,12 +80,12 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [A Bowyer-Watson Delaunay Triangulation I implemented doesn't remove the triangles that contain points of the super-triangle](https://stackoverflow.com/questions/58116412/a-bowyer-watson-delaunay-triangulation-i-implemented-doesnt-remove-the-triangle/58122991#58122991)  
-  ![scene](https://i.stack.imgur.com/Cogod.png)
+  ![scene](https://i.sstatic.net/Cogod.png)
 
   📁 **[Minimal example - Bowyer-Watson Delaunay Triangulation 1](../../examples/minimal_examples/pygame_minimal_2D_bowyer_watson_delyunay_triangulation_1.py)**
 
 - [Bowyer-Watson triangulates incorrectly when trying to implement circumcircle calculation for vertices at infinity](https://stackoverflow.com/questions/58203812/bowyer-watson-triangulates-incorrectly-when-trying-to-implement-circumcircle-cal/58205019#58205019)  
-  ![scene](https://i.stack.imgur.com/4NMrx.png)
+  ![scene](https://i.sstatic.net/4NMrx.png)
 
   📁 **[Minimal example - Bowyer-Watson Delaunay Triangulation 2](../../examples/minimal_examples/pygame_minimal_2D_bowyer_watson_delyunay_triangulation_2.py)**
 
@@ -94,7 +94,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [Trying to code the Recaman Sequence, but issue with the parameters I pass for drawing an arc](https://stackoverflow.com/questions/54384422/trying-to-code-the-recaman-sequence-but-issue-with-the-parameters-i-pass-for-dr/54386695#54386695)  
-  ![Trying to code the Recaman Sequence, but issue with the parameters I pass for drawing an arc](https://i.stack.imgur.com/R77eo.png)
+  ![Trying to code the Recaman Sequence, but issue with the parameters I pass for drawing an arc](https://i.sstatic.net/R77eo.png)
 
   📁 **[Minimal example - Recaman's sequence](../../examples/minimal_examples/pygame_minimal_2D_racamans_sequence.py)**
 
@@ -109,13 +109,13 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [Neon effect in pygame?](https://stackoverflow.com/questions/67933919/neon-effect-in-pygame/67934335#67934335)  
-  ![Neon effect in pygame?](https://i.stack.imgur.com/RN95m.png)
+  ![Neon effect in pygame?](https://i.sstatic.net/RN95m.png)
 
 - [Bloom Effect in Pygame so that text glows](https://stackoverflow.com/questions/67561142/bloom-effect-in-pygame-so-that-text-glows)
 
 - [Surface alpha lost when converting pygame to cv2 to pygame](https://stackoverflow.com/questions/69888520/surface-alpha-lost-when-converting-pygame-to-cv2-to-pygame/69888915#69888915)  
-  ![Surface alpha lost when converting pygame to cv2 to pygame](https://i.stack.imgur.com/TDMno.png)  
+  ![Surface alpha lost when converting pygame to cv2 to pygame](https://i.sstatic.net/TDMno.png)  
 - [Dark borders in cv2.blur](https://stackoverflow.com/questions/69977901/dark-borders-in-cv2-blur/69981313#69981313)  
-  ![Dark borders in cv2.blur](https://i.stack.imgur.com/u84RH.png)
+  ![Dark borders in cv2.blur](https://i.sstatic.net/u84RH.png)
 
   📁 **[Minimal example - Bloom](../../examples/minimal_examples/pygame_minimal_2D_bloom.py)**

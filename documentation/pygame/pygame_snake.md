@@ -12,38 +12,38 @@ Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
 Related Stack Overflow questions:
 
 - **[How do I get the snake to grow and chain the movement of the snake's body?](https://stackoverflow.com/questions/62010434/how-do-i-get-the-snake-to-grow-and-chain-the-movement-of-the-snakes-body)**  
-  ![1](https://i.stack.imgur.com/z9D7B.png)![2](https://i.stack.imgur.com/ZpKnj.gif)  
-  ![3](https://i.stack.imgur.com/o1sqa.png)![4](https://i.stack.imgur.com/Q6zUm.gif)
+  ![1](https://i.sstatic.net/z9D7B.png)![2](https://i.sstatic.net/ZpKnj.gif)  
+  ![3](https://i.sstatic.net/o1sqa.png)![4](https://i.sstatic.net/Q6zUm.gif)
 
 - [Python Snake Game snake does not follow](https://stackoverflow.com/questions/71054349/python-snake-game-snake-does-not-follow/71055045#71055045)  
-  ![Python Snake Game snake does not follow](https://i.stack.imgur.com/2WVYH.gif)  
+  ![Python Snake Game snake does not follow](https://i.sstatic.net/2WVYH.gif)  
 
 - [Snake segments that “flow” rather than “snap” to the snake's head position](https://stackoverflow.com/questions/54273041/python-snake-segments-that-flow-rather-than-snap-to-the-snakes-head-positi/54276792#54276792)  
-  ![Snake segments that “flow” rather than “snap” to the snake's head position](https://i.stack.imgur.com/m4kJK.gif)
+  ![Snake segments that “flow” rather than “snap” to the snake's head position](https://i.sstatic.net/m4kJK.gif)
 
 - [pygame.Rect.move_ip() not updating rect attribute](https://stackoverflow.com/questions/55036397/pygame-rect-move-ip-not-updating-rect-attribute/55046457#55046457)  
-  ![pygame.Rect.move_ip() not updating rect attribute](https://i.stack.imgur.com/bMMK1.gif)
+  ![pygame.Rect.move_ip() not updating rect attribute](https://i.sstatic.net/bMMK1.gif)
 
 - [Snake Length in a Pygame Snake Game](https://stackoverflow.com/questions/55187822/snake-length-in-a-pygame-snake-game/55188306#55188306)  
-  ![Snake Length in a Pygame Snake Game](https://i.stack.imgur.com/KdtpV.gif)
+  ![Snake Length in a Pygame Snake Game](https://i.sstatic.net/KdtpV.gif)
 
 - [Adding length to the snake in snake game](https://stackoverflow.com/questions/56079171/adding-length-to-the-snake-in-snake-game/56079666#56079666)  
-  ![Adding length to the snake in snake game](https://i.stack.imgur.com/AGr5q.gif)
+  ![Adding length to the snake in snake game](https://i.sstatic.net/AGr5q.gif)
 
 - [Making snake with pygame. Having trouble making the snake longer when it touches the cooki](https://stackoverflow.com/questions/56927685/making-snake-with-pygame-having-trouble-making-the-snake-longer-when-it-touches/56939007#56939007)  
-  ![Making snake with pygame. Having trouble making the snake longer when it touches the cooki](https://i.stack.imgur.com/OO76R.gif)
+  ![Making snake with pygame. Having trouble making the snake longer when it touches the cooki](https://i.sstatic.net/OO76R.gif)
 
 - [Pygame Snake Randomly Colliding with Self](https://stackoverflow.com/questions/58595706/pygame-snake-randomly-colliding-with-self/58596035#58596035)
 
 - [Snake bodies not appending to snake correctly](https://stackoverflow.com/questions/60925569/snake-bodies-not-appending-to-snake-correctly/60934394#60934394)  
-  ![Snake bodies not appending to snake correctly](https://i.stack.imgur.com/vUDx7.gif)
+  ![Snake bodies not appending to snake correctly](https://i.sstatic.net/vUDx7.gif)
 
 - [how to solve bug on snake wall teleportation](https://stackoverflow.com/questions/64624092/how-to-solve-bug-on-snake-wall-teleportation/64624385#64624385)  
   [How can I teleport my snake through the wall with Vector2 in python pygame](https://stackoverflow.com/questions/73708127/how-can-i-teleport-my-snake-through-the-wall-with-vector2-in-python-pygame/73708971#73708971)  
-  ![how to solve bug on snake wall teleportation](https://i.stack.imgur.com/XQ8ZZ.gif)
+  ![how to solve bug on snake wall teleportation](https://i.sstatic.net/XQ8ZZ.gif)
 
 - [Can anyone tell me how to increase the snake size in my code?](https://stackoverflow.com/questions/65465695/can-anyone-tell-me-how-to-increase-the-snake-size-in-my-code/65466064#65466064)  
-  ![Can anyone tell me how to increase the snake size in my code?](https://i.stack.imgur.com/bSk2B.gif)
+  ![Can anyone tell me how to increase the snake size in my code?](https://i.sstatic.net/bSk2B.gif)
 
 - [how to control snake with only two keys i.e left and right](https://stackoverflow.com/questions/61862293/how-to-control-snake-with-only-two-keys-i-e-left-and-right/61863664#61863664)
 
@@ -72,19 +72,19 @@ Finally the tail of the ist is removed (`del body[-1]`):
 body = [(3, 2), (3, 3), (3, 4), (4, 4), (5, 4)]
 ```
 
-![1](https://i.stack.imgur.com/z9D7B.png)
+![1](https://i.sstatic.net/z9D7B.png)
 
 📁 **[Minimal example](../../examples/minimal_examples/pygame_minimal_snake_move_grid.py)**
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SnakeMoveInGrid](https://replit.com/@Rabbid76/PyGame-SnakeMoveInGrid#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-SnakeMoveInGrid](https://replit.com/@Rabbid76/PyGame-SnakeMoveInGrid#main.py)**
 
-![2](https://i.stack.imgur.com/ZpKnj.gif)
+![2](https://i.sstatic.net/ZpKnj.gif)
 
 Now the _snake_ with completely free positioning.
 
 We have to track all the positions which the snake's head has visited in a list. We have to place the elements of the snakes body on the positions in the list like the pearls of a chain.
 
-![3](https://i.stack.imgur.com/o1sqa.png)
+![3](https://i.sstatic.net/o1sqa.png)
 
 The key is, to compute the [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) between the last element of the body in the chain and the following positions on the track.
 When an new point with a distance that is large enough is found, then an new pearl (element) is add to the chain (body).
@@ -117,9 +117,9 @@ def create_body(track, no_pearls, distance):
 
 📁 **[Minimal example](../../examples/minimal_examples/pygame_minimal_snake_move_free.py)**
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SnakeMoveFree](https://replit.com/@Rabbid76/PyGame-SnakeMoveFree#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-SnakeMoveFree](https://replit.com/@Rabbid76/PyGame-SnakeMoveFree#main.py)**
 
-![4](https://i.stack.imgur.com/Q6zUm.gif)
+![4](https://i.sstatic.net/Q6zUm.gif)
 
 ## Change direction
 
@@ -133,7 +133,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [How to detect and end game when a pygame sprite runs into its tail (using screen.get_at)?](https://stackoverflow.com/questions/54331922/how-to-detect-and-end-game-when-a-pygame-sprite-runs-into-its-tail-using-screen/54332544#54332544)  
-  ![How to detect and end game when a pygame sprite runs into its tail (using screen.get_at)?](https://i.stack.imgur.com/PS4sx.gif)
+  ![How to detect and end game when a pygame sprite runs into its tail (using screen.get_at)?](https://i.sstatic.net/PS4sx.gif)
 
 - [How to detect if a rectangle is in another rectangle if they are both moving?](https://stackoverflow.com/questions/54920547/how-to-detect-if-a-rectangle-is-in-another-rectangle-if-they-are-both-moving/54930341#54930341)
 

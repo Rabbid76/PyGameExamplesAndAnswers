@@ -151,4 +151,4 @@ image_surf = pygame.image.fromstring(image_buffer, (width, height), "RGBA")
 ```
 
 - [pygame + opengl = display text](https://stackoverflow.com/questions/67608968/pygame-opengl-display-text/67639147#67639147)  
-  ![pygame + opengl = display text](https://i.stack.imgur.com/fEc07.gif)
+  ![pygame + opengl = display text](https://i.sstatic.net/fEc07.gif)

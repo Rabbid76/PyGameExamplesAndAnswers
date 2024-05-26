@@ -43,7 +43,7 @@ glVertexAttribPointer(loc_col, 3, GL_FLOAT, False, 6*4, ctypes.c_void_p(3*4))
 Related Stack Overflow questions:
 
 - [Pygame OpenGL 3D Cube Lag](https://stackoverflow.com/questions/50312760/pygame-opengl-3d-cube-lag/50314047#50314047)  
-  ![PyGame OpenGL 3D Cube Lag](https://i.stack.imgur.com/Go9Ym.gif)
+  ![PyGame OpenGL 3D Cube Lag](https://i.sstatic.net/Go9Ym.gif)
 
   📁 **[OpenGL immediate mode - Draw a cube with outline](../../../examples/pygame_opengl/opengl_4/pygame_opengl_mesh_cube_outline.py)**
 
@@ -91,7 +91,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [Texture arrays in OpenGL](https://stackoverflow.com/questions/64122446/texture-arrays-in-opengl/64124199#64124199)  
-  ![Texture arrays in OpenGL](https://i.stack.imgur.com/zlH2Z.gif)
+  ![Texture arrays in OpenGL](https://i.sstatic.net/zlH2Z.gif)
 
   📁 **[OpenGL immediate mode - Cube and texture array](../../../examples/pygame_opengl/opengl_4/pygame_opengl_mesh_cube_texture_array.py)**
 

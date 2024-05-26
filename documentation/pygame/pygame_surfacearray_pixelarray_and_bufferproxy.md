@@ -69,7 +69,7 @@ pixel_array.close()
 
 📁 **[Minimal example - Draw pixels with `pygame.PixelArray`](../../examples/minimal_examples/pygame_minimal_draw_pixels_2.py)**
 
-![Pygame: Draw single pixel](https://i.stack.imgur.com/OiqGY.png)
+![Pygame: Draw single pixel](https://i.sstatic.net/OiqGY.png)
 
 ## Buffer proxy
 

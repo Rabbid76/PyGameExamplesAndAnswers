@@ -101,7 +101,7 @@ object_rect.clamp_ip(pygame.display.get_surface().get_rect())
 📁 **[minimal example - Move object with keys limit it to the window borders](../../examples/minimal_examples/pygame_minimal_move_object_limit_window.py)**  
 ▶ **[run minimal example - Move object with keys limit it to the window borders](https://rabbid76.github.io/PyGameExamplesAndAnswers/examples/minimal_exmaples_web/pygame_minimal_move_object/build/web/)**
 
-[How do I get the size (width x height) of my pygame window](https://i.stack.imgur.com/xMMCz.gif)
+[How do I get the size (width x height) of my pygame window](https://i.sstatic.net/xMMCz.gif)
 
 ## Resize and resize event
 
@@ -217,11 +217,11 @@ Related Stack Overflow questions:
 - [Scale Everything On Pygame Display Surface](https://stackoverflow.com/questions/64341589/scale-everything-on-pygame-display-surface/64341784#64341784)
 - [How do I make my screen zoom in and out in pygame?](https://stackoverflow.com/questions/64079174/how-do-i-make-my-screen-zoom-in-and-out-in-pygame/64079239#64079239)
 - [How to zoom in and out of an image pygame and using the mousposition as the center of the zoom](https://stackoverflow.com/questions/64936805/how-to-zoom-in-and-out-of-an-image-pygame-and-using-the-mousposition-as-the-cent)  
-  ![How to zoom in and out of an image pygame and using the mousposition as the center of the zoom](https://i.stack.imgur.com/qYHGr.gif)
+  ![How to zoom in and out of an image pygame and using the mousposition as the center of the zoom](https://i.sstatic.net/qYHGr.gif)
 
   📁 **[Minimal example - Display zoom](../../examples/minimal_examples/pygame_minimal_display_zoom.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-colliderect](https://replit.com/@Rabbid76/PyGame-colliderect#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-colliderect](https://replit.com/@Rabbid76/PyGame-colliderect#main.py)**
 
 > I'm wondering if there's a way I can globally scale everything up in my game without either having to scale each sprite up individually [...]"
 
@@ -252,14 +252,14 @@ while running:
 
 📁 [Minimal example - Scale up display window](../../examples/minimal_examples/pygame_minimal_dispaly_up_scale.py)
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ZoomInAndOut](https://replit.com/@Rabbid76/PyGame-ZoomInAndOut#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-ZoomInAndOut](https://replit.com/@Rabbid76/PyGame-ZoomInAndOut#main.py)**
 
 ## Coordinate system and transformations
 
 Related Stack Overflow questions:
 
 - [Rotate pygame screen](https://stackoverflow.com/questions/69394255/rotate-pygame-screen/69394709#69394709)  
-  ![Rotate pygame screen](https://i.stack.imgur.com/d4WcW.png)
+  ![Rotate pygame screen](https://i.sstatic.net/d4WcW.png)
 
 📁 **[Minimal example - Rotate screen](../../examples/minimal_examples/pygame_minimal_display_rotate_screen.py)**
 

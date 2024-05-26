@@ -12,23 +12,23 @@ Robert C. Martin, Clean Architecture
 Related Stack Overflow questions:
 
 - [How to move a sprite according to an angle in Pygame](https://stackoverflow.com/questions/46697502/how-to-move-a-sprite-according-to-an-angle-in-pygame/68698440#68698440)  
-  ![How to move a sprite according to an angle in Pygame](https://i.stack.imgur.com/HBVPx.gif)
+  ![How to move a sprite according to an angle in Pygame](https://i.sstatic.net/HBVPx.gif)
 
 - [How can you rotate the sprite and shoot the bullets towards the mouse position?](https://stackoverflow.com/questions/59126785/how-can-you-rotate-the-sprite-and-shoot-the-bullets-towards-the-mouse-position/59126918#59126918)  
-  ![How can you rotate the sprite and shoot the bullets towards the mouse position?](https://i.stack.imgur.com/zGoZr.gif)
+  ![How can you rotate the sprite and shoot the bullets towards the mouse position?](https://i.sstatic.net/zGoZr.gif)
 
   📁 **[Minimal example - Rotate player and shoot bullet towards faced direction 1](../../examples/minimal_examples/pygame_minimal_rotate_to_target_fire_bullet_1.py)**
 
 - [calculating direction of the player to shoot PyGmae](https://stackoverflow.com/questions/60464828/calculating-direction-of-the-player-to-shoot-pygame/60465212#60465212)  
-  ![calculating direction of the player to shoot PyGmae](https://i.stack.imgur.com/3F8Mt.gif)
+  ![calculating direction of the player to shoot PyGmae](https://i.sstatic.net/3F8Mt.gif)
 
   📁 **[Minimal example - Rotate player and shoot bullet towards faced direction 2](../../examples/minimal_examples/pygame_minimal_rotate_to_target_fire_bullet_2.py)**
 
 - [How do you point the barrel towards mouse in pygame?](https://stackoverflow.com/questions/70283340/how-do-you-point-the-barrel-towards-mouse-in-pygame/70318324#70318324)
-  ![How do you point the barrel towards mouse in pygame?](https://i.stack.imgur.com/dmBVe.gif)
+  ![How do you point the barrel towards mouse in pygame?](https://i.sstatic.net/dmBVe.gif)
 
 - [Moving forward after angle change. Pygame](https://stackoverflow.com/questions/61106297/moving-forward-after-angle-change-pygame/61106823#61106823)  
-  ![Moving forward after angle change. Pygame](https://i.stack.imgur.com/A7RFW.gif)
+  ![Moving forward after angle change. Pygame](https://i.sstatic.net/A7RFW.gif)
 
 - [Firing particles from a player at a constant speed with cos() and sin() in python pygame](https://stackoverflow.com/questions/64993388/firing-particles-from-a-player-at-a-constant-speed-with-cos-and-sin-in-pytho/64994334#64994334)
 
@@ -37,19 +37,19 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - **[Shooting a bullet in pygame in the direction of mouse](https://stackoverflow.com/questions/59977052/shooting-a-bullet-in-pygame-in-the-direction-of-mouse/59980344#59980344)**  
-  ![Shooting a bullet in pygame in the direction of mouse](https://i.stack.imgur.com/oyzor.gif)
+  ![Shooting a bullet in pygame in the direction of mouse](https://i.sstatic.net/oyzor.gif)
 
   📁 **[Minimal example - shoot bullet towards mouse](../../examples/minimal_examples/pygame_minimal_move_to_target_fire_bullet_1.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FireBulletInDirectionOfMouse](https://replit.com/@Rabbid76/PyGame-FireBulletInDirectionOfMouse#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-FireBulletInDirectionOfMouse](https://replit.com/@Rabbid76/PyGame-FireBulletInDirectionOfMouse#main.py)**
 
 - [How to shoot a projectile in the way the player is looking in a TDS](https://stackoverflow.com/questions/68970922/how-to-shoot-a-projectile-in-the-way-the-player-is-looking-in-a-tds/68971138#68971138)  
-  ![How to shoot a projectile in the way the player is looking in a TDS](https://i.stack.imgur.com/04Uou.gif)
+  ![How to shoot a projectile in the way the player is looking in a TDS](https://i.sstatic.net/04Uou.gif)
 
 - [How Can I Make An Arrow Image Move Rotated Direction?](https://stackoverflow.com/questions/65589860/how-can-i-make-an-arrow-image-move-rotated-direction/65592518#65592518)
 
 - [How to make my rectangle rotate with a rotating sprite](https://stackoverflow.com/questions/65622705/how-to-make-my-rectangle-rotate-with-a-rotating-sprite/65640631#65640631)  
-  ![How to make my rectangle rotate with a rotating sprite](https://i.stack.imgur.com/ocqjL.gif)
+  ![How to make my rectangle rotate with a rotating sprite](https://i.sstatic.net/ocqjL.gif)
 
 [`pygame.transform.rotate`](https://www.pygame.org/docs/ref/transform.html#pygame.transform.rotate) does not transform the object itself, but creates a new rotated surface and returns it.
 
@@ -104,12 +104,12 @@ surf.blit(self.bullet, bullet_rect)
 Related Stack Overflow questions:
 
 - [Pygame make sprite walk in given rotation](https://stackoverflow.com/questions/66402816/pygame-make-sprite-walk-in-given-rotation/66403030#66403030)  
-  ![Pygame make sprite walk in given rotation](https://i.stack.imgur.com/SyPzP.gif)
+  ![Pygame make sprite walk in given rotation](https://i.sstatic.net/SyPzP.gif)
 
   📁 **[Minimal example - Move to mouse](../../examples/minimal_examples/pygame_minimal_move_follow_4.py)**
 
 - [pygame 2 dimensional movement of an enemy towards the player, how to calculate x and y velocity?](https://stackoverflow.com/questions/66404707/pygame-2-dimensional-movement-of-an-enemy-towards-the-player-how-to-calculate-x/66406985#66406985)  
-  ![pygame 2 dimensional movement of an enemy towards the player, how to calculate x and y velocity?](https://i.stack.imgur.com/PNKiu.gif)
+  ![pygame 2 dimensional movement of an enemy towards the player, how to calculate x and y velocity?](https://i.sstatic.net/PNKiu.gif)
 
   📁 **[Minimal example - Follow moving target](../../examples/minimal_examples/pygame_minimal_move_follow_5.py)**
 
@@ -117,28 +117,28 @@ Related Stack Overflow questions:
 
   📁 **[Minimal example - Follow target](../../examples/minimal_examples/pygame_minimal_move_follow_1.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowMouse](https://replit.com/@Rabbid76/PyGame-FollowMouse#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowMouse](https://replit.com/@Rabbid76/PyGame-FollowMouse#main.py)**
 
 - [How to make an enemy follow the player in pygame?](https://stackoverflow.com/questions/20044791/how-to-make-an-enemy-follow-the-player-in-pygame/73511789#73511789)  
 - **[How to make smooth movement in pygame](https://stackoverflow.com/questions/64087982/how-to-make-smooth-movement-in-pygame/64088747#64088747)**  
   [Sprite follow another flexible way within certain distance limits](https://stackoverflow.com/questions/60064644/sprite-follow-another-flexible-way-within-certain-distance-limits/60082313#60082313)  
-  ![How to make smooth movement in pygame](https://i.stack.imgur.com/9HL3b.gif)
+  ![How to make smooth movement in pygame](https://i.sstatic.net/9HL3b.gif)
 
   📁 **[Minimal example - Follow target smoothly](../../examples/minimal_examples/pygame_minimal_move_follow_smoothly.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowMouseSmoothly](https://replit.com/@Rabbid76/PyGame-FollowMouseSmoothly#main.py)**
+  **[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowMouseSmoothly](https://replit.com/@Rabbid76/PyGame-FollowMouseSmoothly#main.py)**
 
 - **[how to make particles follow my mouse in pygame](https://stackoverflow.com/questions/63412401/how-to-make-particles-follow-my-mouse-in-pygame/63412536#63412536)**
 - [How can i make a block follow another block in pygame](https://stackoverflow.com/questions/59799575/how-can-i-make-a-block-follow-another-block-in-pygame/59799746#59799746)
 
 - [Track Mouse Movement while confined](https://stackoverflow.com/questions/64491342/track-mouse-movement-while-confined/65378782#65378782)  
-  ![Track Mouse Movement while confined](https://i.stack.imgur.com/uaesh.gif)
+  ![Track Mouse Movement while confined](https://i.sstatic.net/uaesh.gif)
 
 - [Teach enemy that the way thru screen border is shorter than going all over the screen](https://stackoverflow.com/questions/69674788/teach-enemy-that-the-way-thru-screen-border-is-shorter-than-going-all-over-the-s)  
-  ![Teach enemy that the way thru screen border is shorter than going all over the screen](https://i.stack.imgur.com/czBUc.gif)
+  ![Teach enemy that the way thru screen border is shorter than going all over the screen](https://i.sstatic.net/czBUc.gif)
 
 - [How to make the ball rotate in pygame, python?](https://stackoverflow.com/questions/74214342/how-to-make-the-ball-rotate-in-pygame-python/74218983#74218983)  
-  ![How to make the ball rotate in pygame, python?](https://i.stack.imgur.com/CcQQ8.gif)
+  ![How to make the ball rotate in pygame, python?](https://i.sstatic.net/CcQQ8.gif)
 
 For a more sophisticated solution, you've to compute the [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) form the point to the target. Use [`pygame.math.Vector2`](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2) for the computation.
 
@@ -193,16 +193,16 @@ if distance > minimum_distance:
 
 📁 **[Minimal example - Follow target smoothly](../../examples/minimal_examples/pygame_minimal_move_follow_smoothly.py)**
 
-![How to make smooth movement in pygame](https://i.stack.imgur.com/9HL3b.gif)
+![How to make smooth movement in pygame](https://i.sstatic.net/9HL3b.gif)
 
 📁 **[Minimal example - Ball follow ball](../../examples/minimal_examples/pygame_minimal_move_follow_2.py)**
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowBall](https://replit.com/@Rabbid76/PyGame-FollowBall#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowBall](https://replit.com/@Rabbid76/PyGame-FollowBall#main.py)**
 
 ![Minimal example - Ball follow ball](../../screenshot/pygame_minimal_move_follow_2.gif)
 
 📁 **[Minimal example - Object follow target](../../examples/minimal_examples/pygame_minimal_move_follow_3.py)**
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowInGrid](https://replit.com/@Rabbid76/PyGame-FollowInGrid#main.py)**
+**[![](https://i.sstatic.net/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowInGrid](https://replit.com/@Rabbid76/PyGame-FollowInGrid#main.py)**
 
 ![Minimal example - Object follow target](../../screenshot/pygame_minimal_move_follow_3.gif)
