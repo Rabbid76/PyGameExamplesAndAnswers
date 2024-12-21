@@ -50,7 +50,7 @@ enemy = min([e for e in chased.sprites()],
             key=lambda e: pow(e.x-entity.x, 2) + pow(e.y-entity.y, 2))
 ```
 
-### Text sprite
+### Text spritewhot
 
 Related Stack Overflow questions:
 
