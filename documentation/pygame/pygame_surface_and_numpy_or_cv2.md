@@ -181,7 +181,7 @@ bytes = d[:,:,[2, 1, 0, 3]].flatten() # for BGRA
 bytes = d.flatten() # for RGBA
 ```
 
-_size_ is a tuple with 2 elements (_x_, _y_) and specifies the size of the image. The size can be get form [`numpy.ndarray.shape`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.shape.html):
+_size_ is a tuple with 2 elements (_x_, _y_) and specifies the size of the image. The size can be got from [`numpy.ndarray.shape`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.shape.html):
 
 ```py
 size = data.shape[1::-1]

@@ -197,7 +197,7 @@ Related Stack Overflow questions:
 
 See [pygame wiki - `SettingWindowPosition`](https://www.pygame.org/wiki/SettingWindowPosition):
 
->You can set the position of the window by using SDL environment variables before you initialise pygame. Environment variables can be set with the os.environ dict in python.
+>You can set the position of the window by using SDL environment variables before you initialize pygame. Environment variables can be set with the os.environ dict in python.
 >
 >```py
 >x = 100
@@ -227,7 +227,7 @@ Related Stack Overflow questions:
 
 No there is no way. You have to scale each coordinate, each size and each surface individually. PyGame is made for images (Surfaces) and shapes in pixel units. Anyway up scaling an image will result in either a fuzzy, blurred or jagged (Minecraft) appearance.
 
-> Is there a way I could make a seperate surface and just put that on top of the base window surface, and just scale that?
+> Is there a way I could make a separate surface and just put that on top of the base window surface, and just scale that?
 
 Yes  of course.
 

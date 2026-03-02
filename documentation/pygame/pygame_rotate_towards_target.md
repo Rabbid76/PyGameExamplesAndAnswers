@@ -72,7 +72,7 @@ rot_image_rect = rot_image.get_rect(center=player_rect.center)
 
 In pygame 2 dimensional vector arithmetic is implemented in [`pygame.math.Vector2`](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2).
 
-Define a `Vector2` object for the mouse position and the center of the triangle. Calculate the angle of vector form the center point to the mouse position  ([`.angle_to()`](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2.angle_to)):
+Define a `Vector2` object for the mouse position and the center of the triangle. Calculate the angle of vector from the center point to the mouse position  ([`.angle_to()`](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2.angle_to)):
 
 ```py
 vMouse  = pygame.math.Vector2(mouse_pos)

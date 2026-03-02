@@ -60,7 +60,7 @@ For instance we have a snake with the following elements:
 body = [(3, 3), (3, 4), (4, 4), (5, 4), (6, 4)]
 ```
 
-When the snakes head moves form `(3, 3)` to (`3, 2`), then the new head position is add to the head of the list (`body.insert(0, (3, 2)`):
+When the snake's head moves from `(3, 3)` to (`3, 2`), then the new head position is add to the head of the list (`body.insert(0, (3, 2)`):
 
 ```py
 body = [(3, 2), (3, 3), (3, 4), (4, 4), (5, 4), (6, 4)]

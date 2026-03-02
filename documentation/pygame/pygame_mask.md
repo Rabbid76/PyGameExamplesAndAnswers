@@ -63,7 +63,7 @@ Related Stack Overflow questions:
 - [How would I make color collision using pygame.mask?](https://stackoverflow.com/questions/65981815/how-would-i-make-color-collision-using-pygame-mask/65982315#65982315)  
   ![How would I make color collision using pygame.mask?](https://i.sstatic.net/YT515.png)
 
-  📁 **[Minimal example - Mask form a single color](../../examples/minimal_examples/pygame_minimal_mask_from_color.py)**
+  📁 **[Minimal example - Mask from a single color](../../examples/minimal_examples/pygame_minimal_mask_from_color.py)**
 
 - [Pygame mask collision only putting damage on base on first collision](https://stackoverflow.com/questions/67429383/pygame-mask-collision-only-putting-damage-on-base-on-first-collision/67429569#67429569)  
   ![Pygame mask collision only putting damage on base on first collision](https://i.sstatic.net/eIynX.gif)
@@ -138,7 +138,7 @@ Related Stack Overflow questions:
 
 [`pygame.Surface.get_rect.get_rect()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.get_rect) returns a rectangle with the size of the _Surface_ object. This function does not consider the drawing area in the image. If you want to find the bounding rectangle of the painted area in the surface, you need to create a mask.  
 
-[`pygame.mask.from_surface`](https://www.pygame.org/docs/ref/mask.html) creates a [`pygame.mask.Mask`](https://www.pygame.org/docs/ref/mask.html#pygame.mask.Mask) object form a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html).  
+[`pygame.mask.from_surface`](https://www.pygame.org/docs/ref/mask.html) creates a [`pygame.mask.Mask`](https://www.pygame.org/docs/ref/mask.html#pygame.mask.Mask) object from a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html).  
 A _Surface_ is bitmap. A _Mask_ is an 2 dimensional array with [Boolean](https://en.wikipedia.org/wiki/Boolean_data_type) values. The _Mask_ created is the size of the _Surface. A field is `True` if the corresponding pixel in the surface is not transparent, and `False` if it is transparent:
 
 ```py

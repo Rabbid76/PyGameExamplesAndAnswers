@@ -76,7 +76,7 @@ Opens a camera for video capturing:
 video = cv2.VideoCapture("video.mp4")
 ```
 
-Get the frames per second form the `VideoCapture` object:
+Get the frames per second from the `VideoCapture` object:
 
 ```py
 fps = video.get(cv2.CAP_PROP_FPS)

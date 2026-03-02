@@ -8,7 +8,7 @@
 # https://stackoverflow.com/questions/59775588/changing-the-volume-when-moving-the-slider
 #
 # GitHub - PyGameExamplesAndAnswers - PyGame in combination with other libraries - PySimpleGUI
-# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_and_othere_libraries.md
+# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_and_other_libraries.md
 
 import os
 import pygame

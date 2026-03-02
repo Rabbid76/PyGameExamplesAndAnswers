@@ -129,7 +129,7 @@ cos(angle_A_B) == dot(uA, uB)
 
 [![A dot B](https://i.sstatic.net/4ooWe.png)](https://i.sstatic.net/4ooWe.png)
 
-If 2 normalized vectors point in the same direction, then the dot product is 1, if the point in the opposite direction, the dot product is -1 and if the vectors are perpendicular then the dot product is 0.
+If 2 normalized vectors point in the same direction, then the dot product is 1, if they point in the opposite direction, the dot product is -1 and if the vectors are perpendicular then the dot product is 0.
 
 In pygame the dot product can be computed by [`math.Vector2.dot()`](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2.dot). If `A` and `B` are [`pygame.math.Vector2`](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2) objects:
 

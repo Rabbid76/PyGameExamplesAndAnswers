@@ -258,7 +258,7 @@ The site is still under construction :construction:.
 
 [Libraries based on PyGame](documentation/pygame/pygame_dependent_libraries.md)
 
-[PyGame in combination with other libraries](documentation/pygame/pygame_and_othere_libraries.md)
+[PyGame in combination with other libraries](documentation/pygame/pygame_and_other_libraries.md)
 
 ## PyGame and OpenGL
 

@@ -6,7 +6,7 @@
 
 A rubik's cube can be organized by an 3 dimensional array of *3x3x3* cubes. It seems to be easy to rotate a slice of the cube, but note if on slice is rotated the positions of the  cube change and have to be reorganized. Not only the position changes, also the orientation of the (rotated) single cubes changes.
 
-First of all remove the PyGame and OpenGL initialization form the constructor of the class `Cube`. That is the wrong place for this. In the following will generate 27 objects of type Cube.
+First of all remove the PyGame and OpenGL initialization from the constructor of the class `Cube`. That is the wrong place for this. In the following will generate 27 objects of type Cube.
 
 Each cube has to know where it is initially located (`self.init_i`) and where it is current located after some rotations (`self.current_i`). This information is encoded in a list with 3 elements, one for each axis. The values are indices of cube in the *NxNxN* rubik's cube in range *[0, N[*.  
 The orientation of a single cube is encoded in 3 dimensional [Rotation matrix](https://en.wikipedia.org/wiki/Rotation_matrix) (`self.rot`). The rotation matrix has to be initialized by the [identity matrix](https://en.wikipedia.org/wiki/Identity_matrix).

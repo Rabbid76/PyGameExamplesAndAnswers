@@ -5,7 +5,7 @@
 # https://stackoverflow.com/questions/70493951/how-can-i-integrate-a-line-chart-viewer-in-pygame/70494476#70494476
 # 
 # GitHub - PyGameExamplesAndAnswers - PyGame in combination with other libraries - MathPlotLib
-# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_and_othere_libraries.md
+# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_and_other_libraries.md
 
 import matplotlib.pyplot as plt
 import pygame

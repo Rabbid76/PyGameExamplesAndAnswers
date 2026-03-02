@@ -144,7 +144,7 @@ Crate a [`pygame.Mask`](https://www.pygame.org/docs/ref/mask.html) from the _Sur
 maze_mask = pygame.mask.from_surface(maze_surf)
 ```
 
-Create a mask form the player:
+Create a mask from the player:
 
 ```py
 player_rect = pygame.Rect(190, 190, 20, 20)
